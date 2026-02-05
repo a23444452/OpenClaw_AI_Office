@@ -13,7 +13,9 @@
 - [ ] 半導體 RSS 自動化追蹤腳本建置
 - [ ] CoWoS 與先進封裝技術深度解析
 - [ ] AI ASIC 發展趨勢（Google TPU、AWS Trainium）
-- [ ] 記憶體股投資策略
+- [x] 記憶體股投資策略 ✅ 2026-02-06
+- [ ] 8 吋晶圓廠產能與價格趨勢（力積電受惠分析）
+- [ ] DRAM/NAND 合約價追蹤方法（TrendForce、集邦）
 
 ---
 
@@ -41,6 +43,13 @@
 - 極簡回應、正負面指引、任務可視化、安全紅線
 - 📄 `docs/learning/prompt-engineering-insights-2026.md`
 - 📄 `docs/learning/prompt-template-guide.md`
+
+### 記憶體股投資策略 — 2026-02-06
+- 記憶體超級週期（2024-2028）分析
+- 週期進場/出場策略與估值指標
+- 華邦電、力積電個股分析
+- 停損紀律與風險管理框架
+- 📄 `docs/investment/memory-stock-investment-strategy-2026.md`
 
 ---
 
