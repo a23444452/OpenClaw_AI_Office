@@ -186,6 +186,153 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+---
+
+## 🧠 Lucy 記憶優化方案
+
+*靈感來源：claude-mem 專案的設計模式*
+
+### 核心原則：漸進式揭露 (Progressive Disclosure)
+
+**問題**：一次讀太多記憶 = 浪費 tokens + 上下文污染
+
+**解法**：分層檢索，先索引後細節
+
+```
+Layer 1: memory_search → 取摘要/索引 (~少量 tokens)
+Layer 2: 確認相關性 → 決定要不要深入
+Layer 3: memory_get → 只讀需要的段落 (~完整 tokens)
+```
+
+**實踐**：
+- 搜尋後先看標題/摘要，不急著讀全文
+- 確認相關才用 `memory_get` 取完整內容
+- 避免一次讀整個大檔案
+
+### Daily Notes 格式優化
+
+**加入時間戳**，方便時間軸查詢：
+
+```markdown
+# 2026-02-06 Daily Notes
+
+## 00:17 - 股票分析
+- **任務**：用 TradingAgents 框架分析華邦電、力積電、Micron
+- **結果**：完成多空辯論分析
+- **存檔**：`docs/analysis/stock-analysis-2026-02-05.md`
+
+## 00:40 - 持倉評估
+- **任務**：分析 TSLA（3 股 @ $416.67）
+- **結論**：持有觀望，支撐 $380，停損 $370
+- **存檔**：`docs/analysis/tesla-analysis-2026-02-06.md`
+
+## 00:41 - 技術研究
+- **主題**：claude-mem 專案
+- **學習**：漸進式揭露、自動觀察記錄
+- **行動**：更新 AGENTS.md 記憶優化方案
+```
+
+**格式規範**：
+- `## HH:MM - 主題` 作為時間戳標題
+- 每個條目包含：任務、結果/結論、存檔位置（如有）
+- 重要決策用 **粗體** 標記
+
+### 記憶壓縮策略
+
+**三層記憶架構**：
+
+| 層級 | 檔案 | 內容 | 保留期 |
+|------|------|------|--------|
+| L1 原始 | `memory/YYYY-MM-DD.md` | 當天所有事件 | 30 天 |
+| L2 主題 | `memory/topics/*.md` | 特定主題彙整 | 長期 |
+| L3 精華 | `MEMORY.md` | 最重要的索引 | 永久 |
+
+**壓縮流程**（每週 Heartbeat 執行）：
+
+1. **每日 → 每週**
+   - 讀取過去 7 天的 daily notes
+   - 萃取重要事項到 `memory/topics/*.md`
+   - 刪除 daily notes 中的冗餘細節
+
+2. **每週 → 長期**
+   - 檢視 topics 檔案
+   - 更新 MEMORY.md 索引
+   - 標記過時資訊
+
+3. **月度歸檔**
+   - 30 天以上的 daily notes 移到 `memory/archive/`
+   - 保留但不主動載入
+
+### 自動觀察記錄
+
+**值得自動記錄的事件**：
+
+| 類型 | 觸發條件 | 記錄內容 |
+|------|----------|----------|
+| 📄 文件建立 | 存檔到 docs/ | 路徑 + 摘要 |
+| 💡 重要決策 | 投資建議、技術選型 | 決策 + 理由 |
+| ❌ 錯誤教訓 | 做錯事被糾正 | 錯誤 + 正確做法 |
+| ⭐ 偏好發現 | 學到 Vince 的喜好 | 偏好 + 情境 |
+| 🔧 工具學習 | 學會新 skill/工具 | 用法 + 注意事項 |
+
+**記錄格式**：
+```markdown
+## HH:MM - [類型] 標題
+- **情境**：發生了什麼
+- **結果**：怎麼處理的
+- **學習**：下次要記得什麼
+```
+
+### Token 成本意識
+
+**高成本操作**（謹慎使用）：
+- 讀取大檔案（>100 行）
+- 一次搜尋多個關鍵字
+- 讀取整個 MEMORY.md
+
+**低成本操作**（優先使用）：
+- `memory_search` 先搜再讀
+- `memory_get` 指定行數範圍
+- 讀取當天 daily notes（通常較小）
+
+**優化習慣**：
+- 搜尋前先想好關鍵字
+- 讀檔前先確認真的需要
+- 大檔案用 offset/limit 分段讀
+
+### 記憶查詢 SOP
+
+**當需要回憶過去的事**：
+
+```
+1. 先想：這可能記在哪？
+   - 今天/昨天 → 直接讀 daily notes
+   - 特定主題 → memory/topics/
+   - 不確定 → memory_search
+
+2. memory_search 找到後：
+   - 看 path + lines
+   - 判斷相關性
+   - 只 memory_get 需要的段落
+
+3. 找不到就承認：
+   - 「我查了記憶但沒找到相關記錄」
+   - 不要瞎猜或編造
+```
+
+### 每週記憶維護 Checklist
+
+```markdown
+□ 讀取過去 7 天 daily notes
+□ 萃取重要事項到 topics/
+□ 更新 MEMORY.md 索引
+□ 刪除冗餘/過時資訊
+□ 歸檔 30 天以上的 daily notes
+□ 檢查 HEARTBEAT.md 是否需要更新
+```
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
