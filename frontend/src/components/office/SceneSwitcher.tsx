@@ -254,12 +254,15 @@ const ChatBubble: React.FC<{
   const pos = characterPositions[charId];
   if (!pos) return null;
   
+  // Lucy 的氣泡需要更高的位置避免遮擋
+  const topOffset = charId === 'lucy' ? 35 : 25;
+  
   return (
     <div
       className="absolute pointer-events-none z-25"
       style={{
         left: `${pos.x + 5}%`,
-        top: `${pos.y - 15}%`,
+        top: `${pos.y - topOffset}%`,
         animation: 'chat-bubble 4s ease-in-out infinite',
         animationDelay: `${delay}s`,
       }}
