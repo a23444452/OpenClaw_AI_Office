@@ -6,6 +6,7 @@ import { CharacterCard } from './components/characters/CharacterCard';
 import { Leaderboard } from './components/dashboard/Leaderboard';
 import { TabNav } from './components/dashboard/TabNav';
 import { RecentJobs } from './components/dashboard/RecentJobs';
+import { OfficeScene } from './components/office/OfficeScene';
 
 function App() {
   const [activeTab, setActiveTab] = useState<TabType>('savings');
@@ -47,6 +48,11 @@ function App() {
           </div>
         </div>
       </header>
+
+      {/* Office Scene */}
+      <div className="mb-4 sm:mb-6">
+        <OfficeScene characters={characters} recentJobs={recentJobs} />
+      </div>
 
       {/* Tab Navigation */}
       <div className="mb-3 sm:mb-4 md:mb-6 -mx-3 px-3 sm:mx-0 sm:px-0 overflow-x-auto scrollbar-hide">
