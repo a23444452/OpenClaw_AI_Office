@@ -3,9 +3,11 @@ import { characters } from '../../data/characters';
 
 interface RecentJob {
   id: string;
-  name: string;
+  name?: string;
+  title?: string;  // JSON 使用 title
   status: string;
-  lastRunAt: string;
+  lastRunAt?: string;
+  timestamp?: string;  // JSON 使用 timestamp
   characterId: string;
 }
 
@@ -20,8 +22,12 @@ const statusStyles: Record<string, { bg: string; text: string; icon: string }> =
   unknown: { bg: 'bg-gray-500/20', text: 'text-gray-400', icon: '❓' },
 };
 
-function formatTimeAgo(dateString: string): string {
+function formatTimeAgo(dateString: string | undefined): string {
+  if (!dateString) return '未知';
+  
   const date = new Date(dateString);
+  if (isNaN(date.getTime())) return '未知';
+  
   const now = new Date();
   const diffMs = now.getTime() - date.getTime();
   const diffMins = Math.floor(diffMs / 60000);
@@ -84,7 +90,7 @@ export const RecentJobs: React.FC<RecentJobsProps> = ({ jobs }) => {
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap">
                   <span className="font-medium text-white text-xs sm:text-sm truncate max-w-[120px] sm:max-w-none">
-                    {job.name}
+                    {job.name || job.title}
                   </span>
                   <span
                     className={`text-[10px] sm:text-xs px-1.5 sm:px-2 py-0.5 rounded-full whitespace-nowrap ${style.bg} ${style.text}`}
@@ -98,7 +104,7 @@ export const RecentJobs: React.FC<RecentJobsProps> = ({ jobs }) => {
                 <div className="text-[10px] sm:text-xs text-gray-500 flex items-center gap-1.5 sm:gap-2 mt-0.5">
                   <span>{character?.name || '系統'}</span>
                   <span>•</span>
-                  <span>{formatTimeAgo(job.lastRunAt)}</span>
+                  <span>{formatTimeAgo(job.lastRunAt || job.timestamp)}</span>
                 </div>
               </div>
 
