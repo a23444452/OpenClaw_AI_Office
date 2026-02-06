@@ -29,32 +29,32 @@ function formatTimeAgo(dateString: string): string {
   const diffDays = Math.floor(diffMs / 86400000);
 
   if (diffMins < 1) return '剛剛';
-  if (diffMins < 60) return `${diffMins} 分鐘前`;
-  if (diffHours < 24) return `${diffHours} 小時前`;
-  return `${diffDays} 天前`;
+  if (diffMins < 60) return `${diffMins}分鐘前`;
+  if (diffHours < 24) return `${diffHours}小時前`;
+  return `${diffDays}天前`;
 }
 
 export const RecentJobs: React.FC<RecentJobsProps> = ({ jobs }) => {
   if (!jobs || jobs.length === 0) {
     return (
-      <div className="bg-[#16213e] rounded-xl border border-[#0f3460] p-4">
-        <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
+      <div className="bg-[#16213e] rounded-xl border border-[#0f3460] p-3 sm:p-4">
+        <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4 flex items-center gap-2">
           📋 最近任務
         </h3>
-        <p className="text-gray-500 text-center py-8">暫無任務記錄</p>
+        <p className="text-gray-500 text-center py-6 sm:py-8 text-sm">暫無任務記錄</p>
       </div>
     );
   }
 
   return (
     <div className="bg-[#16213e] rounded-xl border border-[#0f3460] overflow-hidden">
-      <div className="p-4 border-b border-[#0f3460]">
-        <h3 className="text-lg font-bold flex items-center gap-2">
+      <div className="p-3 sm:p-4 border-b border-[#0f3460]">
+        <h3 className="text-base sm:text-lg font-bold flex items-center gap-2">
           📋 最近任務
         </h3>
       </div>
 
-      <div className="divide-y divide-[#0f3460]">
+      <div className="divide-y divide-[#0f3460] max-h-[400px] sm:max-h-[500px] overflow-y-auto">
         {jobs.slice(0, 10).map((job) => {
           const character = characters.find((c) => c.id === job.characterId);
           const style = statusStyles[job.status] || statusStyles.unknown;
@@ -62,7 +62,7 @@ export const RecentJobs: React.FC<RecentJobsProps> = ({ jobs }) => {
           return (
             <div
               key={job.id}
-              className="p-4 hover:bg-[#1a1a2e] transition-colors flex items-center gap-4"
+              className="p-2.5 sm:p-3 md:p-4 hover:bg-[#1a1a2e] transition-colors flex items-center gap-2 sm:gap-3"
             >
               {/* 角色頭像 */}
               <div className="relative flex-shrink-0">
@@ -70,11 +70,11 @@ export const RecentJobs: React.FC<RecentJobsProps> = ({ jobs }) => {
                   <img
                     src={character.avatar}
                     alt={character.name}
-                    className="w-10 h-10 rounded-lg object-cover border border-[#0f3460]"
+                    className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg object-cover border border-[#0f3460]"
                     style={{ imageRendering: 'pixelated' }}
                   />
                 ) : (
-                  <div className="w-10 h-10 rounded-lg bg-[#0f3460] flex items-center justify-center">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-[#0f3460] flex items-center justify-center text-sm sm:text-base">
                     🤖
                   </div>
                 )}
@@ -82,17 +82,20 @@ export const RecentJobs: React.FC<RecentJobsProps> = ({ jobs }) => {
 
               {/* 任務資訊 */}
               <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2">
-                  <span className="font-medium text-white truncate">
+                <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap">
+                  <span className="font-medium text-white text-xs sm:text-sm truncate max-w-[120px] sm:max-w-none">
                     {job.name}
                   </span>
                   <span
-                    className={`text-xs px-2 py-0.5 rounded-full ${style.bg} ${style.text}`}
+                    className={`text-[10px] sm:text-xs px-1.5 sm:px-2 py-0.5 rounded-full whitespace-nowrap ${style.bg} ${style.text}`}
                   >
-                    {style.icon} {job.status === 'ok' ? '完成' : job.status === 'error' ? '失敗' : job.status}
+                    {style.icon}
+                    <span className="hidden sm:inline ml-1">
+                      {job.status === 'ok' ? '完成' : job.status === 'error' ? '失敗' : job.status}
+                    </span>
                   </span>
                 </div>
-                <div className="text-sm text-gray-500 flex items-center gap-2 mt-0.5">
+                <div className="text-[10px] sm:text-xs text-gray-500 flex items-center gap-1.5 sm:gap-2 mt-0.5">
                   <span>{character?.name || '系統'}</span>
                   <span>•</span>
                   <span>{formatTimeAgo(job.lastRunAt)}</span>
@@ -100,7 +103,7 @@ export const RecentJobs: React.FC<RecentJobsProps> = ({ jobs }) => {
               </div>
 
               {/* 角色 emoji */}
-              <div className="text-2xl flex-shrink-0">
+              <div className="text-lg sm:text-2xl flex-shrink-0">
                 {character?.emoji || '🤖'}
               </div>
             </div>
