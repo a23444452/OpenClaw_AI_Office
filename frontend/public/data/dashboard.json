@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-02-07T00:54:00.000Z",
+  "updatedAt": "2026-02-07T01:26:00.000Z",
   "totalStats": {
-    "totalTasks": 764,
-    "totalCompleted": 741,
-    "totalTokens": 7110204,
-    "totalApiCost": 98.67,
-    "totalSaved": 46370,
-    "equivalentFTE": 5.5,
-    "avgDailyTasks": 55
+    "totalTasks": 787,
+    "totalCompleted": 762,
+    "totalTokens": 7503628,
+    "totalApiCost": 104.82,
+    "totalSaved": 48995,
+    "equivalentFTE": 5.8,
+    "avgDailyTasks": 58
   },
   "characterStats": [
     {
@@ -15,56 +15,56 @@
       "name": "Lucy",
       "avatar": "/avatars/lucy-pixel.png",
       "description": "主控 AI 助理，處理複雜對話與協調任務",
-      "tasks": 312,
-      "completed": 302,
-      "tokens": 1625933,
-      "apiCost": 24.75,
-      "workHours": 66.2,
-      "savedAmount": 10410,
+      "tasks": 315,
+      "completed": 305,
+      "tokens": 1682488,
+      "apiCost": 26.03,
+      "workHours": 69.8,
+      "savedAmount": 10925,
       "efficiency": 97,
-      "recentActivity": "AI Office Dashboard 數據更新"
+      "recentActivity": "AI Office Dashboard 數據更新與系統對話"
     },
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "/avatars/xiaocai-pixel.png",
       "description": "股市分析專家，提供晨報、盤後分析與投資建議",
-      "tasks": 297,
-      "completed": 292,
-      "tokens": 3093485,
-      "apiCost": 46.83,
-      "workHours": 158.5,
-      "savedAmount": 24140,
+      "tasks": 304,
+      "completed": 299,
+      "tokens": 3287148,
+      "apiCost": 49.74,
+      "workHours": 168.3,
+      "savedAmount": 25585,
       "efficiency": 98,
-      "recentActivity": "台股盤後完整分析報告"
+      "recentActivity": "台股盤後完整分析與美股晨報"
     },
     {
       "id": "axin",
       "name": "阿新",
       "avatar": "/avatars/axin-pixel.png",
       "description": "科技新聞獵人，追蹤 AI 發展與 GitHub 趨勢",
-      "tasks": 168,
-      "completed": 168,
-      "tokens": 1355086,
-      "apiCost": 20.36,
-      "workHours": 63.2,
-      "savedAmount": 9300,
+      "tasks": 171,
+      "completed": 171,
+      "tokens": 1423144,
+      "apiCost": 21.38,
+      "workHours": 66.5,
+      "savedAmount": 9780,
       "efficiency": 100,
-      "recentActivity": "AI 新聞日報與 GitHub 熱門專案"
+      "recentActivity": "AI 新聞日報與 GitHub 熱門專案追蹤"
     },
     {
       "id": "yanyan",
       "name": "研研",
       "avatar": "/avatars/yanyan-pixel.png",
       "description": "夜間研究員，負責深度研究與技術分析",
-      "tasks": 95,
-      "completed": 92,
-      "tokens": 1513395,
-      "apiCost": 25.38,
-      "workHours": 103.8,
-      "savedAmount": 13460,
+      "tasks": 97,
+      "completed": 94,
+      "tokens": 1587115,
+      "apiCost": 26.95,
+      "workHours": 109.5,
+      "savedAmount": 14165,
       "efficiency": 97,
-      "recentActivity": "記憶體股投資策略深度研究與 Nightly Build"
+      "recentActivity": "DRAM/NAND 合約價追蹤方法研究與記憶整理"
     },
     {
       "id": "pangxie",
@@ -85,14 +85,14 @@
       "name": "小管",
       "avatar": "/avatars/xiaoguan-pixel.png",
       "description": "生活管家，負責帳單提醒與行程管理",
-      "tasks": 51,
-      "completed": 50,
-      "tokens": 999893,
-      "apiCost": 14.31,
-      "workHours": 45.5,
-      "savedAmount": 6860,
+      "tasks": 53,
+      "completed": 52,
+      "tokens": 1093132,
+      "apiCost": 15.62,
+      "workHours": 50.1,
+      "savedAmount": 7540,
       "efficiency": 98,
-      "recentActivity": "信用卡帳單檢查與美股模擬投資績效報告"
+      "recentActivity": "信用卡帳單檢查與美股模擬投資追蹤"
     }
   ],
   "recentJobs": [
@@ -101,51 +101,83 @@
       "characterId": "lucy",
       "title": "AI Office Dashboard 數據更新",
       "status": "completed",
-      "tokensUsed": 20749,
-      "timestamp": "2026-02-07T00:54:00.000Z"
+      "tokensUsed": 20798,
+      "timestamp": "2026-02-07T01:26:00.000Z"
     },
     {
       "id": "job-2",
-      "characterId": "xiaocai",
-      "title": "台股盤後完整分析",
+      "characterId": "yanyan", 
+      "title": "夜間探索：DRAM/NAND 合約價追蹤方法研究",
       "status": "completed",
-      "tokensUsed": 30127,
-      "timestamp": "2026-02-06T06:30:00.000Z"
+      "tokensUsed": 41049,
+      "timestamp": "2026-02-07T01:00:00.000Z"
     },
     {
       "id": "job-3",
       "characterId": "xiaocai",
-      "title": "台股開盤完整分析",
+      "title": "台股盤後完整分析報告",
       "status": "completed",
-      "tokensUsed": 30911,
-      "timestamp": "2026-02-06T01:00:00.000Z"
+      "tokensUsed": 30127,
+      "timestamp": "2026-02-06T14:30:00.000Z"
     },
     {
       "id": "job-4",
       "characterId": "xiaocai",
-      "title": "美股晨報完整分析",
+      "title": "台股收盤分析報告",
       "status": "completed",
-      "tokensUsed": 27065,
-      "timestamp": "2026-02-06T00:02:00.000Z"
+      "tokensUsed": 32021,
+      "timestamp": "2026-02-06T13:45:00.000Z"
     },
     {
       "id": "job-5",
-      "characterId": "axin",
-      "title": "AI 新聞日報 - 完整版",
+      "characterId": "xiaocai",
+      "title": "台股開盤完整分析報告", 
       "status": "completed",
-      "tokensUsed": 23904,
-      "timestamp": "2026-02-06T00:01:00.000Z"
+      "tokensUsed": 30911,
+      "timestamp": "2026-02-06T09:15:00.000Z"
     },
     {
       "id": "job-6",
+      "characterId": "xiaocai",
+      "title": "台股開盤報告",
+      "status": "completed", 
+      "tokensUsed": 25579,
+      "timestamp": "2026-02-06T09:00:00.000Z"
+    },
+    {
+      "id": "job-7",
+      "characterId": "xiaocai",
+      "title": "美股晨報完整分析",
+      "status": "completed",
+      "tokensUsed": 27792,
+      "timestamp": "2026-02-06T08:02:00.000Z"
+    },
+    {
+      "id": "job-8",
+      "characterId": "xiaocai",
+      "title": "美股晨報",
+      "status": "completed",
+      "tokensUsed": 27065,
+      "timestamp": "2026-02-06T08:00:00.000Z"
+    },
+    {
+      "id": "job-9",
+      "characterId": "axin",
+      "title": "AI 新聞日報 - 完整版",
+      "status": "completed", 
+      "tokensUsed": 23904,
+      "timestamp": "2026-02-06T08:02:00.000Z"
+    },
+    {
+      "id": "job-10",
       "characterId": "axin",
       "title": "AI 新聞日報 - Telegram 摘要版",
       "status": "completed",
       "tokensUsed": 22565,
-      "timestamp": "2026-02-06T00:01:00.000Z"
+      "timestamp": "2026-02-06T08:01:00.000Z"
     },
     {
-      "id": "job-7",
+      "id": "job-11",
       "characterId": "axin",
       "title": "GitHub 熱門專案日報",
       "status": "completed",
@@ -153,7 +185,7 @@
       "timestamp": "2026-02-05T23:20:00.000Z"
     },
     {
-      "id": "job-8",
+      "id": "job-12",
       "characterId": "yanyan",
       "title": "Nightly Build 記憶整理",
       "status": "completed",
@@ -161,28 +193,28 @@
       "timestamp": "2026-02-06T03:00:00.000Z"
     },
     {
-      "id": "job-9",
-      "characterId": "yanyan",
-      "title": "夜間探索：記憶體股投資策略",
-      "status": "completed",
-      "tokensUsed": 44771,
-      "timestamp": "2026-02-06T01:00:00.000Z"
-    },
-    {
-      "id": "job-10",
+      "id": "job-13",
       "characterId": "xiaoguan",
       "title": "信用卡帳單檢查",
       "status": "completed",
       "tokensUsed": 58542,
-      "timestamp": "2026-02-06T05:00:00.000Z"
+      "timestamp": "2026-02-06T07:00:00.000Z"
     },
     {
-      "id": "job-11",
+      "id": "job-14",
       "characterId": "xiaoguan",
       "title": "美股模擬投資 Day 3 績效報告",
       "status": "completed",
       "tokensUsed": 35299,
       "timestamp": "2026-02-06T00:00:00.000Z"
+    },
+    {
+      "id": "job-15",
+      "characterId": "lucy",
+      "title": "主要對話與任務協調",
+      "status": "completed",
+      "tokensUsed": 36081,
+      "timestamp": "2026-02-06T00:06:00.000Z"
     }
   ]
 }
