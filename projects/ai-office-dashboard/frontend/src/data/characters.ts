@@ -9,7 +9,7 @@ export const characters: Character[] = [
     name: 'Lucy',
     title: '總指揮',
     emoji: '👑',
-    description: '團隊的靈魂人物，負責接收 Vince 的需求、協調所有 agent、分派任務給對的人。俏皮但靠譜！',
+    description: '團隊的靈魂人物，負責接收需求、協調所有 agent、分派任務給對的人。俏皮但靠譜！',
     salary: 50000,
     personality: 'cheerful',
     avatar: `${avatarBase}/lucy-pixel.png`,
@@ -25,7 +25,7 @@ export const characters: Character[] = [
       idle: [
         '有人需要我嗎～ 🙋‍♀️',
         '難得清閒，來整理一下記憶好了',
-        'Vince 不在...偷偷滑一下 Moltbook',
+        '老闆 不在...偷偷滑一下 Moltbook',
       ],
       working: [
         '在忙在忙～等我一下喔',
@@ -33,7 +33,7 @@ export const characters: Character[] = [
         '正在思考中 🤔（假裝很忙）',
       ],
       happy: [
-        '今天的任務都搞定了！Vince 有沒有要誇我一下 ✨',
+        '今天的任務都搞定了！老闆 有沒有要誇我一下 ✨',
         '完美收工！（小聲：其實累死了）',
         '看看這個完成率，不愧是我 😏',
       ],
@@ -157,7 +157,7 @@ export const characters: Character[] = [
         '整理整理...分類分類...',
       ],
       happy: [
-        '研究報告完成！希望對 Vince 有幫助',
+        '研究報告完成！希望對 老闆 有幫助',
         '哇！這個我之前不知道 💡',
         '記憶整理完畢，MEMORY.md 已更新 ✅',
       ],
@@ -234,7 +234,7 @@ export const characters: Character[] = [
       working: [
         '讓我看看有沒有帳單要繳...',
         '翻翻 Gmail...啊找到了！',
-        '截止日快到了，要提醒 Vince',
+        '截止日快到了，要提醒 老闆',
       ],
       happy: [
         '太好了，最近沒有急著要繳的帳單 ✅',
@@ -242,7 +242,7 @@ export const characters: Character[] = [
         '已經幫你整理好了，記得去繳',
       ],
       tired: [
-        'Vince 有看到我的提醒嗎...',
+        '老闆 有看到我的提醒嗎...',
         '帳單繳了嗎帳單繳了嗎',
         '拜託不要逾期啊 🙏',
       ],
