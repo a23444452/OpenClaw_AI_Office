@@ -15,7 +15,7 @@
 - [ ] AI ASIC 發展趨勢（Google TPU、AWS Trainium）
 - [x] 記憶體股投資策略 ✅ 2026-02-06
 - [ ] 8 吋晶圓廠產能與價格趨勢（力積電受惠分析）
-- [ ] DRAM/NAND 合約價追蹤方法（TrendForce、集邦）
+- [x] DRAM/NAND 合約價追蹤方法（TrendForce、集邦）✅ 2026-02-07
 
 ---
 
@@ -50,6 +50,14 @@
 - 華邦電、力積電個股分析
 - 停損紀律與風險管理框架
 - 📄 `docs/investment/memory-stock-investment-strategy-2026.md`
+
+### DRAM/NAND 合約價追蹤方法 — 2026-02-07
+- 現貨價 vs 合約價概念解析
+- 免費追蹤工具：TrendForce、DRAMeXchange、Tom's Hardware
+- 華邦電/力積電價格敏感度分析
+- 2026 年 Q1 價格展望（DRAM +90-110%、NAND +55-60%）
+- 追蹤 SOP（每日/每週/每月）
+- 📄 `docs/investment/dram-nand-price-tracking-guide-2026.md`
 
 ---
 
