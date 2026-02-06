@@ -1,4 +1,4 @@
-# 🏢 Lucy AI Office Dashboard
+# 🏢 AI Office Dashboard
 
 > 把你的 AI Agent 團隊變成可愛的像素員工辦公室！
 
