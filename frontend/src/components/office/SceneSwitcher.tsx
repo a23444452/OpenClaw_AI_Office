@@ -245,43 +245,12 @@ const FlyingInteraction: React.FC<{
   );
 };
 
-// 對話氣泡組件
-const ChatBubble: React.FC<{
-  charId: string;
-  message: string;
-  delay: number;
-}> = ({ charId, message, delay }) => {
-  const pos = characterPositions[charId];
-  if (!pos) return null;
-  
-  // Lucy 的氣泡需要更高的位置避免遮擋
-  const topOffset = charId === 'lucy' ? 35 : 25;
-  
-  return (
-    <div
-      className="absolute pointer-events-none z-25"
-      style={{
-        left: `${pos.x + 5}%`,
-        top: `${pos.y - topOffset}%`,
-        animation: 'chat-bubble 4s ease-in-out infinite',
-        animationDelay: `${delay}s`,
-      }}
-    >
-      <style>
-        {`
-          @keyframes chat-bubble {
-            0%, 100% { opacity: 0; transform: translateY(5px) scale(0.8); }
-            20%, 80% { opacity: 1; transform: translateY(0) scale(1); }
-          }
-        `}
-      </style>
-      <div className="bg-white text-gray-800 px-2 py-1 rounded-lg text-xs shadow-lg max-w-[80px] truncate">
-        {message}
-      </div>
-      <div className="w-2 h-2 bg-white rotate-45 -mt-1 ml-2" />
-    </div>
-  );
-};
+// 對話氣泡組件 - 已停用
+// const ChatBubble: React.FC<{
+//   charId: string;
+//   message: string;
+//   delay: number;
+// }> = ({ charId, message, delay }) => { ... };
 
 export const SceneSwitcher: React.FC<SceneSwitcherProps> = ({ characters, recentJobs }) => {
   const [currentScene, setCurrentScene] = useState<SceneType>('normal');
@@ -314,30 +283,8 @@ export const SceneSwitcher: React.FC<SceneSwitcherProps> = ({ characters, recent
     setInteractions(newInteractions);
   }, [recentJobs]);
 
-  // 場景對話配置
-  const sceneChats: Record<SceneType, Array<{ charId: string; message: string }>> = {
-    normal: [
-      { charId: 'lucy', message: '大家加油！' },
-      { charId: 'xiaocai', message: '盯盤中...' },
-    ],
-    busy: [
-      { charId: 'lucy', message: '快快快！' },
-      { charId: 'axin', message: 'Breaking!' },
-      { charId: 'xiaocai', message: '崩了啊！' },
-    ],
-    relax: [
-      { charId: 'xiaoguan', message: '喝咖啡嗎？' },
-      { charId: 'pangxie', message: '拍照～' },
-    ],
-    celebrate: [
-      { charId: 'lucy', message: '太棒了！🎉' },
-      { charId: 'yanyan', message: '完成！' },
-      { charId: 'axin', message: 'Yes!' },
-    ],
-    night: [
-      { charId: 'yanyan', message: '再研究一下...' },
-    ],
-  };
+  // 場景對話配置 - 已停用
+  // const sceneChats = { ... };
 
   const handleSceneChange = (scene: SceneType) => {
     setCurrentScene(scene);
