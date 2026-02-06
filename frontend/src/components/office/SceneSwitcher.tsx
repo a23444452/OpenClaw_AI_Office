@@ -2,7 +2,27 @@ import React, { useState, useEffect } from 'react';
 import type { Character } from '../../data/types';
 
 type SceneType = 'normal' | 'busy' | 'relax' | 'celebrate' | 'night';
-type CharacterStatus = 'working' | 'idle' | 'happy' | 'tired' | 'sleeping' | 'away';
+type CharacterStatus = 'working' | 'idle' | 'happy' | 'tired' | 'sleeping' | 'away' | 'walking';
+
+// 走動目的地配置
+const walkDestinations: Record<string, { x: number; y: number; emoji: string; label: string }> = {
+  coffee: { x: 88, y: 45, emoji: '☕', label: '倒咖啡' },
+  whiteboard: { x: 35, y: 35, emoji: '📊', label: '看白板' },
+  window: { x: 10, y: 35, emoji: '🪟', label: '看風景' },
+  chat_lucy: { x: 48, y: 68, emoji: '💬', label: '找 Lucy 聊天' },
+  chat_xiaocai: { x: 32, y: 48, emoji: '💬', label: '找小財討論' },
+  stretch: { x: 50, y: 55, emoji: '🙆', label: '伸懶腰' },
+};
+
+// 角色走動偏好（不同角色喜歡去的地方）
+const characterWalkPreferences: Record<string, string[]> = {
+  lucy: ['whiteboard', 'chat_xiaocai', 'coffee'],
+  xiaocai: ['coffee', 'whiteboard', 'stretch'],
+  axin: ['coffee', 'window', 'chat_lucy'],
+  yanyan: ['coffee', 'whiteboard', 'stretch'],
+  pangxie: ['coffee', 'chat_lucy', 'window'],
+  xiaoguan: ['coffee', 'whiteboard', 'chat_lucy'],
+};
 
 interface SceneSwitcherProps {
   characters: Character[];
@@ -31,7 +51,19 @@ const statusConfig: Record<CharacterStatus, { emoji: string; label: string; colo
   tired: { emoji: '😴', label: '疲倦', color: 'bg-yellow-500' },
   sleeping: { emoji: '💤', label: 'zzZ', color: 'bg-purple-500' },
   away: { emoji: '🚪', label: '離開', color: 'bg-gray-600' },
+  walking: { emoji: '🚶', label: '走動中', color: 'bg-cyan-500' },
 };
+
+// 走動中的角色狀態
+interface WalkingCharacter {
+  charId: string;
+  destination: string;
+  startPos: { x: number; y: number };
+  endPos: { x: number; y: number };
+  startTime: number;
+  duration: number; // 毫秒
+  returning: boolean;
+}
 
 // 互動類型
 type InteractionType = 'task' | 'chat' | 'report' | 'help';
@@ -252,11 +284,78 @@ const FlyingInteraction: React.FC<{
 //   delay: number;
 // }> = ({ charId, message, delay }) => { ... };
 
+// 走動角色組件
+const WalkingCharacterSprite: React.FC<{
+  walking: WalkingCharacter;
+  character: Character;
+}> = ({ walking, character }) => {
+  const [progress, setProgress] = useState(0);
+  
+  useEffect(() => {
+    const animate = () => {
+      const elapsed = Date.now() - walking.startTime;
+      const newProgress = Math.min(elapsed / walking.duration, 1);
+      setProgress(newProgress);
+      
+      if (newProgress < 1) {
+        requestAnimationFrame(animate);
+      }
+    };
+    requestAnimationFrame(animate);
+  }, [walking]);
+  
+  // 計算當前位置（使用 ease-in-out）
+  const easeProgress = progress < 0.5
+    ? 2 * progress * progress
+    : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+  
+  const currentX = walking.startPos.x + (walking.endPos.x - walking.startPos.x) * easeProgress;
+  const currentY = walking.startPos.y + (walking.endPos.y - walking.startPos.y) * easeProgress;
+  
+  const destination = walkDestinations[walking.destination];
+  
+  return (
+    <div
+      className="absolute pointer-events-none z-35 transition-none"
+      style={{
+        left: `${currentX}%`,
+        top: `${currentY}%`,
+        transform: 'translate(-50%, -100%)',
+      }}
+    >
+      {/* 角色走動動畫 */}
+      <div className="relative animate-bounce" style={{ animationDuration: '0.5s' }}>
+        {/* 走動目的地提示 */}
+        <div className="absolute -top-8 left-1/2 -translate-x-1/2 bg-cyan-500 px-2 py-1 rounded-lg text-white text-xs font-bold shadow-lg flex items-center gap-1 whitespace-nowrap">
+          <span>{destination?.emoji || '🚶'}</span>
+          <span className="hidden sm:inline">{destination?.label || '走動中'}</span>
+        </div>
+        {/* 角色頭像 */}
+        <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-cyan-400 shadow-lg bg-white">
+          <img
+            src={character.avatar}
+            alt={character.name}
+            className="w-full h-full object-cover"
+            style={{ imageRendering: 'pixelated' }}
+          />
+        </div>
+        {/* 走動軌跡 */}
+        <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 flex gap-1">
+          <div className="w-1 h-1 bg-cyan-400 rounded-full animate-ping" style={{ animationDelay: '0s' }} />
+          <div className="w-1 h-1 bg-cyan-400 rounded-full animate-ping" style={{ animationDelay: '0.2s' }} />
+          <div className="w-1 h-1 bg-cyan-400 rounded-full animate-ping" style={{ animationDelay: '0.4s' }} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export const SceneSwitcher: React.FC<SceneSwitcherProps> = ({ characters, recentJobs }) => {
   const [currentScene, setCurrentScene] = useState<SceneType>('normal');
   const [isManual, setIsManual] = useState(false);
   const [showSelector, setShowSelector] = useState(false);
   const [interactions, setInteractions] = useState<Interaction[]>([]);
+  const [walkingCharacters, setWalkingCharacters] = useState<WalkingCharacter[]>([]);
 
   // 自動判斷場景（如果不是手動模式）
   useEffect(() => {
@@ -282,6 +381,69 @@ export const SceneSwitcher: React.FC<SceneSwitcherProps> = ({ characters, recent
     const newInteractions = generateInteractions(recentJobs);
     setInteractions(newInteractions);
   }, [recentJobs]);
+
+  // 隨機觸發角色走動（每 8-15 秒隨機一個角色去走動）
+  useEffect(() => {
+    // 只在正常和輕鬆場景啟用走動
+    if (currentScene !== 'normal' && currentScene !== 'relax') return;
+    
+    const triggerWalk = () => {
+      // 隨機選一個沒在走動的角色
+      const availableChars = characters.filter(
+        c => !walkingCharacters.some(w => w.charId === c.id)
+      );
+      if (availableChars.length === 0) return;
+      
+      const randomChar = availableChars[Math.floor(Math.random() * availableChars.length)];
+      const preferences = characterWalkPreferences[randomChar.id] || ['coffee'];
+      const destination = preferences[Math.floor(Math.random() * preferences.length)];
+      const destPos = walkDestinations[destination];
+      const startPos = characterPositions[randomChar.id];
+      
+      if (!destPos || !startPos) return;
+      
+      const walkDuration = 3000; // 3 秒走到目的地
+      const stayDuration = 2000; // 停留 2 秒
+      
+      // 開始走動
+      const newWalking: WalkingCharacter = {
+        charId: randomChar.id,
+        destination,
+        startPos,
+        endPos: destPos,
+        startTime: Date.now(),
+        duration: walkDuration,
+        returning: false,
+      };
+      
+      setWalkingCharacters(prev => [...prev, newWalking]);
+      
+      // 到達後停留，然後返回
+      setTimeout(() => {
+        setWalkingCharacters(prev => 
+          prev.map(w => 
+            w.charId === randomChar.id
+              ? { ...w, startPos: destPos, endPos: startPos, startTime: Date.now(), returning: true }
+              : w
+          )
+        );
+        
+        // 返回後移除
+        setTimeout(() => {
+          setWalkingCharacters(prev => prev.filter(w => w.charId !== randomChar.id));
+        }, walkDuration);
+      }, walkDuration + stayDuration);
+    };
+    
+    // 初始延遲 + 定期觸發
+    const initialDelay = setTimeout(triggerWalk, 3000);
+    const interval = setInterval(triggerWalk, 10000 + Math.random() * 5000);
+    
+    return () => {
+      clearTimeout(initialDelay);
+      clearInterval(interval);
+    };
+  }, [currentScene, characters, walkingCharacters]);
 
   // 場景對話配置 - 已停用
   // const sceneChats = { ... };
@@ -372,12 +534,27 @@ export const SceneSwitcher: React.FC<SceneSwitcherProps> = ({ characters, recent
         <FlyingInteraction key={interaction.id} interaction={interaction} index={idx} />
       ))}
 
-      {/* 場景對話氣泡 - 已移除 */}
+      {/* 走動中的角色 */}
+      {walkingCharacters.map((walking) => {
+        const character = characters.find(c => c.id === walking.charId);
+        if (!character) return null;
+        return (
+          <WalkingCharacterSprite
+            key={`walking-${walking.charId}`}
+            walking={walking}
+            character={character}
+          />
+        );
+      })}
 
-      {/* 角色狀態氣泡 */}
+      {/* 角色狀態氣泡（排除走動中的角色） */}
       {characters.map((char) => {
         const pos = characterPositions[char.id];
         if (!pos) return null;
+        
+        // 如果角色正在走動，不顯示狀態氣泡
+        const isWalking = walkingCharacters.some(w => w.charId === char.id);
+        if (isWalking) return null;
         
         const status = getCharacterStatus(char.id, currentScene, char, recentJobs);
         const config = statusConfig[status];
