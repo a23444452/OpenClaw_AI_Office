@@ -425,10 +425,7 @@ export const SceneSwitcher: React.FC<SceneSwitcherProps> = ({ characters, recent
         <FlyingInteraction key={interaction.id} interaction={interaction} index={idx} />
       ))}
 
-      {/* 場景對話氣泡 */}
-      {sceneChats[currentScene]?.map((chat, idx) => (
-        <ChatBubble key={`chat-${chat.charId}`} charId={chat.charId} message={chat.message} delay={idx * 2} />
-      ))}
+      {/* 場景對話氣泡 - 已移除 */}
 
       {/* 角色狀態氣泡 */}
       {characters.map((char) => {
