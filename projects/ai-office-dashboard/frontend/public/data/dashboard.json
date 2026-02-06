@@ -1,0 +1,140 @@
+{
+  "updatedAt": "2026-02-06T03:45:00.000Z",
+  "totalStats": {
+    "totalTasks": 272,
+    "totalCompleted": 261,
+    "totalTokens": 756000,
+    "totalApiCost": 7.56,
+    "totalSaved": 4693,
+    "equivalentFTE": 0.7,
+    "avgDailyTasks": 9.1
+  },
+  "characterStats": [
+    {
+      "id": "lucy",
+      "tasks": 144,
+      "completed": 136,
+      "tokens": 245000,
+      "apiCost": 2.45,
+      "workHours": 8.3,
+      "savedAmount": 1408
+    },
+    {
+      "id": "xiaocai",
+      "tasks": 48,
+      "completed": 47,
+      "tokens": 156000,
+      "apiCost": 1.56,
+      "workHours": 7.0,
+      "savedAmount": 1193
+    },
+    {
+      "id": "axin",
+      "tasks": 32,
+      "completed": 32,
+      "tokens": 98000,
+      "apiCost": 0.98,
+      "workHours": 5.5,
+      "savedAmount": 687
+    },
+    {
+      "id": "yanyan",
+      "tasks": 24,
+      "completed": 23,
+      "tokens": 189000,
+      "apiCost": 1.89,
+      "workHours": 6.8,
+      "savedAmount": 893
+    },
+    {
+      "id": "pangxie",
+      "tasks": 16,
+      "completed": 15,
+      "tokens": 45000,
+      "apiCost": 0.45,
+      "workHours": 3.2,
+      "savedAmount": 356
+    },
+    {
+      "id": "xiaoguan",
+      "tasks": 8,
+      "completed": 8,
+      "tokens": 23000,
+      "apiCost": 0.23,
+      "workHours": 2.1,
+      "savedAmount": 156
+    }
+  ],
+  "recentJobs": [
+    {
+      "id": "19267812-fa4f-4b92-8d8c-490679b83382",
+      "name": "記憶體股盯盤提醒",
+      "status": "error",
+      "lastRunAt": "2026-02-06T03:14:51.015Z",
+      "characterId": "xiaocai"
+    },
+    {
+      "id": "4ac3447a-d827-4f3c-871c-065b291e8e12",
+      "name": "台股開盤報告 - Webchat 完整版",
+      "status": "ok",
+      "lastRunAt": "2026-02-06T01:15:00.008Z",
+      "characterId": "xiaocai"
+    },
+    {
+      "id": "7447ee53-8b0d-450d-abc5-cffcd8b78eac",
+      "name": "台股開盤報告",
+      "status": "ok",
+      "lastRunAt": "2026-02-06T01:15:00.008Z",
+      "characterId": "xiaocai"
+    },
+    {
+      "id": "e4ced943-94ce-4d76-bbc8-be9f713d7c45",
+      "name": "每日美股晨報 - Webchat 完整版",
+      "status": "ok",
+      "lastRunAt": "2026-02-06T00:02:41.966Z",
+      "characterId": "xiaocai"
+    },
+    {
+      "id": "dcffb41b-da0e-4fea-bfec-6d37e0fe91f7",
+      "name": "AI 新聞日報 - Webchat 完整版",
+      "status": "ok",
+      "lastRunAt": "2026-02-06T00:01:46.635Z",
+      "characterId": "axin"
+    },
+    {
+      "id": "8c07f812-d420-46ed-aed6-0e13c872a96b",
+      "name": "AI 新聞日報 - Telegram 摘要版",
+      "status": "ok",
+      "lastRunAt": "2026-02-06T00:01:16.146Z",
+      "characterId": "axin"
+    },
+    {
+      "id": "5d83fe59-cbd5-49cb-b254-59c8c64863db",
+      "name": "每日美股晨報",
+      "status": "ok",
+      "lastRunAt": "2026-02-06T00:00:00.004Z",
+      "characterId": "xiaocai"
+    },
+    {
+      "id": "fbb6d729-62a9-4136-9a16-cdc7ce0e38ad",
+      "name": "Moltbook 社群檢查",
+      "status": "ok",
+      "lastRunAt": "2026-02-05T21:50:36.805Z",
+      "characterId": "pangxie"
+    },
+    {
+      "id": "d30377d5-da39-488f-b455-797891f67c2f",
+      "name": "GitHub 熱門專案日報",
+      "status": "ok",
+      "lastRunAt": "2026-02-05T23:01:29.630Z",
+      "characterId": "axin"
+    },
+    {
+      "id": "1cbaf8fa-aea8-461a-b3f2-06a2219cad70",
+      "name": "信用卡帳單提醒",
+      "status": "ok",
+      "lastRunAt": "2026-02-05T23:00:00.006Z",
+      "characterId": "xiaoguan"
+    }
+  ]
+}
