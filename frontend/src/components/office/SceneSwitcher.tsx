@@ -6,9 +6,9 @@ type CharacterStatus = 'working' | 'idle' | 'happy' | 'tired' | 'sleeping' | 'aw
 
 // 走動目的地配置
 const walkDestinations: Record<string, { x: number; y: number; emoji: string; label: string }> = {
-  coffee: { x: 88, y: 45, emoji: '☕', label: '倒咖啡' },
+  coffee: { x: 50, y: 30, emoji: '☕', label: '倒咖啡' },      // 正中央上方
   whiteboard: { x: 35, y: 35, emoji: '📊', label: '看白板' },
-  window: { x: 10, y: 35, emoji: '🪟', label: '看風景' },
+  window: { x: 90, y: 40, emoji: '🪟', label: '看風景' },      // 右側
   chat_lucy: { x: 48, y: 68, emoji: '💬', label: '找 Lucy 聊天' },
   chat_xiaocai: { x: 32, y: 48, emoji: '💬', label: '找小財討論' },
   stretch: { x: 50, y: 55, emoji: '🙆', label: '伸懶腰' },
