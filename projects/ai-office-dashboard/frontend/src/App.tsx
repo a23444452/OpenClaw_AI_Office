@@ -6,7 +6,7 @@ import { CharacterCard } from './components/characters/CharacterCard';
 import { Leaderboard } from './components/dashboard/Leaderboard';
 import { TabNav } from './components/dashboard/TabNav';
 import { RecentJobs } from './components/dashboard/RecentJobs';
-import { OfficeScene } from './components/office/OfficeScene';
+import { SceneSwitcher } from './components/office/SceneSwitcher';
 
 function App() {
   const [activeTab, setActiveTab] = useState<TabType>('savings');
@@ -49,9 +49,9 @@ function App() {
         </div>
       </header>
 
-      {/* Office Scene */}
+      {/* SVG Isometric Office Scene */}
       <div className="mb-4 sm:mb-6">
-        <OfficeScene characters={characters} recentJobs={recentJobs} />
+        <SceneSwitcher characters={characters} recentJobs={recentJobs} />
       </div>
 
       {/* Tab Navigation */}
