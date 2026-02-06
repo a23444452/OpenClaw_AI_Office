@@ -5,10 +5,11 @@ import { StatCard } from './components/stats/StatCard';
 import { CharacterCard } from './components/characters/CharacterCard';
 import { Leaderboard } from './components/dashboard/Leaderboard';
 import { TabNav } from './components/dashboard/TabNav';
+import { RecentJobs } from './components/dashboard/RecentJobs';
 
 function App() {
   const [activeTab, setActiveTab] = useState<TabType>('savings');
-  const { characters, stats, updatedAt, isLoading, refresh } = useDashboardData();
+  const { characters, stats, recentJobs, updatedAt, isLoading, refresh } = useDashboardData();
 
   return (
     <div className="min-h-screen bg-[#1a1a2e] text-white p-6">
@@ -85,8 +86,11 @@ function App() {
               />
             </div>
 
-            {/* 排行榜 */}
-            <Leaderboard characters={characters} sortBy="savedAmount" />
+            {/* 排行榜和最近任務 */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              <Leaderboard characters={characters} sortBy="savedAmount" />
+              <RecentJobs jobs={recentJobs} />
+            </div>
           </div>
         )}
 
