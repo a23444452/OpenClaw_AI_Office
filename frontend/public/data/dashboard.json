@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-02-07T11:25:00+08:00",
+  "lastUpdate": "2026-02-07T11:56:00+08:00",
   "totalTasks": 23,
-  "totalTokens": 332537,
-  "totalCost": 0.851,
-  "totalSavings": 37260,
+  "totalTokens": 345528,
+  "totalCost": 10.37,
+  "totalSavings": 2400,
   "agents": [
     {
       "id": "xiaocai",
@@ -11,10 +11,10 @@
       "avatar": "👨‍💼",
       "description": "股市分析師",
       "tasks": 6,
-      "tokens": 139135,
-      "cost": 0.433,
-      "savings": 15570,
-      "efficiency": "98%",
+      "tokens": 169694,
+      "cost": 5.09,
+      "savings": 1200,
+      "efficiency": "99.6%",
       "status": "active"
     },
     {
@@ -24,9 +24,9 @@
       "description": "AI 新聞編輯",
       "tasks": 3,
       "tokens": 63312,
-      "cost": 0.189,
-      "savings": 7080,
-      "efficiency": "95%",
+      "cost": 1.90,
+      "savings": 300,
+      "efficiency": "99.4%",
       "status": "active"
     },
     {
@@ -36,9 +36,9 @@
       "description": "研究分析師",
       "tasks": 2,
       "tokens": 72522,
-      "cost": 0.166,
-      "savings": 8110,
-      "efficiency": "99%",
+      "cost": 2.18,
+      "savings": 300,
+      "efficiency": "99.3%",
       "status": "active"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Moltbook 社群管理",
       "tasks": 0,
       "tokens": 0,
-      "cost": 0.000,
+      "cost": 0.00,
       "savings": 0,
       "efficiency": "100%",
       "status": "standby"
@@ -60,7 +60,7 @@
       "description": "帳單管理專員",
       "tasks": 0,
       "tokens": 0,
-      "cost": 0.000,
+      "cost": 0.00,
       "savings": 0,
       "efficiency": "100%",
       "status": "standby"
@@ -71,10 +71,10 @@
       "avatar": "✨",
       "description": "AI 助理主管",
       "tasks": 12,
-      "tokens": 57568,
-      "cost": 0.063,
-      "savings": 6500,
-      "efficiency": "97%",
+      "tokens": 40000,
+      "cost": 1.20,
+      "savings": 600,
+      "efficiency": "99.8%",
       "status": "active"
     }
   ],
@@ -84,10 +84,10 @@
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "lastRunAt": 1770434706284,
-      "timestamp": 1770434706284,
-      "status": "completed",
-      "cost": 0.082
+      "lastRunAt": 1770436573653,
+      "timestamp": 1770436573653,
+      "status": "running",
+      "cost": 0.081
     },
     {
       "id": "stock-weekly-report",
@@ -97,7 +97,7 @@
       "lastRunAt": 1770429600245,
       "timestamp": 1770429600245,
       "status": "completed",
-      "cost": 0.117
+      "cost": 0.873
     },
     {
       "id": "stock-morning-brief",
@@ -107,7 +107,7 @@
       "lastRunAt": 1770422478443,
       "timestamp": 1770422478443,
       "status": "completed",
-      "cost": 0.079
+      "cost": 0.756
     },
     {
       "id": "ai-news-daily-report",
@@ -117,7 +117,7 @@
       "lastRunAt": 1770422400194,
       "timestamp": 1770422400194,
       "status": "completed",
-      "cost": 0.085
+      "cost": 0.712
     },
     {
       "id": "nightly-research-build",
@@ -127,7 +127,7 @@
       "lastRunAt": 1770404400022,
       "timestamp": 1770404400022,
       "status": "completed",
-      "cost": 0.031
+      "cost": 1.224
     },
     {
       "id": "taiwan-stock-close",
@@ -137,7 +137,7 @@
       "lastRunAt": 1770359405385,
       "timestamp": 1770359405385,
       "status": "completed",
-      "cost": 0.096
+      "cost": 0.827
     },
     {
       "id": "taiwan-stock-open-detailed",
@@ -147,7 +147,7 @@
       "lastRunAt": 1770340549769,
       "timestamp": 1770340549769,
       "status": "completed",
-      "cost": 0.108
+      "cost": 0.854
     },
     {
       "id": "taiwan-stock-open-brief",
@@ -157,25 +157,25 @@
       "lastRunAt": 1770340500102,
       "timestamp": 1770340500102,
       "status": "completed",
-      "cost": 0.059
+      "cost": 0.739
     }
   ],
   "metrics": {
     "avgTaskTime": 24,
     "successRate": 100,
-    "costPerTask": 0.037,
+    "costPerTask": 0.45,
     "totalHours": 198,
-    "automationLevel": 97
+    "automationLevel": 99.6
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-01", "tasks": 5, "cost": 0.18, "savings": 5600},
-      {"date": "2026-02-02", "tasks": 8, "cost": 0.31, "savings": 8900},
-      {"date": "2026-02-03", "tasks": 12, "cost": 0.42, "savings": 12400},
-      {"date": "2026-02-04", "tasks": 9, "cost": 0.26, "savings": 10100},
-      {"date": "2026-02-05", "tasks": 15, "cost": 0.58, "savings": 16800},
-      {"date": "2026-02-06", "tasks": 19, "cost": 0.74, "savings": 21300},
-      {"date": "2026-02-07", "tasks": 23, "cost": 0.85, "savings": 37260}
+      {"date": "2026-02-01", "tasks": 2, "cost": 0.89, "savings": 200},
+      {"date": "2026-02-02", "tasks": 3, "cost": 1.42, "savings": 350},
+      {"date": "2026-02-03", "tasks": 4, "cost": 2.15, "savings": 450},
+      {"date": "2026-02-04", "tasks": 5, "cost": 2.87, "savings": 500},
+      {"date": "2026-02-05", "tasks": 7, "cost": 4.21, "savings": 700},
+      {"date": "2026-02-06", "tasks": 15, "cost": 7.93, "savings": 1500},
+      {"date": "2026-02-07", "tasks": 23, "cost": 10.37, "savings": 2400}
     ]
   }
 }
