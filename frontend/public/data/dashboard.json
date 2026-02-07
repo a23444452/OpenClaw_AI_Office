@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-07T14:32:30+08:00",
-  "totalTasks": 52,
-  "totalTokens": 487642,
-  "totalCost": 17.45,
-  "totalSavings": 18200,
+  "lastUpdate": "2026-02-07T15:04:30+08:00",
+  "totalTasks": 54,
+  "totalTokens": 523847,
+  "totalCost": 18.67,
+  "totalSavings": 19450,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 29,
-      "tokens": 268789,
-      "cost": 8.92,
-      "savings": 10150,
+      "tasks": 32,
+      "tokens": 298143,
+      "cost": 10.12,
+      "savings": 11800,
       "efficiency": "99.7%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 13,
-      "tokens": 67892,
-      "cost": 2.89,
-      "savings": 3900,
+      "tasks": 14,
+      "tokens": 91627,
+      "cost": 3.75,
+      "savings": 4250,
       "efficiency": "99.5%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研", 
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 6,
-      "tokens": 104573,
-      "cost": 3.42,
-      "savings": 3150,
+      "tasks": 8,
+      "tokens": 133095,
+      "cost": 4.01,
+      "savings": 3400,
       "efficiency": "99.4%",
       "status": "active"
     },
@@ -70,10 +70,10 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 4,
-      "tokens": 46388,
-      "cost": 2.22,
-      "savings": 1000,
+      "tasks": 5,
+      "tokens": 67776,
+      "cost": 2.79,
+      "savings": 1250,
       "efficiency": "99.9%",
       "status": "active"
     }
@@ -84,9 +84,9 @@
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "timestamp": 1770445978499,
+      "timestamp": 1770447874554,
       "status": "running", 
-      "cost": 0.081
+      "cost": 0.080
     },
     {
       "id": "us-stock-weekly-report",
@@ -122,7 +122,7 @@
       "agent": "研研",
       "timestamp": 1770404400022,
       "status": "completed",
-      "cost": 0.028
+      "cost": 0.031
     },
     {
       "id": "nightly-build-memory",
@@ -131,7 +131,7 @@
       "agent": "研研",
       "timestamp": 1770397200024,
       "status": "completed",
-      "cost": 0.031
+      "cost": 0.028
     },
     {
       "id": "taiwan-stock-close-analysis", 
@@ -171,10 +171,10 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 24,
+    "avgTaskTime": 23,
     "successRate": 100,
-    "costPerTask": 0.34,
-    "totalHours": 402,
+    "costPerTask": 0.35,
+    "totalHours": 418,
     "automationLevel": 99.8
   },
   "performance": {
@@ -185,7 +185,7 @@
       {"date": "2026-02-04", "tasks": 18, "cost": 4.67, "savings": 3900},
       {"date": "2026-02-05", "tasks": 26, "cost": 7.23, "savings": 6200}, 
       {"date": "2026-02-06", "tasks": 41, "cost": 12.89, "savings": 12100},
-      {"date": "2026-02-07", "tasks": 52, "cost": 17.45, "savings": 18200}
+      {"date": "2026-02-07", "tasks": 54, "cost": 18.67, "savings": 19450}
     ]
   }
 }
