@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-07T17:44:00+08:00",
-  "totalTasks": 25,
-  "totalTokens": 623148,
-  "totalCost": 3.68,
-  "totalSavings": 7650,
+  "lastUpdate": "2026-02-07T18:16:00+08:00",
+  "totalTasks": 27,
+  "totalTokens": 712465,
+  "totalCost": 4.12,
+  "totalSavings": 8550,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 12,
-      "tokens": 421563,
-      "cost": 1.89,
-      "savings": 3600,
+      "tasks": 14,
+      "tokens": 512784,
+      "cost": 2.46,
+      "savings": 4200,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 5,
-      "tokens": 126546,
-      "cost": 0.78,
-      "savings": 1500,
+      "tasks": 6,
+      "tokens": 145901,
+      "cost": 0.89,
+      "savings": 1800,
       "efficiency": "99.6%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研", 
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 3,
-      "tokens": 98374,
-      "cost": 0.52,
-      "savings": 900,
+      "tasks": 4,
+      "tokens": 133466,
+      "cost": 0.64,
+      "savings": 1200,
       "efficiency": "99.5%",
       "status": "active"
     },
@@ -70,15 +70,25 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 5,
-      "tokens": 58455,
-      "cost": 0.49,
-      "savings": 1650,
+      "tasks": 3,
+      "tokens": 72525,
+      "cost": 0.13,
+      "savings": 1350,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-07-1816",
+      "name": "AI Office Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新",
+      "agent": "Lucy",
+      "timestamp": 1770459367119,
+      "lastRunAt": 1770459367119,
+      "status": "running", 
+      "cost": 0.080
+    },
     {
       "id": "dashboard-update-2026-02-07-1744",
       "name": "AI Office Dashboard 數據更新",
@@ -96,16 +106,6 @@
       "agent": "Lucy",
       "timestamp": 1770455561839,
       "lastRunAt": 1770455561839,
-      "status": "completed", 
-      "cost": 0.000
-    },
-    {
-      "id": "task-scheduler-2026-02-07-1628",
-      "name": "任務調度檢查",
-      "title": "任務調度檢查",
-      "agent": "Lucy",
-      "timestamp": 1770452091301,
-      "lastRunAt": 1770452091301,
       "status": "completed", 
       "cost": 0.000
     },
@@ -241,18 +241,18 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 17,
+    "avgTaskTime": 16,
     "successRate": 100,
-    "costPerTask": 0.14,
-    "totalHours": 78,
+    "costPerTask": 0.15,
+    "totalHours": 84,
     "automationLevel": 99.8
   },
   "performance": {
     "daily": [
       {"date": "2026-02-04", "tasks": 1, "cost": 0.12, "savings": 300},
       {"date": "2026-02-05", "tasks": 4, "cost": 0.43, "savings": 1200},
-      {"date": "2026-02-06", "tasks": 18, "cost": 2.15, "savings": 5100},
-      {"date": "2026-02-07", "tasks": 25, "cost": 3.68, "savings": 7650}
+      {"date": "2026-02-06", "tasks": 20, "cost": 2.55, "savings": 6000},
+      {"date": "2026-02-07", "tasks": 27, "cost": 4.12, "savings": 8550}
     ]
   }
 }
