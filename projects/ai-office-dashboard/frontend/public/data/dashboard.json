@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-08T04:49:00+08:00",
-  "totalTasks": 12,
-  "totalTokens": 333103,
-  "totalCost": 1.00,
-  "totalSavings": 1200,
+  "lastUpdate": "2026-02-08T05:52:00+08:00",
+  "totalTasks": 14,
+  "totalTokens": 412429,
+  "totalCost": 1.68,
+  "totalSavings": 2100,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 5,
-      "tokens": 139120,
-      "cost": 0.42,
-      "savings": 500,
+      "tasks": 7,
+      "tokens": 197508,
+      "cost": 0.52,
+      "savings": 1050,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -24,8 +24,8 @@
       "description": "AI 新聞編輯",
       "tasks": 3,
       "tokens": 63312,
-      "cost": 0.19,
-      "savings": 300,
+      "cost": 0.21,
+      "savings": 450,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -36,8 +36,8 @@
       "description": "研究分析師",
       "tasks": 2,
       "tokens": 79040,
-      "cost": 0.24,
-      "savings": 200,
+      "cost": 0.14,
+      "savings": 300,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -71,21 +71,21 @@
       "avatar": "✨",
       "description": "AI 助理主管",
       "tasks": 2,
-      "tokens": 51631,
-      "cost": 0.15,
-      "savings": 200,
+      "tokens": 72569,
+      "cost": 0.81,
+      "savings": 300,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-08-0449",
+      "id": "dashboard-update-2026-02-08-0552",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新", 
       "agent": "Lucy",
-      "timestamp": 1770497360849,
-      "lastRunAt": 1770497360849,
+      "timestamp": 1770501172652,
+      "lastRunAt": 1770501172652,
       "status": "running",
       "cost": 0.08
     },
@@ -113,14 +113,14 @@
       "id": "stock-analysis-winbond-investor-conference",
       "name": "華邦電法說會觀察重點",
       "title": "華邦電法說會觀察重點",
-      "agent": "小財",
+      "agent": "Lucy",
       "timestamp": 1770477740904,
       "lastRunAt": 1770477740904,
       "status": "completed",
       "cost": 0.07
     },
     {
-      "id": "us-stock-weekly-report-2026-02-07",
+      "id": "stock-weekly-report-2026-02-07",
       "name": "股市週報｜2026/02/02 - 02/06",
       "title": "股市週報｜2026/02/02 - 02/06",
       "agent": "小財",
@@ -203,15 +203,15 @@
   "metrics": {
     "avgTaskTime": 4,
     "successRate": 100,
-    "costPerTask": 0.083,
-    "totalHours": 120,
+    "costPerTask": 0.12,
+    "totalHours": 156,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-06", "tasks": 7, "cost": 0.42, "savings": 700},
-      {"date": "2026-02-07", "tasks": 3, "cost": 0.29, "savings": 300},
-      {"date": "2026-02-08", "tasks": 2, "cost": 0.29, "savings": 200}
+      {"date": "2026-02-06", "tasks": 6, "cost": 0.42, "savings": 900},
+      {"date": "2026-02-07", "tasks": 3, "cost": 0.29, "savings": 450},
+      {"date": "2026-02-08", "tasks": 5, "cost": 0.97, "savings": 750}
     ]
   }
 }
