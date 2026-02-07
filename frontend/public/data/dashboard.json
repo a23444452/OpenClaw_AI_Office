@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-08T02:41:00+08:00",
-  "totalTasks": 14,
-  "totalTokens": 410746,
-  "totalCost": 2.34,
-  "totalSavings": 16800,
+  "lastUpdate": "2026-02-08T03:13:00+08:00",
+  "totalTasks": 17,
+  "totalTokens": 443186,
+  "totalCost": 2.58,
+  "totalSavings": 20400,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 7,
-      "tokens": 197508,
-      "cost": 1.12,
-      "savings": 8400,
+      "tasks": 8,
+      "tokens": 207598,
+      "cost": 1.15,
+      "savings": 9600,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 3,
-      "tokens": 63312,
-      "cost": 0.36,
-      "savings": 3600,
+      "tasks": 4,
+      "tokens": 83767,
+      "cost": 0.47,
+      "savings": 4800,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -35,8 +35,8 @@
       "avatar": "🔬",
       "description": "研究分析師",
       "tasks": 2,
-      "tokens": 77399,
-      "cost": 0.44,
+      "tokens": 79040,
+      "cost": 0.45,
       "savings": 2400,
       "efficiency": "99.9%",
       "status": "active"
@@ -70,24 +70,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 2,
-      "tokens": 72527,
-      "cost": 0.42,
-      "savings": 2400,
+      "tasks": 3,
+      "tokens": 72781,
+      "cost": 0.51,
+      "savings": 3600,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-08-0241",
+      "id": "dashboard-update-2026-02-08-0313",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新", 
       "agent": "Lucy",
-      "timestamp": 1770489679985,
-      "lastRunAt": 1770489679985,
+      "timestamp": 1770491600702,
+      "lastRunAt": 1770491600702,
       "status": "running",
       "cost": 0.08
+    },
+    {
+      "id": "nightly-build-2026-02-08-0300",
+      "name": "Nightly Build：整理記憶檔案、確認華邦電法說會準備就緒",
+      "title": "Nightly Build：整理記憶檔案、確認華邦電法說會準備就緒",
+      "agent": "研研",
+      "timestamp": 1770490800018,
+      "lastRunAt": 1770490800018,
+      "status": "completed",
+      "cost": 0.03
     },
     {
       "id": "nightly-research-wafer-capacity-2026-02-08",
@@ -138,16 +148,6 @@
       "lastRunAt": 1770422400194,
       "status": "completed",
       "cost": 0.09
-    },
-    {
-      "id": "nightly-build-2026-02-07-0300",
-      "name": "Nightly Build 完成",
-      "title": "Nightly Build 完成",
-      "agent": "研研",
-      "timestamp": 1770404400022,
-      "lastRunAt": 1770404400022,
-      "status": "completed",
-      "cost": 0.03
     },
     {
       "id": "taiwan-stock-close-analysis-2026-02-06",
@@ -218,20 +218,30 @@
       "lastRunAt": 1769927988684,
       "status": "completed",
       "cost": 0.05
+    },
+    {
+      "id": "ai-news-webchat-test",
+      "name": "AI 產業分析測試",
+      "title": "AI 產業分析測試",
+      "agent": "阿新",
+      "timestamp": 1769927800000,
+      "lastRunAt": 1769927800000,
+      "status": "completed",
+      "cost": 0.21
     }
   ],
   "metrics": {
     "avgTaskTime": 8,
     "successRate": 100,
-    "costPerTask": 0.167,
-    "totalHours": 280,
+    "costPerTask": 0.152,
+    "totalHours": 340,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-06", "tasks": 5, "cost": 0.42, "savings": 6000}, 
+      {"date": "2026-02-06", "tasks": 6, "cost": 0.48, "savings": 7200}, 
       {"date": "2026-02-07", "tasks": 4, "cost": 0.32, "savings": 4800},
-      {"date": "2026-02-08", "tasks": 5, "cost": 1.60, "savings": 6000}
+      {"date": "2026-02-08", "tasks": 7, "cost": 1.78, "savings": 8400}
     ]
   }
 }
