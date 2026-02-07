@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-02-07T23:00:00+08:00",
+  "lastUpdate": "2026-02-08T00:35:00+08:00",
   "totalTasks": 23,
-  "totalTokens": 765892,
-  "totalCost": 2.89,
-  "totalSavings": 13950,
+  "totalTokens": 566987,
+  "totalCost": 2.45,
+  "totalSavings": 21840,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 8,
-      "tokens": 361458,
-      "cost": 1.26,
-      "savings": 5200,
-      "efficiency": "99.8%",
+      "tasks": 13,
+      "tokens": 363556,
+      "cost": 1.52,
+      "savings": 13320,
+      "efficiency": "99.9%",
       "status": "active"
     },
     {
@@ -22,11 +22,11 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 5,
-      "tokens": 117346,
-      "cost": 0.47,
-      "savings": 2100,
-      "efficiency": "99.9%",
+      "tasks": 6,
+      "tokens": 116552,
+      "cost": 0.46,
+      "savings": 4680,
+      "efficiency": "99.8%",
       "status": "active"
     },
     {
@@ -34,11 +34,11 @@
       "name": "研研", 
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 2,
-      "tokens": 99542,
+      "tasks": 3,
+      "tokens": 105657,
       "cost": 0.39,
-      "savings": 1850,
-      "efficiency": "99.7%",
+      "savings": 3120,
+      "efficiency": "99.9%",
       "status": "active"
     },
     {
@@ -70,24 +70,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 8,
-      "tokens": 187546,
-      "cost": 0.77,
-      "savings": 4800,
+      "tasks": 1,
+      "tokens": 20813,
+      "cost": 0.08,
+      "savings": 720,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-07-2300",
+      "id": "dashboard-update-2026-02-08-0035",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新", 
       "agent": "Lucy",
-      "timestamp": 1770476423985,
-      "lastRunAt": 1770476423985,
+      "timestamp": 1770482137869,
+      "lastRunAt": 1770482137869,
       "status": "active",
-      "cost": 0.080
+      "cost": 0.08
+    },
+    {
+      "id": "stock-analysis-winbond-investor-conference",
+      "name": "華邦電法說會觀察重點",
+      "title": "華邦電法說會觀察重點",
+      "agent": "小財",
+      "timestamp": 1770477740904,
+      "lastRunAt": 1770477740904,
+      "status": "completed",
+      "cost": 0.044
     },
     {
       "id": "us-stock-weekly-report-2026-02-07",
@@ -211,17 +221,18 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 12,
+    "avgTaskTime": 8,
     "successRate": 100,
-    "costPerTask": 0.126,
-    "totalHours": 156,
-    "automationLevel": 99.8
+    "costPerTask": 0.107,
+    "totalHours": 184,
+    "automationLevel": 99.9
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-05", "tasks": 3, "cost": 0.145, "savings": 1100},
-      {"date": "2026-02-06", "tasks": 9, "cost": 0.823, "savings": 3800}, 
-      {"date": "2026-02-07", "tasks": 11, "cost": 1.922, "savings": 9050}
+      {"date": "2026-02-05", "tasks": 2, "cost": 0.149, "savings": 3480},
+      {"date": "2026-02-06", "tasks": 6, "cost": 0.517, "savings": 6240}, 
+      {"date": "2026-02-07", "tasks": 8, "cost": 1.11, "savings": 7000},
+      {"date": "2026-02-08", "tasks": 7, "cost": 0.673, "savings": 5120}
     ]
   }
 }
