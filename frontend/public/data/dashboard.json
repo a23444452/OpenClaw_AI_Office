@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-02-07T11:56:00+08:00",
-  "totalTasks": 23,
-  "totalTokens": 345528,
-  "totalCost": 10.37,
-  "totalSavings": 2400,
+  "lastUpdate": "2026-02-07T12:27:30+08:00",
+  "totalTasks": 32,
+  "totalTokens": 497,847,
+  "totalCost": 14.93,
+  "totalSavings": 3600,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 6,
-      "tokens": 169694,
-      "cost": 5.09,
-      "savings": 1200,
-      "efficiency": "99.6%",
+      "tasks": 10,
+      "tokens": 279,979,
+      "cost": 8.40,
+      "savings": 2000,
+      "efficiency": "99.7%",
       "status": "active"
     },
     {
@@ -22,11 +22,11 @@
       "name": "阿新",
       "avatar": "📰", 
       "description": "AI 新聞編輯",
-      "tasks": 3,
-      "tokens": 63312,
-      "cost": 1.90,
-      "savings": 300,
-      "efficiency": "99.4%",
+      "tasks": 4,
+      "tokens": 87,047,
+      "cost": 2.61,
+      "savings": 400,
+      "efficiency": "99.5%",
       "status": "active"
     },
     {
@@ -34,11 +34,11 @@
       "name": "研研",
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 2,
-      "tokens": 72522,
-      "cost": 2.18,
-      "savings": 300,
-      "efficiency": "99.3%",
+      "tasks": 4,
+      "tokens": 145,044,
+      "cost": 4.35,
+      "savings": 600,
+      "efficiency": "99.4%",
       "status": "active"
     },
     {
@@ -70,102 +70,86 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 12,
-      "tokens": 40000,
-      "cost": 1.20,
+      "tasks": 14,
+      "tokens": 85,777,
+      "cost": 2.57,
       "savings": 600,
-      "efficiency": "99.8%",
+      "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
       "id": "dashboard-update-current",
-      "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "lastRunAt": 1770436573653,
-      "timestamp": 1770436573653,
+      "timestamp": 1770438452778,
       "status": "running",
       "cost": 0.081
     },
     {
       "id": "stock-weekly-report",
-      "name": "美股週報整理", 
       "title": "美股週報整理",
       "agent": "小財",
-      "lastRunAt": 1770429600245,
       "timestamp": 1770429600245,
-      "status": "completed",
+      "status": "completed", 
       "cost": 0.873
     },
     {
       "id": "stock-morning-brief",
-      "name": "美股晨報分析",
-      "title": "美股晨報分析", 
+      "title": "美股晨報分析",
       "agent": "小財",
-      "lastRunAt": 1770422478443,
       "timestamp": 1770422478443,
       "status": "completed",
       "cost": 0.756
     },
     {
-      "id": "ai-news-daily-report",
-      "name": "AI 新聞日報",
+      "id": "ai-news-daily-report", 
       "title": "AI 新聞日報",
       "agent": "阿新",
-      "lastRunAt": 1770422400194,
       "timestamp": 1770422400194,
       "status": "completed",
       "cost": 0.712
     },
     {
       "id": "nightly-research-build",
-      "name": "夜間探索研究 (DRAM/NAND)",
       "title": "夜間探索研究 (DRAM/NAND)",
       "agent": "研研",
-      "lastRunAt": 1770404400022,
       "timestamp": 1770404400022,
       "status": "completed",
       "cost": 1.224
     },
     {
       "id": "taiwan-stock-close",
-      "name": "台股盤後完整分析",
       "title": "台股盤後完整分析",
       "agent": "小財",
-      "lastRunAt": 1770359405385,
       "timestamp": 1770359405385,
       "status": "completed",
       "cost": 0.827
     },
     {
-      "id": "taiwan-stock-open-detailed",
-      "name": "台股開盤完整分析",
-      "title": "台股開盤完整分析",
-      "agent": "小財", 
-      "lastRunAt": 1770340549769,
-      "timestamp": 1770340549769,
+      "id": "taiwan-stock-analysis",
+      "title": "台股開盤完整分析", 
+      "agent": "小財",
+      "timestamp": 1770356700095,
       "status": "completed",
-      "cost": 0.854
+      "cost": 0.964
     },
     {
-      "id": "taiwan-stock-open-brief",
-      "name": "台股開盤簡報",
-      "title": "台股開盤簡報",
-      "agent": "小財",
-      "lastRunAt": 1770340500102,
-      "timestamp": 1770340500102,
+      "id": "nightly-build-complete",
+      "title": "Nightly Build 完成",
+      "agent": "研研",
+      "timestamp": 1770397200024,
       "status": "completed",
-      "cost": 0.739
+      "cost": 1.117
     }
   ],
   "metrics": {
-    "avgTaskTime": 24,
+    "avgTaskTime": 22,
     "successRate": 100,
-    "costPerTask": 0.45,
-    "totalHours": 198,
-    "automationLevel": 99.6
+    "costPerTask": 0.47,
+    "totalHours": 248,
+    "automationLevel": 99.7
   },
   "performance": {
     "daily": [
@@ -174,8 +158,8 @@
       {"date": "2026-02-03", "tasks": 4, "cost": 2.15, "savings": 450},
       {"date": "2026-02-04", "tasks": 5, "cost": 2.87, "savings": 500},
       {"date": "2026-02-05", "tasks": 7, "cost": 4.21, "savings": 700},
-      {"date": "2026-02-06", "tasks": 15, "cost": 7.93, "savings": 1500},
-      {"date": "2026-02-07", "tasks": 23, "cost": 10.37, "savings": 2400}
+      {"date": "2026-02-06", "tasks": 20, "cost": 11.87, "savings": 2200},
+      {"date": "2026-02-07", "tasks": 32, "cost": 14.93, "savings": 3600}
     ]
   }
 }
