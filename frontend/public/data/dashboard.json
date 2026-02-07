@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-07T19:50:00+08:00",
-  "totalTasks": 18,
-  "totalTokens": 486879,
-  "totalCost": 2.04,
-  "totalSavings": 5400,
+  "lastUpdate": "2026-02-07T20:54:00+08:00",
+  "totalTasks": 17,
+  "totalTokens": 410856,
+  "totalCost": 1.73,
+  "totalSavings": 5100,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 9,
-      "tokens": 254812,
-      "cost": 1.07,
-      "savings": 2700,
+      "tasks": 8,
+      "tokens": 227016,
+      "cost": 0.93,
+      "savings": 2400,
       "efficiency": "99.6%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 5,
-      "tokens": 102845,
-      "cost": 0.39,
-      "savings": 1500,
+      "tasks": 4,
+      "tokens": 87047,
+      "cost": 0.35,
+      "savings": 1200,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研", 
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 3,
-      "tokens": 92481,
-      "cost": 0.37,
-      "savings": 900,
+      "tasks": 4,
+      "tokens": 102253,
+      "cost": 0.41,
+      "savings": 1200,
       "efficiency": "99.7%",
       "status": "active"
     },
@@ -70,44 +70,24 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 1,
-      "tokens": 36741,
-      "cost": 0.21,
-      "savings": 300,
+      "tasks": 3,
+      "tokens": 57526,
+      "cost": 0.23,
+      "savings": 900,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-07-1950",
+      "id": "dashboard-update-2026-02-07-2054",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "timestamp": 1770465003641,
-      "lastRunAt": 1770465003641,
+      "timestamp": 1770468844535,
+      "lastRunAt": 1770468844535,
       "status": "active", 
-      "cost": 0.081
-    },
-    {
-      "id": "ai-news-daily-2026-02-07",
-      "name": "AI 新聞日報｜2026 年 2 月 7 日",
-      "title": "AI 新聞日報｜2026 年 2 月 7 日",
-      "agent": "阿新", 
-      "timestamp": 1770422400194,
-      "lastRunAt": 1770422400194,
-      "status": "completed",
-      "cost": 0.086
-    },
-    {
-      "id": "us-stock-morning-brief-2026-02-07",
-      "name": "美股晨報完整分析",
-      "title": "美股晨報完整分析",
-      "agent": "小財",
-      "timestamp": 1770422478443,
-      "lastRunAt": 1770422478443,
-      "status": "completed",
-      "cost": 0.079
+      "cost": 0.080
     },
     {
       "id": "us-stock-weekly-report-2026-02-07",
@@ -120,14 +100,24 @@
       "cost": 0.117
     },
     {
-      "id": "nightly-research-dram-nand-2026-02-07",
-      "name": "夜間探索：DRAM/NAND 合約價追蹤方法",
-      "title": "夜間探索：DRAM/NAND 合約價追蹤方法",
-      "agent": "研研",
-      "timestamp": 1770397200024,
-      "lastRunAt": 1770397200024,
+      "id": "us-stock-morning-brief-2026-02-07",
+      "name": "美股晨報完整分析",
+      "title": "美股晨報完整分析",
+      "agent": "小財",
+      "timestamp": 1770422478443,
+      "lastRunAt": 1770422478443,
       "status": "completed",
-      "cost": 0.031
+      "cost": 0.079
+    },
+    {
+      "id": "ai-news-daily-2026-02-07",
+      "name": "AI 新聞日報｜2026 年 2 月 7 日",
+      "title": "AI 新聞日報｜2026 年 2 月 7 日",
+      "agent": "阿新", 
+      "timestamp": 1770422400194,
+      "lastRunAt": 1770422400194,
+      "status": "completed",
+      "cost": 0.086
     },
     {
       "id": "nightly-build-2026-02-07-0300",
@@ -137,7 +127,17 @@
       "timestamp": 1770404400022,
       "lastRunAt": 1770404400022,
       "status": "completed",
-      "cost": 0.028
+      "cost": 0.026
+    },
+    {
+      "id": "nightly-research-dram-nand-2026-02-07",
+      "name": "夜間探索：DRAM/NAND 合約價追蹤方法",
+      "title": "夜間探索：DRAM/NAND 合約價追蹤方法",
+      "agent": "研研",
+      "timestamp": 1770397200024,
+      "lastRunAt": 1770397200024,
+      "status": "completed",
+      "cost": 0.033
     },
     {
       "id": "taiwan-stock-close-2026-02-06",
@@ -168,6 +168,16 @@
       "lastRunAt": 1770340549769,
       "status": "completed",
       "cost": 0.108
+    },
+    {
+      "id": "taiwan-stock-opening-2026-02-06",
+      "name": "台股開盤報告",
+      "title": "台股開盤報告",
+      "agent": "小財",
+      "timestamp": 1770340500102,
+      "lastRunAt": 1770340500102,
+      "status": "completed",
+      "cost": 0.059
     },
     {
       "id": "us-stock-simulation-day3-2026-02-06",
@@ -203,16 +213,15 @@
   "metrics": {
     "avgTaskTime": 16,
     "successRate": 100,
-    "costPerTask": 0.113,
-    "totalHours": 54,
+    "costPerTask": 0.102,
+    "totalHours": 48,
     "automationLevel": 99.7
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-04", "tasks": 0, "cost": 0.00, "savings": 0},
-      {"date": "2026-02-05", "tasks": 1, "cost": 0.09, "savings": 300},
-      {"date": "2026-02-06", "tasks": 8, "cost": 0.73, "savings": 2400},
-      {"date": "2026-02-07", "tasks": 9, "cost": 1.22, "savings": 2700}
+      {"date": "2026-02-05", "tasks": 2, "cost": 0.145, "savings": 600},
+      {"date": "2026-02-06", "tasks": 6, "cost": 0.517, "savings": 1800},
+      {"date": "2026-02-07", "tasks": 9, "cost": 1.068, "savings": 2700}
     ]
   }
 }
