@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-07T22:28:00+08:00",
+  "lastUpdate": "2026-02-07T23:00:00+08:00",
   "totalTasks": 23,
-  "totalTokens": 738429,
-  "totalCost": 2.85,
-  "totalSavings": 12800,
+  "totalTokens": 765892,
+  "totalCost": 2.89,
+  "totalSavings": 13950,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 9,
-      "tokens": 348750,
-      "cost": 1.21,
-      "savings": 4850,
+      "tasks": 8,
+      "tokens": 361458,
+      "cost": 1.26,
+      "savings": 5200,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 4,
-      "tokens": 88926,
-      "cost": 0.39,
-      "savings": 1650,
+      "tasks": 5,
+      "tokens": 117346,
+      "cost": 0.47,
+      "savings": 2100,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -34,11 +34,11 @@
       "name": "研研", 
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 3,
-      "tokens": 114342,
-      "cost": 0.47,
-      "savings": 1450,
-      "efficiency": "99.8%",
+      "tasks": 2,
+      "tokens": 99542,
+      "cost": 0.39,
+      "savings": 1850,
+      "efficiency": "99.7%",
       "status": "active"
     },
     {
@@ -70,24 +70,24 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 7,
-      "tokens": 186411,
-      "cost": 0.78,
-      "savings": 4850,
+      "tasks": 8,
+      "tokens": 187546,
+      "cost": 0.77,
+      "savings": 4800,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-07-2228",
+      "id": "dashboard-update-2026-02-07-2300",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新", 
       "agent": "Lucy",
-      "timestamp": 1770474535872,
-      "lastRunAt": 1770474535872,
+      "timestamp": 1770476423985,
+      "lastRunAt": 1770476423985,
       "status": "active",
-      "cost": 0.081
+      "cost": 0.080
     },
     {
       "id": "us-stock-weekly-report-2026-02-07",
@@ -211,17 +211,17 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 11,
+    "avgTaskTime": 12,
     "successRate": 100,
-    "costPerTask": 0.124,
-    "totalHours": 144,
+    "costPerTask": 0.126,
+    "totalHours": 156,
     "automationLevel": 99.8
   },
   "performance": {
     "daily": [
       {"date": "2026-02-05", "tasks": 3, "cost": 0.145, "savings": 1100},
       {"date": "2026-02-06", "tasks": 9, "cost": 0.823, "savings": 3800}, 
-      {"date": "2026-02-07", "tasks": 11, "cost": 1.882, "savings": 7900}
+      {"date": "2026-02-07", "tasks": 11, "cost": 1.922, "savings": 9050}
     ]
   }
 }
