@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-02-07T20:21:00+08:00",
+  "lastUpdate": "2026-02-07T23:31:00+08:00",
   "totalTasks": 14,
-  "totalTokens": 370094,
-  "totalCost": 1.56,
-  "totalSavings": 4200,
+  "totalTokens": 392013,
+  "totalCost": 1.48,
+  "totalSavings": 14680,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 7,
-      "tokens": 197508,
-      "cost": 0.84,
-      "savings": 2100,
-      "efficiency": "99.6%",
+      "tasks": 8,
+      "tokens": 255179,
+      "cost": 0.96,
+      "savings": 8960,
+      "efficiency": "99.9%",
       "status": "active"
     },
     {
@@ -24,8 +24,8 @@
       "description": "AI 新聞編輯",
       "tasks": 3,
       "tokens": 63312,
-      "cost": 0.26,
-      "savings": 900,
+      "cost": 0.24,
+      "savings": 2240,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -36,9 +36,9 @@
       "description": "研究分析師",
       "tasks": 2,
       "tokens": 72522,
-      "cost": 0.30,
-      "savings": 600,
-      "efficiency": "99.7%",
+      "cost": 0.27,
+      "savings": 3120,
+      "efficiency": "99.9%",
       "status": "active"
     },
     {
@@ -70,24 +70,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 2,
-      "tokens": 36752,
-      "cost": 0.16,
-      "savings": 600,
+      "tasks": 1,
+      "tokens": 1000,
+      "cost": 0.01,
+      "savings": 360,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-07-2021",
+      "id": "dashboard-update-2026-02-07-2331",
       "name": "AI Office Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新", 
       "agent": "Lucy",
-      "timestamp": 1770466912086,
-      "lastRunAt": 1770466912086,
-      "status": "active", 
-      "cost": 0.080
+      "timestamp": 1770478297046,
+      "lastRunAt": 1770478297046,
+      "status": "active",
+      "cost": 0.001
+    },
+    {
+      "id": "stock-analysis-winbond-investor-conference",
+      "name": "華邦電法說會觀察重點",
+      "title": "華邦電法說會觀察重點",
+      "agent": "小財",
+      "timestamp": 1770477740904,
+      "lastRunAt": 1770477740904,
+      "status": "completed",
+      "cost": 0.073
     },
     {
       "id": "us-stock-weekly-report-2026-02-07",
@@ -121,8 +131,8 @@
     },
     {
       "id": "nightly-build-2026-02-07-0300",
-      "name": "Nightly Build 2026-02-07",
-      "title": "Nightly Build 2026-02-07",
+      "name": "Nightly Build 完成",
+      "title": "Nightly Build 完成",
       "agent": "研研",
       "timestamp": 1770404400022,
       "lastRunAt": 1770404400022,
@@ -131,16 +141,16 @@
     },
     {
       "id": "nightly-research-dram-nand-2026-02-07",
-      "name": "夜間探索：DRAM/NAND 合約價追蹤方法",
-      "title": "夜間探索：DRAM/NAND 合約價追蹤方法",
+      "name": "夜間探索：DRAM/NAND 合約價追蹤方法研究",
+      "title": "夜間探索：DRAM/NAND 合約價追蹤方法研究",
       "agent": "研研",
       "timestamp": 1770397200024,
       "lastRunAt": 1770397200024,
       "status": "completed",
-      "cost": 0.033
+      "cost": 0.031
     },
     {
-      "id": "taiwan-stock-close-2026-02-06",
+      "id": "taiwan-stock-close-analysis-2026-02-06",
       "name": "台股盤後完整分析報告",
       "title": "台股盤後完整分析報告",
       "agent": "小財",
@@ -170,7 +180,7 @@
       "cost": 0.108
     },
     {
-      "id": "taiwan-stock-opening-2026-02-06",
+      "id": "taiwan-stock-opening-brief-2026-02-06",
       "name": "台股開盤報告",
       "title": "台股開盤報告",
       "agent": "小財",
@@ -190,7 +200,7 @@
       "cost": 0.033
     },
     {
-      "id": "ai-news-webchat-subagent",
+      "id": "ai-news-analysis-webchat",
       "name": "AI 產業最新動態分析報告",
       "title": "AI 產業最新動態分析報告",
       "agent": "阿新",
@@ -200,7 +210,7 @@
       "cost": 0.122
     },
     {
-      "id": "ai-news-telegram-subagent",
+      "id": "ai-news-telegram-summary",
       "name": "AI 每日新聞摘要",
       "title": "AI 每日新聞摘要",
       "agent": "阿新",
@@ -211,17 +221,17 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 18,
+    "avgTaskTime": 8,
     "successRate": 100,
-    "costPerTask": 0.111,
-    "totalHours": 42,
-    "automationLevel": 99.7
+    "costPerTask": 0.106,
+    "totalHours": 112,
+    "automationLevel": 99.9
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-05", "tasks": 2, "cost": 0.145, "savings": 600},
-      {"date": "2026-02-06", "tasks": 6, "cost": 0.517, "savings": 1800},
-      {"date": "2026-02-07", "tasks": 6, "cost": 0.898, "savings": 1800}
+      {"date": "2026-02-05", "tasks": 2, "cost": 0.149, "savings": 3480},
+      {"date": "2026-02-06", "tasks": 6, "cost": 0.517, "savings": 6240}, 
+      {"date": "2026-02-07", "tasks": 6, "cost": 0.814, "savings": 4960}
     ]
   }
 }
