@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- 小財 - 財經分析師 📊 像素風格 -->
+  <!-- 參考：棕髮 + 方框眼鏡 + 藍襯衫 + 多螢幕K線 -->
+  
+  <!-- 背景 -->
+  <rect width="64" height="64" fill="#f5e6c8"/>
+  
+  <!-- 螢幕背景 - 左上 -->
+  <rect x="2" y="2" width="18" height="14" rx="1" fill="#3a4a5a"/>
+  <rect x="3" y="3" width="16" height="11" fill="#1a2a3a"/>
+  <!-- K線圖 -->
+  <rect x="5" y="6" width="2" height="6" fill="#00c853"/>
+  <rect x="8" y="8" width="2" height="4" fill="#ff5252"/>
+  <rect x="11" y="5" width="2" height="7" fill="#00c853"/>
+  <rect x="14" y="7" width="2" height="5" fill="#ff5252"/>
+  
+  <!-- 螢幕背景 - 右上 -->
+  <rect x="44" y="2" width="18" height="14" rx="1" fill="#3a4a5a"/>
+  <rect x="45" y="3" width="16" height="11" fill="#1a2a3a"/>
+  <!-- 數字看板 -->
+  <rect x="46" y="4" width="6" height="2" fill="#00c853"/>
+  <rect x="53" y="4" width="6" height="2" fill="#ff5252"/>
+  <rect x="46" y="7" width="6" height="2" fill="#00c853"/>
+  <rect x="53" y="7" width="6" height="2" fill="#ff5252"/>
+  <rect x="46" y="10" width="6" height="2" fill="#00c853"/>
+  <rect x="53" y="10" width="6" height="2" fill="#00c853"/>
+  
+  <!-- 螢幕背景 - 左下 -->
+  <rect x="2" y="18" width="14" height="12" rx="1" fill="#3a4a5a"/>
+  <rect x="3" y="19" width="12" height="10" fill="#1a2a3a"/>
+  <!-- 折線圖 -->
+  <path d="M4 26 L7 24 L10 25 L13 22" stroke="#00c853" stroke-width="1.5" fill="none"/>
+  
+  <!-- 螢幕背景 - 右下 -->
+  <rect x="48" y="18" width="14" height="12" rx="1" fill="#3a4a5a"/>
+  <rect x="49" y="19" width="12" height="10" fill="#1a2a3a"/>
+  <!-- 長條圖 -->
+  <rect x="50" y="24" width="2" height="4" fill="#00c853"/>
+  <rect x="53" y="22" width="2" height="6" fill="#00c853"/>
+  <rect x="56" y="25" width="2" height="3" fill="#ff5252"/>
+  
+  <!-- 頭髮 - 棕色整齊 -->
+  <ellipse cx="32" cy="28" rx="16" ry="14" fill="#5a4030"/>
+  <path d="M18 30 Q20 20 32 18 Q44 20 46 30 Q44 24 32 22 Q20 24 18 30" fill="#6a5040"/>
+  <!-- 髮絲紋理 -->
+  <path d="M24 20 Q28 18 32 20" stroke="#7a6050" stroke-width="1" fill="none"/>
+  <path d="M32 18 Q36 16 40 20" stroke="#7a6050" stroke-width="1" fill="none"/>
+  
+  <!-- 耳朵 -->
+  <ellipse cx="16" cy="36" rx="3" ry="4" fill="#f0d0b8"/>
+  <ellipse cx="48" cy="36" rx="3" ry="4" fill="#f0d0b8"/>
+  
+  <!-- 臉 -->
+  <ellipse cx="32" cy="38" rx="14" ry="12" fill="#f5dcc8"/>
+  
+  <!-- 眼鏡框 -->
+  <rect x="21" y="32" width="10" height="8" rx="1" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <rect x="33" y="32" width="10" height="8" rx="1" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="31" y1="36" x2="33" y2="36" stroke="#2a2a2a" stroke-width="2"/>
+  <line x1="21" y1="36" x2="18" y2="34" stroke="#2a2a2a" stroke-width="1.5"/>
+  <line x1="43" y1="36" x2="46" y2="34" stroke="#2a2a2a" stroke-width="1.5"/>
+  
+  <!-- 眼睛 -->
+  <ellipse cx="26" cy="36" rx="3" ry="3" fill="#ffffff"/>
+  <ellipse cx="38" cy="36" rx="3" ry="3" fill="#ffffff"/>
+  <circle cx="26" cy="36" r="2" fill="#4a4a4a"/>
+  <circle cx="38" cy="36" r="2" fill="#4a4a4a"/>
+  <circle cx="27" cy="35" r="0.8" fill="#ffffff"/>
+  <circle cx="39" cy="35" r="0.8" fill="#ffffff"/>
+  
+  <!-- 眉毛 -->
+  <path d="M22 30 Q26 28 30 30" stroke="#4a3828" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M34 30 Q38 28 42 30" stroke="#4a3828" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- 鼻子 -->
+  <path d="M32 40 L32 42" stroke="#e0c0a8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- 嘴巴 - 自信微笑 -->
+  <path d="M27 46 Q32 50 37 46" stroke="#c08060" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- 牙齒 -->
+  <path d="M29 47 L35 47" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- 淡藍色襯衫 -->
+  <path d="M16 54 Q24 50 32 50 Q40 50 48 54 L52 64 L12 64 Z" fill="#a8c8e8"/>
+  <!-- 襯衫紋理 -->
+  <path d="M20 56 L20 62" stroke="#98b8d8" stroke-width="1"/>
+  <path d="M44 56 L44 62" stroke="#98b8d8" stroke-width="1"/>
+  
+  <!-- 領帶 -->
+  <polygon points="32,50 28,54 32,64 36,54" fill="#4a6080"/>
+  <polygon points="32,50 30,52 32,54 34,52" fill="#5a7090"/>
+  
+  <!-- 襯衫領子 -->
+  <polygon points="24,50 28,54 32,50" fill="#b8d8f0"/>
+  <polygon points="40,50 36,54 32,50" fill="#b8d8f0"/>
+  
+  <!-- 計算機 -->
+  <rect x="52" y="54" width="8" height="10" rx="1" fill="#607080"/>
+  <rect x="53" y="55" width="6" height="3" fill="#a0f0a0"/>
+  <rect x="53" y="59" width="2" height="2" fill="#505860"/>
+  <rect x="56" y="59" width="2" height="2" fill="#505860"/>
+  <rect x="53" y="62" width="2" height="1" fill="#505860"/>
+  <rect x="56" y="62" width="2" height="1" fill="#505860"/>
+  
+  <!-- 上漲箭頭 📈 -->
+  <polygon points="4,62 8,54 12,62 10,62 10,64 6,64 6,62" fill="#00c853"/>
+</svg>
