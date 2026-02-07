@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-08T00:35:00+08:00",
-  "totalTasks": 23,
-  "totalTokens": 566987,
-  "totalCost": 2.45,
-  "totalSavings": 21840,
+  "lastUpdate": "2026-02-08T02:09:00+08:00",
+  "totalTasks": 30,
+  "totalTokens": 776249,
+  "totalCost": 3.89,
+  "totalSavings": 32640,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 13,
-      "tokens": 363556,
-      "cost": 1.52,
-      "savings": 13320,
+      "tasks": 26,
+      "tokens": 703011,
+      "cost": 2.81,
+      "savings": 21600,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 6,
-      "tokens": 116552,
-      "cost": 0.46,
-      "savings": 4680,
+      "tasks": 14,
+      "tokens": 266859,
+      "cost": 1.13,
+      "savings": 11040,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研", 
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 3,
-      "tokens": 105657,
-      "cost": 0.39,
-      "savings": 3120,
+      "tasks": 8,
+      "tokens": 260448,
+      "cost": 0.81,
+      "savings": 7680,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -70,24 +70,44 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 1,
-      "tokens": 20813,
-      "cost": 0.08,
-      "savings": 720,
+      "tasks": 2,
+      "tokens": 41459,
+      "cost": 0.16,
+      "savings": 1920,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-08-0035",
+      "id": "dashboard-update-2026-02-08-0209",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新", 
       "agent": "Lucy",
-      "timestamp": 1770482137869,
-      "lastRunAt": 1770482137869,
-      "status": "active",
+      "timestamp": 1770487773923,
+      "lastRunAt": 1770487773923,
+      "status": "running",
       "cost": 0.08
+    },
+    {
+      "id": "dashboard-update-2026-02-08-0107",
+      "name": "AI Office Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新", 
+      "agent": "Lucy",
+      "timestamp": 1770484108868,
+      "lastRunAt": 1770484108868,
+      "status": "completed",
+      "cost": 0.08
+    },
+    {
+      "id": "nightly-research-wafer-capacity-2026-02-08",
+      "name": "夜間探索：8 吋晶圓廠產能與價格趨勢分析",
+      "title": "夜間探索：8 吋晶圓廠產能與價格趨勢分析",
+      "agent": "研研",
+      "timestamp": 1770483600026,
+      "lastRunAt": 1770483600026,
+      "status": "completed",
+      "cost": 0.04
     },
     {
       "id": "stock-analysis-winbond-investor-conference",
@@ -97,7 +117,7 @@
       "timestamp": 1770477740904,
       "lastRunAt": 1770477740904,
       "status": "completed",
-      "cost": 0.044
+      "cost": 0.074
     },
     {
       "id": "us-stock-weekly-report-2026-02-07",
@@ -138,16 +158,6 @@
       "lastRunAt": 1770404400022,
       "status": "completed",
       "cost": 0.026
-    },
-    {
-      "id": "nightly-research-dram-nand-2026-02-07",
-      "name": "夜間探索：DRAM/NAND 合約價追蹤方法研究",
-      "title": "夜間探索：DRAM/NAND 合約價追蹤方法研究",
-      "agent": "研研",
-      "timestamp": 1770397200024,
-      "lastRunAt": 1770397200024,
-      "status": "completed",
-      "cost": 0.031
     },
     {
       "id": "taiwan-stock-close-analysis-2026-02-06",
@@ -208,31 +218,21 @@
       "lastRunAt": 1769928002259,
       "status": "completed",
       "cost": 0.122
-    },
-    {
-      "id": "ai-news-telegram-summary",
-      "name": "AI 每日新聞摘要",
-      "title": "AI 每日新聞摘要",
-      "agent": "阿新",
-      "timestamp": 1769927988684,
-      "lastRunAt": 1769927988684,
-      "status": "completed",
-      "cost": 0.023
     }
   ],
   "metrics": {
-    "avgTaskTime": 8,
+    "avgTaskTime": 6,
     "successRate": 100,
-    "costPerTask": 0.107,
-    "totalHours": 184,
+    "costPerTask": 0.121,
+    "totalHours": 224,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-05", "tasks": 2, "cost": 0.149, "savings": 3480},
-      {"date": "2026-02-06", "tasks": 6, "cost": 0.517, "savings": 6240}, 
-      {"date": "2026-02-07", "tasks": 8, "cost": 1.11, "savings": 7000},
-      {"date": "2026-02-08", "tasks": 7, "cost": 0.673, "savings": 5120}
+      {"date": "2026-02-05", "tasks": 2, "cost": 0.145, "savings": 1440},
+      {"date": "2026-02-06", "tasks": 7, "cost": 0.549, "savings": 5040}, 
+      {"date": "2026-02-07", "tasks": 8, "cost": 1.21, "savings": 7200},
+      {"date": "2026-02-08", "tasks": 13, "cost": 1.876, "savings": 17760}
     ]
   }
 }
