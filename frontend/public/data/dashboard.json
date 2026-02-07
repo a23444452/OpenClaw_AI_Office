@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-07T15:04:30+08:00",
-  "totalTasks": 54,
-  "totalTokens": 523847,
-  "totalCost": 18.67,
-  "totalSavings": 19450,
+  "lastUpdate": "2026-02-07T15:35:25+08:00",
+  "totalTasks": 14,
+  "totalTokens": 391058,
+  "totalCost": 1.89,
+  "totalSavings": 4200,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 32,
-      "tokens": 298143,
-      "cost": 10.12,
-      "savings": 11800,
+      "tasks": 7,
+      "tokens": 197508,
+      "cost": 0.68,
+      "savings": 2100,
       "efficiency": "99.7%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 14,
-      "tokens": 91627,
-      "cost": 3.75,
-      "savings": 4250,
+      "tasks": 3,
+      "tokens": 63312,
+      "cost": 0.31,
+      "savings": 900,
       "efficiency": "99.5%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研", 
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 8,
-      "tokens": 133095,
-      "cost": 4.01,
-      "savings": 3400,
+      "tasks": 2,
+      "tokens": 72522,
+      "cost": 0.42,
+      "savings": 600,
       "efficiency": "99.4%",
       "status": "active"
     },
@@ -70,10 +70,10 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 5,
-      "tokens": 67776,
-      "cost": 2.79,
-      "savings": 1250,
+      "tasks": 2,
+      "tokens": 57616,
+      "cost": 0.48,
+      "savings": 600,
       "efficiency": "99.9%",
       "status": "active"
     }
@@ -84,9 +84,9 @@
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "timestamp": 1770447874554,
-      "status": "running", 
-      "cost": 0.080
+      "timestamp": 1770449725813,
+      "status": "completed", 
+      "cost": 0.081
     },
     {
       "id": "us-stock-weekly-report",
@@ -171,21 +171,18 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 23,
+    "avgTaskTime": 18,
     "successRate": 100,
-    "costPerTask": 0.35,
-    "totalHours": 418,
-    "automationLevel": 99.8
+    "costPerTask": 0.14,
+    "totalHours": 42,
+    "automationLevel": 99.6
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-01", "tasks": 3, "cost": 0.89, "savings": 600},
-      {"date": "2026-02-02", "tasks": 6, "cost": 1.58, "savings": 1200},
-      {"date": "2026-02-03", "tasks": 11, "cost": 2.94, "savings": 2350},
-      {"date": "2026-02-04", "tasks": 18, "cost": 4.67, "savings": 3900},
-      {"date": "2026-02-05", "tasks": 26, "cost": 7.23, "savings": 6200}, 
-      {"date": "2026-02-06", "tasks": 41, "cost": 12.89, "savings": 12100},
-      {"date": "2026-02-07", "tasks": 54, "cost": 18.67, "savings": 19450}
+      {"date": "2026-02-04", "tasks": 1, "cost": 0.12, "savings": 300},
+      {"date": "2026-02-05", "tasks": 4, "cost": 0.43, "savings": 1200},
+      {"date": "2026-02-06", "tasks": 9, "cost": 1.34, "savings": 2700},
+      {"date": "2026-02-07", "tasks": 14, "cost": 1.89, "savings": 4200}
     ]
   }
 }
