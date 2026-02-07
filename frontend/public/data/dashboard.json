@@ -1,20 +1,20 @@
 {
-  "lastUpdate": "2026-02-07T21:57:00+08:00",
-  "totalTasks": 14,
-  "totalTokens": 411909,
-  "totalCost": 1.72,
-  "totalSavings": 7200,
+  "lastUpdate": "2026-02-07T22:28:00+08:00",
+  "totalTasks": 23,
+  "totalTokens": 738429,
+  "totalCost": 2.85,
+  "totalSavings": 12800,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 7,
-      "tokens": 197508,
-      "cost": 0.82,
-      "savings": 2800,
-      "efficiency": "99.6%",
+      "tasks": 9,
+      "tokens": 348750,
+      "cost": 1.21,
+      "savings": 4850,
+      "efficiency": "99.8%",
       "status": "active"
     },
     {
@@ -22,11 +22,11 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 3,
-      "tokens": 63312,
-      "cost": 0.26,
-      "savings": 1200,
-      "efficiency": "99.8%",
+      "tasks": 4,
+      "tokens": 88926,
+      "cost": 0.39,
+      "savings": 1650,
+      "efficiency": "99.9%",
       "status": "active"
     },
     {
@@ -34,11 +34,11 @@
       "name": "研研", 
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 2,
-      "tokens": 72522,
-      "cost": 0.30,
-      "savings": 900,
-      "efficiency": "99.7%",
+      "tasks": 3,
+      "tokens": 114342,
+      "cost": 0.47,
+      "savings": 1450,
+      "efficiency": "99.8%",
       "status": "active"
     },
     {
@@ -70,23 +70,23 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 2,
-      "tokens": 78567,
-      "cost": 0.34,
-      "savings": 2300,
+      "tasks": 7,
+      "tokens": 186411,
+      "cost": 0.78,
+      "savings": 4850,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-07-2157",
+      "id": "dashboard-update-2026-02-07-2228",
       "name": "AI Office Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新", 
       "agent": "Lucy",
-      "timestamp": 1770472630028,
-      "lastRunAt": 1770472630028,
-      "status": "active", 
+      "timestamp": 1770474535872,
+      "lastRunAt": 1770474535872,
+      "status": "active",
       "cost": 0.081
     },
     {
@@ -211,17 +211,17 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 12,
+    "avgTaskTime": 11,
     "successRate": 100,
-    "costPerTask": 0.123,
-    "totalHours": 96,
-    "automationLevel": 99.7
+    "costPerTask": 0.124,
+    "totalHours": 144,
+    "automationLevel": 99.8
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-05", "tasks": 2, "cost": 0.145, "savings": 1100},
-      {"date": "2026-02-06", "tasks": 7, "cost": 0.623, "savings": 2800},
-      {"date": "2026-02-07", "tasks": 5, "cost": 0.952, "savings": 3300}
+      {"date": "2026-02-05", "tasks": 3, "cost": 0.145, "savings": 1100},
+      {"date": "2026-02-06", "tasks": 9, "cost": 0.823, "savings": 3800}, 
+      {"date": "2026-02-07", "tasks": 11, "cost": 1.882, "savings": 7900}
     ]
   }
 }
