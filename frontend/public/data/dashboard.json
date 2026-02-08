@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-08T07:58:00+08:00",
-  "totalTasks": 24,
-  "totalTokens": 347756,
-  "totalCost": 0.917,
-  "totalSavings": 3600,
+  "lastUpdate": "2026-02-08T08:29:00+08:00",
+  "totalTasks": 31,
+  "totalTokens": 389547,
+  "totalCost": 1.157,
+  "totalSavings": 4650,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 7,
-      "tokens": 197517,
-      "cost": 0.613,
-      "savings": 2100,
+      "tasks": 11,
+      "tokens": 241892,
+      "cost": 0.784,
+      "savings": 3300,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 1,
-      "tokens": 23735,
-      "cost": 0.086,
-      "savings": 300,
+      "tasks": 3,
+      "tokens": 64962,
+      "cost": 0.189,
+      "savings": 450,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研", 
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 2,
-      "tokens": 79040,
-      "cost": 0.114,
-      "savings": 600,
+      "tasks": 3,
+      "tokens": 124708,
+      "cost": 0.170,
+      "savings": 900,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -48,7 +48,7 @@
       "description": "Moltbook 社群管理",
       "tasks": 0,
       "tokens": 0,
-      "cost": 0.00,
+      "cost": 0.000,
       "savings": 0,
       "efficiency": "100%",
       "status": "standby"
@@ -60,7 +60,7 @@
       "description": "帳單管理專員", 
       "tasks": 0,
       "tokens": 0,
-      "cost": 0.00,
+      "cost": 0.000,
       "savings": 0,
       "efficiency": "100%",
       "status": "standby"
@@ -71,7 +71,7 @@
       "avatar": "✨",
       "description": "AI 助理主管",
       "tasks": 14,
-      "tokens": 72464,
+      "tokens": 72423,
       "cost": 0.104,
       "savings": 600,
       "efficiency": "99.9%",
@@ -80,14 +80,24 @@
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-08-0758",
+      "id": "dashboard-update-2026-02-08-0829",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新", 
       "agent": "Lucy",
-      "timestamp": 1770508684942,
-      "lastRunAt": 1770508684942,
-      "status": "running",
-      "cost": 0.081
+      "timestamp": 1770510558173,
+      "lastRunAt": 1770510558173,
+      "status": "completed",
+      "cost": 0.082
+    },
+    {
+      "id": "ai-news-daily-2026-02-08-0800",
+      "name": "AI 新聞日報｜2026 年 2 月 8 日",
+      "title": "AI 新聞日報｜2026 年 2 月 8 日",
+      "agent": "阿新",
+      "timestamp": 1770508800117,
+      "lastRunAt": 1770508800117,
+      "status": "completed",
+      "cost": 0.109
     },
     {
       "id": "nightly-build-2026-02-08-0300",
@@ -188,30 +198,20 @@
       "lastRunAt": 1770340500102,
       "status": "completed",
       "cost": 0.059
-    },
-    {
-      "id": "us-stock-simulation-day3-2026-02-06",
-      "name": "美股模擬投資 Day 3 績效報告",
-      "title": "美股模擬投資 Day 3 績效報告",
-      "agent": "小財",
-      "timestamp": 1770328800089,
-      "lastRunAt": 1770328800089,
-      "status": "completed",
-      "cost": 0.033
     }
   ],
   "metrics": {
-    "avgTaskTime": 3.2,
+    "avgTaskTime": 3.1,
     "successRate": 100,
-    "costPerTask": 0.038,
-    "totalHours": 72,
+    "costPerTask": 0.037,
+    "totalHours": 96,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-06", "tasks": 6, "cost": 0.417, "savings": 1800},
-      {"date": "2026-02-07", "tasks": 3, "cost": 0.282, "savings": 900},
-      {"date": "2026-02-08", "tasks": 15, "cost": 0.218, "savings": 900}
+      {"date": "2026-02-06", "tasks": 8, "cost": 0.542, "savings": 2400},
+      {"date": "2026-02-07", "tasks": 4, "cost": 0.346, "savings": 1200},
+      {"date": "2026-02-08", "tasks": 19, "cost": 0.269, "savings": 1050}
     ]
   }
 }
