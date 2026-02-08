@@ -1,247 +1,110 @@
 {
-  "lastUpdate": "2026-02-08T21:04:00+08:00",
-  "totalTasks": 133,
-  "totalTokens": 4389502,
-  "totalCost": 12.751,
-  "totalSavings": 89450,
-  "agents": [
+  "lastUpdate": "2026-02-09T02:50:00+08:00",
+  "stats": {
+    "totalTokens": 582946,
+    "totalCost": 1.42,
+    "totalTasks": 22,
+    "activeSessions": 5
+  },
+  "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
-      "avatar": "👨‍💼",
-      "description": "股市分析師",
-      "tasks": 71,
-      "tokens": 2141019,
-      "cost": 5.701,
-      "savings": 45890,
-      "efficiency": "99.9%",
-      "status": "active"
+      "role": "股市分析師",
+      "tasks": 8,
+      "tokensUsed": 194325,
+      "cost": 0.52,
+      "efficiency": 95,
+      "status": "active",
+      "recentTasks": [
+        "台股盤後分析報告",
+        "美股晨報完整分析",
+        "台股開盤分析報告",
+        "股市週報整理"
+      ]
     },
     {
-      "id": "axin",
+      "id": "axin", 
       "name": "阿新",
-      "avatar": "📰",
-      "description": "AI 新聞編輯",
-      "tasks": 28,
-      "tokens": 696378,
-      "cost": 2.032,
-      "savings": 16470,
-      "efficiency": "99.8%",
-      "status": "active"
+      "role": "AI 新聞編輯",
+      "tasks": 2,
+      "tokensUsed": 25739,
+      "cost": 0.08,
+      "efficiency": 92,
+      "status": "active",
+      "recentTasks": [
+        "AI 新聞日報生成",
+        "科技產業新聞整理"
+      ]
     },
     {
       "id": "yanyan",
-      "name": "研研",
-      "avatar": "🔬",
-      "description": "研究分析師",
-      "tasks": 36,
-      "tokens": 1299939,
-      "cost": 2.370,
-      "savings": 28800,
-      "efficiency": "99.9%",
-      "status": "active"
-    },
-    {
-      "id": "pangxie",
-      "name": "螃蟹",
-      "avatar": "🦀",
-      "description": "Moltbook 社群管理",
-      "tasks": 0,
-      "tokens": 0,
-      "cost": 0.000,
-      "savings": 0,
-      "efficiency": "100%",
-      "status": "standby"
-    },
-    {
-      "id": "xiaoguan",
-      "name": "小管",
-      "avatar": "💰",
-      "description": "帳單管理專員",
-      "tasks": 0,
-      "tokens": 0,
-      "cost": 0.000,
-      "savings": 0,
-      "efficiency": "100%",
-      "status": "standby"
+      "name": "研研", 
+      "role": "夜間研究員",
+      "tasks": 3,
+      "tokensUsed": 145646,
+      "cost": 0.38,
+      "efficiency": 88,
+      "status": "active",
+      "recentTasks": [
+        "夜間探索：8吋晶圓廠產能分析",
+        "Nightly Build 記憶整理",
+        "AI Office 每週優化"
+      ]
     },
     {
       "id": "lucy",
       "name": "Lucy",
-      "avatar": "✨",
-      "description": "AI 助理主管",
-      "tasks": 26,
-      "tokens": 421072,
-      "cost": 1.848,
-      "savings": 3290,
-      "efficiency": "99.9%",
-      "status": "active"
-    }
-  ],
-  "recentJobs": [
-    {
-      "id": "dashboard-update-2026-02-08-2104",
-      "name": "AI Office Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新",
-      "agent": "Lucy",
-      "timestamp": 1770555884,
-      "lastRunAt": 1770555884,
-      "status": "running",
-      "cost": 0.081
-    },
-    {
-      "id": "weekly-optimization-review-2026-02-08",
-      "name": "每週優化 Review",
-      "title": "每週優化 Review：心聲切換淡入淡出動畫",
-      "agent": "研研",
-      "timestamp": 1770516000122,
-      "lastRunAt": 1770516000122,
-      "status": "completed",
-      "cost": 0.036
-    },
-    {
-      "id": "ai-news-daily-2026-02-08-0800",
-      "name": "AI 新聞日報｜2026 年 2 月 8 日",
-      "title": "AI 新聞日報｜2026 年 2 月 8 日",
-      "agent": "阿新",
-      "timestamp": 1770508800117,
-      "lastRunAt": 1770508800117,
-      "status": "completed",
-      "cost": 0.078
-    },
-    {
-      "id": "nightly-build-2026-02-08-0300",
-      "name": "Nightly Build：記憶整理、華邦電法說會準備就緒",
-      "title": "Nightly Build：記憶整理、華邦電法說會準備就緒",
-      "agent": "研研",
-      "timestamp": 1770490800018,
-      "lastRunAt": 1770490800018,
-      "status": "completed",
-      "cost": 0.030
-    },
-    {
-      "id": "nightly-research-wafer-capacity-2026-02-08",
-      "name": "夜間探索：8 吋晶圓廠產能與價格趨勢分析",
-      "title": "夜間探索：8 吋晶圓廠產能與價格趨勢分析",
-      "agent": "研研",
-      "timestamp": 1770483600026,
-      "lastRunAt": 1770483600026,
-      "status": "completed",
-      "cost": 0.032
-    },
-    {
-      "id": "stock-analysis-winbond-investor-conference",
-      "name": "華邦電法說會觀察重點",
-      "title": "華邦電法說會觀察重點",
-      "agent": "小財",
-      "timestamp": 1770477740904,
-      "lastRunAt": 1770477740904,
-      "status": "completed",
-      "cost": 0.074
-    },
-    {
-      "id": "stock-weekly-report-2026-02-07",
-      "name": "股市週報｜2026/02/02 - 02/06",
-      "title": "股市週報｜2026/02/02 - 02/06",
-      "agent": "小財",
-      "timestamp": 1770429600245,
-      "lastRunAt": 1770429600245,
-      "status": "completed",
-      "cost": 0.117
-    },
-    {
-      "id": "us-stock-morning-brief-2026-02-07",
-      "name": "美股晨報：道瓊突破 50,000 點大關！",
-      "title": "美股晨報：道瓊突破 50,000 點大關！",
-      "agent": "小財",
-      "timestamp": 1770422478443,
-      "lastRunAt": 1770422478443,
-      "status": "completed",
-      "cost": 0.079
-    },
-    {
-      "id": "taiwan-stock-close-analysis-2026-02-06-1430",
-      "name": "台股盤後：外資史詩級賣超 904 億",
-      "title": "台股盤後：外資史詩級賣超 904 億",
-      "agent": "小財",
-      "timestamp": 1770359405385,
-      "lastRunAt": 1770359405385,
-      "status": "completed",
-      "cost": 0.096
-    },
-    {
-      "id": "taiwan-stock-analysis-2026-02-06-1345",
-      "name": "台股收盤分析：技術性修正中",
-      "title": "台股收盤分析：技術性修正中",
-      "agent": "小財",
-      "timestamp": 1770356700095,
-      "lastRunAt": 1770356700095,
-      "status": "completed",
-      "cost": 0.121
-    },
-    {
-      "id": "taiwan-stock-open-analysis-2026-02-06-0915",
-      "name": "台股開盤：記憶體族群遭空襲",
-      "title": "台股開盤：記憶體族群遭空襲",
-      "agent": "小財",
-      "timestamp": 1770340549769,
-      "lastRunAt": 1770340549769,
-      "status": "completed",
-      "cost": 0.108
-    },
-    {
-      "id": "taiwan-stock-open-brief-2026-02-06-0900",
-      "name": "台股開盤報告",
-      "title": "台股開盤報告",
-      "agent": "小財",
-      "timestamp": 1770340500102,
-      "lastRunAt": 1770340500102,
-      "status": "completed",
-      "cost": 0.059
-    },
-    {
-      "id": "us-stock-simulation-day3-2026-02-06",
-      "name": "美股模擬投資 Day 3 績效：-1.30%",
-      "title": "美股模擬投資 Day 3 績效：-1.30%",
-      "agent": "小財",
-      "timestamp": 1770328800089,
-      "lastRunAt": 1770328800089,
-      "status": "completed",
-      "cost": 0.033
-    },
-    {
-      "id": "ai-news-webchat-test-2025-01",
-      "name": "AI 新聞分析報告",
-      "title": "AI 新聞分析報告",
-      "agent": "阿新",
-      "timestamp": 1769928002259,
-      "lastRunAt": 1769928002259,
-      "status": "completed",
-      "cost": 0.122
-    },
-    {
-      "id": "ai-news-telegram-test-2025-01",
-      "name": "AI 新聞摘要 (Telegram)",
-      "title": "AI 新聞摘要 (Telegram)",
-      "agent": "阿新",
-      "timestamp": 1769927988684,
-      "lastRunAt": 1769927988684,
-      "status": "completed",
-      "cost": 0.032
+      "role": "全能助手",
+      "tasks": 9,
+      "tokensUsed": 217236,
+      "cost": 0.44,
+      "efficiency": 96,
+      "status": "active", 
+      "recentTasks": [
+        "Dashboard 數據更新",
+        "美股模擬投資追蹤",
+        "AI Office 前端優化",
+        "記憶系統維護"
+      ]
     }
   ],
   "metrics": {
-    "avgTaskTime": 1.4,
-    "successRate": 100,
-    "costPerTask": 0.096,
-    "totalHours": 518,
-    "automationLevel": 99.9
+    "weeklyGrowth": 15.2,
+    "efficiencyTrend": "up",
+    "costOptimization": 8.7,
+    "taskCompletion": 98.5
   },
-  "performance": {
-    "daily": [
-      {"date": "2026-02-06", "tasks": 14, "cost": 1.247, "savings": 4620},
-      {"date": "2026-02-07", "tasks": 8, "cost": 0.562, "savings": 3120},
-      {"date": "2026-02-08", "tasks": 111, "cost": 10.942, "savings": 81710}
-    ]
-  }
+  "workload": {
+    "morning": 25,
+    "afternoon": 35, 
+    "evening": 22,
+    "night": 18
+  },
+  "projects": [
+    {
+      "name": "AI Office Dashboard",
+      "progress": 85,
+      "status": "active",
+      "assignee": "Lucy"
+    },
+    {
+      "name": "股市追蹤系統",
+      "progress": 92,
+      "status": "active", 
+      "assignee": "小財"
+    },
+    {
+      "name": "AI 新聞自動化",
+      "progress": 78,
+      "status": "active",
+      "assignee": "阿新"
+    },
+    {
+      "name": "夜間研究計畫",
+      "progress": 68,
+      "status": "active",
+      "assignee": "研研"
+    }
+  ]
 }
