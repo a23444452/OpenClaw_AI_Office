@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-09T00:45:00+08:00",
-  "totalTasks": 225,
-  "totalTokens": 7023234,
-  "totalCost": 20.76,
-  "totalSavings": 142300,
+  "lastUpdate": "2026-02-09T01:16:00+08:00",
+  "totalTasks": 248,
+  "totalTokens": 7518729,
+  "totalCost": 22.13,
+  "totalSavings": 152800,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 125,
-      "tokens": 3812669,
-      "cost": 10.98,
-      "savings": 75000,
+      "tasks": 132,
+      "tokens": 4107364,
+      "cost": 11.76,
+      "savings": 79200,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 39,
-      "tokens": 975474,
-      "cost": 2.88,
-      "savings": 24600,
+      "tasks": 42,
+      "tokens": 1020051,
+      "cost": 3.02,
+      "savings": 25200,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研",
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 57,
-      "tokens": 2200196,
-      "cost": 4.60,
-      "savings": 38100,
+      "tasks": 61,
+      "tokens": 2286957,
+      "cost": 4.98,
+      "savings": 40800,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -70,24 +70,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 4,
-      "tokens": 934895,
-      "cost": 2.30,
-      "savings": 4600,
+      "tasks": 13,
+      "tokens": 1104357,
+      "cost": 2.37,
+      "savings": 7600,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-09-0045",
+      "id": "dashboard-update-2026-02-09-0116",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "timestamp": 1770569104950,
-      "lastRunAt": 1770569104950,
+      "timestamp": 1770570992294,
+      "lastRunAt": 1770570992294,
+      "status": "running",
+      "cost": 0.081
+    },
+    {
+      "id": "nightly-research-wafer-analysis-2026-02-09",
+      "name": "夜間探索：8 吋晶圓完整分析",
+      "title": "夜間探索：8 吋晶圓廠產能趨勢分析（全球縮減 2.4%）",
+      "agent": "研研",
+      "timestamp": 1770570000025,
+      "lastRunAt": 1770570000025,
       "status": "completed",
-      "cost": 0.080
+      "cost": 0.054
     },
     {
       "id": "dashboard-update-2026-02-08-2342",
@@ -128,16 +138,6 @@
       "lastRunAt": 1770490800018,
       "status": "completed",
       "cost": 0.030
-    },
-    {
-      "id": "nightly-research-wafer-capacity-2026-02-08",
-      "name": "夜間探索：8 吋晶圓分析",
-      "title": "夜間探索：8 吋晶圓廠產能與價格趨勢分析",
-      "agent": "研研",
-      "timestamp": 1770483600026,
-      "lastRunAt": 1770483600026,
-      "status": "completed",
-      "cost": 0.056
     },
     {
       "id": "stock-weekly-report-2026-02-07",
@@ -203,15 +203,15 @@
   "metrics": {
     "avgTaskTime": 1.1,
     "successRate": 100,
-    "costPerTask": 0.092,
-    "totalHours": 762,
+    "costPerTask": 0.089,
+    "totalHours": 817,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-07", "tasks": 8, "cost": 0.562, "savings": 3120},
       {"date": "2026-02-08", "tasks": 184, "cost": 16.445, "savings": 115960},
-      {"date": "2026-02-09", "tasks": 33, "cost": 3.753, "savings": 23220}
+      {"date": "2026-02-09", "tasks": 56, "cost": 5.123, "savings": 33720}
     ]
   }
 }
