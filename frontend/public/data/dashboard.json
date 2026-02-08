@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-08T12:40:00+08:00",
-  "totalTasks": 23,
-  "totalTokens": 463657,
-  "totalCost": 1.245,
-  "totalSavings": 7700,
+  "lastUpdate": "2026-02-08T13:12:00+08:00",
+  "totalTasks": 29,
+  "totalTokens": 666247,
+  "totalCost": 1.582,
+  "totalSavings": 9840,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 13,
-      "tokens": 249139,
-      "cost": 0.657,
-      "savings": 4150,
+      "tasks": 14,
+      "tokens": 300770,
+      "cost": 0.701,
+      "savings": 4470,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 3,
-      "tokens": 65316,
-      "cost": 0.200,
-      "savings": 1090,
+      "tasks": 4,
+      "tokens": 93204,
+      "cost": 0.278,
+      "savings": 1530,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研",
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 3,
-      "tokens": 128196,
-      "cost": 0.122,
-      "savings": 2140,
+      "tasks": 6,
+      "tokens": 247764,
+      "cost": 0.244,
+      "savings": 3520,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -70,9 +70,9 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 4,
-      "tokens": 21006,
-      "cost": 0.266,
+      "tasks": 5,
+      "tokens": 24509,
+      "cost": 0.359,
       "savings": 320,
       "efficiency": "99.9%",
       "status": "active"
@@ -80,12 +80,12 @@
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-08-1240",
+      "id": "dashboard-update-2026-02-08-1312",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "timestamp": 1770525654051,
-      "lastRunAt": 1770525654051,
+      "timestamp": 1770527551756,
+      "lastRunAt": 1770527551756,
       "status": "running",
       "cost": 0.081
     },
@@ -97,7 +97,7 @@
       "timestamp": 1770516000122,
       "lastRunAt": 1770516000122,
       "status": "completed",
-      "cost": 0.036
+      "cost": 0.071
     },
     {
       "id": "ai-news-daily-2026-02-08-0800",
@@ -117,7 +117,7 @@
       "timestamp": 1770490800018,
       "lastRunAt": 1770490800018,
       "status": "completed",
-      "cost": 0.030
+      "cost": 0.057
     },
     {
       "id": "nightly-research-wafer-capacity-2026-02-08",
@@ -213,15 +213,15 @@
   "metrics": {
     "avgTaskTime": 3.2,
     "successRate": 100,
-    "costPerTask": 0.054,
-    "totalHours": 77,
+    "costPerTask": 0.055,
+    "totalHours": 94,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-06", "tasks": 8, "cost": 0.742, "savings": 2100},
       {"date": "2026-02-07", "tasks": 3, "cost": 0.240, "savings": 980},
-      {"date": "2026-02-08", "tasks": 12, "cost": 0.263, "savings": 4620}
+      {"date": "2026-02-08", "tasks": 18, "cost": 0.600, "savings": 6760}
     ]
   }
 }
