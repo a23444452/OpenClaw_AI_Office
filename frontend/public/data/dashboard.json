@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-08T14:47:00+08:00",
-  "totalTasks": 28,
-  "totalTokens": 915650,
-  "totalCost": 2.385,
-  "totalSavings": 17850,
+  "lastUpdate": "2026-02-08T15:18:00+08:00",
+  "totalTasks": 35,
+  "totalTokens": 1247563,
+  "totalCost": 3.247,
+  "totalSavings": 24850,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 14,
-      "tokens": 425783,
-      "cost": 1.089,
-      "savings": 8670,
+      "tasks": 18,
+      "tokens": 634728,
+      "cost": 1.685,
+      "savings": 12360,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 4,
-      "tokens": 98197,
-      "cost": 0.267,
-      "savings": 2850,
+      "tasks": 6,
+      "tokens": 185492,
+      "cost": 0.498,
+      "savings": 4920,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研",
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 7,
-      "tokens": 382780,
-      "cost": 0.824,
-      "savings": 6180,
+      "tasks": 9,
+      "tokens": 421673,
+      "cost": 0.892,
+      "savings": 7380,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -70,24 +70,24 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 3,
-      "tokens": 8890,
-      "cost": 0.205,
-      "savings": 150,
+      "tasks": 2,
+      "tokens": 5670,
+      "cost": 0.172,
+      "savings": 190,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-08-1447",
+      "id": "dashboard-update-2026-02-08-1518",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "timestamp": 1770533242864,
-      "lastRunAt": 1770533242864,
+      "timestamp": 1770535114569,
+      "lastRunAt": 1770535114569,
       "status": "running",
-      "cost": 0.081
+      "cost": 0.080
     },
     {
       "id": "weekly-optimization-review-2026-02-08",
@@ -97,7 +97,7 @@
       "timestamp": 1770516000122,
       "lastRunAt": 1770516000122,
       "status": "completed",
-      "cost": 0.035
+      "cost": 0.034
     },
     {
       "id": "ai-news-daily-2026-02-08-0800",
@@ -111,8 +111,8 @@
     },
     {
       "id": "nightly-build-2026-02-08-0300",
-      "name": "Nightly Build：整理記憶檔案",
-      "title": "Nightly Build：整理記憶檔案",
+      "name": "Nightly Build：記憶整理、華邦電法說會準備就緒",
+      "title": "Nightly Build：記憶整理、華邦電法說會準備就緒",
       "agent": "研研",
       "timestamp": 1770490800018,
       "lastRunAt": 1770490800018,
@@ -137,7 +137,7 @@
       "timestamp": 1770477740904,
       "lastRunAt": 1770477740904,
       "status": "completed",
-      "cost": 0.044
+      "cost": 0.074
     },
     {
       "id": "stock-weekly-report-2026-02-07",
@@ -151,8 +151,8 @@
     },
     {
       "id": "us-stock-morning-brief-2026-02-07",
-      "name": "美股晨報完整分析",
-      "title": "美股晨報完整分析",
+      "name": "美股晨報：道瓊突破 50,000 點大關！",
+      "title": "美股晨報：道瓊突破 50,000 點大關！",
       "agent": "小財",
       "timestamp": 1770422478443,
       "lastRunAt": 1770422478443,
@@ -160,19 +160,9 @@
       "cost": 0.079
     },
     {
-      "id": "us-stock-simulation-update-2026-02-06",
-      "name": "美股模擬投資 Day 3 績效報告",
-      "title": "美股模擬投資 Day 3 績效報告", 
-      "agent": "小財",
-      "timestamp": 1770328800089,
-      "lastRunAt": 1770328800089,
-      "status": "completed",
-      "cost": 0.033
-    },
-    {
-      "id": "taiwan-stock-close-analysis-2026-02-06",
-      "name": "台股盤後完整分析報告",
-      "title": "台股盤後完整分析報告",
+      "id": "taiwan-stock-close-analysis-2026-02-06-1430",
+      "name": "台股盤後：外資史詩級賣超 904 億",
+      "title": "台股盤後：外資史詩級賣超 904 億",
       "agent": "小財",
       "timestamp": 1770359405385,
       "lastRunAt": 1770359405385,
@@ -180,9 +170,9 @@
       "cost": 0.096
     },
     {
-      "id": "taiwan-stock-analysis-2026-02-06",
-      "name": "台股收盤分析報告",
-      "title": "台股收盤分析報告",
+      "id": "taiwan-stock-analysis-2026-02-06-1345",
+      "name": "台股收盤分析：技術性修正中",
+      "title": "台股收盤分析：技術性修正中",
       "agent": "小財",
       "timestamp": 1770356700095,
       "lastRunAt": 1770356700095,
@@ -190,28 +180,38 @@
       "cost": 0.121
     },
     {
-      "id": "taiwan-stock-open-analysis-2026-02-06",
-      "name": "台股開盤完整分析報告",
-      "title": "台股開盤完整分析報告", 
+      "id": "taiwan-stock-open-analysis-2026-02-06-0915",
+      "name": "台股開盤：記憶體族群遭空襲",
+      "title": "台股開盤：記憶體族群遭空襲",
       "agent": "小財",
       "timestamp": 1770340549769,
       "lastRunAt": 1770340549769,
       "status": "completed",
       "cost": 0.108
+    },
+    {
+      "id": "us-stock-simulation-day3-2026-02-06",
+      "name": "美股模擬投資 Day 3 績效：-1.30%",
+      "title": "美股模擬投資 Day 3 績效：-1.30%", 
+      "agent": "小財",
+      "timestamp": 1770328800089,
+      "lastRunAt": 1770328800089,
+      "status": "completed",
+      "cost": 0.033
     }
   ],
   "metrics": {
-    "avgTaskTime": 2.6,
+    "avgTaskTime": 2.4,
     "successRate": 100,
-    "costPerTask": 0.085,
-    "totalHours": 126,
+    "costPerTask": 0.093,
+    "totalHours": 184,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-06", "tasks": 9, "cost": 0.875, "savings": 2850},
-      {"date": "2026-02-07", "tasks": 4, "cost": 0.324, "savings": 1680},
-      {"date": "2026-02-08", "tasks": 15, "cost": 1.186, "savings": 13320}
+      {"date": "2026-02-06", "tasks": 12, "cost": 1.142, "savings": 3960},
+      {"date": "2026-02-07", "tasks": 6, "cost": 0.487, "savings": 2580},
+      {"date": "2026-02-08", "tasks": 17, "cost": 1.618, "savings": 18310}
     ]
   }
 }
