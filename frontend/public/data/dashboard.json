@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-09T00:13:00+08:00",
-  "totalTasks": 214,
-  "totalTokens": 6547892,
-  "totalCost": 19.573,
-  "totalSavings": 128420,
+  "lastUpdate": "2026-02-09T00:45:00+08:00",
+  "totalTasks": 225,
+  "totalTokens": 7023234,
+  "totalCost": 20.76,
+  "totalSavings": 142300,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 119,
-      "tokens": 3612441,
-      "cost": 10.234,
-      "savings": 72100,
+      "tasks": 125,
+      "tokens": 3812669,
+      "cost": 10.98,
+      "savings": 75000,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 38,
-      "tokens": 949735,
-      "cost": 2.798,
-      "savings": 24200,
+      "tasks": 39,
+      "tokens": 975474,
+      "cost": 2.88,
+      "savings": 24600,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研",
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 54,
-      "tokens": 2075104,
-      "cost": 4.406,
-      "savings": 36600,
+      "tasks": 57,
+      "tokens": 2200196,
+      "cost": 4.60,
+      "savings": 38100,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -48,7 +48,7 @@
       "description": "Moltbook 社群管理",
       "tasks": 0,
       "tokens": 0,
-      "cost": 0.000,
+      "cost": 0.00,
       "savings": 0,
       "efficiency": "100%",
       "status": "standby"
@@ -60,7 +60,7 @@
       "description": "帳單管理專員",
       "tasks": 0,
       "tokens": 0,
-      "cost": 0.000,
+      "cost": 0.00,
       "savings": 0,
       "efficiency": "100%",
       "status": "standby"
@@ -70,22 +70,22 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 3,
-      "tokens": 910612,
-      "cost": 2.135,
-      "savings": 4520,
+      "tasks": 4,
+      "tokens": 934895,
+      "cost": 2.30,
+      "savings": 4600,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-09-0013",
+      "id": "dashboard-update-2026-02-09-0045",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "timestamp": 1770567231856,
-      "lastRunAt": 1770567231856,
+      "timestamp": 1770569104950,
+      "lastRunAt": 1770569104950,
       "status": "completed",
       "cost": 0.080
     },
@@ -203,15 +203,15 @@
   "metrics": {
     "avgTaskTime": 1.1,
     "successRate": 100,
-    "costPerTask": 0.091,
-    "totalHours": 746,
+    "costPerTask": 0.092,
+    "totalHours": 762,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-07", "tasks": 8, "cost": 0.562, "savings": 3120},
       {"date": "2026-02-08", "tasks": 184, "cost": 16.445, "savings": 115960},
-      {"date": "2026-02-09", "tasks": 22, "cost": 2.566, "savings": 9340}
+      {"date": "2026-02-09", "tasks": 33, "cost": 3.753, "savings": 23220}
     ]
   }
 }
