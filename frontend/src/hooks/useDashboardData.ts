@@ -13,7 +13,8 @@ interface ApiCharacterStats {
 }
 
 interface ApiDashboardData {
-  updatedAt: string;
+  updatedAt?: string;
+  lastUpdate?: string;  // JSON 使用的欄位名
   totalStats: {
     totalTasks: number;
     totalCompleted: number;
@@ -119,7 +120,7 @@ export function useDashboardData(): UseDashboardDataResult {
     characters,
     stats,
     recentJobs: apiData?.recentJobs || [],
-    updatedAt: apiData?.updatedAt || null,
+    updatedAt: apiData?.updatedAt || apiData?.lastUpdate || null,
     isLoading,
     error,
     refresh: fetchData,
