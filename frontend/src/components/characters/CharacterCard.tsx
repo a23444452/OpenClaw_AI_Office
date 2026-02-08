@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import type { Character } from '../../data/types';
 
 interface CharacterCardProps {
@@ -8,7 +8,9 @@ interface CharacterCardProps {
 
 export const CharacterCard: React.FC<CharacterCardProps> = ({ character, onClick }) => {
   const [currentVoice, setCurrentVoice] = useState('');
+  const [isTransitioning, setIsTransitioning] = useState(false);
   const [voiceCategory, setVoiceCategory] = useState<'idle' | 'working' | 'happy' | 'tired'>('idle');
+  const voiceIndexRef = useRef(0);
 
   // 根據狀態選擇心聲類別
   useEffect(() => {
@@ -26,17 +28,32 @@ export const CharacterCard: React.FC<CharacterCardProps> = ({ character, onClick
     }
   }, [character]);
 
-  // 隨機選擇心聲
+  // 初始化心聲
   useEffect(() => {
     const voices = character.voices[voiceCategory];
-    const randomVoice = voices[Math.floor(Math.random() * voices.length)];
-    setCurrentVoice(randomVoice);
+    voiceIndexRef.current = Math.floor(Math.random() * voices.length);
+    setCurrentVoice(voices[voiceIndexRef.current]);
+  }, [character.voices, voiceCategory]);
 
-    // 每 10 秒換一次心聲
+  // 帶淡入淡出的心聲切換
+  useEffect(() => {
+    const voices = character.voices[voiceCategory];
+    
     const interval = setInterval(() => {
-      const newVoice = voices[Math.floor(Math.random() * voices.length)];
-      setCurrentVoice(newVoice);
-    }, 10000);
+      // 1. 開始淡出
+      setIsTransitioning(true);
+      
+      // 2. 淡出結束後切換內容並淡入
+      setTimeout(() => {
+        voiceIndexRef.current = (voiceIndexRef.current + 1) % voices.length;
+        setCurrentVoice(voices[voiceIndexRef.current]);
+        
+        // 3. 短暫延遲後開始淡入
+        requestAnimationFrame(() => {
+          setIsTransitioning(false);
+        });
+      }, 350);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, [character.voices, voiceCategory]);
@@ -72,10 +89,24 @@ export const CharacterCard: React.FC<CharacterCardProps> = ({ character, onClick
         </div>
       </div>
 
-      {/* 心聲泡泡 */}
-      <div className="bg-[#1a1a2e] rounded-lg p-2 sm:p-3 mb-3 sm:mb-4 relative">
+      {/* 心聲泡泡 - 帶淡入淡出動畫 */}
+      <div className="bg-[#1a1a2e] rounded-lg p-2 sm:p-3 mb-3 sm:mb-4 relative overflow-hidden">
         <div className="absolute -top-2 left-4 w-0 h-0 border-l-[6px] sm:border-l-8 border-r-[6px] sm:border-r-8 border-b-[6px] sm:border-b-8 border-transparent border-b-[#1a1a2e]"></div>
-        <p className="text-[10px] sm:text-xs md:text-sm text-gray-300 italic">"{currentVoice}"</p>
+        <p 
+          className={`text-[10px] sm:text-xs md:text-sm text-gray-300 italic transition-all duration-300 ease-in-out ${
+            isTransitioning ? 'opacity-0 translate-y-1' : 'opacity-100 translate-y-0'
+          }`}
+        >
+          "{currentVoice}"
+        </p>
+        {/* 打字效果指示器 */}
+        {isTransitioning && (
+          <div className="absolute bottom-2 right-3 flex gap-0.5">
+            <span className="w-1 h-1 bg-gray-500 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
+            <span className="w-1 h-1 bg-gray-500 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
+            <span className="w-1 h-1 bg-gray-500 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+          </div>
+        )}
       </div>
 
       {/* 統計數據 */}
