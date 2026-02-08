@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2026-02-08T12:09:00+08:00",
-  "totalTasks": 77,
-  "totalTokens": 1412148,
-  "totalCost": 4.133,
-  "totalSavings": 15450,
+  "lastUpdate": "2026-02-08T12:40:00+08:00",
+  "totalTasks": 23,
+  "totalTokens": 463657,
+  "totalCost": 1.245,
+  "totalSavings": 7700,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 39,
-      "tokens": 867381,
-      "cost": 2.762,
-      "savings": 10400,
+      "tasks": 13,
+      "tokens": 249139,
+      "cost": 0.657,
+      "savings": 4150,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 14,
-      "tokens": 326761,
-      "cost": 0.945,
-      "savings": 2750,
+      "tasks": 3,
+      "tokens": 65316,
+      "cost": 0.200,
+      "savings": 1090,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研",
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 18,
-      "tokens": 679183,
-      "cost": 0.836,
-      "savings": 4550,
+      "tasks": 3,
+      "tokens": 128196,
+      "cost": 0.122,
+      "savings": 2140,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -70,33 +70,23 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 8,
-      "tokens": 214362,
-      "cost": 0.546,
-      "savings": 1450,
+      "tasks": 4,
+      "tokens": 21006,
+      "cost": 0.266,
+      "savings": 320,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-08-1209",
+      "id": "dashboard-update-2026-02-08-1240",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "timestamp": 1770523780080,
-      "lastRunAt": 1770523780080,
+      "timestamp": 1770525654051,
+      "lastRunAt": 1770525654051,
       "status": "running",
-      "cost": 0.081
-    },
-    {
-      "id": "dashboard-update-2026-02-08-1138",
-      "name": "AI Office Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新",
-      "agent": "Lucy",
-      "timestamp": 1770521911927,
-      "lastRunAt": 1770521911927,
-      "status": "completed",
       "cost": 0.081
     },
     {
@@ -190,6 +180,26 @@
       "cost": 0.121
     },
     {
+      "id": "taiwan-stock-open-analysis-2026-02-06",
+      "name": "台股開盤完整分析報告",
+      "title": "台股開盤完整分析報告", 
+      "agent": "小財",
+      "timestamp": 1770340549769,
+      "lastRunAt": 1770340549769,
+      "status": "completed",
+      "cost": 0.108
+    },
+    {
+      "id": "taiwan-stock-open-brief-2026-02-06",
+      "name": "台股開盤報告",
+      "title": "台股開盤報告",
+      "agent": "小財",
+      "timestamp": 1770340500102,
+      "lastRunAt": 1770340500102,
+      "status": "completed",
+      "cost": 0.059
+    },
+    {
       "id": "us-stock-simulation-day3-2026-02-06",
       "name": "美股模擬投資 Day 3 績效報告",
       "title": "美股模擬投資 Day 3 績效報告",
@@ -201,17 +211,17 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 2.3,
+    "avgTaskTime": 3.2,
     "successRate": 100,
     "costPerTask": 0.054,
-    "totalHours": 184,
+    "totalHours": 77,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
-      {"date": "2026-02-06", "tasks": 12, "cost": 0.742, "savings": 3000},
-      {"date": "2026-02-07", "tasks": 5, "cost": 0.398, "savings": 1400},
-      {"date": "2026-02-08", "tasks": 12, "cost": 0.537, "savings": 2800}
+      {"date": "2026-02-06", "tasks": 8, "cost": 0.742, "savings": 2100},
+      {"date": "2026-02-07", "tasks": 3, "cost": 0.240, "savings": 980},
+      {"date": "2026-02-08", "tasks": 12, "cost": 0.263, "savings": 4620}
     ]
   }
 }
