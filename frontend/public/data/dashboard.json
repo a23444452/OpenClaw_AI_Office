@@ -1,62 +1,64 @@
 {
-  "lastUpdate": "2026-02-09T04:24:00+08:00",
+  "lastUpdate": "2026-02-09T04:55:00+08:00",
   "stats": {
-    "totalTokens": 562847,
-    "totalCost": 1.89,
-    "totalTasks": 24,
-    "activeSessions": 8,
-    "totalSaved": 2814.24
+    "totalTokens": 681245,
+    "totalCost": 2.14,
+    "totalTasks": 28,
+    "activeSessions": 12,
+    "totalSaved": 3406.23
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 10,
-      "tokensUsed": 238567,
-      "cost": 0.79,
-      "saved": 1192.84,
-      "efficiency": 96,
+      "tasks": 12,
+      "tokensUsed": 295847,
+      "cost": 0.91,
+      "saved": 1479.24,
+      "efficiency": 97,
       "status": "active",
       "recentTasks": [
         "美股模擬投資 Day 3 績效",
-        "股市週報 2026/02/02-02/06",
-        "台股盤後分析 2026/02/06", 
+        "股市週報 2026/02/02-02/06", 
+        "台股盤後分析 2026/02/06",
         "台股收盤分析 2026/02/06",
-        "台股開盤報告 2026/02/06",
-        "美股晨報 2026/02/07"
+        "台股開盤完整分析 2026/02/06",
+        "美股晨報完整分析 2026/02/07"
       ]
     },
     {
       "id": "axin", 
       "name": "阿新",
       "role": "AI 新聞編輯",
-      "tasks": 3,
-      "tokensUsed": 44889,
-      "cost": 0.13,
-      "saved": 224.45,
-      "efficiency": 93,
+      "tasks": 4,
+      "tokensUsed": 52103,
+      "cost": 0.15,
+      "saved": 260.52,
+      "efficiency": 94,
       "status": "active",
       "recentTasks": [
         "AI 新聞日報 2026-02-08",
         "AI 新聞摘要 Telegram",
-        "AI 產業分析報告"
+        "AI 產業最新動態分析", 
+        "GitHub AI 專案監控"
       ]
     },
     {
       "id": "yanyan",
       "name": "研研", 
       "role": "夜間研究員",
-      "tasks": 3,
-      "tokensUsed": 105723,
-      "cost": 0.32,
-      "saved": 528.62,
-      "efficiency": 89,
+      "tasks": 4,
+      "tokensUsed": 124536,
+      "cost": 0.38,
+      "saved": 622.68,
+      "efficiency": 91,
       "status": "active",
       "recentTasks": [
         "夜間探索：8吋晶圓廠產能分析 2026-02-09",
-        "夜間探索：8吋晶圓廠產能分析 2026-02-08", 
-        "Nightly Build 記憶整理 2026-02-09"
+        "夜間探索：DRAM 合約價追蹤 2026-02-08", 
+        "Nightly Build 記憶整理 2026-02-09",
+        "AI Office Dashboard 研究"
       ]
     },
     {
@@ -88,16 +90,16 @@
       "name": "Lucy",
       "role": "全能助手",
       "tasks": 8,
-      "tokensUsed": 173668,
-      "cost": 0.65,
-      "saved": 868.33,
-      "efficiency": 97,
+      "tokensUsed": 208759,
+      "cost": 0.70,
+      "saved": 1043.79,
+      "efficiency": 98,
       "status": "active", 
       "recentTasks": [
         "Dashboard 數據更新 2026-02-09",
         "AI Office 每週優化 2026-02-08",
         "前端時間顯示修復",
-        "記憶系統維護",
+        "記憶系統維護", 
         "工作流程管理",
         "主要對話 session"
       ]
