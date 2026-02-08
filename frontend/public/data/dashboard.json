@@ -1,10 +1,11 @@
 {
-  "lastUpdate": "2026-02-09T02:50:00+08:00",
+  "lastUpdate": "2026-02-09T03:53:00+08:00",
   "stats": {
-    "totalTokens": 582946,
-    "totalCost": 1.42,
-    "totalTasks": 22,
-    "activeSessions": 5
+    "totalTokens": 485392,
+    "totalCost": 1.46,
+    "totalTasks": 18,
+    "activeSessions": 6,
+    "totalSaved": 2426.96
   },
   "employees": [
     {
@@ -12,99 +13,133 @@
       "name": "小財",
       "role": "股市分析師",
       "tasks": 8,
-      "tokensUsed": 194325,
-      "cost": 0.52,
+      "tokensUsed": 213627,
+      "cost": 0.64,
+      "saved": 1068.14,
       "efficiency": 95,
       "status": "active",
       "recentTasks": [
-        "台股盤後分析報告",
-        "美股晨報完整分析",
+        "美股模擬投資追蹤",
+        "股市週報整理", 
+        "台股收盤分析報告",
         "台股開盤分析報告",
-        "股市週報整理"
+        "美股晨報 2026-02-07"
       ]
     },
     {
       "id": "axin", 
       "name": "阿新",
       "role": "AI 新聞編輯",
-      "tasks": 2,
+      "tasks": 1,
       "tokensUsed": 25739,
       "cost": 0.08,
+      "saved": 128.70,
       "efficiency": 92,
       "status": "active",
       "recentTasks": [
-        "AI 新聞日報生成",
-        "科技產業新聞整理"
+        "AI 新聞日報 2026-02-08"
       ]
     },
     {
       "id": "yanyan",
       "name": "研研", 
       "role": "夜間研究員",
-      "tasks": 3,
-      "tokensUsed": 145646,
-      "cost": 0.38,
+      "tasks": 2,
+      "tokensUsed": 68613,
+      "cost": 0.21,
+      "saved": 343.07,
       "efficiency": 88,
       "status": "active",
       "recentTasks": [
         "夜間探索：8吋晶圓廠產能分析",
-        "Nightly Build 記憶整理",
-        "AI Office 每週優化"
+        "Nightly Build 記憶整理 2026-02-09"
       ]
+    },
+    {
+      "id": "pangxie",
+      "name": "螃蟹",
+      "role": "社群管理員", 
+      "tasks": 0,
+      "tokensUsed": 0,
+      "cost": 0.00,
+      "saved": 0.00,
+      "efficiency": 0,
+      "status": "idle",
+      "recentTasks": []
+    },
+    {
+      "id": "xiaoguan",
+      "name": "小管",
+      "role": "財務提醒專員",
+      "tasks": 0,
+      "tokensUsed": 0,
+      "cost": 0.00,
+      "saved": 0.00,
+      "efficiency": 0,
+      "status": "idle", 
+      "recentTasks": []
     },
     {
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 9,
-      "tokensUsed": 217236,
-      "cost": 0.44,
+      "tasks": 7,
+      "tokensUsed": 177413,
+      "cost": 0.53,
+      "saved": 887.05,
       "efficiency": 96,
       "status": "active", 
       "recentTasks": [
         "Dashboard 數據更新",
-        "美股模擬投資追蹤",
-        "AI Office 前端優化",
-        "記憶系統維護"
+        "AI Office 每週優化",
+        "前端技術優化", 
+        "記憶系統維護",
+        "工作流程管理"
       ]
     }
   ],
   "metrics": {
-    "weeklyGrowth": 15.2,
+    "weeklyGrowth": 27.1,
     "efficiencyTrend": "up",
-    "costOptimization": 8.7,
-    "taskCompletion": 98.5
+    "costOptimization": 18.6,
+    "taskCompletion": 98.8
   },
   "workload": {
-    "morning": 25,
-    "afternoon": 35, 
+    "morning": 35,
+    "afternoon": 28, 
     "evening": 22,
-    "night": 18
+    "night": 15
   },
   "projects": [
     {
       "name": "AI Office Dashboard",
-      "progress": 85,
+      "progress": 92,
       "status": "active",
       "assignee": "Lucy"
     },
     {
       "name": "股市追蹤系統",
-      "progress": 92,
+      "progress": 98,
       "status": "active", 
       "assignee": "小財"
     },
     {
       "name": "AI 新聞自動化",
-      "progress": 78,
+      "progress": 85,
       "status": "active",
       "assignee": "阿新"
     },
     {
       "name": "夜間研究計畫",
-      "progress": 68,
+      "progress": 78,
       "status": "active",
       "assignee": "研研"
+    },
+    {
+      "name": "社群互動系統",
+      "progress": 15,
+      "status": "pending",
+      "assignee": "螃蟹"
     }
   ]
 }
