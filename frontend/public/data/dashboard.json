@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-09T05:26:00+08:00",
+  "lastUpdate": "2026-02-09T05:57:00+08:00",
   "stats": {
-    "totalTokens": 703862,
-    "totalCost": 2.51,
-    "totalTasks": 32,
-    "activeSessions": 22,
-    "totalSaved": 3519.31
+    "totalTokens": 821422,
+    "totalCost": 2.95,
+    "totalTasks": 36,
+    "activeSessions": 11,
+    "totalSaved": 4107.11
   },
   "employees": [
     {
@@ -31,11 +31,11 @@
       "id": "axin", 
       "name": "阿新",
       "role": "AI 新聞編輯",
-      "tasks": 5,
-      "tokensUsed": 57842,
-      "cost": 0.18,
-      "saved": 289.21,
-      "efficiency": 95,
+      "tasks": 6,
+      "tokensUsed": 85730,
+      "cost": 0.26,
+      "saved": 428.65,
+      "efficiency": 96,
       "status": "active",
       "recentTasks": [
         "AI 新聞日報 2026-02-08",
@@ -49,11 +49,11 @@
       "id": "yanyan",
       "name": "研研", 
       "role": "夜間研究員",
-      "tasks": 6,
-      "tokensUsed": 162149,
-      "cost": 0.54,
-      "saved": 810.75,
-      "efficiency": 93,
+      "tasks": 8,
+      "tokensUsed": 230762,
+      "cost": 0.89,
+      "saved": 1153.81,
+      "efficiency": 94,
       "status": "active",
       "recentTasks": [
         "夜間探索：8吋晶圓廠產能分析 2026-02-09",
@@ -92,10 +92,10 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 7,
-      "tokensUsed": 165404,
-      "cost": 0.77,
-      "saved": 827.01,
+      "tasks": 8,
+      "tokensUsed": 186463,
+      "cost": 0.85,
+      "saved": 932.32,
       "efficiency": 97,
       "status": "active", 
       "recentTasks": [
