@@ -1,31 +1,31 @@
 {
-  "lastUpdate": "2026-02-08T20:33:00+08:00", 
-  "totalTasks": 108,
-  "totalTokens": 4094701,
-  "totalCost": 11.821,
-  "totalSavings": 82960,
+  "lastUpdate": "2026-02-08T21:36:00+08:00",
+  "totalTasks": 159,
+  "totalTokens": 4899528,
+  "totalCost": 14.398,
+  "totalSavings": 102890,
   "agents": [
     {
       "id": "xiaocai",
       "name": "小財",
-      "avatar": "👨‍💼", 
+      "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 55,
-      "tokens": 1891827,
-      "cost": 5.044,
-      "savings": 40470,
+      "tasks": 84,
+      "tokens": 2487251,
+      "cost": 6.574,
+      "savings": 52300,
       "efficiency": "99.9%",
       "status": "active"
     },
     {
       "id": "axin",
-      "name": "阿新", 
+      "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 22,
-      "tokens": 631062,
-      "cost": 1.800,
-      "savings": 14130,
+      "tasks": 31,
+      "tokens": 772226,
+      "cost": 2.254,
+      "savings": 18890,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -33,11 +33,11 @@
       "id": "yanyan",
       "name": "研研",
       "avatar": "🔬",
-      "description": "研究分析師", 
-      "tasks": 30,
-      "tokens": 1171743,
-      "cost": 2.272,
-      "savings": 25200,
+      "description": "研究分析師",
+      "tasks": 39,
+      "tokens": 1449847,
+      "cost": 2.947,
+      "savings": 34100,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -57,7 +57,7 @@
       "id": "xiaoguan",
       "name": "小管",
       "avatar": "💰",
-      "description": "帳單管理專員", 
+      "description": "帳單管理專員",
       "tasks": 0,
       "tokens": 0,
       "cost": 0.000,
@@ -69,54 +69,34 @@
       "id": "lucy",
       "name": "Lucy",
       "avatar": "✨",
-      "description": "AI 助理主管", 
-      "tasks": 20,
-      "tokens": 400069,
-      "cost": 1.705,
-      "savings": 3160,
+      "description": "AI 助理主管",
+      "tasks": 30,
+      "tokens": 471076,
+      "cost": 2.023,
+      "savings": 4600,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-08-2033",
+      "id": "dashboard-update-2026-02-08-2136",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "timestamp": 1770553995,
-      "lastRunAt": 1770553995,
-      "status": "completed",
-      "cost": 0.081
-    },
-    {
-      "id": "dashboard-update-2026-02-08-2001",
-      "name": "AI Office Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新", 
-      "agent": "Lucy",
-      "timestamp": 1770552063,
-      "lastRunAt": 1770552063,
-      "status": "completed",
-      "cost": 0.080
-    },
-    {
-      "id": "dashboard-update-2026-02-08-1929",
-      "name": "AI Office Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新",
-      "agent": "Lucy",
-      "timestamp": 1770550184029,
-      "lastRunAt": 1770550184029,
+      "timestamp": 1770557778751,
+      "lastRunAt": 1770557778751,
       "status": "completed",
       "cost": 0.081
     },
     {
       "id": "weekly-optimization-review-2026-02-08",
       "name": "每週優化 Review",
-      "title": "每週優化 Review",
+      "title": "每週優化 Review：心聲切換淡入淡出動畫",
       "agent": "研研",
       "timestamp": 1770516000122,
       "lastRunAt": 1770516000122,
-      "status": "completed", 
+      "status": "completed",
       "cost": 0.036
     },
     {
@@ -142,7 +122,7 @@
     {
       "id": "nightly-research-wafer-capacity-2026-02-08",
       "name": "夜間探索：8 吋晶圓廠產能與價格趨勢分析",
-      "title": "夜間探索：8 吋晶圓廠產能與價格趨勢分析", 
+      "title": "夜間探索：8 吋晶圓廠產能與價格趨勢分析",
       "agent": "研研",
       "timestamp": 1770483600026,
       "lastRunAt": 1770483600026,
@@ -157,7 +137,7 @@
       "timestamp": 1770477740904,
       "lastRunAt": 1770477740904,
       "status": "completed",
-      "cost": 0.044
+      "cost": 0.074
     },
     {
       "id": "stock-weekly-report-2026-02-07",
@@ -230,6 +210,16 @@
       "cost": 0.033
     },
     {
+      "id": "ai-news-webchat-test-2025-01",
+      "name": "AI 新聞分析報告",
+      "title": "AI 新聞分析報告",
+      "agent": "阿新",
+      "timestamp": 1769928002259,
+      "lastRunAt": 1769928002259,
+      "status": "completed",
+      "cost": 0.122
+    },
+    {
       "id": "ai-news-telegram-test-2025-01",
       "name": "AI 新聞摘要 (Telegram)",
       "title": "AI 新聞摘要 (Telegram)",
@@ -241,17 +231,17 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 1.5,
+    "avgTaskTime": 1.3,
     "successRate": 100,
-    "costPerTask": 0.110,
-    "totalHours": 487,
+    "costPerTask": 0.091,
+    "totalHours": 624,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-06", "tasks": 14, "cost": 1.247, "savings": 4620},
       {"date": "2026-02-07", "tasks": 8, "cost": 0.562, "savings": 3120},
-      {"date": "2026-02-08", "tasks": 86, "cost": 10.012, "savings": 75220}
+      {"date": "2026-02-08", "tasks": 137, "cost": 12.589, "savings": 95150}
     ]
   }
 }
