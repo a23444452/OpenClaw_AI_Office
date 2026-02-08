@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-02-08T11:38:00+08:00",
-  "totalTasks": 75,
-  "totalTokens": 1391047,
-  "totalCost": 4.052,
-  "totalSavings": 15000,
+  "lastUpdate": "2026-02-08T12:09:00+08:00",
+  "totalTasks": 77,
+  "totalTokens": 1412148,
+  "totalCost": 4.133,
+  "totalSavings": 15450,
   "agents": [
     {
       "id": "xiaocai",
@@ -22,10 +22,10 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 13,
-      "tokens": 299200,
-      "cost": 0.867,
-      "savings": 2600,
+      "tasks": 14,
+      "tokens": 326761,
+      "cost": 0.945,
+      "savings": 2750,
       "efficiency": "99.8%",
       "status": "active"
     },
@@ -34,10 +34,10 @@
       "name": "研研",
       "avatar": "🔬",
       "description": "研究分析師",
-      "tasks": 17,
-      "tokens": 630028,
-      "cost": 0.780,
-      "savings": 4250,
+      "tasks": 18,
+      "tokens": 679183,
+      "cost": 0.836,
+      "savings": 4550,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -70,15 +70,25 @@
       "name": "Lucy",
       "avatar": "✨",
       "description": "AI 助理主管",
-      "tasks": 6,
-      "tokens": 193461,
-      "cost": 0.465,
-      "savings": 1200,
+      "tasks": 8,
+      "tokens": 214362,
+      "cost": 0.546,
+      "savings": 1450,
       "efficiency": "99.9%",
       "status": "active"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-08-1209",
+      "name": "AI Office Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新",
+      "agent": "Lucy",
+      "timestamp": 1770523780080,
+      "lastRunAt": 1770523780080,
+      "status": "running",
+      "cost": 0.081
+    },
     {
       "id": "dashboard-update-2026-02-08-1138",
       "name": "AI Office Dashboard 數據更新",
@@ -180,16 +190,6 @@
       "cost": 0.121
     },
     {
-      "id": "taiwan-stock-opening-full-2026-02-06",
-      "name": "台股開盤完整分析報告",
-      "title": "台股開盤完整分析報告",
-      "agent": "小財",
-      "timestamp": 1770340549769,
-      "lastRunAt": 1770340549769,
-      "status": "completed",
-      "cost": 0.108
-    },
-    {
       "id": "us-stock-simulation-day3-2026-02-06",
       "name": "美股模擬投資 Day 3 績效報告",
       "title": "美股模擬投資 Day 3 績效報告",
@@ -201,17 +201,17 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 2.4,
+    "avgTaskTime": 2.3,
     "successRate": 100,
     "costPerTask": 0.054,
-    "totalHours": 180,
+    "totalHours": 184,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-06", "tasks": 12, "cost": 0.742, "savings": 3000},
       {"date": "2026-02-07", "tasks": 5, "cost": 0.398, "savings": 1400},
-      {"date": "2026-02-08", "tasks": 10, "cost": 0.456, "savings": 2350}
+      {"date": "2026-02-08", "tasks": 12, "cost": 0.537, "savings": 2800}
     ]
   }
 }
