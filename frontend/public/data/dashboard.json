@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-09T15:23:00+08:00",
+  "updatedAt": "2026-02-09T15:54:00+08:00",
   "stats": {
-    "totalTokens": 5322678,
-    "totalCost": 35.89,
-    "totalTasks": 215,
-    "activeSessions": 22,
-    "totalSaved": 26985.47
+    "totalTokens": 5614923,
+    "totalCost": 38.45,
+    "totalTasks": 238,
+    "activeSessions": 24,
+    "totalSaved": 28967.83
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 93,
-      "tokensUsed": 2333521,
-      "cost": 17.23,
-      "saved": 12156.89,
+      "tasks": 108,
+      "tokensUsed": 2548237,
+      "cost": 18.89,
+      "saved": 13456.12,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -32,10 +32,10 @@
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 38,
-      "tokensUsed": 653234,
-      "cost": 4.72,
-      "saved": 3351.23,
+      "tasks": 42,
+      "tokensUsed": 680141,
+      "cost": 5.12,
+      "saved": 3587.64,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -52,10 +52,10 @@
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 44,
-      "tokensUsed": 1378702,
-      "cost": 12.89,
-      "saved": 7623.45,
+      "tasks": 47,
+      "tokensUsed": 1447315,
+      "cost": 13.67,
+      "saved": 8156.78,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -100,10 +100,10 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 39,
-      "tokensUsed": 957221,
-      "cost": 1.05,
-      "saved": 3853.90,
+      "tasks": 40,
+      "tokensUsed": 939230,
+      "cost": 0.77,
+      "saved": 3767.29,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -118,15 +118,15 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 118.7,
+    "weeklyGrowth": 125.3,
     "efficiencyTrend": "up", 
-    "costOptimization": 73.2,
+    "costOptimization": 75.8,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 88,
-    "afternoon": 6,
-    "evening": 4,
+    "morning": 85,
+    "afternoon": 8,
+    "evening": 5,
     "night": 2
   },
   "projects": [
