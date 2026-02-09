@@ -1,21 +1,21 @@
 {
-  "lastUpdate": "2026-02-09T11:10:00+08:00",
+  "lastUpdate": "2026-02-09T11:43:00+08:00",
   "stats": {
-    "totalTokens": 3052685,
-    "totalCost": 16.21,
-    "totalTasks": 116,
-    "activeSessions": 24,
-    "totalSaved": 15263.43
+    "totalTokens": 3312942,
+    "totalCost": 17.85,
+    "totalTasks": 122,
+    "activeSessions": 22,
+    "totalSaved": 16489.71
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 55,
-      "tokensUsed": 1293763,
-      "cost": 6.85,
-      "saved": 6468.82,
+      "tasks": 60,
+      "tokensUsed": 1432570,
+      "cost": 7.68,
+      "saved": 7162.85,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -31,10 +31,10 @@
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 26,
-      "tokensUsed": 399003,
-      "cost": 2.17,
-      "saved": 1995.02,
+      "tasks": 27,
+      "tokensUsed": 425910,
+      "cost": 2.31,
+      "saved": 2129.55,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -50,10 +50,10 @@
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 27,
-      "tokensUsed": 862010,
-      "cost": 4.98,
-      "saved": 4310.05,
+      "tasks": 29,
+      "tokensUsed": 930623,
+      "cost": 5.42,
+      "saved": 4653.12,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -95,10 +95,10 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 28,
-      "tokensUsed": 497909,
-      "cost": 2.21,
-      "saved": 2489.55,
+      "tasks": 30,
+      "tokensUsed": 523839,
+      "cost": 2.44,
+      "saved": 2544.19,
       "efficiency": 98,
       "status": "active", 
       "recentTasks": [
@@ -112,15 +112,15 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 73.2,
+    "weeklyGrowth": 78.5,
     "efficiencyTrend": "up", 
-    "costOptimization": 45.1,
+    "costOptimization": 47.8,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 68,
-    "afternoon": 18,
-    "evening": 10,
+    "morning": 72,
+    "afternoon": 15,
+    "evening": 9,
     "night": 4
   },
   "projects": [
