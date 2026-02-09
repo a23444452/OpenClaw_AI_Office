@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-09T16:25:00+08:00",
+  "updatedAt": "2026-02-09T17:27:00+08:00",
   "stats": {
-    "totalTokens": 5792145,
-    "totalCost": 41.23,
-    "totalTasks": 245,
+    "totalTokens": 6285423,
+    "totalCost": 45.12,
+    "totalTasks": 275,
     "activeSessions": 22,
-    "totalSaved": 31245.67
+    "totalSaved": 34128.95
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 113,
-      "tokensUsed": 2692761,
-      "cost": 20.67,
-      "saved": 14892.35,
+      "tasks": 130,
+      "tokensUsed": 2978567,
+      "cost": 23.68,
+      "saved": 16892.34,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -32,10 +32,10 @@
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 43,
-      "tokensUsed": 707048,
-      "cost": 5.34,
-      "saved": 3765.89,
+      "tasks": 48,
+      "tokensUsed": 759363,
+      "cost": 5.89,
+      "saved": 4012.87,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -52,10 +52,10 @@
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 49,
-      "tokensUsed": 1515928,
-      "cost": 14.45,
-      "saved": 8634.51,
+      "tasks": 55,
+      "tokensUsed": 1686232,
+      "cost": 16.14,
+      "saved": 9891.23,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -101,9 +101,9 @@
       "name": "Lucy",
       "role": "全能助手",
       "tasks": 42,
-      "tokensUsed": 988386,
-      "cost": 0.77,
-      "saved": 3952.92,
+      "tokensUsed": 898261,
+      "cost": 0.41,
+      "saved": 3833.51,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -118,15 +118,15 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 125.3,
+    "weeklyGrowth": 128.7,
     "efficiencyTrend": "up", 
-    "costOptimization": 75.8,
+    "costOptimization": 78.2,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 85,
-    "afternoon": 8,
-    "evening": 5,
+    "morning": 82,
+    "afternoon": 12,
+    "evening": 4,
     "night": 2
   },
   "projects": [
