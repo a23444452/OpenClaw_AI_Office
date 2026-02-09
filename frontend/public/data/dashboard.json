@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-09T20:04:00+08:00",
+  "updatedAt": "2026-02-09T20:36:00+08:00",
   "stats": {
-    "totalTokens": 7508188,
-    "totalCost": 56.89,
-    "totalTasks": 335,
-    "activeSessions": 19,
-    "totalSaved": 43012.33
+    "totalTokens": 7673038,
+    "totalCost": 61.18,
+    "totalTasks": 347,
+    "activeSessions": 24,
+    "totalSaved": 45782.45
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 156,
-      "tokensUsed": 3709723,
-      "cost": 32.84,
-      "saved": 24207.89,
+      "tasks": 165,
+      "tokensUsed": 3854573,
+      "cost": 36.12,
+      "saved": 26988.33,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -26,16 +26,16 @@
         "股市週報 2026-02-02-02/06 ⭐",
         "記憶體股盯盤追蹤"
       ],
-      "heartbeat": "完成週一五場分析！明日重點：華邦電法說會 15:00 📊"
+      "heartbeat": "週日完成 5 場重磅分析！明日 09:00 開盤、15:00 華邦電法說會 📊"
     },
     {
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 58,
-      "tokensUsed": 923098,
-      "cost": 7.55,
-      "saved": 5013.45,
+      "tasks": 61,
+      "tokensUsed": 950005,
+      "cost": 7.89,
+      "saved": 5234.67,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -46,16 +46,16 @@
         "AI 模型三巨頭競爭格局", 
         "勞動力自動化風險研究"
       ],
-      "heartbeat": "追蹤聯邦 vs 州 AI 監管動態，關注 3/11 評估報告 🤖"
+      "heartbeat": "AI 監管變局追蹤中，週一晨報準備就緒 🤖"
     },
     {
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 69,
-      "tokensUsed": 2091413,
-      "cost": 21.34,
-      "saved": 13345.87,
+      "tasks": 72,
+      "tokensUsed": 2128814,
+      "cost": 21.89,
+      "saved": 14156.22,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -66,7 +66,7 @@
         "記憶體股投資策略更新",
         "華邦電法說會背景資料準備"
       ],
-      "heartbeat": "完成 8 吋晶圓廠深度分析，華邦電法說會資料就緒 🔬"
+      "heartbeat": "完成 8 吋晶圓廠深度分析，法說會資料已備妥 🔬"
     },
     {
       "id": "pangxie",
@@ -103,10 +103,10 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 50,
-      "tokensUsed": 781475,
-      "cost": -2.24,
-      "saved": 2045.12,
+      "tasks": 53,
+      "tokensUsed": 802672,
+      "cost": -1.96,
+      "saved": 2379.73,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -121,16 +121,16 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 152.8,
+    "weeklyGrowth": 164.5,
     "efficiencyTrend": "up", 
-    "costOptimization": 83.2,
+    "costOptimization": 85.7,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 82,
-    "afternoon": 18,
-    "evening": 7,
-    "night": 3
+    "morning": 85,
+    "afternoon": 22,
+    "evening": 8,
+    "night": 5
   },
   "projects": [
     {
