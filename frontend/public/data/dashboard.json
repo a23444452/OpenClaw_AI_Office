@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-10T06:39:30+08:00",
+  "lastUpdate": "2026-02-10T07:42:34+08:00",
   "stats": {
-    "totalTokens": 3847624,
-    "totalCost": 18.42,
-    "totalTasks": 128,
-    "activeSessions": 22,
-    "totalSaved": 19562.85
+    "totalTokens": 4347806,
+    "totalCost": 21.14,
+    "totalTasks": 143,
+    "activeSessions": 19,
+    "totalSaved": 22574.03
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 62,
-      "tokensUsed": 1456890,
-      "cost": 6.85,
-      "saved": 7890.44,
+      "tasks": 71,
+      "tokensUsed": 1738886,
+      "cost": 8.23,
+      "saved": 9352.23,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 27,
-      "tokensUsed": 407052,
-      "cost": 1.89,
-      "saved": 2186.25,
+      "tasks": 30,
+      "tokensUsed": 463122,
+      "cost": 2.12,
+      "saved": 2484.11,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 28,
-      "tokensUsed": 965547,
-      "cost": 4.28,
-      "saved": 5124.87,
+      "tasks": 32,
+      "tokensUsed": 1140784,
+      "cost": 5.11,
+      "saved": 6124.92,
       "efficiency": 94,
       "status": "active",
       "recentTasks": [
@@ -104,14 +104,14 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 11,
-      "tokensUsed": 1018135,
-      "cost": 5.40,
-      "saved": 4361.29,
+      "tasks": 14,
+      "tokensUsed": 1105014,
+      "cost": 5.68,
+      "saved": 4612.77,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-10 (06:39) ⭐",
+        "Dashboard 數據更新 2026-02-10 (07:42) ⭐",
         "Sessions 統計分析與角色任務分配 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成",
@@ -122,6 +122,16 @@
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-10-0710",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-10 07:10)",
+      "agent": "Lucy",
+      "timestamp": 1770678612663,
+      "lastRunAt": 1770678612663,
+      "status": "completed",
+      "cost": 0.081
+    },
     {
       "id": "dashboard-update-2026-02-10-0639",
       "name": "Dashboard 數據更新",
