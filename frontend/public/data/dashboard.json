@@ -1,21 +1,21 @@
 {
-  "lastUpdate": "2026-02-09T11:43:00+08:00",
+  "lastUpdate": "2026-02-09T12:14:00+08:00",
   "stats": {
-    "totalTokens": 3312942,
-    "totalCost": 17.85,
-    "totalTasks": 122,
+    "totalTokens": 3378564,
+    "totalCost": 18.21,
+    "totalTasks": 150,
     "activeSessions": 22,
-    "totalSaved": 16489.71
+    "totalSaved": 16874.82
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 60,
-      "tokensUsed": 1432570,
-      "cost": 7.68,
-      "saved": 7162.85,
+      "tasks": 61,
+      "tokensUsed": 1516842,
+      "cost": 8.15,
+      "saved": 7584.21,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -25,16 +25,17 @@
         "台股盤後完整分析 2026/02/06 ⭐",
         "台股收盤分析報告 2026/02/06 ⭐",
         "記憶體股盯盤追蹤"
-      ]
+      ],
+      "heartbeat": "股市數據監控中 📊"
     },
     {
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 27,
-      "tokensUsed": 425910,
-      "cost": 2.31,
-      "saved": 2129.55,
+      "tasks": 28,
+      "tokensUsed": 452817,
+      "cost": 2.46,
+      "saved": 2263.85,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -44,16 +45,17 @@
         "AI 產業動態完整分析", 
         "OpenAI Stargate 計畫報導",
         "DeepSeek 技術突破分析"
-      ]
+      ],
+      "heartbeat": "追蹤 AI 產業最新動態 🤖"
     },
     {
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 29,
-      "tokensUsed": 930623,
-      "cost": 5.42,
-      "saved": 4653.12,
+      "tasks": 30,
+      "tokensUsed": 967024,
+      "cost": 5.63,
+      "saved": 4835.12,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -63,7 +65,8 @@
         "記憶整理與維護",
         "半導體產業深度研究",
         "投資策略分析報告"
-      ]
+      ],
+      "heartbeat": "深夜研究模式 - 準備明日華邦電法說會資料 🔬"
     },
     {
       "id": "pangxie",
@@ -77,7 +80,8 @@
       "status": "idle",
       "recentTasks": [
         "Moltbook 社群檢查 (待啟動)"
-      ]
+      ],
+      "heartbeat": "社群監控待命中 🦀"
     },
     {
       "id": "xiaoguan",
@@ -89,16 +93,17 @@
       "saved": 0.00,
       "efficiency": 0,
       "status": "idle",
-      "recentTasks": []
+      "recentTasks": [],
+      "heartbeat": "待收帳單提醒任務 💰"
     },
     {
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 30,
-      "tokensUsed": 523839,
-      "cost": 2.44,
-      "saved": 2544.19,
+      "tasks": 31,
+      "tokensUsed": 571861,
+      "cost": 2.67,
+      "saved": 2789.64,
       "efficiency": 98,
       "status": "active", 
       "recentTasks": [
@@ -108,20 +113,21 @@
         "前端時間顯示修復",
         "辦公室界面改進", 
         "記憶系統管理"
-      ]
+      ],
+      "heartbeat": "全方位辦公室管理中 ✨"
     }
   ],
   "metrics": {
-    "weeklyGrowth": 78.5,
+    "weeklyGrowth": 84.2,
     "efficiencyTrend": "up", 
-    "costOptimization": 47.8,
+    "costOptimization": 52.1,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 72,
-    "afternoon": 15,
-    "evening": 9,
-    "night": 4
+    "morning": 75,
+    "afternoon": 18,
+    "evening": 5,
+    "night": 2
   },
   "projects": [
     {
