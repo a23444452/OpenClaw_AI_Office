@@ -17,8 +17,11 @@ interface RecentJobsProps {
 
 const statusStyles: Record<string, { bg: string; text: string; icon: string }> = {
   ok: { bg: 'bg-green-500/20', text: 'text-green-400', icon: '✅' },
+  completed: { bg: 'bg-green-500/20', text: 'text-green-400', icon: '✅' },  // 別名
   error: { bg: 'bg-red-500/20', text: 'text-red-400', icon: '❌' },
+  failed: { bg: 'bg-red-500/20', text: 'text-red-400', icon: '❌' },  // 別名
   running: { bg: 'bg-blue-500/20', text: 'text-blue-400', icon: '🔄' },
+  pending: { bg: 'bg-yellow-500/20', text: 'text-yellow-400', icon: '⏳' },  // 新增
   unknown: { bg: 'bg-gray-500/20', text: 'text-gray-400', icon: '❓' },
 };
 
@@ -97,7 +100,10 @@ export const RecentJobs: React.FC<RecentJobsProps> = ({ jobs }) => {
                   >
                     {style.icon}
                     <span className="hidden sm:inline ml-1">
-                      {job.status === 'ok' ? '完成' : job.status === 'error' ? '失敗' : job.status}
+                      {(job.status === 'ok' || job.status === 'completed') ? '完成' : 
+                       (job.status === 'error' || job.status === 'failed') ? '失敗' : 
+                       job.status === 'running' ? '執行中' :
+                       job.status === 'pending' ? '等待中' : job.status}
                     </span>
                   </span>
                 </div>

@@ -1,0 +1,238 @@
+{
+  "lastUpdate": "2026-02-08T02:09:00+08:00",
+  "totalTasks": 30,
+  "totalTokens": 776249,
+  "totalCost": 3.89,
+  "totalSavings": 32640,
+  "agents": [
+    {
+      "id": "xiaocai",
+      "name": "小財",
+      "avatar": "👨‍💼",
+      "description": "股市分析師",
+      "tasks": 26,
+      "tokens": 703011,
+      "cost": 2.81,
+      "savings": 21600,
+      "efficiency": "99.9%",
+      "status": "active"
+    },
+    {
+      "id": "axin", 
+      "name": "阿新",
+      "avatar": "📰",
+      "description": "AI 新聞編輯",
+      "tasks": 14,
+      "tokens": 266859,
+      "cost": 1.13,
+      "savings": 11040,
+      "efficiency": "99.8%",
+      "status": "active"
+    },
+    {
+      "id": "yanyan",
+      "name": "研研", 
+      "avatar": "🔬",
+      "description": "研究分析師",
+      "tasks": 8,
+      "tokens": 260448,
+      "cost": 0.81,
+      "savings": 7680,
+      "efficiency": "99.9%",
+      "status": "active"
+    },
+    {
+      "id": "pangxie",
+      "name": "螃蟹",
+      "avatar": "🦀",
+      "description": "Moltbook 社群管理",
+      "tasks": 0,
+      "tokens": 0,
+      "cost": 0.00,
+      "savings": 0,
+      "efficiency": "100%",
+      "status": "standby"
+    },
+    {
+      "id": "xiaoguan",
+      "name": "小管",
+      "avatar": "💰",
+      "description": "帳單管理專員", 
+      "tasks": 0,
+      "tokens": 0,
+      "cost": 0.00,
+      "savings": 0,
+      "efficiency": "100%",
+      "status": "standby"
+    },
+    {
+      "id": "lucy",
+      "name": "Lucy",
+      "avatar": "✨",
+      "description": "AI 助理主管",
+      "tasks": 2,
+      "tokens": 41459,
+      "cost": 0.16,
+      "savings": 1920,
+      "efficiency": "99.9%",
+      "status": "active"
+    }
+  ],
+  "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-08-0209",
+      "name": "AI Office Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新", 
+      "agent": "Lucy",
+      "timestamp": 1770487773923,
+      "lastRunAt": 1770487773923,
+      "status": "running",
+      "cost": 0.08
+    },
+    {
+      "id": "dashboard-update-2026-02-08-0107",
+      "name": "AI Office Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新", 
+      "agent": "Lucy",
+      "timestamp": 1770484108868,
+      "lastRunAt": 1770484108868,
+      "status": "completed",
+      "cost": 0.08
+    },
+    {
+      "id": "nightly-research-wafer-capacity-2026-02-08",
+      "name": "夜間探索：8 吋晶圓廠產能與價格趨勢分析",
+      "title": "夜間探索：8 吋晶圓廠產能與價格趨勢分析",
+      "agent": "研研",
+      "timestamp": 1770483600026,
+      "lastRunAt": 1770483600026,
+      "status": "completed",
+      "cost": 0.04
+    },
+    {
+      "id": "stock-analysis-winbond-investor-conference",
+      "name": "華邦電法說會觀察重點",
+      "title": "華邦電法說會觀察重點",
+      "agent": "小財",
+      "timestamp": 1770477740904,
+      "lastRunAt": 1770477740904,
+      "status": "completed",
+      "cost": 0.074
+    },
+    {
+      "id": "us-stock-weekly-report-2026-02-07",
+      "name": "股市週報｜2026/02/02 - 02/06",
+      "title": "股市週報｜2026/02/02 - 02/06",
+      "agent": "小財",
+      "timestamp": 1770429600245,
+      "lastRunAt": 1770429600245,
+      "status": "completed",
+      "cost": 0.117
+    },
+    {
+      "id": "us-stock-morning-brief-2026-02-07",
+      "name": "美股晨報完整分析",
+      "title": "美股晨報完整分析",
+      "agent": "小財",
+      "timestamp": 1770422478443,
+      "lastRunAt": 1770422478443,
+      "status": "completed",
+      "cost": 0.079
+    },
+    {
+      "id": "ai-news-daily-2026-02-07",
+      "name": "AI 新聞日報｜2026 年 2 月 7 日",
+      "title": "AI 新聞日報｜2026 年 2 月 7 日",
+      "agent": "阿新", 
+      "timestamp": 1770422400194,
+      "lastRunAt": 1770422400194,
+      "status": "completed",
+      "cost": 0.086
+    },
+    {
+      "id": "nightly-build-2026-02-07-0300",
+      "name": "Nightly Build 完成",
+      "title": "Nightly Build 完成",
+      "agent": "研研",
+      "timestamp": 1770404400022,
+      "lastRunAt": 1770404400022,
+      "status": "completed",
+      "cost": 0.026
+    },
+    {
+      "id": "taiwan-stock-close-analysis-2026-02-06",
+      "name": "台股盤後完整分析報告",
+      "title": "台股盤後完整分析報告",
+      "agent": "小財",
+      "timestamp": 1770359405385,
+      "lastRunAt": 1770359405385,
+      "status": "completed",
+      "cost": 0.096
+    },
+    {
+      "id": "taiwan-stock-analysis-2026-02-06",
+      "name": "台股收盤分析報告",
+      "title": "台股收盤分析報告",
+      "agent": "小財",
+      "timestamp": 1770356700095,
+      "lastRunAt": 1770356700095,
+      "status": "completed",
+      "cost": 0.121
+    },
+    {
+      "id": "taiwan-stock-opening-full-2026-02-06",
+      "name": "台股開盤完整分析報告",
+      "title": "台股開盤完整分析報告",
+      "agent": "小財",
+      "timestamp": 1770340549769,
+      "lastRunAt": 1770340549769,
+      "status": "completed",
+      "cost": 0.108
+    },
+    {
+      "id": "taiwan-stock-opening-brief-2026-02-06",
+      "name": "台股開盤報告",
+      "title": "台股開盤報告",
+      "agent": "小財",
+      "timestamp": 1770340500102,
+      "lastRunAt": 1770340500102,
+      "status": "completed",
+      "cost": 0.059
+    },
+    {
+      "id": "us-stock-simulation-day3-2026-02-06",
+      "name": "美股模擬投資 Day 3 績效報告",
+      "title": "美股模擬投資 Day 3 績效報告",
+      "agent": "小財",
+      "timestamp": 1770328800089,
+      "lastRunAt": 1770328800089,
+      "status": "completed",
+      "cost": 0.033
+    },
+    {
+      "id": "ai-news-analysis-webchat",
+      "name": "AI 產業最新動態分析報告",
+      "title": "AI 產業最新動態分析報告",
+      "agent": "阿新",
+      "timestamp": 1769928002259,
+      "lastRunAt": 1769928002259,
+      "status": "completed",
+      "cost": 0.122
+    }
+  ],
+  "metrics": {
+    "avgTaskTime": 6,
+    "successRate": 100,
+    "costPerTask": 0.121,
+    "totalHours": 224,
+    "automationLevel": 99.9
+  },
+  "performance": {
+    "daily": [
+      {"date": "2026-02-05", "tasks": 2, "cost": 0.145, "savings": 1440},
+      {"date": "2026-02-06", "tasks": 7, "cost": 0.549, "savings": 5040}, 
+      {"date": "2026-02-07", "tasks": 8, "cost": 1.21, "savings": 7200},
+      {"date": "2026-02-08", "tasks": 13, "cost": 1.876, "savings": 17760}
+    ]
+  }
+}
