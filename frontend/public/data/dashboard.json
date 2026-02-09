@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-09T14:52:00+08:00",
+  "updatedAt": "2026-02-09T15:23:00+08:00",
   "stats": {
-    "totalTokens": 5012384,
-    "totalCost": 33.14,
-    "totalTasks": 205,
+    "totalTokens": 5322678,
+    "totalCost": 35.89,
+    "totalTasks": 215,
     "activeSessions": 22,
-    "totalSaved": 25674.82
+    "totalSaved": 26985.47
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 88,
-      "tokensUsed": 2189443,
-      "cost": 15.89,
-      "saved": 11423.67,
+      "tasks": 93,
+      "tokensUsed": 2333521,
+      "cost": 17.23,
+      "saved": 12156.89,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -26,16 +26,16 @@
         "股市週報 2026/02/02-02/06 ⭐",
         "記憶體股盯盤追蹤"
       ],
-      "heartbeat": "完成週一開盤/收盤分析，準備追蹤華邦電法說會 📊"
+      "heartbeat": "週一五場分析全數完成！準備明日華邦電法說會追蹤 📊"
     },
     {
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 37,
-      "tokensUsed": 626327,
-      "cost": 4.52,
-      "saved": 3218.45,
+      "tasks": 38,
+      "tokensUsed": 653234,
+      "cost": 4.72,
+      "saved": 3351.23,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -52,10 +52,10 @@
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 42,
-      "tokensUsed": 1310089,
-      "cost": 11.58,
-      "saved": 7254.23,
+      "tasks": 44,
+      "tokensUsed": 1378702,
+      "cost": 12.89,
+      "saved": 7623.45,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -100,10 +100,10 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 37,
-      "tokensUsed": 886525,
-      "cost": 1.15,
-      "saved": 3778.47,
+      "tasks": 39,
+      "tokensUsed": 957221,
+      "cost": 1.05,
+      "saved": 3853.90,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -118,15 +118,15 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 112.4,
+    "weeklyGrowth": 118.7,
     "efficiencyTrend": "up", 
-    "costOptimization": 71.8,
+    "costOptimization": 73.2,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 85,
-    "afternoon": 8,
-    "evening": 5,
+    "morning": 88,
+    "afternoon": 6,
+    "evening": 4,
     "night": 2
   },
   "projects": [
