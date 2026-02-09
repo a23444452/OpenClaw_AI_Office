@@ -11,8 +11,9 @@
 - [ ] 工程師專用筆記模板設計
 - [ ] AI 驅動的知識管理工具深度評測
 - [ ] 半導體 RSS 自動化追蹤腳本建置
-- [ ] CoWoS 與先進封裝技術深度解析
 - [ ] AI ASIC 發展趨勢（Google TPU、AWS Trainium）
+- [ ] Co-Packaged Optics（CPO）技術與應用
+- [x] CoWoS 與先進封裝技術深度解析 ✅ 2026-02-10
 - [x] 記憶體股投資策略 ✅ 2026-02-06
 - [x] 8 吋晶圓廠產能與價格趨勢（力積電受惠分析）✅ 2026-02-09
 - [x] DRAM/NAND 合約價追蹤方法（TrendForce、集邦）✅ 2026-02-07
@@ -67,6 +68,16 @@
 - 新產品線：GaN、矽電容、矽中介層
 - PMIC 市場規模：$416.6B (2025) → $447.2B (2026)
 - 📄 `docs/investment/8-inch-wafer-fab-analysis-2026.md`
+
+### CoWoS 與先進封裝技術深度解析 — 2026-02-10
+- CoWoS 為台積電 2.5D 先進封裝技術，AI 晶片必備基礎設施
+- 2026 年全球需求 100 萬片，NVIDIA 佔 63%
+- 台積電月產能擴至 10-13 萬片（2026 年底）
+- CoWoS-S/R/L 三種變體：S 最高頻寬、R 最低成本、L 最靈活
+- HBM4 整合需 SoIC 技術，熱管理為主要挑戰
+- 2027 年趨勢：Co-Packaged Optics（CPO）用光取代電
+- 台灣供應鏈：載板（南電、景碩、欣興）、設備（弘塑、辛耘）
+- 📄 `docs/learning/cowos-advanced-packaging-analysis-2026.md`
 
 ---
 
