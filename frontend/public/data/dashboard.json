@@ -1,78 +1,78 @@
 {
-  "lastUpdate": "2026-02-09T08:03:00+08:00",
+  "lastUpdate": "2026-02-09T08:34:00+08:00",
   "stats": {
-    "totalTokens": 1671234,
-    "totalCost": 7.24,
-    "totalTasks": 64,
+    "totalTokens": 1724563,
+    "totalCost": 7.82,
+    "totalTasks": 67,
     "activeSessions": 24,
-    "totalSaved": 7623.89
+    "totalSaved": 8127.45
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 30,
-      "tokensUsed": 682447,
-      "cost": 2.57,
-      "saved": 2851.23,
+      "tasks": 32,
+      "tokensUsed": 741856,
+      "cost": 2.89,
+      "saved": 3124.67,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
         "美股晨報完整分析 2026/02/09",
-        "台股盤後完整分析 2026/02/06",
-        "股市週報 2026/02/02-02/06", 
+        "台股盤後完整分析 2026/02/06", 
+        "股市週報 2026/02/02-02/06",
         "台股收盤分析報告 2026/02/06",
         "台股開盤完整分析 2026/02/06",
         "記憶體股盯盤追蹤"
       ]
     },
     {
-      "id": "axin", 
-      "name": "阿新",
+      "id": "axin",
+      "name": "阿新", 
       "role": "AI 新聞編輯",
-      "tasks": 13,
-      "tokensUsed": 201596,
-      "cost": 0.81,
-      "saved": 846.12,
+      "tasks": 15,
+      "tokensUsed": 224891,
+      "cost": 0.94,
+      "saved": 967.23,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
         "AI 新聞日報 2026-02-09",
-        "AI 新聞日報 2026-02-08",
+        "AI 新聞日報 2026-02-08", 
         "AI 產業動態完整分析",
-        "OpenAI Stargate 計畫報導", 
+        "OpenAI Stargate 計畫報導",
         "DeepSeek 技術突破分析",
         "半導體產業新聞整理"
       ]
     },
     {
       "id": "yanyan",
-      "name": "研研", 
-      "role": "夜間研究員",
-      "tasks": 14,
-      "tokensUsed": 480392,
-      "cost": 2.41,
-      "saved": 2119.67,
+      "name": "研研",
+      "role": "夜間研究員", 
+      "tasks": 16,
+      "tokensUsed": 518945,
+      "cost": 2.64,
+      "saved": 2287.91,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
         "夜間探索：8吋晶圓廠產能趨勢分析 2026-02-09",
         "Nightly Build Report 2026-02-09",
-        "夜間探索：8吋晶圓廠分析 2026-02-08",
+        "夜間探索：8吋晶圓廠分析 2026-02-08", 
         "記憶體整理與維護",
         "半導體產業深度研究",
         "投資策略分析報告"
       ]
     },
     {
-      "id": "pangxie",
+      "id": "pangxie", 
       "name": "螃蟹",
-      "role": "社群管理員", 
+      "role": "社群管理員",
       "tasks": 1,
       "tokensUsed": 0,
       "cost": 0.00,
-      "saved": 0.00,
+      "saved": 0.00, 
       "efficiency": 0,
       "status": "idle",
       "recentTasks": [
@@ -88,44 +88,44 @@
       "cost": 0.00,
       "saved": 0.00,
       "efficiency": 0,
-      "status": "idle", 
+      "status": "idle",
       "recentTasks": []
     },
     {
       "id": "lucy",
-      "name": "Lucy",
+      "name": "Lucy", 
       "role": "全能助手",
-      "tasks": 12,
-      "tokensUsed": 306799,
-      "cost": 1.45,
-      "saved": 1806.87,
+      "tasks": 14,
+      "tokensUsed": 238871,
+      "cost": 1.35,
+      "saved": 1747.64,
       "efficiency": 98,
-      "status": "active", 
+      "status": "active",
       "recentTasks": [
         "Dashboard 數據更新 2026-02-09",
         "AI Office 每週優化 2026-02-08",
-        "前端時間顯示修復",
+        "前端時間顯示修復", 
         "辦公室界面改進",
-        "記憶系統管理", 
+        "記憶系統管理",
         "主要對話支援"
       ]
     }
   ],
   "metrics": {
-    "weeklyGrowth": 47.8,
+    "weeklyGrowth": 49.2,
     "efficiencyTrend": "up",
-    "costOptimization": 31.2,
+    "costOptimization": 32.1,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 52,
-    "afternoon": 31, 
-    "evening": 11,
-    "night": 6
+    "morning": 54,
+    "afternoon": 32,
+    "evening": 10,
+    "night": 4
   },
   "projects": [
     {
-      "name": "AI Office Dashboard",
+      "name": "AI Office Dashboard", 
       "progress": 100,
       "status": "active",
       "assignee": "Lucy"
@@ -133,7 +133,7 @@
     {
       "name": "股市追蹤系統",
       "progress": 100,
-      "status": "active", 
+      "status": "active",
       "assignee": "小財"
     },
     {
@@ -144,7 +144,7 @@
     },
     {
       "name": "夜間研究計畫",
-      "progress": 98,
+      "progress": 98, 
       "status": "active",
       "assignee": "研研"
     },
