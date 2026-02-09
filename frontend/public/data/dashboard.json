@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-02-10T05:00:00+08:00",
+  "lastUpdate": "2026-02-10T05:34:00+08:00",
   "stats": {
     "totalTokens": 3263067,
     "totalCost": 14.21,
@@ -11,6 +11,7 @@
     {
       "id": "xiaocai",
       "name": "小財", 
+      "avatar": "👨‍💼",
       "role": "股市分析師",
       "tasks": 50,
       "tokensUsed": 1202352,
@@ -31,6 +32,7 @@
     {
       "id": "axin",
       "name": "阿新",
+      "avatar": "📰",
       "role": "AI 新聞編輯", 
       "tasks": 21,
       "tokensUsed": 353631,
@@ -49,8 +51,9 @@
       "heartbeat": "AI 新聞日報發布完成！重點關注 NVIDIA 策略轉向與聯邦監管評估 🤖"
     },
     {
-      "id": "yanyan", 
+      "id": "yanyan",
       "name": "研研",
+      "avatar": "🔬",
       "role": "夜間研究員",
       "tasks": 22,
       "tokensUsed": 824534,
@@ -71,39 +74,31 @@
     {
       "id": "pangxie",
       "name": "螃蟹",
-      "role": "社群管理員",
+      "avatar": "🦀",
+      "role": "Moltbook 社群管理",
       "tasks": 0,
       "tokensUsed": 0,
-      "cost": 0.00,
-      "saved": 0.00,
-      "efficiency": 85, 
-      "status": "idle",
-      "recentTasks": [
-        "Moltbook 社群檢查 (待啟動)",
-        "社群互動監控準備",
-        "技術主題互動策略待部署"
-      ],
-      "heartbeat": "社群監控待命中，等待 Moltbook 互動任務啟動 🦀"
+      "cost": 0.000,
+      "saved": 0,
+      "efficiency": 100,
+      "status": "standby"
     },
     {
       "id": "xiaoguan",
       "name": "小管",
-      "role": "財務提醒專員",
+      "avatar": "💰",
+      "role": "帳單管理專員",
       "tasks": 0,
       "tokensUsed": 0,
-      "cost": 0.00,
-      "saved": 0.00,
-      "efficiency": 95,
-      "status": "idle",
-      "recentTasks": [
-        "帳單提醒系統待設定",
-        "財務監控系統檢查"
-      ],
-      "heartbeat": "財務監控系統穩定運行，待收帳單提醒功能準備就緒 💰"
+      "cost": 0.000,
+      "saved": 0,
+      "efficiency": 100,
+      "status": "standby"
     },
     {
       "id": "lucy",
       "name": "Lucy",
+      "avatar": "✨",
       "role": "全能助手",
       "tasks": 12,
       "tokensUsed": 882550,
@@ -112,88 +107,130 @@
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-10 (05:00) ⭐",
-        "對話支援：今日排程確認",
+        "Dashboard 數據更新 2026-02-10 (05:34) ⭐",
+        "Git 合併衝突修復完成",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成",
         "記憶系統管理與檔案結構優化", 
         "多任務協調與 cron 管理"
       ],
-      "heartbeat": "Dashboard 數據更新完成！正在同步到 GitHub... ✨"
+      "heartbeat": "合併衝突修復完成！Dashboard 數據已更新到最新狀態 ✨"
+    }
+  ],
+  "recentJobs": [
+    {
+      "id": "dashboard-conflict-resolution-2026-02-10-0534",
+      "name": "Git 合併衝突修復",
+      "title": "Dashboard JSON 合併衝突修復",
+      "agent": "Lucy",
+      "timestamp": 1770672857613,
+      "lastRunAt": 1770672857613,
+      "status": "completed",
+      "cost": 0.015
+    },
+    {
+      "id": "nightly-cowos-research-2026-02-10-0100",
+      "name": "夜間探索：CoWoS 先進封裝技術深度解析",
+      "title": "夜間探索：CoWoS 先進封裝技術深度解析",
+      "agent": "研研",
+      "timestamp": 1770656400015,
+      "lastRunAt": 1770656400015,
+      "status": "completed",
+      "cost": 0.039
+    },
+    {
+      "id": "nightly-build-2026-02-10-0300",
+      "name": "Nightly Build 完成",
+      "title": "Nightly Build 完成",
+      "agent": "研研", 
+      "timestamp": 1770663600018,
+      "lastRunAt": 1770663600018,
+      "status": "completed",
+      "cost": 0.032
+    },
+    {
+      "id": "taiwan-stock-close-analysis-2026-02-09",
+      "name": "台股盤後完整分析報告",
+      "title": "台股盤後完整分析報告",
+      "agent": "小財",
+      "timestamp": 1770618600110,
+      "lastRunAt": 1770618600110,
+      "status": "completed",
+      "cost": 0.102
+    },
+    {
+      "id": "taiwan-stock-close-analysis-2026-02-09-v2",
+      "name": "台股收盤分析報告", 
+      "title": "台股收盤分析報告",
+      "agent": "小財",
+      "timestamp": 1770615900108,
+      "lastRunAt": 1770615900108,
+      "status": "completed",
+      "cost": 0.139
+    },
+    {
+      "id": "taiwan-stock-opening-2026-02-09",
+      "name": "台股開盤完整分析報告",
+      "title": "台股開盤完整分析報告",
+      "agent": "小財",
+      "timestamp": 1770599700114,
+      "lastRunAt": 1770599700114,
+      "status": "completed",
+      "cost": 0.105
+    },
+    {
+      "id": "us-stock-morning-brief-2026-02-09",
+      "name": "美股晨報完整分析",
+      "title": "美股晨報完整分析", 
+      "agent": "小財",
+      "timestamp": 1770595301397,
+      "lastRunAt": 1770595301397,
+      "status": "completed",
+      "cost": 0.118
+    },
+    {
+      "id": "ai-news-daily-2026-02-09",
+      "name": "AI 新聞日報｜2026 年 2 月 9 日",
+      "title": "AI 新聞日報｜2026 年 2 月 9 日",
+      "agent": "阿新",
+      "timestamp": 1770595200168,
+      "lastRunAt": 1770595200168,
+      "status": "completed",
+      "cost": 0.089
+    },
+    {
+      "id": "weekly-optimization-review-2026-02-08",
+      "name": "每週優化 Review 完成",
+      "title": "每週優化 Review 完成",
+      "agent": "Lucy", 
+      "timestamp": 1770516000122,
+      "lastRunAt": 1770516000122,
+      "status": "completed",
+      "cost": 0.036
+    },
+    {
+      "id": "stock-weekly-report-2026-02-07",
+      "name": "股市週報｜2026/02/02 - 02/06",
+      "title": "股市週報｜2026/02/02 - 02/06",
+      "agent": "小財",
+      "timestamp": 1770429600245,
+      "lastRunAt": 1770429600245,
+      "status": "completed",
+      "cost": 0.117
     }
   ],
   "metrics": {
-    "weeklyGrowth": 237.3,
-    "efficiencyTrend": "up", 
-    "costOptimization": 96.8,
-    "taskCompletion": 100.0
+    "avgTaskTime": 2.8,
+    "successRate": 100,
+    "costPerTask": 0.055,
+    "totalHours": 146,
+    "automationLevel": 99.9
   },
-  "workload": {
-    "morning": 28,
-    "afternoon": 18,
-    "evening": 12,
-    "night": 18
-  },
-  "projects": [
-    {
-      "name": "AI Office Dashboard",
-      "progress": 100,
-      "status": "active",
-      "assignee": "Lucy"
-    },
-    {
-      "name": "股市追蹤系統",
-      "progress": 100, 
-      "status": "active",
-      "assignee": "小財"
-    },
-    {
-      "name": "AI 新聞自動化",
-      "progress": 100,
-      "status": "active",
-      "assignee": "阿新"
-    },
-    {
-      "name": "夜間研究計畫",
-      "progress": 100,
-      "status": "active",
-      "assignee": "研研"
-    },
-    {
-      "name": "CoWoS 先進封裝分析",
-      "progress": 100,
-      "status": "completed",
-      "assignee": "研研"
-    },
-    {
-      "name": "8吋晶圓廠產能分析",
-      "progress": 100,
-      "status": "completed",
-      "assignee": "研研"
-    },
-    {
-      "name": "社群互動系統", 
-      "progress": 35,
-      "status": "pending",
-      "assignee": "螃蟹"
-    },
-    {
-      "name": "華邦電法說會追蹤",
-      "progress": 100,
-      "status": "ready", 
-      "assignee": "小財"
-    },
-    {
-      "name": "記憶體股深度分析",
-      "progress": 95,
-      "status": "active",
-      "assignee": "小財"
-    },
-    {
-      "name": "CPO 技術研究",
-      "progress": 15,
-      "status": "planning",
-      "assignee": "研研"
-    }
-  ]
+  "performance": {
+    "daily": [
+      {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
+      {"date": "2026-02-09", "tasks": 22, "cost": 1.145, "savings": 3200},
+      {"date": "2026-02-10", "tasks": 15, "cost": 1.163, "savings": 4350}
+    ]
+  }
 }
