@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-09T22:10:00+08:00",
+  "updatedAt": "2026-02-09T22:42:00+08:00",
   "stats": {
-    "totalTokens": 8673254,
-    "totalCost": 71.23,
-    "totalTasks": 381,
+    "totalTokens": 8896234,
+    "totalCost": 73.85,
+    "totalTasks": 394,
     "activeSessions": 24,
-    "totalSaved": 52187.89
+    "totalSaved": 54230.45
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財", 
       "role": "股市分析師",
-      "tasks": 180,
-      "tokensUsed": 4293293,
-      "cost": 42.83,
-      "saved": 30256.78,
+      "tasks": 187,
+      "tokensUsed": 4459380,
+      "cost": 44.12,
+      "saved": 32156.89,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -32,10 +32,10 @@
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 67,
-      "tokensUsed": 1070303,
-      "cost": 9.59,
-      "saved": 6504.90,
+      "tasks": 71,
+      "tokensUsed": 1136865,
+      "cost": 10.23,
+      "saved": 6890.12,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -44,7 +44,7 @@
         "美國 AI 監管攻防戰分析 ⭐",
         "NVIDIA GPU 策略轉向報導 ⭐",
         "AI 模型三巨頭競爭格局", 
-        "Telegram/Webchat 新聞測試"
+        "Telegram/Webchat 新聞測試 ⭐"
       ],
       "heartbeat": "AI 監管變局追蹤中，週一晨報準備就緒 🤖"
     },
@@ -52,10 +52,10 @@
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 80,
-      "tokensUsed": 2383809,
-      "cost": 29.40,
-      "saved": 17025.68,
+      "tasks": 85,
+      "tokensUsed": 2452022,
+      "cost": 30.54,
+      "saved": 18425.76,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -103,10 +103,10 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 61,
-      "tokensUsed": 932546,
-      "cost": -10.61,
-      "saved": 2977.03,
+      "tasks": 68,
+      "tokensUsed": 1055540,
+      "cost": -11.06,
+      "saved": 3624.18,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -121,16 +121,16 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 168.7,
+    "weeklyGrowth": 175.3,
     "efficiencyTrend": "up", 
-    "costOptimization": 87.3,
+    "costOptimization": 89.1,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 88,
-    "afternoon": 24,
-    "evening": 9,
-    "night": 6
+    "morning": 92,
+    "afternoon": 28,
+    "evening": 11,
+    "night": 8
   },
   "projects": [
     {
