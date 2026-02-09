@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-10T05:34:00+08:00",
+  "lastUpdate": "2026-02-10T06:07:30+08:00",
   "stats": {
-    "totalTokens": 3263067,
-    "totalCost": 14.21,
-    "totalTasks": 105,
-    "activeSessions": 22,
-    "totalSaved": 15234.58
+    "totalTokens": 3426315,
+    "totalCost": 15.38,
+    "totalTasks": 115,
+    "activeSessions": 24,
+    "totalSaved": 16890.22
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 50,
-      "tokensUsed": 1202352,
-      "cost": 5.24,
-      "saved": 6130.84,
+      "tasks": 55,
+      "tokensUsed": 1298420,
+      "cost": 5.67,
+      "saved": 6752.11,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 21,
-      "tokensUsed": 353631,
-      "cost": 1.54,
-      "saved": 1803.23,
+      "tasks": 24,
+      "tokensUsed": 380145,
+      "cost": 1.71,
+      "saved": 1986.84,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 22,
-      "tokensUsed": 824534,
-      "cost": 3.60,
-      "saved": 4207.84,
+      "tasks": 25,
+      "tokensUsed": 895612,
+      "cost": 3.93,
+      "saved": 4585.73,
       "efficiency": 94,
       "status": "active",
       "recentTasks": [
@@ -81,7 +81,9 @@
       "cost": 0.000,
       "saved": 0,
       "efficiency": 100,
-      "status": "standby"
+      "status": "standby",
+      "recentTasks": [],
+      "heartbeat": "待命中，隨時準備投入 Moltbook 社群互動 🦀"
     },
     {
       "id": "xiaoguan",
@@ -93,31 +95,43 @@
       "cost": 0.000,
       "saved": 0,
       "efficiency": 100,
-      "status": "standby"
+      "status": "standby",
+      "recentTasks": [],
+      "heartbeat": "帳單監控系統運行正常，無異常支出 💰"
     },
     {
       "id": "lucy",
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 12,
-      "tokensUsed": 882550,
-      "cost": 3.83,
-      "saved": 4503.37,
+      "tasks": 11,
+      "tokensUsed": 852138,
+      "cost": 4.07,
+      "saved": 3565.54,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-10 (05:34) ⭐",
+        "Dashboard 數據更新 2026-02-10 (06:07) ⭐",
         "Git 合併衝突修復完成",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成",
         "記憶系統管理與檔案結構優化", 
         "多任務協調與 cron 管理"
       ],
-      "heartbeat": "合併衝突修復完成！Dashboard 數據已更新到最新狀態 ✨"
+      "heartbeat": "Dashboard 數據更新完成！系統運行順暢，所有模組正常 ✨"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-10-0607",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-10 06:07)",
+      "agent": "Lucy",
+      "timestamp": 1770674847,
+      "lastRunAt": 1770674847,
+      "status": "completed",
+      "cost": 0.081
+    },
     {
       "id": "dashboard-conflict-resolution-2026-02-10-0534",
       "name": "Git 合併衝突修復",
@@ -207,30 +221,20 @@
       "lastRunAt": 1770516000122,
       "status": "completed",
       "cost": 0.036
-    },
-    {
-      "id": "stock-weekly-report-2026-02-07",
-      "name": "股市週報｜2026/02/02 - 02/06",
-      "title": "股市週報｜2026/02/02 - 02/06",
-      "agent": "小財",
-      "timestamp": 1770429600245,
-      "lastRunAt": 1770429600245,
-      "status": "completed",
-      "cost": 0.117
     }
   ],
   "metrics": {
-    "avgTaskTime": 2.8,
+    "avgTaskTime": 2.7,
     "successRate": 100,
-    "costPerTask": 0.055,
-    "totalHours": 146,
+    "costPerTask": 0.053,
+    "totalHours": 158,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 22, "cost": 1.145, "savings": 3200},
-      {"date": "2026-02-10", "tasks": 15, "cost": 1.163, "savings": 4350}
+      {"date": "2026-02-10", "tasks": 18, "cost": 1.687, "savings": 4890}
     ]
   }
 }
