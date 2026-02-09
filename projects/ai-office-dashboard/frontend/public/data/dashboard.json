@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-10T00:47:00+08:00",
+  "updatedAt": "2026-02-10T01:51:00+08:00",
   "stats": {
-    "totalTokens": 9845329,
-    "totalCost": 95.23,
-    "totalTasks": 478,
+    "totalTokens": 10613375,
+    "totalCost": 117.85,
+    "totalTasks": 505,
     "activeSessions": 24,
-    "totalSaved": 67234.50
+    "totalSaved": 71771.75
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財", 
       "role": "股市分析師",
-      "tasks": 259,
-      "tokensUsed": 4926738,
-      "cost": 56.12,
-      "saved": 47890.25,
+      "tasks": 269,
+      "tokensUsed": 5202916,
+      "cost": 64.40,
+      "saved": 49906.80,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -32,10 +32,10 @@
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 88,
-      "tokensUsed": 1342567,
-      "cost": 13.45,
-      "saved": 9124.78,
+      "tasks": 93,
+      "tokensUsed": 1435958,
+      "cost": 16.88,
+      "saved": 9792.15,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -52,21 +52,21 @@
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 108,
-      "tokensUsed": 3234521,
-      "cost": 42.18,
-      "saved": 25678.90,
+      "tasks": 113,
+      "tokensUsed": 3345959,
+      "cost": 46.04,
+      "saved": 26312.45,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
+        "夜間探索：CoWoS 先進封裝技術深度解析 2026-02-10 ⭐",
         "夜間探索：8吋晶圓廠產能趨勢分析 2026-02-09 ⭐",
         "Nightly Build Report 2026-02-09 ⭐", 
         "全球 8吋晶圓廠產能縮減 2.4% 深度分析",
         "力積電受惠晶圓漲價 5-20% 研究",
-        "記憶體股投資策略更新",
         "華邦電法說會背景資料準備"
       ],
-      "heartbeat": "深夜研究完成，8 吋晶圓廠分析已為法說會備妥 🔬"
+      "heartbeat": "凌晨研究完成，CoWoS 先進封裝分析新鮮出爐 🔬"
     },
     {
       "id": "pangxie",
@@ -103,21 +103,21 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 95,
-      "tokensUsed": 1389102,
-      "cost": -16.56,
-      "saved": 4892.57,
+      "tasks": 100,
+      "tokensUsed": 1554542,
+      "cost": -9.54,
+      "saved": 5573.85,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-10 ⭐",
+        "Dashboard 數據更新 2026-02-10 01:51 ⭐",
         "主要對話支援與問題解答 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化",
         "記憶系統管理與優化", 
         "Dashboard 自動化更新系統"
       ],
-      "heartbeat": "Dashboard 數據已更新，全方位辦公室管理持續運行 ✨"
+      "heartbeat": "Dashboard 數據已更新至 01:51，Vercel 自動部署中 ✨"
     }
   ],
   "metrics": {
@@ -158,6 +158,12 @@
       "assignee": "研研"
     },
     {
+      "name": "CoWoS 先進封裝分析",
+      "progress": 100,
+      "status": "completed",
+      "assignee": "研研"
+    },
+    {
       "name": "8吋晶圓廠分析",
       "progress": 100,
       "status": "completed",
@@ -171,7 +177,7 @@
     },
     {
       "name": "華邦電法說會追蹤",
-      "progress": 90,
+      "progress": 95,
       "status": "active", 
       "assignee": "小財"
     }
