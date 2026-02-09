@@ -1,27 +1,27 @@
 {
-  "lastUpdate": "2026-02-09T07:31:00+08:00",
+  "lastUpdate": "2026-02-09T08:03:00+08:00",
   "stats": {
-    "totalTokens": 1576140,
-    "totalCost": 6.74,
-    "totalTasks": 59,
+    "totalTokens": 1671234,
+    "totalCost": 7.24,
+    "totalTasks": 64,
     "activeSessions": 24,
-    "totalSaved": 7317.15
+    "totalSaved": 7623.89
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 27,
-      "tokensUsed": 618991,
-      "cost": 2.31,
-      "saved": 2631.17,
+      "tasks": 30,
+      "tokensUsed": 682447,
+      "cost": 2.57,
+      "saved": 2851.23,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
-        "美股晨報完整分析 2026/02/07",
-        "股市週報 2026/02/02-02/06", 
+        "美股晨報完整分析 2026/02/09",
         "台股盤後完整分析 2026/02/06",
+        "股市週報 2026/02/02-02/06", 
         "台股收盤分析報告 2026/02/06",
         "台股開盤完整分析 2026/02/06",
         "記憶體股盯盤追蹤"
@@ -31,35 +31,35 @@
       "id": "axin", 
       "name": "阿新",
       "role": "AI 新聞編輯",
-      "tasks": 11,
-      "tokensUsed": 174689,
-      "cost": 0.68,
-      "saved": 717.48,
+      "tasks": 13,
+      "tokensUsed": 201596,
+      "cost": 0.81,
+      "saved": 846.12,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
+        "AI 新聞日報 2026-02-09",
         "AI 新聞日報 2026-02-08",
         "AI 產業動態完整分析",
         "OpenAI Stargate 計畫報導", 
         "DeepSeek 技術突破分析",
-        "半導體產業新聞整理",
-        "人形機器人趨勢報告"
+        "半導體產業新聞整理"
       ]
     },
     {
       "id": "yanyan",
       "name": "研研", 
       "role": "夜間研究員",
-      "tasks": 12,
-      "tokensUsed": 418180,
-      "cost": 2.07,
-      "saved": 1847.84,
+      "tasks": 14,
+      "tokensUsed": 480392,
+      "cost": 2.41,
+      "saved": 2119.67,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
         "夜間探索：8吋晶圓廠產能趨勢分析 2026-02-09",
         "Nightly Build Report 2026-02-09",
-        "夜間探索：DRAM 合約價追蹤",
+        "夜間探索：8吋晶圓廠分析 2026-02-08",
         "記憶體整理與維護",
         "半導體產業深度研究",
         "投資策略分析報告"
@@ -95,10 +95,10 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 9,
-      "tokensUsed": 364280,
-      "cost": 1.68,
-      "saved": 1620.66,
+      "tasks": 12,
+      "tokensUsed": 306799,
+      "cost": 1.45,
+      "saved": 1806.87,
       "efficiency": 98,
       "status": "active", 
       "recentTasks": [
@@ -112,15 +112,15 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 42.3,
+    "weeklyGrowth": 47.8,
     "efficiencyTrend": "up",
-    "costOptimization": 28.7,
+    "costOptimization": 31.2,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 48,
-    "afternoon": 34, 
-    "evening": 12,
+    "morning": 52,
+    "afternoon": 31, 
+    "evening": 11,
     "night": 6
   },
   "projects": [
@@ -138,13 +138,13 @@
     },
     {
       "name": "AI 新聞自動化",
-      "progress": 98,
+      "progress": 100,
       "status": "active",
       "assignee": "阿新"
     },
     {
       "name": "夜間研究計畫",
-      "progress": 96,
+      "progress": 98,
       "status": "active",
       "assignee": "研研"
     },
