@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-09T23:13:00+08:00",
+  "updatedAt": "2026-02-10T00:16:00+08:00",
   "stats": {
-    "totalTokens": 8998677,
-    "totalCost": 74.12,
-    "totalTasks": 405,
-    "activeSessions": 19,
-    "totalSaved": 54890.23
+    "totalTokens": 9534673,
+    "totalCost": 89.67,
+    "totalTasks": 456,
+    "activeSessions": 22,
+    "totalSaved": 65789.34
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財", 
       "role": "股市分析師",
-      "tasks": 195,
-      "tokensUsed": 4523891,
-      "cost": 44.89,
-      "saved": 32876.45,
+      "tasks": 245,
+      "tokensUsed": 4759814,
+      "cost": 52.89,
+      "saved": 45678.90,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -24,18 +24,18 @@
         "美股晨報完整分析 2026-02-09 ⭐", 
         "台股收盤分析報告 2026-02-09 ⭐",
         "股市週報 2026-02-02~02/06 ⭐",
-        "記憶體股盯盤追蹤"
+        "記憶體股華邦電、力積電追蹤"
       ],
-      "heartbeat": "週日完成 8 場重磅分析！明日 09:00 開盤、15:00 華邦電法說會 📊"
+      "heartbeat": "週日完成 5 場重磅分析！明日 09:00 開盤、15:00 華邦電法說會 📊"
     },
     {
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 74,
-      "tokensUsed": 1162772,
-      "cost": 10.46,
-      "saved": 7125.67,
+      "tasks": 82,
+      "tokensUsed": 1216586,
+      "cost": 11.89,
+      "saved": 8567.23,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -44,7 +44,7 @@
         "美國 AI 監管攻防戰分析 ⭐",
         "NVIDIA GPU 策略轉向報導 ⭐",
         "AI 模型三巨頭競爭格局", 
-        "Telegram/Webchat 新聞測試 ⭐"
+        "AI 政策動態持續關注"
       ],
       "heartbeat": "AI 監管變局追蹤中，週一晨報準備就緒 🤖"
     },
@@ -52,10 +52,10 @@
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 89,
-      "tokensUsed": 2520563,
-      "cost": 31.42,
-      "saved": 19234.89,
+      "tasks": 98,
+      "tokensUsed": 3055847,
+      "cost": 38.45,
+      "saved": 23456.78,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -103,14 +103,14 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 74,
-      "tokensUsed": 1076011,
-      "cost": -12.67,
-      "saved": 3729.72,
+      "tasks": 88,
+      "tokensUsed": 1262053,
+      "cost": -13.58,
+      "saved": 4234.93,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-09 ⭐",
+        "Dashboard 數據更新 2026-02-10 ⭐",
         "主要對話支援與問題解答 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化",
@@ -121,16 +121,16 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 182.7,
+    "weeklyGrowth": 198.3,
     "efficiencyTrend": "up", 
-    "costOptimization": 89.8,
+    "costOptimization": 92.4,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 98,
-    "afternoon": 32,
-    "evening": 14,
-    "night": 12
+    "morning": 102,
+    "afternoon": 35,
+    "evening": 18,
+    "night": 15
   },
   "projects": [
     {
