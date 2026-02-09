@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-09T19:33:00+08:00",
+  "updatedAt": "2026-02-09T21:07:00+08:00",
   "stats": {
-    "totalTokens": 7202658,
-    "totalCost": 54.12,
-    "totalTasks": 327,
-    "activeSessions": 19,
-    "totalSaved": 41580.55
+    "totalTokens": 8127156,
+    "totalCost": 64.92,
+    "totalTasks": 362,
+    "activeSessions": 24,
+    "totalSaved": 48156.78
   },
   "employees": [
     {
       "id": "xiaocai",
-      "name": "小財",
+      "name": "小財", 
       "role": "股市分析師",
-      "tasks": 152,
-      "tokensUsed": 3594307,
-      "cost": 30.57,
-      "saved": 22979.10,
+      "tasks": 170,
+      "tokensUsed": 4001707,
+      "cost": 37.45,
+      "saved": 27856.89,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -26,16 +26,16 @@
         "股市週報 2026-02-02-02/06 ⭐",
         "記憶體股盯盤追蹤"
       ],
-      "heartbeat": "完成週一五場分析！明日重點：華邦電法說會 15:00 📊"
+      "heartbeat": "週日完成 5 場重磅分析！明日 09:00 開盤、15:00 華邦電法說會 📊"
     },
     {
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 57,
-      "tokensUsed": 896191,
-      "cost": 7.21,
-      "saved": 4822.23,
+      "tasks": 65,
+      "tokensUsed": 1016489,
+      "cost": 8.56,
+      "saved": 5567.23,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -44,18 +44,18 @@
         "美國 AI 監管攻防戰分析 ⭐",
         "NVIDIA GPU 策略轉向報導 ⭐",
         "AI 模型三巨頭競爭格局", 
-        "勞動力自動化風險研究"
+        "Telegram/Webchat 新聞測試"
       ],
-      "heartbeat": "追蹤聯邦 vs 州 AI 監管動態，關注 3/11 評估報告 🤖"
+      "heartbeat": "AI 監管變局追蹤中，週一晨報準備就緒 🤖"
     },
     {
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 67,
-      "tokensUsed": 2022800,
-      "cost": 19.89,
-      "saved": 12891.04,
+      "tasks": 76,
+      "tokensUsed": 2246583,
+      "cost": 24.67,
+      "saved": 15234.78,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -66,7 +66,7 @@
         "記憶體股投資策略更新",
         "華邦電法說會背景資料準備"
       ],
-      "heartbeat": "完成 8 吋晶圓廠深度分析，華邦電法說會資料就緒 🔬"
+      "heartbeat": "完成 8 吋晶圓廠深度分析，法說會資料已備妥 🔬"
     },
     {
       "id": "pangxie",
@@ -103,10 +103,10 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 48,
-      "tokensUsed": 686881,
-      "cost": -3.01,
-      "saved": 1864.68,
+      "tasks": 57,
+      "tokensUsed": 862377,
+      "cost": -0.76,
+      "saved": 2497.88,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -121,16 +121,16 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 152.8,
+    "weeklyGrowth": 164.5,
     "efficiencyTrend": "up", 
-    "costOptimization": 83.2,
+    "costOptimization": 85.7,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 82,
-    "afternoon": 18,
-    "evening": 7,
-    "night": 3
+    "morning": 85,
+    "afternoon": 22,
+    "evening": 8,
+    "night": 5
   },
   "projects": [
     {
