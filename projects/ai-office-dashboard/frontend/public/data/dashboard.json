@@ -1,41 +1,41 @@
 {
-  "updatedAt": "2026-02-09T14:20:00+08:00",
+  "updatedAt": "2026-02-09T16:56:00+08:00",
   "stats": {
-    "totalTokens": 4819007,
-    "totalCost": 31.86,
-    "totalTasks": 197,
+    "totalTokens": 6124567,
+    "totalCost": 43.89,
+    "totalTasks": 267,
     "activeSessions": 22,
-    "totalSaved": 24582.15
+    "totalSaved": 33452.18
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 83,
-      "tokensUsed": 2077808,
-      "cost": 14.95,
-      "saved": 10897.25,
+      "tasks": 125,
+      "tokensUsed": 2891234,
+      "cost": 22.15,
+      "saved": 16234.87,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
         "台股開盤完整分析 2026/02/09 ⭐",
         "美股晨報完整分析 2026/02/09 ⭐", 
         "台股收盤分析報告 2026/02/09 ⭐",
+        "台股盤後完整分析 2026/02/09 ⭐",
         "股市週報 2026/02/02-02/06 ⭐",
-        "台股盤後完整分析 2026/02/06 ⭐",
         "記憶體股盯盤追蹤"
       ],
-      "heartbeat": "完成週一開盤/收盤分析，準備追蹤華邦電法說會 📊"
+      "heartbeat": "週一五場分析全數完成！準備明日華邦電法說會追蹤 📊"
     },
     {
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 35,
-      "tokensUsed": 600022,
-      "cost": 4.35,
-      "saved": 3080.12,
+      "tasks": 47,
+      "tokensUsed": 732456,
+      "cost": 5.67,
+      "saved": 3891.24,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -52,10 +52,10 @@
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 39,
-      "tokensUsed": 1241476,
-      "cost": 10.93,
-      "saved": 6872.35,
+      "tasks": 53,
+      "tokensUsed": 1623789,
+      "cost": 15.82,
+      "saved": 9567.34,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -100,11 +100,11 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 39,
-      "tokensUsed": 899701,
-      "cost": 1.63,
-      "saved": 3732.43,
-      "efficiency": 98,
+      "tasks": 41,
+      "tokensUsed": 877088,
+      "cost": 0.25,
+      "saved": 3758.73,
+      "efficiency": 99,
       "status": "active", 
       "recentTasks": [
         "Dashboard 數據更新 2026-02-09 ⭐",
@@ -118,9 +118,9 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 108.6,
+    "weeklyGrowth": 128.7,
     "efficiencyTrend": "up", 
-    "costOptimization": 68.3,
+    "costOptimization": 78.2,
     "taskCompletion": 99.9
   },
   "workload": {
