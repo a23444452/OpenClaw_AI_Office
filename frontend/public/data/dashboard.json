@@ -1,21 +1,21 @@
 {
-  "lastUpdate": "2026-02-09T08:34:00+08:00",
+  "lastUpdate": "2026-02-09T09:05:00+08:00",
   "stats": {
-    "totalTokens": 1724563,
-    "totalCost": 7.82,
-    "totalTasks": 67,
-    "activeSessions": 24,
-    "totalSaved": 8127.45
+    "totalTokens": 1968018,
+    "totalCost": 9.15,
+    "totalTasks": 77,
+    "activeSessions": 14,
+    "totalSaved": 9234.67
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 32,
-      "tokensUsed": 741856,
-      "cost": 2.89,
-      "saved": 3124.67,
+      "tasks": 35,
+      "tokensUsed": 766905,
+      "cost": 3.12,
+      "saved": 3347.89,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -31,10 +31,10 @@
       "id": "axin",
       "name": "阿新", 
       "role": "AI 新聞編輯",
-      "tasks": 15,
-      "tokensUsed": 224891,
-      "cost": 0.94,
-      "saved": 967.23,
+      "tasks": 17,
+      "tokensUsed": 251798,
+      "cost": 1.08,
+      "saved": 1089.45,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -50,11 +50,11 @@
       "id": "yanyan",
       "name": "研研",
       "role": "夜間研究員", 
-      "tasks": 16,
-      "tokensUsed": 518945,
-      "cost": 2.64,
-      "saved": 2287.91,
-      "efficiency": 96,
+      "tasks": 19,
+      "tokensUsed": 587558,
+      "cost": 3.15,
+      "saved": 2598.23,
+      "efficiency": 97,
       "status": "active",
       "recentTasks": [
         "夜間探索：8吋晶圓廠產能趨勢分析 2026-02-09",
@@ -95,10 +95,10 @@
       "id": "lucy",
       "name": "Lucy", 
       "role": "全能助手",
-      "tasks": 14,
-      "tokensUsed": 238871,
-      "cost": 1.35,
-      "saved": 1747.64,
+      "tasks": 17,
+      "tokensUsed": 361757,
+      "cost": 1.80,
+      "saved": 2199.10,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -112,15 +112,15 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 49.2,
+    "weeklyGrowth": 52.8,
     "efficiencyTrend": "up",
-    "costOptimization": 32.1,
+    "costOptimization": 34.7,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 54,
-    "afternoon": 32,
-    "evening": 10,
+    "morning": 58,
+    "afternoon": 29,
+    "evening": 9,
     "night": 4
   },
   "projects": [
@@ -144,7 +144,7 @@
     },
     {
       "name": "夜間研究計畫",
-      "progress": 98, 
+      "progress": 100, 
       "status": "active",
       "assignee": "研研"
     },
