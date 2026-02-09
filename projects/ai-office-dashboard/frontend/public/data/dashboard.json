@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-09T23:44:00+08:00",
+  "updatedAt": "2026-02-10T00:47:00+08:00",
   "stats": {
-    "totalTokens": 9127394,
-    "totalCost": 75.89,
-    "totalTasks": 412,
-    "activeSessions": 22,
-    "totalSaved": 56234.78
+    "totalTokens": 9845329,
+    "totalCost": 95.23,
+    "totalTasks": 478,
+    "activeSessions": 24,
+    "totalSaved": 67234.50
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財", 
       "role": "股市分析師",
-      "tasks": 200,
-      "tokensUsed": 4612750,
-      "cost": 45.67,
-      "saved": 33456.78,
+      "tasks": 259,
+      "tokensUsed": 4926738,
+      "cost": 56.12,
+      "saved": 47890.25,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -24,18 +24,18 @@
         "美股晨報完整分析 2026-02-09 ⭐", 
         "台股收盤分析報告 2026-02-09 ⭐",
         "股市週報 2026-02-02~02/06 ⭐",
-        "記憶體股盯盤追蹤"
+        "記憶體股華邦電、力積電追蹤"
       ],
-      "heartbeat": "週日完成 8 場重磅分析！明日 09:00 開盤、15:00 華邦電法說會 📊"
+      "heartbeat": "週一盤前準備完畢！09:00 開盤、15:00 華邦電法說會重點關注 📊"
     },
     {
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 76,
-      "tokensUsed": 1189679,
-      "cost": 10.78,
-      "saved": 7298.45,
+      "tasks": 88,
+      "tokensUsed": 1342567,
+      "cost": 13.45,
+      "saved": 9124.78,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -44,18 +44,18 @@
         "美國 AI 監管攻防戰分析 ⭐",
         "NVIDIA GPU 策略轉向報導 ⭐",
         "AI 模型三巨頭競爭格局", 
-        "Telegram/Webchat 新聞測試 ⭐"
+        "AI 政策動態持續關注"
       ],
-      "heartbeat": "AI 監管變局追蹤中，週一晨報準備就緒 🤖"
+      "heartbeat": "週一晨報準備就緒，關注 NVIDIA 最新動態 🤖"
     },
     {
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 92,
-      "tokensUsed": 2587234,
-      "cost": 32.15,
-      "saved": 19745.67,
+      "tasks": 108,
+      "tokensUsed": 3234521,
+      "cost": 42.18,
+      "saved": 25678.90,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -66,23 +66,23 @@
         "記憶體股投資策略更新",
         "華邦電法說會背景資料準備"
       ],
-      "heartbeat": "完成 8 吋晶圓廠深度分析，法說會資料已備妥 🔬"
+      "heartbeat": "深夜研究完成，8 吋晶圓廠分析已為法說會備妥 🔬"
     },
     {
       "id": "pangxie",
       "name": "螃蟹",
       "role": "社群管理員",
-      "tasks": 2,
-      "tokensUsed": 1234,
-      "cost": 0.02,
-      "saved": 15.00,
+      "tasks": 3,
+      "tokensUsed": 2156,
+      "cost": 0.03,
+      "saved": 18.50,
       "efficiency": 85, 
       "status": "idle",
       "recentTasks": [
         "Moltbook 社群檢查 (待啟動)",
         "社群互動監控準備"
       ],
-      "heartbeat": "社群監控待命中，等待互動任務 🦀"
+      "heartbeat": "社群監控待命中，等待 Moltbook 互動任務 🦀"
     },
     {
       "id": "xiaoguan",
@@ -90,47 +90,47 @@
       "role": "財務提醒專員",
       "tasks": 1,
       "tokensUsed": 245,
-      "cost": 0.00,
-      "saved": 8.50,
+      "cost": 0.01,
+      "saved": 12.50,
       "efficiency": 95,
       "status": "idle",
       "recentTasks": [
         "帳單提醒系統檢查"
       ],
-      "heartbeat": "待收帳單提醒任務，系統穩定運行中 💰"
+      "heartbeat": "財務監控系統穩定運行，待收帳單提醒 💰"
     },
     {
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 77,
-      "tokensUsed": 1098456,
-      "cost": -12.34,
-      "saved": 3812.89,
+      "tasks": 95,
+      "tokensUsed": 1389102,
+      "cost": -16.56,
+      "saved": 4892.57,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-09 ⭐",
+        "Dashboard 數據更新 2026-02-10 ⭐",
         "主要對話支援與問題解答 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化",
         "記憶系統管理與優化", 
-        "前端界面持續改進"
+        "Dashboard 自動化更新系統"
       ],
-      "heartbeat": "全方位辦公室管理，Dashboard 自動更新完成 ✨"
+      "heartbeat": "Dashboard 數據已更新，全方位辦公室管理持續運行 ✨"
     }
   ],
   "metrics": {
-    "weeklyGrowth": 182.7,
+    "weeklyGrowth": 203.7,
     "efficiencyTrend": "up", 
-    "costOptimization": 89.8,
+    "costOptimization": 93.8,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 98,
-    "afternoon": 32,
-    "evening": 14,
-    "night": 12
+    "morning": 115,
+    "afternoon": 42,
+    "evening": 24,
+    "night": 18
   },
   "projects": [
     {
@@ -165,9 +165,15 @@
     },
     {
       "name": "社群互動系統", 
-      "progress": 25,
+      "progress": 35,
       "status": "pending",
       "assignee": "螃蟹"
+    },
+    {
+      "name": "華邦電法說會追蹤",
+      "progress": 90,
+      "status": "active", 
+      "assignee": "小財"
     }
   ]
 }
