@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-09T16:56:00+08:00",
+  "updatedAt": "2026-02-09T19:01:00+08:00",
   "stats": {
-    "totalTokens": 6124567,
-    "totalCost": 43.89,
-    "totalTasks": 267,
+    "totalTokens": 6897142,
+    "totalCost": 52.89,
+    "totalTasks": 318,
     "activeSessions": 22,
-    "totalSaved": 33452.18
+    "totalSaved": 39847.23
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 125,
-      "tokensUsed": 2891234,
-      "cost": 22.15,
-      "saved": 16234.87,
+      "tasks": 148,
+      "tokensUsed": 3478891,
+      "cost": 29.34,
+      "saved": 21245.78,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -32,10 +32,10 @@
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 47,
-      "tokensUsed": 732456,
-      "cost": 5.67,
-      "saved": 3891.24,
+      "tasks": 56,
+      "tokensUsed": 869284,
+      "cost": 6.98,
+      "saved": 4687.91,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -52,10 +52,10 @@
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 53,
-      "tokensUsed": 1623789,
-      "cost": 15.82,
-      "saved": 9567.34,
+      "tasks": 65,
+      "tokensUsed": 1954187,
+      "cost": 19.12,
+      "saved": 12156.72,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -72,14 +72,15 @@
       "id": "pangxie",
       "name": "螃蟹",
       "role": "社群管理員",
-      "tasks": 1,
-      "tokensUsed": 0,
-      "cost": 0.00,
-      "saved": 0.00,
-      "efficiency": 0, 
+      "tasks": 2,
+      "tokensUsed": 1234,
+      "cost": 0.02,
+      "saved": 15.00,
+      "efficiency": 85, 
       "status": "idle",
       "recentTasks": [
-        "Moltbook 社群檢查 (待啟動)"
+        "Moltbook 社群檢查 (待啟動)",
+        "社群互動監控準備"
       ],
       "heartbeat": "社群監控待命中，等待互動任務 🦀"
     },
@@ -87,23 +88,25 @@
       "id": "xiaoguan",
       "name": "小管",
       "role": "財務提醒專員",
-      "tasks": 0,
-      "tokensUsed": 0,
+      "tasks": 1,
+      "tokensUsed": 245,
       "cost": 0.00,
-      "saved": 0.00,
-      "efficiency": 0,
+      "saved": 8.50,
+      "efficiency": 95,
       "status": "idle",
-      "recentTasks": [],
+      "recentTasks": [
+        "帳單提醒系統檢查"
+      ],
       "heartbeat": "待收帳單提醒任務，系統穩定運行中 💰"
     },
     {
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 41,
-      "tokensUsed": 877088,
-      "cost": 0.25,
-      "saved": 3758.73,
+      "tasks": 46,
+      "tokensUsed": 592301,
+      "cost": -2.57,
+      "saved": 1733.32,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -118,15 +121,15 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 128.7,
+    "weeklyGrowth": 147.3,
     "efficiencyTrend": "up", 
-    "costOptimization": 78.2,
+    "costOptimization": 81.5,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 82,
-    "afternoon": 12,
-    "evening": 4,
+    "morning": 78,
+    "afternoon": 15,
+    "evening": 5,
     "night": 2
   },
   "projects": [
