@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-02-10T01:19:00+08:00",
+  "lastUpdate": "2026-02-10T02:23:00+08:00",
   "stats": {
-    "totalTokens": 10187253,
-    "totalCost": 98.67,
-    "totalTasks": 492,
-    "activeSessions": 24,
-    "totalSaved": 69821.75
+    "totalTokens": 1576140,
+    "totalCost": 6.74,
+    "totalTasks": 59,
+    "activeSessions": 22,
+    "totalSaved": 7317.24
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財", 
       "role": "股市分析師",
-      "tasks": 264,
-      "tokensUsed": 5058392,
-      "cost": 57.89,
-      "saved": 49156.80,
-      "efficiency": 99,
+      "tasks": 27,
+      "tokensUsed": 618991,
+      "cost": 2.31,
+      "saved": 2631.50,
+      "efficiency": 96,
       "status": "active",
       "recentTasks": [
         "台股盤後完整分析報告 2026-02-09 ⭐",
@@ -32,11 +32,11 @@
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 90,
-      "tokensUsed": 1369474,
-      "cost": 13.89,
-      "saved": 9342.15,
-      "efficiency": 98,
+      "tasks": 11,
+      "tokensUsed": 174689,
+      "cost": 0.68,
+      "saved": 717.25,
+      "efficiency": 93,
       "status": "active",
       "recentTasks": [
         "AI 新聞日報 2026-02-09 ⭐",
@@ -52,11 +52,11 @@
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 111,
-      "tokensUsed": 3274634,
-      "cost": 42.83,
-      "saved": 26012.45,
-      "efficiency": 97,
+      "tasks": 12,
+      "tokensUsed": 418180,
+      "cost": 2.07,
+      "saved": 1848.75,
+      "efficiency": 89,
       "status": "active",
       "recentTasks": [
         "夜間探索：CoWoS 先進封裝技術深度解析 2026-02-10 ⭐",
@@ -72,10 +72,10 @@
       "id": "pangxie",
       "name": "螃蟹",
       "role": "社群管理員",
-      "tasks": 3,
-      "tokensUsed": 2156,
-      "cost": 0.03,
-      "saved": 18.50,
+      "tasks": 0,
+      "tokensUsed": 0,
+      "cost": 0.00,
+      "saved": 0.00,
       "efficiency": 85, 
       "status": "idle",
       "recentTasks": [
@@ -88,10 +88,10 @@
       "id": "xiaoguan",
       "name": "小管",
       "role": "財務提醒專員",
-      "tasks": 1,
-      "tokensUsed": 245,
-      "cost": 0.01,
-      "saved": 12.50,
+      "tasks": 0,
+      "tokensUsed": 0,
+      "cost": 0.00,
+      "saved": 0.00,
       "efficiency": 95,
       "status": "idle",
       "recentTasks": [
@@ -103,34 +103,34 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 97,
-      "tokensUsed": 1410753,
-      "cost": -16.01,
-      "saved": 5123.85,
-      "efficiency": 99,
+      "tasks": 9,
+      "tokensUsed": 364280,
+      "cost": 1.68,
+      "saved": 1619.74,
+      "efficiency": 97,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-10 01:19 ⭐",
+        "Dashboard 數據更新 2026-02-10 02:23 ⭐",
         "主要對話支援與問題解答 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化",
         "記憶系統管理與優化", 
         "Dashboard 自動化更新系統"
       ],
-      "heartbeat": "Dashboard 數據已更新至 01:19，Vercel 自動部署中 ✨"
+      "heartbeat": "Dashboard 數據已更新至 02:23，正在執行自動化更新 ✨"
     }
   ],
   "metrics": {
-    "weeklyGrowth": 203.7,
+    "weeklyGrowth": 185.3,
     "efficiencyTrend": "up", 
-    "costOptimization": 93.8,
-    "taskCompletion": 99.9
+    "costOptimization": 94.2,
+    "taskCompletion": 100.0
   },
   "workload": {
-    "morning": 115,
-    "afternoon": 42,
-    "evening": 24,
-    "night": 18
+    "morning": 23,
+    "afternoon": 12,
+    "evening": 8,
+    "night": 16
   },
   "projects": [
     {
