@@ -1,21 +1,21 @@
 {
-  "lastUpdate": "2026-02-09T12:14:00+08:00",
+  "lastUpdate": "2026-02-09T13:16:00+08:00",
   "stats": {
-    "totalTokens": 3378564,
-    "totalCost": 18.21,
-    "totalTasks": 150,
+    "totalTokens": 4058657,
+    "totalCost": 25.53,
+    "totalTasks": 172,
     "activeSessions": 22,
-    "totalSaved": 16874.82
+    "totalSaved": 19974.82
   },
   "employees": [
     {
       "id": "xiaocai",
       "name": "小財",
       "role": "股市分析師",
-      "tasks": 61,
-      "tokensUsed": 1516842,
-      "cost": 8.15,
-      "saved": 7584.21,
+      "tasks": 71,
+      "tokensUsed": 1794456,
+      "cost": 12.26,
+      "saved": 9084.21,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -32,10 +32,10 @@
       "id": "axin",
       "name": "阿新",
       "role": "AI 新聞編輯", 
-      "tasks": 28,
-      "tokensUsed": 452817,
-      "cost": 2.46,
-      "saved": 2263.85,
+      "tasks": 32,
+      "tokensUsed": 546208,
+      "cost": 3.66,
+      "saved": 2713.85,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -52,10 +52,10 @@
       "id": "yanyan", 
       "name": "研研",
       "role": "夜間研究員",
-      "tasks": 30,
-      "tokensUsed": 967024,
-      "cost": 5.63,
-      "saved": 4835.12,
+      "tasks": 34,
+      "tokensUsed": 1104250,
+      "cost": 8.32,
+      "saved": 5535.12,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -100,10 +100,10 @@
       "id": "lucy",
       "name": "Lucy",
       "role": "全能助手",
-      "tasks": 31,
-      "tokensUsed": 571861,
-      "cost": 2.67,
-      "saved": 2789.64,
+      "tasks": 35,
+      "tokensUsed": 743723,
+      "cost": 5.17,
+      "saved": 3239.64,
       "efficiency": 98,
       "status": "active", 
       "recentTasks": [
@@ -118,15 +118,15 @@
     }
   ],
   "metrics": {
-    "weeklyGrowth": 84.2,
+    "weeklyGrowth": 92.8,
     "efficiencyTrend": "up", 
-    "costOptimization": 52.1,
+    "costOptimization": 58.3,
     "taskCompletion": 99.9
   },
   "workload": {
-    "morning": 75,
-    "afternoon": 18,
-    "evening": 5,
+    "morning": 78,
+    "afternoon": 16,
+    "evening": 4,
     "night": 2
   },
   "projects": [
