@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-11T01:37:00+08:00",
+  "updatedAt": "2026-02-11T02:09:00+08:00",
   "stats": {
-    "totalTokens": 15139681,
-    "totalCost": 87.66,
-    "totalTasks": 612,
+    "totalTokens": 15628947,
+    "totalCost": 89.58,
+    "totalTasks": 636,
     "activeSessions": 24,
-    "totalSaved": 127122.23
+    "totalSaved": 131544.67
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 313,
-      "tokensUsed": 7257988,
-      "cost": 44.82,
-      "saved": 69267.89,
+      "tasks": 325,
+      "tokensUsed": 7546212,
+      "cost": 46.74,
+      "saved": 71834.89,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 116,
-      "tokensUsed": 1683795,
-      "cost": 9.46,
-      "saved": 13912.67,
+      "tasks": 119,
+      "tokensUsed": 1727678,
+      "cost": 9.72,
+      "saved": 14289.45,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 133,
-      "tokensUsed": 4372543,
-      "cost": 21.49,
-      "saved": 38701.23,
+      "tasks": 138,
+      "tokensUsed": 4492567,
+      "cost": 22.31,
+      "saved": 39876.12,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -69,7 +69,7 @@
         "記憶整理：華邦電法說會提醒已加入",
         "Workspace 清理：修復嵌套目錄問題 237MB"
       ],
-      "heartbeat": "🔬 最新探索：AI ASIC 發展趨勢完成！分析 Google TPU、AWS Trainium、Intel Gaudi 等5大玩家，NVIDIA 95%市佔面臨挑戰。台灣供應鏈受益者鎖定TSMC、載板三雄"
+      "heartbeat": "🔬 最新探索：AI ASIC 發展趨勢完成！分析 Google TPU、AWS Trainium、Intel Gaudi、Microsoft Maia、Meta MTIA 五大玩家。NVIDIA 95%市佔面臨挑戰，台灣供應鏈受益者：TSMC、載板三雄"
     },
     {
       "id": "pangxie",
@@ -104,24 +104,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 145,
-      "tokensUsed": 2970355,
-      "cost": 12.27,
-      "saved": 19540.44,
+      "tasks": 154,
+      "tokensUsed": 3062490,
+      "cost": 13.81,
+      "saved": 20244.21,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-11 (01:37) 🔥",
+        "Dashboard 數據更新 2026-02-11 (02:09) 🔥",
         "Sessions 統計分析與角色任務分配 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成",
         "記憶系統管理與檔案結構優化",
         "多任務協調與 cron 管理"
       ],
-      "heartbeat": "✨ Dashboard 最新數據：612個任務完成，15.14M tokens處理，節省$127,122！各角色高效運行，正在推送Git更新"
+      "heartbeat": "✨ Dashboard 最新數據：636個任務完成，15.63M tokens處理，節省$131,545！各角色高效運行，正在推送Git更新"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-11-0209",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-11 02:09)",
+      "agent": "Lucy",
+      "timestamp": 1770746940,
+      "lastRunAt": 1770746940,
+      "status": "completed",
+      "cost": 0.070
+    },
     {
       "id": "dashboard-update-2026-02-11-0137",
       "name": "Dashboard 數據更新",
@@ -231,23 +241,13 @@
       "lastRunAt": 1770656400,
       "status": "completed",
       "cost": 0.035
-    },
-    {
-      "id": "nightly-build-2026-02-10-0300",
-      "name": "Nightly Build 完成",
-      "title": "Nightly Build 完成！記憶整理與 Workspace 優化",
-      "agent": "研研",
-      "timestamp": 1770663600,
-      "lastRunAt": 1770663600,
-      "status": "completed",
-      "cost": 0.034
     }
   ],
   "metrics": {
     "avgTaskTime": 1.4,
     "successRate": 100,
-    "costPerTask": 0.143,
-    "totalHours": 388,
+    "costPerTask": 0.141,
+    "totalHours": 402,
     "automationLevel": 99.9
   },
   "performance": {
@@ -255,7 +255,7 @@
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 32, "cost": 1.903, "savings": 4656},
       {"date": "2026-02-10", "tasks": 265, "cost": 15.89, "savings": 49434},
-      {"date": "2026-02-11", "tasks": 15, "cost": 0.701, "savings": 4332}
+      {"date": "2026-02-11", "tasks": 24, "cost": 1.92, "savings": 5654}
     ]
   }
 }
