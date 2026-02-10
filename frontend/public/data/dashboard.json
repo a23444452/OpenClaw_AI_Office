@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-10T11:55:00+08:00",
+  "lastUpdate": "2026-02-10T12:27:00+08:00",
   "stats": {
-    "totalTokens": 6434729,
-    "totalCost": 33.64,
-    "totalTasks": 221,
-    "activeSessions": 24,
-    "totalSaved": 44582.15
+    "totalTokens": 7103892,
+    "totalCost": 37.18,
+    "totalTasks": 243,
+    "activeSessions": 22,
+    "totalSaved": 49158.67
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 115,
-      "tokensUsed": 3012847,
-      "cost": 16.78,
-      "saved": 21342.89,
+      "tasks": 121,
+      "tokensUsed": 3312458,
+      "cost": 18.54,
+      "saved": 23567.82,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 48,
-      "tokensUsed": 742163,
-      "cost": 3.89,
-      "saved": 4587.34,
+      "tasks": 49,
+      "tokensUsed": 768924,
+      "cost": 4.07,
+      "saved": 4756.18,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 52,
-      "tokensUsed": 1756821,
-      "cost": 8.54,
-      "saved": 12784.67,
+      "tasks": 54,
+      "tokensUsed": 1842037,
+      "cost": 8.89,
+      "saved": 13456.92,
       "efficiency": 95,
       "status": "active",
       "recentTasks": [
@@ -104,10 +104,10 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 38,
-      "tokensUsed": 1503915,
-      "cost": 4.43,
-      "saved": 5867.25,
+      "tasks": 50,
+      "tokensUsed": 1582473,
+      "cost": 5.68,
+      "saved": 7377.75,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -122,6 +122,16 @@
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-10-1227",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-10 12:27)",
+      "agent": "Lucy",
+      "timestamp": 1770697620000,
+      "lastRunAt": 1770697620000,
+      "status": "completed",
+      "cost": 0.076
+    },
     {
       "id": "dashboard-update-2026-02-10-1155",
       "name": "Dashboard 數據更新",
@@ -234,7 +244,7 @@
     "daily": [
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 31, "cost": 1.867, "savings": 4520},
-      {"date": "2026-02-10", "tasks": 38, "cost": 3.124, "savings": 8967}
+      {"date": "2026-02-10", "tasks": 43, "cost": 3.54, "savings": 9576}
     ]
   }
 }
