@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-10T15:06:00+08:00",
+  "lastUpdate": "2026-02-10T15:38:00+08:00",
   "stats": {
-    "totalTokens": 9487624,
-    "totalCost": 52.84,
-    "totalTasks": 356,
-    "activeSessions": 24,
-    "totalSaved": 74286.45
+    "totalTokens": 9800000,
+    "totalCost": 53.91,
+    "totalTasks": 369,
+    "activeSessions": 22,
+    "totalSaved": 76420.67
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 188,
-      "tokensUsed": 4582749,
-      "cost": 27.18,
-      "saved": 37642.89,
+      "tasks": 192,
+      "tokensUsed": 4691574,
+      "cost": 27.52,
+      "saved": 38584.73,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -24,8 +24,8 @@
         "台股開盤分析報告 2026-02-10 (09:15) ⭐",
         "美股每日晨報 2026-02-10 (08:01) ⭐",
         "台股收盤分析報告 2026-02-10 (13:45) ⭐",
-        "華邦電法說會今日召開，盤中漲停 ⭐",
-        "記憶體股DRAM合約價大漲預期 ⭐"
+        "華邦電法說會今日召開，漲停收107.5元 🔥",
+        "記憶體股DRAM合約價大漲預期翻倍 ⭐"
       ],
       "heartbeat": "🔥 台股收盤33,072點創新高！華邦電漲停法說會利多、台積電強攻1880元，記憶體族群大爆發！外資買超363億，多頭氣勢如虹！明日封關前注意獲利了結"
     },
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 72,
-      "tokensUsed": 1082856,
-      "cost": 5.78,
-      "saved": 7624.78,
+      "tasks": 73,
+      "tokensUsed": 1106623,
+      "cost": 5.87,
+      "saved": 7826.45,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -48,17 +48,17 @@
         "NVIDIA美國本土製造計畫5000億美元 ⭐",
         "AI代理人時代：從概念走向商業化 ⭐"
       ],
-      "heartbeat": "🤖 AI新聞日報完成！今日重點：巴黎AI行動峰會發布AI Energy Score，DeepSeek持續發酵多國禁令，代理人AI成為新焦點"
+      "heartbeat": "🤖 AI新聞日報完成！今日重點：巴黎AI行動峰會發布AI Energy Score，DeepSeek持續發酵多國禁令，AI代理人成為新焦點"
     },
     {
       "id": "yanyan",
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 81,
-      "tokensUsed": 2674926,
-      "cost": 12.35,
-      "saved": 21086.43,
+      "tasks": 83,
+      "tokensUsed": 2760020,
+      "cost": 12.40,
+      "saved": 21742.86,
       "efficiency": 95,
       "status": "active",
       "recentTasks": [
@@ -69,7 +69,7 @@
         "Workspace 清理：修復嵌套目錄問題 237MB",
         "Co-Packaged Optics（CPO）技術待探索新主題"
       ],
-      "heartbeat": "🔬 昨夜探索：CoWoS 封裝技術深度解析完成！發現「封裝比晶片貴」新常態，CPO技術值得追蹤。華邦電法說會今日召開"
+      "heartbeat": "🔬 昨夜探索：CoWoS 封裝技術深度解析完成！發現「封裝比晶片貴」新常態，CPO技術值得追蹤。記憶檔案已整理更新"
     },
     {
       "id": "pangxie",
@@ -104,31 +104,31 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 87,
-      "tokensUsed": 2147093,
-      "cost": 7.53,
-      "saved": 11932.35,
+      "tasks": 90,
+      "tokensUsed": 2241783,
+      "cost": 8.12,
+      "saved": 12266.63,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-10 (15:06) 🔥",
+        "Dashboard 數據更新 2026-02-10 (15:38) 🔥",
         "Sessions 統計分析與角色任務分配 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成",
         "記憶系統管理與檔案結構優化",
         "多任務協調與 cron 管理"
       ],
-      "heartbeat": "✨ Dashboard 最新數據：356個任務完成，9.5M tokens處理，節省$74,286！系統高效運行中"
+      "heartbeat": "✨ Dashboard 最新數據：369個任務完成，9.8M tokens處理，節省$76,421！系統高效運行中，Git 提交準備完成"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-10-1506",
+      "id": "dashboard-update-2026-02-10-1538",
       "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-10 15:06)",
+      "title": "AI Office Dashboard 數據更新 (2026-02-10 15:38)",
       "agent": "Lucy",
-      "timestamp": 1770707160000,
-      "lastRunAt": 1770707160000,
+      "timestamp": 1770709080000,
+      "lastRunAt": 1770709080000,
       "status": "running",
       "cost": 0.092
     },
@@ -203,6 +203,36 @@
       "cost": 0.034
     },
     {
+      "id": "weekly-optimization-2026-02-08",
+      "name": "每週優化 Review",
+      "title": "AI Office Dashboard 每週優化",
+      "agent": "Lucy",
+      "timestamp": 1770516000122,
+      "lastRunAt": 1770516000122,
+      "status": "completed",
+      "cost": 0.037
+    },
+    {
+      "id": "weekly-stock-report-2026-02-08",
+      "name": "股市週報",
+      "title": "股市週報 2026/02/02 - 02/06",
+      "agent": "Lucy",
+      "timestamp": 1770429600245,
+      "lastRunAt": 1770429600245,
+      "status": "completed",
+      "cost": 0.117
+    },
+    {
+      "id": "dashboard-update-2026-02-10-1506",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-10 15:06)",
+      "agent": "Lucy",
+      "timestamp": 1770707160000,
+      "lastRunAt": 1770707160000,
+      "status": "completed",
+      "cost": 0.092
+    },
+    {
       "id": "dashboard-update-2026-02-10-1434",
       "name": "Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新 (2026-02-10 14:34)",
@@ -241,50 +271,20 @@
       "lastRunAt": 1770699520000,
       "status": "completed",
       "cost": 0.071
-    },
-    {
-      "id": "dashboard-update-2026-02-10-1227",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-10 12:27)",
-      "agent": "Lucy",
-      "timestamp": 1770697620000,
-      "lastRunAt": 1770697620000,
-      "status": "completed",
-      "cost": 0.076
-    },
-    {
-      "id": "dashboard-update-2026-02-10-1155",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-10 11:55)",
-      "agent": "Lucy",
-      "timestamp": 1770695700000,
-      "lastRunAt": 1770695700000,
-      "status": "completed",
-      "cost": 0.070
-    },
-    {
-      "id": "taiwan-stock-close-analysis-2026-02-09",
-      "name": "台股盤後完整分析報告",
-      "title": "台股盤後完整分析報告",
-      "agent": "小財",
-      "timestamp": 1770618600110,
-      "lastRunAt": 1770618600110,
-      "status": "completed",
-      "cost": 0.102
     }
   ],
   "metrics": {
     "avgTaskTime": 1.8,
     "successRate": 100,
-    "costPerTask": 0.148,
-    "totalHours": 261,
+    "costPerTask": 0.146,
+    "totalHours": 266,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 31, "cost": 1.867, "savings": 4520},
-      {"date": "2026-02-10", "tasks": 82, "cost": 5.847, "savings": 18924}
+      {"date": "2026-02-10", "tasks": 95, "cost": 6.924, "savings": 21134}
     ]
   }
 }
