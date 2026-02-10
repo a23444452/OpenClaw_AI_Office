@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-10T09:17:00+08:00",
+  "lastUpdate": "2026-02-10T09:49:00+08:00",
   "stats": {
-    "totalTokens": 5124679,
-    "totalCost": 24.89,
-    "totalTasks": 173,
+    "totalTokens": 5234891,
+    "totalCost": 25.76,
+    "totalTasks": 178,
     "activeSessions": 24,
-    "totalSaved": 31542.67
+    "totalSaved": 32890.45
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 87,
-      "tokensUsed": 2189423,
-      "cost": 11.47,
-      "saved": 13285.76,
+      "tasks": 90,
+      "tokensUsed": 2267845,
+      "cost": 11.89,
+      "saved": 13742.34,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -27,17 +27,17 @@
         "股市週報 2026-02-02~02/06 ⭐",
         "記憶體股華邦電、力積電持股追蹤 ⭐"
       ],
-      "heartbeat": "🔴 今日重點：華邦電法說會！台股開盤報告完成，華邦電漲停獲利約1.4% 📈"
+      "heartbeat": "🔴 華邦電法說會今日進行！開盤漲停表現強勁，成本上方獲利中 📈 持續監控"
     },
     {
       "id": "axin",
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 35,
-      "tokensUsed": 539611,
-      "cost": 2.61,
-      "saved": 3247.83,
+      "tasks": 36,
+      "tokensUsed": 563378,
+      "cost": 2.72,
+      "saved": 3395.67,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 38,
-      "tokensUsed": 1334572,
-      "cost": 6.12,
-      "saved": 8734.29,
+      "tasks": 40,
+      "tokensUsed": 1374981,
+      "cost": 6.31,
+      "saved": 8975.12,
       "efficiency": 95,
       "status": "active",
       "recentTasks": [
@@ -104,10 +104,10 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 23,
-      "tokensUsed": 1061073,
-      "cost": 4.69,
-      "saved": 6274.79,
+      "tasks": 25,
+      "tokensUsed": 1109214,
+      "cost": 4.84,
+      "saved": 6577.32,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -118,10 +118,20 @@
         "記憶系統管理與檔案結構優化", 
         "多任務協調與 cron 管理"
       ],
-      "heartbeat": "Dashboard數據更新完成！統計24個活躍sessions，系統運行順暢 ✨"
+      "heartbeat": "Dashboard 最新數據已更新！統計24個活躍sessions，178個任務完成 ✨"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-10-0949",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-10 09:49)",
+      "agent": "Lucy",
+      "timestamp": 1770688173081,
+      "lastRunAt": 1770688173081,
+      "status": "completed",
+      "cost": 0.069
+    },
     {
       "id": "dashboard-update-2026-02-10-0917",
       "name": "Dashboard 數據更新",
