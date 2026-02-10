@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-10T10:21:00+08:00",
+  "lastUpdate": "2026-02-10T10:52:00+08:00",
   "stats": {
-    "totalTokens": 5476284,
-    "totalCost": 27.82,
-    "totalTasks": 191,
-    "activeSessions": 22,
-    "totalSaved": 34567.23
+    "totalTokens": 5865108,
+    "totalCost": 29.46,
+    "totalTasks": 198,
+    "activeSessions": 24,
+    "totalSaved": 38932.56
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 95,
-      "tokensUsed": 2398457,
-      "cost": 12.65,
-      "saved": 14892.78,
+      "tasks": 99,
+      "tokensUsed": 2580105,
+      "cost": 13.91,
+      "saved": 18257.89,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 39,
-      "tokensUsed": 589643,
-      "cost": 2.89,
-      "saved": 3624.89,
+      "tasks": 40,
+      "tokensUsed": 613410,
+      "cost": 3.07,
+      "saved": 3889.67,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 43,
-      "tokensUsed": 1423756,
-      "cost": 6.58,
-      "saved": 9387.45,
+      "tasks": 45,
+      "tokensUsed": 1508853,
+      "cost": 7.12,
+      "saved": 10774.90,
       "efficiency": 95,
       "status": "active",
       "recentTasks": [
@@ -104,24 +104,44 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 27,
-      "tokensUsed": 1127346,
-      "cost": 5.12,
-      "saved": 6662.11,
+      "tasks": 29,
+      "tokensUsed": 1225658,
+      "cost": 5.36,
+      "saved": 6010.10,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-10 (10:21) ⭐",
+        "Dashboard 數據更新 2026-02-10 (10:52) ⭐",
         "Sessions 統計分析與角色任務分配 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成",
         "記憶系統管理與檔案結構優化", 
         "多任務協調與 cron 管理"
       ],
-      "heartbeat": "✨ Dashboard 數據已更新！22個活躍sessions，191個任務完成，自動化運行順暢"
+      "heartbeat": "✨ Dashboard 數據已更新！24個活躍sessions，198個任務完成，自動化運行順暢"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-10-1052",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-10 10:52)",
+      "agent": "Lucy",
+      "timestamp": 1770691971848,
+      "lastRunAt": 1770691971848,
+      "status": "completed",
+      "cost": 0.072
+    },
+    {
+      "id": "taiwan-stock-opening-2026-02-10",
+      "name": "台股開盤分析報告",
+      "title": "台股開盤分析報告 2026年2月10日",
+      "agent": "小財",
+      "timestamp": 1770686100209,
+      "lastRunAt": 1770686100209,
+      "status": "completed",
+      "cost": 0.084
+    },
     {
       "id": "dashboard-update-2026-02-10-0949",
       "name": "Dashboard 數據更新",
@@ -141,26 +161,6 @@
       "lastRunAt": 1770686262788,
       "status": "completed",
       "cost": 0.070
-    },
-    {
-      "id": "dashboard-update-2026-02-10-0845",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-10 08:45)",
-      "agent": "Lucy",
-      "timestamp": 1770684343407,
-      "lastRunAt": 1770684343407,
-      "status": "completed",
-      "cost": 0.071
-    },
-    {
-      "id": "dashboard-update-2026-02-10-0814",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-10 08:14)",
-      "agent": "Lucy",
-      "timestamp": 1770682455993,
-      "lastRunAt": 1770682455993,
-      "status": "completed",
-      "cost": 0.069
     },
     {
       "id": "us-stock-morning-brief-2026-02-10",
@@ -223,16 +223,6 @@
       "cost": 0.139
     },
     {
-      "id": "taiwan-stock-opening-2026-02-09",
-      "name": "台股開盤完整分析報告",
-      "title": "台股開盤完整分析報告",
-      "agent": "小財",
-      "timestamp": 1770599700114,
-      "lastRunAt": 1770599700114,
-      "status": "completed",
-      "cost": 0.105
-    },
-    {
       "id": "weekly-optimization-review-2026-02-08",
       "name": "每週優化 Review 完成",
       "title": "每週優化 Review 完成",
@@ -244,17 +234,17 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 2.3,
+    "avgTaskTime": 2.1,
     "successRate": 100,
-    "costPerTask": 0.146,
-    "totalHours": 186,
+    "costPerTask": 0.149,
+    "totalHours": 197,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 28, "cost": 1.586, "savings": 4120},
-      {"date": "2026-02-10", "tasks": 25, "cost": 2.398, "savings": 6547}
+      {"date": "2026-02-10", "tasks": 32, "cost": 2.456, "savings": 6895}
     ]
   }
 }
