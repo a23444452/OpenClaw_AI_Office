@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-10T16:10:00+08:00",
+  "lastUpdate": "2026-02-10T16:42:09+08:00",
   "stats": {
-    "totalTokens": 10150000,
-    "totalCost": 58.73,
-    "totalTasks": 394,
+    "totalTokens": 10406000,
+    "totalCost": 60.15,
+    "totalTasks": 406,
     "activeSessions": 24,
-    "totalSaved": 81285.42
+    "totalSaved": 83527.89
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 198,
-      "tokensUsed": 4891574,
-      "cost": 29.84,
-      "saved": 41205.73,
+      "tasks": 206,
+      "tokensUsed": 5000574,
+      "cost": 30.98,
+      "saved": 42847.23,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 76,
-      "tokensUsed": 1136623,
-      "cost": 6.12,
-      "saved": 8145.67,
+      "tasks": 79,
+      "tokensUsed": 1160390,
+      "cost": 6.35,
+      "saved": 8392.14,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 86,
-      "tokensUsed": 2880020,
-      "cost": 13.45,
-      "saved": 22987.23,
+      "tasks": 89,
+      "tokensUsed": 2925001,
+      "cost": 13.91,
+      "saved": 23745.69,
       "efficiency": 95,
       "status": "active",
       "recentTasks": [
@@ -104,24 +104,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 94,
-      "tokensUsed": 2341783,
-      "cost": 9.32,
-      "saved": 12946.79,
+      "tasks": 97,
+      "tokensUsed": 2420035,
+      "cost": 8.91,
+      "saved": 13542.83,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-10 (16:10) 🔥",
+        "Dashboard 數據更新 2026-02-10 (16:42) 🔥",
         "Sessions 統計分析與角色任務分配 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成",
         "記憶系統管理與檔案結構優化",
         "多任務協調與 cron 管理"
       ],
-      "heartbeat": "✨ Dashboard 最新數據：394個任務完成，10.15M tokens處理，節省$81,285！系統高效運行中，準備執行 Git 提交"
+      "heartbeat": "✨ Dashboard 最新數據：406個任務完成，10.41M tokens處理，節省$83,528！系統高效運行中，準備執行 Git 提交"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-10-1642",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-10 16:42)",
+      "agent": "Lucy",
+      "timestamp": 1770712929398,
+      "lastRunAt": 1770712929398,
+      "status": "completed",
+      "cost": 0.070
+    },
     {
       "id": "dashboard-update-2026-02-10-1610",
       "name": "Dashboard 數據更新",
@@ -131,16 +141,6 @@
       "lastRunAt": 1770711000000,
       "status": "completed",
       "cost": 0.095
-    },
-    {
-      "id": "dashboard-update-2026-02-10-1538",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-10 15:38)",
-      "agent": "Lucy",
-      "timestamp": 1770709080000,
-      "lastRunAt": 1770709080000,
-      "status": "completed",
-      "cost": 0.092
     },
     {
       "id": "taiwan-stock-close-complete-2026-02-10",
@@ -233,6 +233,16 @@
       "cost": 0.117
     },
     {
+      "id": "dashboard-update-2026-02-10-1538",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-10 15:38)",
+      "agent": "Lucy",
+      "timestamp": 1770709080000,
+      "lastRunAt": 1770709080000,
+      "status": "completed",
+      "cost": 0.092
+    },
+    {
       "id": "dashboard-update-2026-02-10-1506",
       "name": "Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新 (2026-02-10 15:06)",
@@ -261,30 +271,20 @@
       "lastRunAt": 1770703320000,
       "status": "completed",
       "cost": 0.082
-    },
-    {
-      "id": "dashboard-update-2026-02-10-1331",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-10 13:31)",
-      "agent": "Lucy",
-      "timestamp": 1770701460000,
-      "lastRunAt": 1770701460000,
-      "status": "completed",
-      "cost": 0.078
     }
   ],
   "metrics": {
-    "avgTaskTime": 1.7,
+    "avgTaskTime": 1.6,
     "successRate": 100,
-    "costPerTask": 0.149,
-    "totalHours": 278,
+    "costPerTask": 0.148,
+    "totalHours": 285,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 31, "cost": 1.867, "savings": 4520},
-      {"date": "2026-02-10", "tasks": 102, "cost": 7.456, "savings": 23847}
+      {"date": "2026-02-10", "tasks": 115, "cost": 8.124, "savings": 25380}
     ]
   }
 }
