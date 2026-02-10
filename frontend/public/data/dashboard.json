@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-10T07:42:34+08:00",
+  "lastUpdate": "2026-02-10T08:14:00+08:00",
   "stats": {
-    "totalTokens": 4347806,
-    "totalCost": 21.14,
-    "totalTasks": 143,
-    "activeSessions": 19,
-    "totalSaved": 22574.03
+    "totalTokens": 4521138,
+    "totalCost": 22.86,
+    "totalTasks": 156,
+    "activeSessions": 22,
+    "totalSaved": 24847.92
   },
   "employees": [
     {
@@ -13,52 +13,52 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 71,
-      "tokensUsed": 1738886,
-      "cost": 8.23,
-      "saved": 9352.23,
+      "tasks": 78,
+      "tokensUsed": 1856424,
+      "cost": 9.45,
+      "saved": 10125.34,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
+        "美股每日晨報 2026-02-10 (08:01) ⭐",
         "台股盤後完整分析報告 2026-02-09 (14:30) ⭐",
         "台股收盤分析報告 2026-02-09 (13:45) ⭐", 
         "台股開盤完整分析 2026-02-09 (09:15) ⭐",
-        "美股晨報完整分析 2026-02-09 (08:01) ⭐",
         "股市週報 2026-02-02~02/06 ⭐",
         "記憶體股華邦電、力積電持股追蹤 ⭐"
       ],
-      "heartbeat": "🔴 今日重點：華邦電法說會 15:00！盯盤系統已就位，台股開盤分析完成 📊"
+      "heartbeat": "🔴 今日重點：華邦電法說會！美股晨報已完成，TSLA持股接近成本區 📊"
     },
     {
       "id": "axin",
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 30,
-      "tokensUsed": 463122,
-      "cost": 2.12,
-      "saved": 2484.11,
+      "tasks": 32,
+      "tokensUsed": 489383,
+      "cost": 2.34,
+      "saved": 2751.89,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
-        "AI 新聞日報 2026-02-09 (08:00) ⭐",
-        "NVIDIA 30年來首次不推新遊戲GPU 追蹤 ⭐",
-        "聯合國 AI 專家小組成立分析 ⭐",
-        "美國 AI 監管攻防戰深度解析 ⭐",
-        "AI 模型三巨頭競爭格局分析", 
-        "AI 投資狂潮與新創募資報告"
+        "AI 新聞日報 2026-02-10 (08:00) ⭐",
+        "巴黎AI行動峰會：全球治理新階段分析 ⭐",
+        "DeepSeek R1效應：多國禁令vs性能突破 ⭐",
+        "OpenAI Deep Research：博士級研究能力 ⭐",
+        "NVIDIA美國本土製造計畫5000億美元 ⭐", 
+        "AI地緣政治化趨勢深度解析 ⭐"
       ],
-      "heartbeat": "AI 新聞日報發布完成！重點關注 NVIDIA 策略轉向與聯邦監管評估 🤖"
+      "heartbeat": "AI新聞日報完成！重點關注巴黎AI峰會與DeepSeek持續發酵 🤖"
     },
     {
       "id": "yanyan",
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 32,
-      "tokensUsed": 1140784,
-      "cost": 5.11,
-      "saved": 6124.92,
+      "tasks": 34,
+      "tokensUsed": 1184892,
+      "cost": 5.23,
+      "saved": 6834.12,
       "efficiency": 94,
       "status": "active",
       "recentTasks": [
@@ -69,7 +69,7 @@
         "Workspace 清理：修復嵌套目錄問題 237MB",
         "Co-Packaged Optics（CPO）技術待探索新主題"
       ],
-      "heartbeat": "夜間任務完成！CoWoS 封裝技術分析新鮮出爐，workspace 清理完畢 🔬"
+      "heartbeat": "夜間任務完成！CoWoS封裝技術分析新鮮出爐，發現CPO新趨勢 🔬"
     },
     {
       "id": "pangxie",
@@ -104,53 +104,53 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 14,
-      "tokensUsed": 1105014,
-      "cost": 5.68,
-      "saved": 4612.77,
+      "tasks": 17,
+      "tokensUsed": 1122989,
+      "cost": 5.84,
+      "saved": 5136.57,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-10 (07:42) ⭐",
+        "Dashboard 數據更新 2026-02-10 (08:14) ⭐",
         "Sessions 統計分析與角色任務分配 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成",
         "記憶系統管理與檔案結構優化", 
         "多任務協調與 cron 管理"
       ],
-      "heartbeat": "Dashboard 數據更新完成！系統運行順暢，所有模組正常 ✨"
+      "heartbeat": "Dashboard數據更新完成！統計22個活躍sessions，系統運行順暢 ✨"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-10-0710",
+      "id": "dashboard-update-2026-02-10-0814",
       "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-10 07:10)",
+      "title": "AI Office Dashboard 數據更新 (2026-02-10 08:14)",
       "agent": "Lucy",
-      "timestamp": 1770678612663,
-      "lastRunAt": 1770678612663,
+      "timestamp": 1770682455993,
+      "lastRunAt": 1770682455993,
+      "status": "completed",
+      "cost": 0.069
+    },
+    {
+      "id": "us-stock-morning-brief-2026-02-10",
+      "name": "美股每日晨報",
+      "title": "美股每日晨報 2026年2月10日",
+      "agent": "小財",
+      "timestamp": 1770681703656,
+      "lastRunAt": 1770681703656,
       "status": "completed",
       "cost": 0.081
     },
     {
-      "id": "dashboard-update-2026-02-10-0639",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-10 06:39)",
-      "agent": "Lucy",
-      "timestamp": 1770676749420,
-      "lastRunAt": 1770676749420,
+      "id": "ai-news-daily-2026-02-10",
+      "name": "AI 新聞日報",
+      "title": "AI 新聞日報｜2026 年 2 月 10 日",
+      "agent": "阿新",
+      "timestamp": 1770681600301,
+      "lastRunAt": 1770681600301,
       "status": "completed",
-      "cost": 0.081
-    },
-    {
-      "id": "dashboard-update-2026-02-10-0607",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-10 06:07)",
-      "agent": "Lucy",
-      "timestamp": 1770674847,
-      "lastRunAt": 1770674847,
-      "status": "completed",
-      "cost": 0.081
+      "cost": 0.089
     },
     {
       "id": "nightly-cowos-research-2026-02-10-0100",
@@ -203,26 +203,6 @@
       "cost": 0.105
     },
     {
-      "id": "us-stock-morning-brief-2026-02-09",
-      "name": "美股晨報完整分析",
-      "title": "美股晨報完整分析", 
-      "agent": "小財",
-      "timestamp": 1770595301397,
-      "lastRunAt": 1770595301397,
-      "status": "completed",
-      "cost": 0.118
-    },
-    {
-      "id": "ai-news-daily-2026-02-09",
-      "name": "AI 新聞日報｜2026 年 2 月 9 日",
-      "title": "AI 新聞日報｜2026 年 2 月 9 日",
-      "agent": "阿新",
-      "timestamp": 1770595200168,
-      "lastRunAt": 1770595200168,
-      "status": "completed",
-      "cost": 0.089
-    },
-    {
       "id": "weekly-optimization-review-2026-02-08",
       "name": "每週優化 Review 完成",
       "title": "每週優化 Review 完成",
@@ -234,17 +214,17 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 2.4,
+    "avgTaskTime": 2.3,
     "successRate": 100,
-    "costPerTask": 0.144,
-    "totalHours": 172,
+    "costPerTask": 0.146,
+    "totalHours": 186,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
-      {"date": "2026-02-09", "tasks": 25, "cost": 1.458, "savings": 3680},
-      {"date": "2026-02-10", "tasks": 21, "cost": 2.165, "savings": 5420}
+      {"date": "2026-02-09", "tasks": 28, "cost": 1.586, "savings": 4120},
+      {"date": "2026-02-10", "tasks": 23, "cost": 2.234, "savings": 5890}
     ]
   }
 }
