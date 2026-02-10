@@ -1,11 +1,11 @@
 {
-  "lastUpdate": "2026-02-10T08:45:00+08:00",
+  "lastUpdate": "2026-02-10T09:17:00+08:00",
   "stats": {
-    "totalTokens": 4900146,
-    "totalCost": 23.97,
-    "totalTasks": 167,
+    "totalTokens": 5124679,
+    "totalCost": 24.89,
+    "totalTasks": 173,
     "activeSessions": 24,
-    "totalSaved": 28936.84
+    "totalSaved": 31542.67
   },
   "employees": [
     {
@@ -13,31 +13,31 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 83,
-      "tokensUsed": 2004456,
-      "cost": 10.23,
-      "saved": 11847.29,
+      "tasks": 87,
+      "tokensUsed": 2189423,
+      "cost": 11.47,
+      "saved": 13285.76,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
+        "台股開盤分析報告 2026-02-10 (09:15) ⭐",
         "美股每日晨報 2026-02-10 (08:01) ⭐",
         "台股盤後完整分析報告 2026-02-09 (14:30) ⭐",
         "台股收盤分析報告 2026-02-09 (13:45) ⭐", 
-        "台股開盤完整分析 2026-02-09 (09:15) ⭐",
         "股市週報 2026-02-02~02/06 ⭐",
         "記憶體股華邦電、力積電持股追蹤 ⭐"
       ],
-      "heartbeat": "🔴 今日重點：華邦電法說會！美股晨報已完成，TSLA持股接近成本區 📊"
+      "heartbeat": "🔴 今日重點：華邦電法說會！台股開盤報告完成，華邦電漲停獲利約1.4% 📈"
     },
     {
       "id": "axin",
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 33,
-      "tokensUsed": 513150,
-      "cost": 2.43,
-      "saved": 3084.17,
+      "tasks": 35,
+      "tokensUsed": 539611,
+      "cost": 2.61,
+      "saved": 3247.83,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 36,
-      "tokensUsed": 1270086,
-      "cost": 5.68,
-      "saved": 8276.84,
+      "tasks": 38,
+      "tokensUsed": 1334572,
+      "cost": 6.12,
+      "saved": 8734.29,
       "efficiency": 95,
       "status": "active",
       "recentTasks": [
@@ -104,14 +104,14 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 20,
-      "tokensUsed": 1245954,
-      "cost": 6.63,
-      "saved": 5728.54,
+      "tasks": 23,
+      "tokensUsed": 1061073,
+      "cost": 4.69,
+      "saved": 6274.79,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-10 (08:45) ⭐",
+        "Dashboard 數據更新 2026-02-10 (09:17) ⭐",
         "Sessions 統計分析與角色任務分配 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成",
@@ -122,6 +122,16 @@
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-10-0917",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-10 09:17)",
+      "agent": "Lucy",
+      "timestamp": 1770686262788,
+      "lastRunAt": 1770686262788,
+      "status": "completed",
+      "cost": 0.070
+    },
     {
       "id": "dashboard-update-2026-02-10-0845",
       "name": "Dashboard 數據更新",
