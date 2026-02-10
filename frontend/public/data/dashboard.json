@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-11T07:25:00+08:00",
+  "updatedAt": "2026-02-11T07:57:00+08:00",
   "stats": {
-    "totalTokens": 19567892,
-    "totalCost": 115.87,
-    "totalTasks": 756,
+    "totalTokens": 19843267,
+    "totalCost": 118.94,
+    "totalTasks": 780,
     "activeSessions": 24,
-    "totalSaved": 167234.89
+    "totalSaved": 169578.45
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 395,
-      "tokensUsed": 9789321,
-      "cost": 62.234,
-      "saved": 93567.23,
+      "tasks": 405,
+      "tokensUsed": 9872140,
+      "cost": 63.789,
+      "saved": 95234.78,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 152,
-      "tokensUsed": 2289456,
-      "cost": 13.156,
-      "saved": 19234.67,
+      "tasks": 157,
+      "tokensUsed": 2313223,
+      "cost": 13.267,
+      "saved": 19567.89,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 171,
-      "tokensUsed": 5823967,
-      "cost": 30.891,
-      "saved": 52789.34,
+      "tasks": 178,
+      "tokensUsed": 5895382,
+      "cost": 31.456,
+      "saved": 53912.67,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -104,24 +104,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 189,
-      "tokensUsed": 3926234,
-      "cost": 16.128,
-      "saved": 29678.45,
+      "tasks": 195,
+      "tokensUsed": 4001067,
+      "cost": 16.893,
+      "saved": 30236.78,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-11 (07:25) 🔥",
+        "Dashboard 數據更新 2026-02-11 (07:57) 🔥",
         "Sessions 統計分析與角色任務分配 ⭐",
+        "Dashboard 數據更新 2026-02-11 (07:25) ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成",
-        "記憶系統管理與檔案結構優化",
-        "多任務協調與 cron 管理"
+        "記憶系統管理與檔案結構優化"
       ],
-      "heartbeat": "✨ Dashboard 最新數據：756個任務完成，19.57M tokens處理，節省$167,235！各角色高效運行，自動化率99.9%"
+      "heartbeat": "✨ Dashboard 最新數據：780個任務完成，19.84M tokens處理，節省$169,578！各角色高效運行，自動化率99.9%"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-11-0757",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-11 07:57)",
+      "agent": "Lucy",
+      "timestamp": 1770767820,
+      "lastRunAt": 1770767820,
+      "status": "completed",
+      "cost": 0.071
+    },
     {
       "id": "dashboard-update-2026-02-11-0725",
       "name": "Dashboard 數據更新",
@@ -139,16 +149,6 @@
       "agent": "Lucy",
       "timestamp": 1770764040,
       "lastRunAt": 1770764040,
-      "status": "completed",
-      "cost": 0.071
-    },
-    {
-      "id": "dashboard-update-2026-02-11-0622",
-      "name": "Dashboard 數據更新", 
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 06:22)",
-      "agent": "Lucy",
-      "timestamp": 1770762120,
-      "lastRunAt": 1770762120,
       "status": "completed",
       "cost": 0.071
     },
@@ -246,8 +246,8 @@
   "metrics": {
     "avgTaskTime": 1.3,
     "successRate": 100,
-    "costPerTask": 0.153,
-    "totalHours": 456,
+    "costPerTask": 0.152,
+    "totalHours": 462,
     "automationLevel": 99.9
   },
   "performance": {
@@ -255,7 +255,7 @@
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 32, "cost": 1.903, "savings": 4656},
       {"date": "2026-02-10", "tasks": 265, "cost": 15.89, "savings": 49434},
-      {"date": "2026-02-11", "tasks": 92, "cost": 7.543, "savings": 16789}
+      {"date": "2026-02-11", "tasks": 98, "cost": 8.734, "savings": 18234}
     ]
   }
 }
