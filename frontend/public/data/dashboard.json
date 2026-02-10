@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-11T00:34:00+08:00",
+  "updatedAt": "2026-02-11T01:05:00+08:00",
   "stats": {
-    "totalTokens": 14725832,
-    "totalCost": 86.89,
-    "totalTasks": 596,
-    "activeSessions": 24,
-    "totalSaved": 122456.78
+    "totalTokens": 15110656,
+    "totalCost": 87.59,
+    "totalTasks": 611,
+    "activeSessions": 22,
+    "totalSaved": 126789.45
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 304,
-      "tokensUsed": 7029482,
-      "cost": 43.99,
-      "saved": 67635.89,
+      "tasks": 310,
+      "tokensUsed": 7167901,
+      "cost": 44.56,
+      "saved": 68934.12,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 112,
-      "tokensUsed": 1633767,
-      "cost": 9.26,
-      "saved": 13601.67,
+      "tasks": 115,
+      "tokensUsed": 1657534,
+      "cost": 9.37,
+      "saved": 13789.23,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,21 +55,21 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 129,
-      "tokensUsed": 4248091,
-      "cost": 21.01,
-      "saved": 37757.23,
+      "tasks": 132,
+      "tokensUsed": 4333096,
+      "cost": 21.46,
+      "saved": 38567.89,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
-        "夜間探索：CoWoS 先進封裝技術深度解析 (01:00) 🔥",
+        "夜間探索：AI ASIC 發展趨勢深度分析 (01:00) 🔥",
+        "夜間探索：CoWoS 先進封裝技術深度解析 (02/10) ⭐",
         "夜間探索：8吋晶圓廠產能趨勢分析 (02/09) ⭐",
         "Nightly Build Report 2026-02-10 (03:00) ⭐",
         "記憶整理：華邦電法說會提醒已加入",
-        "Workspace 清理：修復嵌套目錄問題 237MB",
-        "Co-Packaged Optics（CPO）技術待探索新主題"
+        "Workspace 清理：修復嵌套目錄問題 237MB"
       ],
-      "heartbeat": "🔬 昨夜探索：CoWoS 封裝技術深度解析完成！發現「封裝比晶片貴」新常態，CPO技術值得追蹤。記憶檔案已整理更新，華邦電法說會已提醒"
+      "heartbeat": "🔬 最新探索：AI ASIC 發展趨勢完成！分析 Google TPU、AWS Trainium、Intel Gaudi 等5大玩家，NVIDIA 95%市佔面臨挑戰。台灣供應鏈受益者鎖定TSMC、載板三雄"
     },
     {
       "id": "pangxie",
@@ -104,24 +104,44 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 141,
-      "tokensUsed": 2814492,
-      "cost": 12.63,
-      "saved": 17461.99,
+      "tasks": 144,
+      "tokensUsed": 2952125,
+      "cost": 12.20,
+      "saved": 19498.31,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-11 (00:02) 🔥",
+        "Dashboard 數據更新 2026-02-11 (01:05) 🔥",
         "Sessions 統計分析與角色任務分配 ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成",
         "記憶系統管理與檔案結構優化",
         "多任務協調與 cron 管理"
       ],
-      "heartbeat": "✨ Dashboard 最新數據：572個任務完成，14.19M tokens處理，節省$117,890！各角色高效運行，正在推送Git更新"
+      "heartbeat": "✨ Dashboard 最新數據：611個任務完成，15.11M tokens處理，節省$126,789！各角色高效運行，正在推送Git更新"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-11-0105",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-11 01:05)",
+      "agent": "Lucy",
+      "timestamp": 1770743100,
+      "lastRunAt": 1770743100,
+      "status": "completed",
+      "cost": 0.070
+    },
+    {
+      "id": "nightly-ai-asic-research-2026-02-11-0100",
+      "name": "夜間探索：AI ASIC 發展趨勢分析",
+      "title": "夜間探索：AI ASIC 發展趨勢深度分析",
+      "agent": "研研",
+      "timestamp": 1770742800,
+      "lastRunAt": 1770742800,
+      "status": "completed",
+      "cost": 0.037
+    },
     {
       "id": "dashboard-update-2026-02-11-0034",
       "name": "Dashboard 數據更新",
@@ -139,16 +159,6 @@
       "agent": "Lucy",
       "timestamp": 1770739320,
       "lastRunAt": 1770739320,
-      "status": "completed",
-      "cost": 0.070
-    },
-    {
-      "id": "dashboard-update-2026-02-10-2331",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-10 23:31)",
-      "agent": "Lucy",
-      "timestamp": 1770737477,
-      "lastRunAt": 1770737477,
       "status": "completed",
       "cost": 0.070
     },
@@ -221,30 +231,21 @@
       "lastRunAt": 1770663600,
       "status": "completed",
       "cost": 0.034
-    },
-    {
-      "id": "weekly-optimization-2026-02-09",
-      "name": "AI Office 每週優化",
-      "title": "Lucy AI 辦公室 - 每週優化完成！",
-      "agent": "Lucy",
-      "timestamp": 1770516000,
-      "lastRunAt": 1770516000,
-      "status": "completed",
-      "cost": 0.036
     }
   ],
   "metrics": {
     "avgTaskTime": 1.4,
     "successRate": 100,
-    "costPerTask": 0.147,
-    "totalHours": 378,
+    "costPerTask": 0.143,
+    "totalHours": 388,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 32, "cost": 1.903, "savings": 4656},
-      {"date": "2026-02-10", "tasks": 265, "cost": 15.89, "savings": 49434}
+      {"date": "2026-02-10", "tasks": 265, "cost": 15.89, "savings": 49434},
+      {"date": "2026-02-11", "tasks": 15, "cost": 0.701, "savings": 4332}
     ]
   }
 }
