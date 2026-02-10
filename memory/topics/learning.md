@@ -11,8 +11,8 @@
 - [ ] 工程師專用筆記模板設計
 - [ ] AI 驅動的知識管理工具深度評測
 - [ ] 半導體 RSS 自動化追蹤腳本建置
-- [ ] AI ASIC 發展趨勢（Google TPU、AWS Trainium）
 - [ ] Co-Packaged Optics（CPO）技術與應用
+- [x] AI ASIC 發展趨勢（Google TPU、AWS Trainium、Intel Gaudi）✅ 2026-02-11
 - [x] CoWoS 與先進封裝技術深度解析 ✅ 2026-02-10
 - [x] 記憶體股投資策略 ✅ 2026-02-06
 - [x] 8 吋晶圓廠產能與價格趨勢（力積電受惠分析）✅ 2026-02-09
@@ -78,6 +78,18 @@
 - 2027 年趨勢：Co-Packaged Optics（CPO）用光取代電
 - 台灣供應鏈：載板（南電、景碩、欣興）、設備（弘塑、辛耘）
 - 📄 `docs/learning/cowos-advanced-packaging-analysis-2026.md`
+
+### AI ASIC 發展趨勢（Google TPU、AWS Trainium、Intel Gaudi） — 2026-02-11
+- AI 晶片市場 2024 年 $529 億，預計 2030 年 $2,956 億（CAGR 33%）
+- NVIDIA 佔 AI 加速器市場 95%，但超大規模雲端服務商自研 ASIC 挑戰中
+- **Google TPU v6 Trillium**：95 GB HBM、4.7× v5e 效能、67% 能效提升
+- **AWS Trainium3**：TSMC 3nm、2.52 PFLOPS FP8、144 GB HBM3e、4.9 TB/s
+- **Intel Gaudi 3**：5nm、1.8 PFLOPS、128 GB HBM2e、開放 Ethernet 互連
+- **Microsoft Maia 200**：3nm、10.14 PFLOPS FP4、216 GB HBM3e（推論優化）
+- **Meta MTIA v2**：5nm、354 TFLOPS INT8、90W 超低功耗
+- 2026 趨勢：推論 > 訓練、自研加速、神經形態/光子互連新架構
+- 台灣受益：TSMC 壟斷代工、載板三雄（南電、景碩、欣興）
+- 📄 `docs/learning/ai-asic-development-trends-2026.md`
 
 ---
 
