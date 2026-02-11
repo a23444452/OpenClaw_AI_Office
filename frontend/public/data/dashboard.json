@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-11T12:11:00+08:00",
+  "updatedAt": "2026-02-11T12:42:00+08:00",
   "stats": {
-    "totalTokens": 21748531,
-    "totalCost": 136.24,
-    "totalTasks": 913,
-    "activeSessions": 24,
-    "totalSaved": 194285.67
+    "totalTokens": 22186847,
+    "totalCost": 139.58,
+    "totalTasks": 946,
+    "activeSessions": 22,
+    "totalSaved": 198742.34
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 478,
-      "tokensUsed": 11067462,
-      "cost": 74.38,
-      "saved": 112598.45,
+      "tasks": 487,
+      "tokensUsed": 11334578,
+      "cost": 76.12,
+      "saved": 115284.67,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 181,
-      "tokensUsed": 2610577,
-      "cost": 15.43,
-      "saved": 23254.89,
+      "tasks": 185,
+      "tokensUsed": 2687951,
+      "cost": 15.89,
+      "saved": 24125.78,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 215,
-      "tokensUsed": 6891245,
-      "cost": 38.67,
-      "saved": 65834.22,
+      "tasks": 221,
+      "tokensUsed": 7234567,
+      "cost": 40.78,
+      "saved": 68945.23,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -104,24 +104,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 282,
-      "tokensUsed": 4625340,
-      "cost": 21.45,
-      "saved": 37889.56,
+      "tasks": 286,
+      "tokensUsed": 4782634,
+      "cost": 22.34,
+      "saved": 39567.89,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-11 (12:11) 🔥",
+        "Dashboard 數據更新 2026-02-11 (12:42) 🔥",
+        "Dashboard 數據更新 2026-02-11 (12:11) ⭐",
         "Dashboard 數據更新 2026-02-11 (11:39) ⭐",
         "Dashboard 數據更新 2026-02-11 (11:07) ⭐",
         "Dashboard 數據更新 2026-02-11 (10:36) ⭐",
-        "Dashboard 數據更新 2026-02-11 (10:04) ⭐",
         "Sessions 統計分析與角色任務分配 ⭐"
       ],
-      "heartbeat": "✨ Dashboard 更新完成：913個任務，21.75M tokens，節省$194,285！活躍sessions維持24個，系統運行平穩"
+      "heartbeat": "✨ Dashboard 更新完成：946個任務，22.19M tokens，節省$198,742！活躍sessions維持22個，系統運行平穩"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-11-1242",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-11 12:42)",
+      "agent": "Lucy",
+      "timestamp": 1770784970,
+      "lastRunAt": 1770784970,
+      "status": "completed",
+      "cost": 0.070
+    },
     {
       "id": "dashboard-update-2026-02-11-1211",
       "name": "Dashboard 數據更新",
@@ -261,23 +271,13 @@
       "lastRunAt": 1770686100,
       "status": "completed",
       "cost": 0.084
-    },
-    {
-      "id": "us-stock-morning-report-2026-02-10-0800",
-      "name": "美股每日晨報",
-      "title": "美股每日晨報 2026年2月10日（週二）",
-      "agent": "小財", 
-      "timestamp": 1770681703,
-      "lastRunAt": 1770681703,
-      "status": "completed",
-      "cost": 0.081
     }
   ],
   "metrics": {
     "avgTaskTime": 1.2,
     "successRate": 100,
-    "costPerTask": 0.149,
-    "totalHours": 501,
+    "costPerTask": 0.148,
+    "totalHours": 518,
     "automationLevel": 99.9
   },
   "performance": {
@@ -285,7 +285,7 @@
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 32, "cost": 1.903, "savings": 4656},
       {"date": "2026-02-10", "tasks": 265, "cost": 15.89, "savings": 49434},
-      {"date": "2026-02-11", "tasks": 229, "cost": 18.92, "savings": 35628}
+      {"date": "2026-02-11", "tasks": 241, "cost": 19.57, "savings": 37482}
     ]
   }
 }
