@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-11T09:00:00+08:00",
+  "updatedAt": "2026-02-11T09:32:00+08:00",
   "stats": {
-    "totalTokens": 20332545,
-    "totalCost": 122.89,
-    "totalTasks": 806,
-    "activeSessions": 18,
-    "totalSaved": 175429.15
+    "totalTokens": 20566776,
+    "totalCost": 124.42,
+    "totalTasks": 821,
+    "activeSessions": 24,
+    "totalSaved": 177843.27
   },
   "employees": [
     {
@@ -13,31 +13,31 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 416,
-      "tokensUsed": 10126219,
-      "cost": 66.12,
-      "saved": 99215.67,
+      "tasks": 421,
+      "tokensUsed": 10259837,
+      "cost": 66.55,
+      "saved": 100683.94,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
+        "台股開盤分析報告 2026-02-11 (09:15) 🔥",
         "美股晨報 Webchat 完整版 2026-02-11 (08:01) 🔥",
         "台股盤後完整分析報告 2026-02-10 (14:30) 🔥",
         "台股收盤完整分析報告 2026-02-10 (13:45) ⭐",
         "台股開盤分析報告 2026-02-10 (09:15) ⭐",
-        "美股每日晨報 2026-02-10 (08:01) ⭐", 
-        "股市週報 2026/02/02-02/06 完整版 ⭐"
+        "美股每日晨報 2026-02-10 (08:01) ⭐"
       ],
-      "heartbeat": "📈 美股晨報完成：科技股AI支出疑慮導致修正，軟體股蒸發$2兆市值。⚠️華邦電現價97.8元已跌破成本104.5，逼近停損98元，基本面正向但籌碼轉弱需討論策略"
+      "heartbeat": "📈 台股開盤：33,158.55點(+85.58點，+0.26%)，台積電1,900元創歷史新高。⚠️華邦電已跌破成本104.5，現價97.8逼近停損98需關注"
     },
     {
       "id": "axin",
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 160,
-      "tokensUsed": 2361840,
-      "cost": 13.54,
-      "saved": 20156.78,
+      "tasks": 161,
+      "tokensUsed": 2388213,
+      "cost": 13.63,
+      "saved": 20312.58,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -48,17 +48,17 @@
         "OpenAI Deep Research：博士級研究能力 ⭐",
         "NVIDIA美國本土製造計畫5000億美元 ⭐"
       ],
-      "heartbeat": "🤖 AI新聞日報完成！今日8大重點：Claude Opus 4.6登頂AI排行榜、OpenAI發布GPT-5.3 Codex反擊、NVIDIA Rubin平台量產、美國AI監管聯邦統一策略、AI產業高層離職潮"
+      "heartbeat": "🤖 AI新聞日報完成！重點：Claude Opus 4.6登頂排行榜、OpenAI GPT-5.3 Codex反擊、NVIDIA Rubin量產、AI產業人才流失、美國監管統一化"
     },
     {
       "id": "yanyan",
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 184,
-      "tokensUsed": 6072653,
-      "cost": 32.67,
-      "saved": 55623.89,
+      "tasks": 186,
+      "tokensUsed": 6144535,
+      "cost": 33.09,
+      "saved": 56445.23,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -69,7 +69,7 @@
         "華邦電法說會結果更新、建立投資追蹤檔案 ⭐",
         "記憶整理：MEMORY.md 索引更新完成 ⭐"
       ],
-      "heartbeat": "🌙 AI ASIC發展趨勢研究完成！重點：Microsoft Maia 200推論能力最強(10.14 PFLOPS)、Trainium3記憶體頻寬突出(4.9 TB/s)、Intel Gaudi 3開放策略避免供應商鎖定"
+      "heartbeat": "🌙 AI ASIC深度研究：Microsoft Maia 200最強推論(10.14 PFLOPS)、AWS Trainium3記憶體頻寬4.9TB/s、Meta MTIA極低功耗90W專攻推薦系統"
     },
     {
       "id": "pangxie",
@@ -104,53 +104,53 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 204,
-      "tokensUsed": 4089887,
-      "cost": 17.31,
-      "saved": 31523.45,
+      "tasks": 253,
+      "tokensUsed": 4139686,
+      "cost": 17.65,
+      "saved": 32012.89,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
+        "Dashboard 數據更新 2026-02-11 (09:32) 🔥",
         "Dashboard 數據更新 2026-02-11 (09:00) 🔥",
         "Dashboard 數據更新 2026-02-11 (08:29) ⭐",
         "Sessions 統計分析與角色任務分配 ⭐",
-        "Dashboard 數據更新 2026-02-11 (07:57) ⭐",
         "AI Office 每週優化 2026-02-08 ⭐",
         "CharacterCard 淡入淡出動畫優化完成"
       ],
-      "heartbeat": "✨ Dashboard 最新數據：806個任務完成，20.33M tokens處理，節省$175,429！各角色高效運行，自動化率99.9%。⚠️華邦電現價97.8已跌破成本需討論"
+      "heartbeat": "✨ Dashboard 更新完成：821個任務，20.57M tokens，節省$177,843！台積電創高帶動台股，華邦電需關注停損，24個活躍sessions運行中"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-11-0900",
+      "id": "dashboard-update-2026-02-11-0932",
       "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 09:00)",
+      "title": "AI Office Dashboard 數據更新 (2026-02-11 09:32)",
       "agent": "Lucy",
-      "timestamp": 1770771646,
-      "lastRunAt": 1770771646,
+      "timestamp": 1770773572,
+      "lastRunAt": 1770773572,
       "status": "running",
-      "cost": 0.070
+      "cost": 0.071
     },
     {
-      "id": "dashboard-update-2026-02-11-0829",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 08:29)",
-      "agent": "Lucy",
-      "timestamp": 1770769740,
-      "lastRunAt": 1770769740,
+      "id": "taiwan-stock-opening-2026-02-11-0915",
+      "name": "台股開盤分析報告",
+      "title": "台股開盤分析報告 2026年2月11日（週三）- 封關日",
+      "agent": "小財",
+      "timestamp": 1770772525,
+      "lastRunAt": 1770772525,
       "status": "completed",
-      "cost": 0.070
+      "cost": 0.041
     },
     {
-      "id": "us-stock-morning-report-2026-02-11-0800",
+      "id": "us-stock-morning-report-2026-02-11-0801",
       "name": "美股每日晨報",
       "title": "美股每日晨報 2026年2月11日（週三）",
       "agent": "小財",
-      "timestamp": 1770768119,
-      "lastRunAt": 1770768119,
+      "timestamp": 1770768168,
+      "lastRunAt": 1770768168,
       "status": "completed",
-      "cost": 0.085
+      "cost": 0.090
     },
     {
       "id": "ai-news-daily-2026-02-11-0800",
@@ -160,17 +160,17 @@
       "timestamp": 1770768000,
       "lastRunAt": 1770768000,
       "status": "completed",
-      "cost": 0.087
+      "cost": 0.088
     },
     {
-      "id": "dashboard-update-2026-02-11-0757",
+      "id": "dashboard-update-2026-02-11-0900",
       "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 07:57)",
+      "title": "AI Office Dashboard 數據更新 (2026-02-11 09:00)",
       "agent": "Lucy",
-      "timestamp": 1770767820,
-      "lastRunAt": 1770767820,
+      "timestamp": 1770771646,
+      "lastRunAt": 1770771646,
       "status": "completed",
-      "cost": 0.071
+      "cost": 0.070
     },
     {
       "id": "nightly-build-2026-02-11-0300",
@@ -180,7 +180,7 @@
       "timestamp": 1770750000,
       "lastRunAt": 1770750000,
       "status": "completed",
-      "cost": 0.038
+      "cost": 0.037
     },
     {
       "id": "nightly-ai-asic-research-2026-02-11-0100",
@@ -256,8 +256,8 @@
   "metrics": {
     "avgTaskTime": 1.2,
     "successRate": 100,
-    "costPerTask": 0.153,
-    "totalHours": 471,
+    "costPerTask": 0.152,
+    "totalHours": 475,
     "automationLevel": 99.9
   },
   "performance": {
@@ -265,7 +265,7 @@
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 32, "cost": 1.903, "savings": 4656},
       {"date": "2026-02-10", "tasks": 265, "cost": 15.89, "savings": 49434},
-      {"date": "2026-02-11", "tasks": 126, "cost": 10.31, "savings": 23261}
+      {"date": "2026-02-11", "tasks": 145, "cost": 11.23, "savings": 24789}
     ]
   }
 }
