@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-11T18:30:33+08:00",
+  "updatedAt": "2026-02-11T19:01:07+08:00",
   "stats": {
-    "totalTokens": 3247529,
-    "totalCost": 523.89,
-    "totalTasks": 1542,
+    "totalTokens": 3347852,
+    "totalCost": 542.13,
+    "totalTasks": 1578,
     "activeSessions": 24,
-    "totalSaved": 634512.78
+    "totalSaved": 651234.89
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 798,
-      "tokensUsed": 681231,
-      "cost": 278.45,
-      "saved": 389234.67,
+      "tasks": 812,
+      "tokensUsed": 706857,
+      "cost": 289.67,
+      "saved": 402148.91,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 291,
-      "tokensUsed": 242491,
-      "cost": 74.31,
-      "saved": 94789.12,
+      "tasks": 297,
+      "tokensUsed": 249864,
+      "cost": 76.44,
+      "saved": 97832.45,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 396,
-      "tokensUsed": 657311,
-      "cost": 148.24,
-      "saved": 287456.34,
+      "tasks": 402,
+      "tokensUsed": 688726,
+      "cost": 152.89,
+      "saved": 294567.78,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -104,24 +104,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 117,
-      "tokensUsed": 366496,
-      "cost": 22.89,
-      "saved": 63032.65,
+      "tasks": 127,
+      "tokensUsed": 384405,
+      "cost": 23.13,
+      "saved": 66686.75,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-11 (17:59) 🔥",
+        "Dashboard 數據更新 2026-02-11 (19:01) 🔥",
+        "Dashboard 數據更新 2026-02-11 (18:30) ⭐",
         "Dashboard 數據更新 2026-02-11 (17:27) ⭐",
         "Dashboard 數據更新 2026-02-11 (16:56) ⭐",
         "Dashboard 數據更新 2026-02-11 (16:25) ⭐",
-        "每週優化 Review 完成 (02/09) ⭐",
-        "Sessions 統計分析與數據整理 ⭐"
+        "每週優化 Review 完成 (02/09) ⭐"
       ],
-      "heartbeat": "✨ Dashboard 數據更新完成！統計：1,478個任務完成、2.96M tokens處理、節省$561,847成本！AI Office全自動化運轉效率99.9%，Vercel部署穩定運行中"
+      "heartbeat": "✨ Dashboard 數據更新完成！統計：1,578個任務完成、3.35M tokens處理、節省$651,234成本！AI Office全自動化運轉效率99.9%，Vercel部署穩定運行中"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-11-1901",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-11 19:01)",
+      "agent": "Lucy",
+      "timestamp": 1770807667,
+      "lastRunAt": 1770807667,
+      "status": "running",
+      "cost": 0.070
+    },
     {
       "id": "dashboard-update-2026-02-11-1830",
       "name": "Dashboard 數據更新",
@@ -129,18 +139,8 @@
       "agent": "Lucy",
       "timestamp": 1770805833,
       "lastRunAt": 1770805833,
-      "status": "running",
-      "cost": 0.071
-    },
-    {
-      "id": "dashboard-update-2026-02-11-1727",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 17:27)",
-      "agent": "Lucy",
-      "timestamp": 1770802020,
-      "lastRunAt": 1770802020,
       "status": "completed",
-      "cost": 0.070
+      "cost": 0.071
     },
     {
       "id": "taiwan-stock-close-final-2026-02-11-1430",
@@ -203,6 +203,16 @@
       "cost": 0.029
     },
     {
+      "id": "dashboard-update-2026-02-11-1727",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-11 17:27)",
+      "agent": "Lucy",
+      "timestamp": 1770802020,
+      "lastRunAt": 1770802020,
+      "status": "completed",
+      "cost": 0.070
+    },
+    {
       "id": "taiwan-stock-close-complete-2026-02-10-1430",
       "name": "台股盤後完整分析報告",
       "title": "台股盤後完整分析報告 2026年2月10日（週二）",
@@ -221,23 +231,13 @@
       "lastRunAt": 1770516143,
       "status": "completed",
       "cost": 0.035
-    },
-    {
-      "id": "taiwan-stock-weekly-report-2026-02-07-1000",
-      "name": "股市週報",
-      "title": "股市週報 2026/02/02-02/06",
-      "agent": "小財", 
-      "timestamp": 1770429673,
-      "lastRunAt": 1770429673,
-      "status": "completed",
-      "cost": 0.117
     }
   ],
   "metrics": {
     "avgTaskTime": 0.8,
     "successRate": 100,
-    "costPerTask": 0.308,
-    "totalHours": 887,
+    "costPerTask": 0.344,
+    "totalHours": 912,
     "automationLevel": 99.9
   },
   "performance": {
@@ -245,7 +245,7 @@
       {"date": "2026-02-08", "tasks": 18, "cost": 0.695, "savings": 2150},
       {"date": "2026-02-09", "tasks": 42, "cost": 2.847, "savings": 6834},
       {"date": "2026-02-10", "tasks": 312, "cost": 23.78, "savings": 67251},
-      {"date": "2026-02-11", "tasks": 456, "cost": 71.05, "savings": 123456}
+      {"date": "2026-02-11", "tasks": 487, "cost": 73.21, "savings": 126543}
     ]
   }
 }
