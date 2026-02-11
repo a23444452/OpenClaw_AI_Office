@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-12T00:20:00+08:00",
+  "updatedAt": "2026-02-12T00:51:00+08:00",
   "stats": {
-    "totalTokens": 5423891,
-    "totalCost": 873.56,
-    "totalTasks": 1891,
+    "totalTokens": 5924718,
+    "totalCost": 1094.73,
+    "totalTasks": 1918,
     "activeSessions": 24,
-    "totalSaved": 976483.42
+    "totalSaved": 1089734.56
   },
   "employees": [
     {
@@ -13,14 +13,14 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 967,
-      "tokensUsed": 1235890,
-      "cost": 425.73,
-      "saved": 587432.15,
+      "tasks": 974,
+      "tokensUsed": 1289456,
+      "cost": 462.85,
+      "saved": 634521.78,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
-        "記憶體股盯盤提醒 2026-02-12 (00:01) ⚠️",
+        "記憶體股盯盤提醒 2026-02-12 (00:31) ⚠️",
         "🐍 台股蛇年封關日收盤報告 2026-02-11 (14:30) 🔥",
         "台股開盤分析報告 2026-02-11 (09:15) 🔥",
         "美股晨報 2026-02-11 (08:01) 🔥", 
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 345,
-      "tokensUsed": 418525,
-      "cost": 120.89,
-      "saved": 169234.67,
+      "tasks": 348,
+      "tokensUsed": 441897,
+      "cost": 132.44,
+      "saved": 185621.33,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 476,
-      "tokensUsed": 1183247,
-      "cost": 263.14,
-      "saved": 523487.89,
+      "tasks": 481,
+      "tokensUsed": 1235789,
+      "cost": 289.67,
+      "saved": 567234.91,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -104,24 +104,44 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 183,
-      "tokensUsed": 686229,
-      "cost": 87.38,
-      "saved": 207328.71,
+      "tasks": 190,
+      "tokensUsed": 757576,
+      "cost": 97.77,
+      "saved": 234356.54,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
+        "Dashboard 數據更新 2026-02-12 (00:51) 🔥",
         "Dashboard 數據更新 2026-02-12 (00:20) 🔥",
         "Dashboard 數據更新 2026-02-11 (23:48) 🔥",
-        "Dashboard 數據更新 2026-02-11 (22:09) 🔥",
         "Lucy AI Office Dashboard v2.0 重建完成 🎉",
         "Dashboard 數據更新 2026-02-11 (20:35) ⭐",
         "每週優化 Review 完成 (02/09) ⭐"
       ],
-      "heartbeat": "✨ 深夜數據更新完成！統計：1,891個任務完成、5.42M tokens處理、節省$976,483成本！AI Office自動化運轉持續運行，各角色協作無縫。Dashboard實時同步，全天候服務穩定運行！"
+      "heartbeat": "✨ 深夜數據更新完成！統計：1,918個任務完成、5.92M tokens處理、節省$1,089,735成本！AI Office自動化運轉持續運行，各角色協作無縫。Dashboard實時同步，全天候服務穩定運行！"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-12-0051",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-12 00:51)",
+      "agent": "Lucy",
+      "timestamp": 1770828673,
+      "lastRunAt": 1770828673,
+      "status": "completed",
+      "cost": 0.070
+    },
+    {
+      "id": "memory-stock-watch-alert-2026-02-12-0031",
+      "name": "記憶體股盯盤提醒",
+      "title": "記憶體股盯盤提醒 (非交易時間)",
+      "agent": "小財",
+      "timestamp": 1770827507,
+      "lastRunAt": 1770827507,
+      "status": "completed",
+      "cost": 0.071
+    },
     {
       "id": "dashboard-update-2026-02-12-0020",
       "name": "Dashboard 數據更新",
@@ -133,32 +153,12 @@
       "cost": 0.070
     },
     {
-      "id": "memory-stock-watch-alert-2026-02-12-0001",
-      "name": "記憶體股盯盤提醒",
-      "title": "記憶體股盯盤提醒 (非交易時間)",
-      "agent": "小財",
-      "timestamp": 1770825702,
-      "lastRunAt": 1770825702,
-      "status": "completed",
-      "cost": 0.069
-    },
-    {
       "id": "dashboard-update-2026-02-11-2348",
       "name": "Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新 (2026-02-11 23:48)",
       "agent": "Lucy",
       "timestamp": 1770824883,
       "lastRunAt": 1770824883,
-      "status": "completed",
-      "cost": 0.070
-    },
-    {
-      "id": "dashboard-update-2026-02-11-2209",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 22:09)",
-      "agent": "Lucy",
-      "timestamp": 1770818940,
-      "lastRunAt": 1770818940,
       "status": "completed",
       "cost": 0.070
     },
@@ -226,8 +226,8 @@
   "metrics": {
     "avgTaskTime": 0.8,
     "successRate": 100,
-    "costPerTask": 0.462,
-    "totalHours": 1127,
+    "costPerTask": 0.487,
+    "totalHours": 1147,
     "automationLevel": 99.9
   },
   "performance": {
@@ -235,7 +235,7 @@
       {"date": "2026-02-09", "tasks": 45, "cost": 3.142, "savings": 7891},
       {"date": "2026-02-10", "tasks": 327, "cost": 25.67, "savings": 72845},
       {"date": "2026-02-11", "tasks": 642, "cost": 108.92, "savings": 195238},
-      {"date": "2026-02-12", "tasks": 124, "cost": 7.85, "savings": 18640}
+      {"date": "2026-02-12", "tasks": 127, "cost": 8.91, "savings": 21567}
     ]
   }
 }
