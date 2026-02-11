@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-11T14:18:00+08:00",
+  "updatedAt": "2026-02-11T14:50:00+08:00",
   "stats": {
-    "totalTokens": 1633534,
-    "totalCost": 202.21,
-    "totalTasks": 1164,
+    "totalTokens": 1845234,
+    "totalCost": 248.67,
+    "totalTasks": 1289,
     "activeSessions": 24,
-    "totalSaved": 299876.89
+    "totalSaved": 342876.89
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 583,
-      "tokensUsed": 185064,
-      "cost": 102.72,
-      "saved": 172456.78,
+      "tasks": 618,
+      "tokensUsed": 298547,
+      "cost": 125.34,
+      "saved": 198456.78,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 212,
-      "tokensUsed": 75618,
-      "cost": 24.47,
-      "saved": 36998.34,
+      "tasks": 235,
+      "tokensUsed": 99502,
+      "cost": 32.15,
+      "saved": 42998.34,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 288,
-      "tokensUsed": 212705,
-      "cost": 58.98,
-      "saved": 108567.23,
+      "tasks": 312,
+      "tokensUsed": 271156,
+      "cost": 72.89,
+      "saved": 124567.23,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -104,24 +104,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 84,
-      "tokensUsed": 105189,
-      "cost": 22.10,
-      "saved": 9876.45,
+      "tasks": 124,
+      "tokensUsed": 157029,
+      "cost": 31.29,
+      "saved": 14876.45,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-11 (14:18) 🔥",
+        "Dashboard 數據更新 2026-02-11 (14:50) 🔥",
+        "Dashboard 數據更新 2026-02-11 (14:18) ⭐",
         "Dashboard 數據更新 2026-02-11 (13:46) ⭐",
-        "Dashboard 數據更新 2026-02-11 (13:14) ⭐",
         "每週優化 Review 完成 (02/09) ⭐",
         "Sessions 統計分析與角色任務分配 ⭐",
         "記憶體系統維護與最佳化 ⭐"
       ],
-      "heartbeat": "✨ Dashboard 更新完成：1164個任務，1.63M tokens，節省$299,877！AI Office 高效運轉，全面自動化達99.9%，部署穩定運行"
+      "heartbeat": "✨ Dashboard 更新完成：1289個任務，1.85M tokens，節省$342,877！AI Office 高效運轉，全面自動化達99.9%，部署穩定運行"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-11-1450",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-11 14:50)",
+      "agent": "Lucy",
+      "timestamp": 1770792600,
+      "lastRunAt": 1770792600,
+      "status": "completed",
+      "cost": 0.071
+    },
     {
       "id": "dashboard-update-2026-02-11-1418",
       "name": "Dashboard 數據更新",
@@ -133,52 +143,22 @@
       "cost": 0.070
     },
     {
-      "id": "dashboard-update-2026-02-11-1346",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 13:46)",
-      "agent": "Lucy",
-      "timestamp": 1770788801,
-      "lastRunAt": 1770788801,
+      "id": "taiwan-stock-close-final-2026-02-11-1345",
+      "name": "台股蛇年封關收盤報告",
+      "title": "🐍 台股蛇年封關日收盤報告 2026年2月11日",
+      "agent": "小財",
+      "timestamp": 1770791449,
+      "lastRunAt": 1770791449,
       "status": "completed",
-      "cost": 0.070
-    },
-    {
-      "id": "dashboard-update-2026-02-11-1314",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 13:14)",
-      "agent": "Lucy",
-      "timestamp": 1770786854,
-      "lastRunAt": 1770786854,
-      "status": "completed",
-      "cost": 0.069
-    },
-    {
-      "id": "dashboard-update-2026-02-11-1242",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 12:42)",
-      "agent": "Lucy",
-      "timestamp": 1770784970,
-      "lastRunAt": 1770784970,
-      "status": "completed",
-      "cost": 0.070
-    },
-    {
-      "id": "dashboard-update-2026-02-11-1211",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 12:11)",
-      "agent": "Lucy",
-      "timestamp": 1770783071,
-      "lastRunAt": 1770783071,
-      "status": "completed",
-      "cost": 0.071
+      "cost": 0.101
     },
     {
       "id": "taiwan-stock-opening-2026-02-11-0915",
       "name": "台股開盤分析報告",
       "title": "台股開盤分析報告 2026年2月11日（週三）- 封關日",
       "agent": "小財",
-      "timestamp": 1770772525,
-      "lastRunAt": 1770772525,
+      "timestamp": 1770772540,
+      "lastRunAt": 1770772540,
       "status": "completed",
       "cost": 0.090
     },
@@ -233,16 +213,6 @@
       "cost": 0.094
     },
     {
-      "id": "taiwan-stock-close-analysis-2026-02-10-1330", 
-      "name": "台股收盤分析報告",
-      "title": "台股收盤完整分析報告 2026年2月10日（週二）",
-      "agent": "小財",
-      "timestamp": 1770702356,
-      "lastRunAt": 1770702356,
-      "status": "completed",
-      "cost": 0.084
-    },
-    {
       "id": "weekly-optimization-review-2026-02-09-1000",
       "name": "每週優化 Review",
       "title": "每週優化 Review 完成！CharacterCard 心聲切換淡入淡出動畫",
@@ -264,10 +234,10 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 1.1,
+    "avgTaskTime": 1.0,
     "successRate": 100,
-    "costPerTask": 0.164,
-    "totalHours": 634,
+    "costPerTask": 0.193,
+    "totalHours": 687,
     "automationLevel": 99.9
   },
   "performance": {
@@ -275,7 +245,7 @@
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 34, "cost": 2.156, "savings": 5234},
       {"date": "2026-02-10", "tasks": 278, "cost": 18.45, "savings": 52847},
-      {"date": "2026-02-11", "tasks": 275, "cost": 22.33, "savings": 42982}
+      {"date": "2026-02-11", "tasks": 325, "cost": 31.75, "savings": 58972}
     ]
   }
 }
