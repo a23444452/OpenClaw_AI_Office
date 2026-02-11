@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-11T11:39:00+08:00",
+  "updatedAt": "2026-02-11T12:11:00+08:00",
   "stats": {
-    "totalTokens": 21406428,
-    "totalCost": 130.65,
-    "totalTasks": 884,
+    "totalTokens": 21748531,
+    "totalCost": 136.24,
+    "totalTasks": 913,
     "activeSessions": 24,
-    "totalSaved": 188156.23
+    "totalSaved": 194285.67
   },
   "employees": [
     {
@@ -13,15 +13,15 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 463,
-      "tokensUsed": 10843260,
-      "cost": 71.46,
-      "saved": 107063.88,
+      "tasks": 478,
+      "tokensUsed": 11067462,
+      "cost": 74.38,
+      "saved": 112598.45,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
         "台股開盤分析報告 2026-02-11 (09:15) 🔥",
-        "美股晨報 Webchat 完整版 2026-02-11 (08:01) 🔥",
+        "美股晨報 Webchat 完整版 2026-02-11 (08:01) 🔥", 
         "台股盤後完整分析報告 2026-02-10 (14:30) 🔥",
         "台股收盤完整分析報告 2026-02-10 (13:45) ⭐",
         "台股開盤分析報告 2026-02-10 (09:15) ⭐",
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 173,
-      "tokensUsed": 2536725,
-      "cost": 14.55,
-      "saved": 21598.35,
+      "tasks": 181,
+      "tokensUsed": 2610577,
+      "cost": 15.43,
+      "saved": 23254.89,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 201,
-      "tokensUsed": 6578100,
-      "cost": 35.43,
-      "saved": 60184.77,
+      "tasks": 215,
+      "tokensUsed": 6891245,
+      "cost": 38.67,
+      "saved": 65834.22,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -104,24 +104,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 268,
-      "tokensUsed": 4367403,
-      "cost": 18.82,
-      "saved": 34013.68,
+      "tasks": 282,
+      "tokensUsed": 4625340,
+      "cost": 21.45,
+      "saved": 37889.56,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-11 (11:39) 🔥",
+        "Dashboard 數據更新 2026-02-11 (12:11) 🔥",
+        "Dashboard 數據更新 2026-02-11 (11:39) ⭐",
         "Dashboard 數據更新 2026-02-11 (11:07) ⭐",
         "Dashboard 數據更新 2026-02-11 (10:36) ⭐",
         "Dashboard 數據更新 2026-02-11 (10:04) ⭐",
-        "Dashboard 數據更新 2026-02-11 (09:32) ⭐",
         "Sessions 統計分析與角色任務分配 ⭐"
       ],
-      "heartbeat": "✨ Dashboard 更新完成：884個任務，21.41M tokens，節省$188,156！活躍sessions增至24個，系統運行良好"
+      "heartbeat": "✨ Dashboard 更新完成：913個任務，21.75M tokens，節省$194,285！活躍sessions維持24個，系統運行平穩"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-11-1211",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-11 12:11)",
+      "agent": "Lucy",
+      "timestamp": 1770783071,
+      "lastRunAt": 1770783071,
+      "status": "completed",
+      "cost": 0.071
+    },
     {
       "id": "dashboard-update-2026-02-11-1139",
       "name": "Dashboard 數據更新",
@@ -261,23 +271,13 @@
       "lastRunAt": 1770681703,
       "status": "completed",
       "cost": 0.081
-    },
-    {
-      "id": "ai-news-daily-2026-02-10-0800",
-      "name": "AI 新聞日報",
-      "title": "AI 新聞日報 2026年2月10日",
-      "agent": "阿新",
-      "timestamp": 1770681600,
-      "lastRunAt": 1770681600,
-      "status": "completed",
-      "cost": 0.089
     }
   ],
   "metrics": {
     "avgTaskTime": 1.2,
     "successRate": 100,
-    "costPerTask": 0.148,
-    "totalHours": 485,
+    "costPerTask": 0.149,
+    "totalHours": 501,
     "automationLevel": 99.9
   },
   "performance": {
@@ -285,7 +285,7 @@
       {"date": "2026-02-08", "tasks": 15, "cost": 0.548, "savings": 1800},
       {"date": "2026-02-09", "tasks": 32, "cost": 1.903, "savings": 4656},
       {"date": "2026-02-10", "tasks": 265, "cost": 15.89, "savings": 49434},
-      {"date": "2026-02-11", "tasks": 200, "cost": 14.58, "savings": 29850}
+      {"date": "2026-02-11", "tasks": 229, "cost": 18.92, "savings": 35628}
     ]
   }
 }
