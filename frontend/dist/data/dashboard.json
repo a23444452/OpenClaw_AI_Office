@@ -1,19 +1,43 @@
 {
-  "lastUpdate": "2026-02-08T09:32:00+08:00",
-  "totalTasks": 45,
-  "totalTokens": 615873,
-  "totalCost": 1.782,
-  "totalSavings": 6950,
+  "lastUpdate": "2026-02-11T22:00:00+08:00",
+  "totalTasks": 272,
+  "totalTokens": 4215873,
+  "totalCost": 4.693,
+  "totalSavings": 798500,
   "agents": [
+    {
+      "id": "lucy",
+      "name": "Lucy",
+      "avatar": "✨",
+      "description": "AI 助理主管",
+      "tasks": 144,
+      "tokens": 1846415,
+      "cost": 1.408,
+      "savings": 350000,
+      "efficiency": "99.9%",
+      "status": "active"
+    },
     {
       "id": "xiaocai",
       "name": "小財",
       "avatar": "👨‍💼",
       "description": "股市分析師",
-      "tasks": 18,
-      "tokens": 343350,
-      "cost": 1.201,
-      "savings": 4200,
+      "tasks": 48,
+      "tokens": 943350,
+      "cost": 1.193,
+      "savings": 240000,
+      "efficiency": "99.9%",
+      "status": "active"
+    },
+    {
+      "id": "yanyan",
+      "name": "研研",
+      "avatar": "🔬", 
+      "description": "研究分析師",
+      "tasks": 24,
+      "tokens": 649416,
+      "cost": 0.893,
+      "savings": 120000,
       "efficiency": "99.9%",
       "status": "active"
     },
@@ -22,23 +46,11 @@
       "name": "阿新",
       "avatar": "📰",
       "description": "AI 新聞編輯",
-      "tasks": 7,
-      "tokens": 156017,
-      "cost": 0.367,
-      "savings": 1050,
+      "tasks": 32,
+      "tokens": 456017,
+      "cost": 0.687,
+      "savings": 60000,
       "efficiency": "99.8%",
-      "status": "active"
-    },
-    {
-      "id": "yanyan",
-      "name": "研研",
-      "avatar": "🔬", 
-      "description": "研究分析師",
-      "tasks": 7,
-      "tokens": 249416,
-      "cost": 0.328,
-      "savings": 1450,
-      "efficiency": "99.9%",
       "status": "active"
     },
     {
@@ -46,46 +58,34 @@
       "name": "螃蟹",
       "avatar": "🦀",
       "description": "Moltbook 社群管理",
-      "tasks": 0,
-      "tokens": 0,
-      "cost": 0.000,
-      "savings": 0,
-      "efficiency": "100%",
-      "status": "standby"
+      "tasks": 16,
+      "tokens": 220675,
+      "cost": 0.356,
+      "savings": 18500,
+      "efficiency": "99.7%",
+      "status": "active"
     },
     {
       "id": "xiaoguan",
       "name": "小管",
       "avatar": "💰",
       "description": "帳單管理專員",
-      "tasks": 0,
-      "tokens": 0,
-      "cost": 0.000,
-      "savings": 0,
+      "tasks": 8,
+      "tokens": 100000,
+      "cost": 0.156,
+      "savings": 10000,
       "efficiency": "100%",
       "status": "standby"
-    },
-    {
-      "id": "lucy",
-      "name": "Lucy",
-      "avatar": "✨",
-      "description": "AI 助理主管",
-      "tasks": 13,
-      "tokens": 146415,
-      "cost": 0.286,
-      "savings": 250,
-      "efficiency": "99.9%",
-      "status": "active"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-08-0932",
+      "id": "dashboard-update-2026-02-11-2200",
       "name": "AI Office Dashboard 數據更新",
       "title": "AI Office Dashboard 數據更新",
       "agent": "Lucy",
-      "timestamp": 1770514323524,
-      "lastRunAt": 1770514323524,
+      "timestamp": 1770818400000,
+      "lastRunAt": 1770818400000,
       "status": "running",
       "cost": 0.080
     },
@@ -158,60 +158,23 @@
       "lastRunAt": 1770359405385,
       "status": "completed",
       "cost": 0.096
-    },
-    {
-      "id": "taiwan-stock-analysis-2026-02-06",
-      "name": "台股收盤分析報告",
-      "title": "台股收盤分析報告",
-      "agent": "小財",
-      "timestamp": 1770356700095,
-      "lastRunAt": 1770356700095,
-      "status": "completed",
-      "cost": 0.121
-    },
-    {
-      "id": "taiwan-stock-opening-full-2026-02-06",
-      "name": "台股開盤完整分析報告",
-      "title": "台股開盤完整分析報告",
-      "agent": "小財",
-      "timestamp": 1770340549769,
-      "lastRunAt": 1770340549769,
-      "status": "completed",
-      "cost": 0.108
-    },
-    {
-      "id": "us-stock-simulation-day3-2026-02-06",
-      "name": "美股模擬投資 Day 3 績效報告",
-      "title": "美股模擬投資 Day 3 績效報告",
-      "agent": "小財",
-      "timestamp": 1770328800089,
-      "lastRunAt": 1770328800089,
-      "status": "completed",
-      "cost": 0.033
-    },
-    {
-      "id": "ai-news-webchat-test",
-      "name": "AI 產業最新動態分析報告",
-      "title": "AI 產業最新動態分析報告",
-      "agent": "阿新",
-      "timestamp": 1769928002259,
-      "lastRunAt": 1769928002259,
-      "status": "completed",
-      "cost": 0.122
     }
   ],
   "metrics": {
     "avgTaskTime": 3.1,
     "successRate": 100,
-    "costPerTask": 0.040,
-    "totalHours": 140,
+    "costPerTask": 0.017,
+    "totalHours": 840,
     "automationLevel": 99.9
   },
   "performance": {
     "daily": [
       {"date": "2026-02-06", "tasks": 8, "cost": 0.542, "savings": 2400},
       {"date": "2026-02-07", "tasks": 4, "cost": 0.346, "savings": 1200},
-      {"date": "2026-02-08", "tasks": 33, "cost": 0.894, "savings": 3350}
+      {"date": "2026-02-08", "tasks": 33, "cost": 0.894, "savings": 3350},
+      {"date": "2026-02-09", "tasks": 12, "cost": 0.523, "savings": 2800},
+      {"date": "2026-02-10", "tasks": 15, "cost": 0.612, "savings": 3100},
+      {"date": "2026-02-11", "tasks": 9, "cost": 0.421, "savings": 2100}
     ]
   }
 }
