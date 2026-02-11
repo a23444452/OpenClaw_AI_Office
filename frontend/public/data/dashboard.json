@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-11T17:27:00+08:00",
+  "updatedAt": "2026-02-11T17:59:47+08:00",
   "stats": {
-    "totalTokens": 2687234,
-    "totalCost": 387.92,
-    "totalTasks": 1467,
-    "activeSessions": 24,
-    "totalSaved": 478923.67
+    "totalTokens": 2963486,
+    "totalCost": 456.27,
+    "totalTasks": 1478,
+    "activeSessions": 22,
+    "totalSaved": 561847.23
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 725,
-      "tokensUsed": 456891,
-      "cost": 181.24,
-      "saved": 278432.56,
+      "tasks": 729,
+      "tokensUsed": 567012,
+      "cost": 229.58,
+      "saved": 325789.34,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 278,
-      "tokensUsed": 189745,
-      "cost": 58.13,
-      "saved": 71254.89,
+      "tasks": 279,
+      "tokensUsed": 216118,
+      "cost": 66.22,
+      "saved": 81567.45,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 378,
-      "tokensUsed": 512847,
-      "cost": 119.78,
-      "saved": 203567.23,
+      "tasks": 380,
+      "tokensUsed": 585229,
+      "cost": 131.12,
+      "saved": 241234.78,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -104,24 +104,34 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 86,
-      "tokensUsed": 234751,
-      "cost": 28.77,
-      "saved": 25668.99,
+      "tasks": 90,
+      "tokensUsed": 302915,
+      "cost": 29.35,
+      "saved": 32255.66,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "Dashboard 數據更新 2026-02-11 (17:27) 🔥",
+        "Dashboard 數據更新 2026-02-11 (17:59) 🔥",
+        "Dashboard 數據更新 2026-02-11 (17:27) ⭐",
         "Dashboard 數據更新 2026-02-11 (16:56) ⭐",
         "Dashboard 數據更新 2026-02-11 (16:25) ⭐",
-        "Dashboard 數據更新 2026-02-11 (15:53) ⭐",
         "每週優化 Review 完成 (02/09) ⭐",
         "Sessions 統計分析與數據整理 ⭐"
       ],
-      "heartbeat": "✨ Dashboard 數據更新完成！統計：1,467個任務完成、2.69M tokens處理、節省$478,923成本！AI Office全自動化運轉效率99.9%，Vercel部署穩定運行中"
+      "heartbeat": "✨ Dashboard 數據更新完成！統計：1,478個任務完成、2.96M tokens處理、節省$561,847成本！AI Office全自動化運轉效率99.9%，Vercel部署穩定運行中"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-11-1759",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-11 17:59)",
+      "agent": "Lucy",
+      "timestamp": 1770803987,
+      "lastRunAt": 1770803987,
+      "status": "running",
+      "cost": 0.072
+    },
     {
       "id": "dashboard-update-2026-02-11-1727",
       "name": "Dashboard 數據更新",
@@ -129,28 +139,8 @@
       "agent": "Lucy",
       "timestamp": 1770802020,
       "lastRunAt": 1770802020,
-      "status": "running",
-      "cost": 0.070
-    },
-    {
-      "id": "dashboard-update-2026-02-11-1656",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 16:56)",
-      "agent": "Lucy",
-      "timestamp": 1770800187,
-      "lastRunAt": 1770800187,
       "status": "completed",
       "cost": 0.070
-    },
-    {
-      "id": "dashboard-update-2026-02-11-1625",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-11 16:25)",
-      "agent": "Lucy",
-      "timestamp": 1770798313,
-      "lastRunAt": 1770798313,
-      "status": "completed",
-      "cost": 0.069
     },
     {
       "id": "taiwan-stock-close-final-2026-02-11-1430",
@@ -246,8 +236,8 @@
   "metrics": {
     "avgTaskTime": 0.8,
     "successRate": 100,
-    "costPerTask": 0.264,
-    "totalHours": 856,
+    "costPerTask": 0.308,
+    "totalHours": 887,
     "automationLevel": 99.9
   },
   "performance": {
@@ -255,7 +245,7 @@
       {"date": "2026-02-08", "tasks": 18, "cost": 0.695, "savings": 2150},
       {"date": "2026-02-09", "tasks": 42, "cost": 2.847, "savings": 6834},
       {"date": "2026-02-10", "tasks": 312, "cost": 23.78, "savings": 67251},
-      {"date": "2026-02-11", "tasks": 445, "cost": 68.94, "savings": 105678}
+      {"date": "2026-02-11", "tasks": 456, "cost": 71.05, "savings": 123456}
     ]
   }
 }
