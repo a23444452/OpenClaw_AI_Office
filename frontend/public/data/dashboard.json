@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-02-12T12:31:00+08:00",
+  "updatedAt": "2026-02-12T13:05:00+08:00",
   "stats": {
-    "totalTokens": 8935671,
-    "totalCost": 1798.42,
-    "totalSaved": 1812456.78,
-    "totalTasks": 2698,
+    "totalTokens": 8953697,
+    "totalCost": 1799.89,
+    "totalSaved": 1815873.22,
+    "totalTasks": 2777,
     "activeSessions": 24
   },
   "employees": [
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 1392,
-      "tokensUsed": 2085941,
-      "cost": 812.34,
-      "saved": 1098234.56,
+      "tasks": 1471,
+      "tokensUsed": 2103267,
+      "cost": 813.81,
+      "saved": 1105651.00,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 538,
-      "tokensUsed": 791545,
-      "cost": 267.89,
-      "saved": 421234.67,
+      "tasks": 617,
+      "tokensUsed": 833122,
+      "cost": 269.56,
+      "saved": 436651.11,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 708,
-      "tokensUsed": 1872607,
-      "cost": 523.78,
-      "saved": 967234.89,
+      "tasks": 787,
+      "tokensUsed": 1969903,
+      "cost": 524.95,
+      "saved": 1004567.33,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -76,10 +76,10 @@
       "name": "螃蟹",
       "avatar": "🦀",
       "role": "Moltbook 社群管理",
-      "tasks": 26,
-      "tokensUsed": 68963,
-      "cost": 28.45,
-      "saved": 45678,
+      "tasks": 33,
+      "tokensUsed": 96637,
+      "cost": 51.90,
+      "saved": 67234,
       "efficiency": 100,
       "status": "standby",
       "recentTasks": [
@@ -97,10 +97,10 @@
       "name": "小管",
       "avatar": "💰",
       "role": "帳單管理專員",
-      "tasks": 21,
-      "tokensUsed": 55792,
-      "cost": 19.12,
-      "saved": 32456,
+      "tasks": 28,
+      "tokensUsed": 77017,
+      "cost": 19.93,
+      "saved": 42890,
       "efficiency": 100,
       "status": "warning",
       "recentTasks": [
@@ -118,43 +118,53 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 333,
-      "tokensUsed": 1460823,
-      "cost": 238.84,
-      "saved": 587656.55,
+      "tasks": 372,
+      "tokensUsed": 1493751,
+      "cost": 239.74,
+      "saved": 612879.78,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "AI Office Dashboard 數據更新 2026-02-12 (12:31) 🔥",
+        "AI Office Dashboard 數據更新 2026-02-12 (13:05) 🔥",
         "README.md 恢復並推送至GitHub ✅",
         "Lucy AI Office Dashboard v2.0 重建完成 🎉",
         "專案管理與維護 📋",
         "tmux 使用指南提供 📋",
         "技術支援與故障排除 🔧"
       ],
-      "heartbeat": "✨ Dashboard 最新更新完成！統計：2,698個任務(+79)、8.94M tokens、總節省$1,812,457！各角色運行順暢：小財股市分析、阿新AI新聞、研研深度探索、自動化協作完美！"
+      "heartbeat": "✨ Dashboard 更新完成！最新統計：2,777個任務(+79)、8.95M tokens、節省$1,815,873！小財股市分析98%效率、阿新AI新聞97%效率、研研深度研究96%效率，各角色協作優異！"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-12-1231",
+      "id": "dashboard-update-2026-02-12-1305",
       "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-12 12:31)",
+      "title": "AI Office Dashboard 數據更新 (2026-02-12 13:05)",
       "agent": "Lucy",
-      "timestamp": 1770870679,
-      "lastRunAt": 1770870679,
+      "timestamp": 1770872753,
+      "lastRunAt": 1770872753,
       "status": "completed",
-      "cost": 0.012
+      "cost": 0.015
     },
     {
-      "id": "memory-stock-check-2026-02-12-1158",
+      "id": "memory-stock-check-2026-02-12-1248",
       "name": "記憶體股檢查",
-      "title": "記憶體股盯盤檢查 - 狀況穩定",
+      "title": "記憶體股盯盤 - 收盤總結",
       "agent": "小財",
-      "timestamp": 1770868690,
-      "lastRunAt": 1770868690,
+      "timestamp": 1770872417,
+      "lastRunAt": 1770872417,
       "status": "completed",
-      "cost": 0.018
+      "cost": 0.015
+    },
+    {
+      "id": "main-session-2026-02-12",
+      "name": "主要對話",
+      "title": "GitHub README.md 恢復並推送",
+      "agent": "Lucy",
+      "timestamp": 1770872692,
+      "lastRunAt": 1770872692,
+      "status": "completed",
+      "cost": 0.017
     },
     {
       "id": "moltbook-check-2026-02-12-1044",
@@ -164,7 +174,7 @@
       "timestamp": 1770864644,
       "lastRunAt": 1770864644,
       "status": "completed",
-      "cost": 0.022
+      "cost": 0.023
     },
     {
       "id": "tw-stock-opening-2026-02-12-0922",
@@ -184,7 +194,7 @@
       "timestamp": 1770856635,
       "lastRunAt": 1770856635,
       "status": "completed",
-      "cost": 0.032
+      "cost": 0.033
     },
     {
       "id": "ai-news-daily-2026-02-12-0800",
@@ -214,17 +224,7 @@
       "timestamp": 1770851020,
       "lastRunAt": 1770851020,
       "status": "completed",
-      "cost": 0.010
-    },
-    {
-      "id": "us-stock-closing-2026-02-11-1430",
-      "name": "台股收盤分析",
-      "title": "🐍 台股蛇年封關日收盤報告",
-      "agent": "小財",
-      "timestamp": 1770791400,
-      "lastRunAt": 1770791400,
-      "status": "completed",
-      "cost": 0.101
+      "cost": 0.011
     },
     {
       "id": "nightly-build-2026-02-12-0300",
@@ -241,7 +241,7 @@
     "avgTaskTime": 0.7,
     "successRate": 100,
     "costPerTask": 0.478,
-    "totalHours": 1456,
+    "totalHours": 1498,
     "automationLevel": 99.9
   },
   "performance": {
@@ -249,7 +249,7 @@
       {"date": "2026-02-09", "tasks": 45, "cost": 3.142, "savings": 7891},
       {"date": "2026-02-10", "tasks": 327, "cost": 25.67, "savings": 72845},
       {"date": "2026-02-11", "tasks": 642, "cost": 108.92, "savings": 195238},
-      {"date": "2026-02-12", "tasks": 413, "cost": 38.24, "savings": 118234}
+      {"date": "2026-02-12", "tasks": 492, "cost": 38.89, "savings": 138567}
     ]
   }
 }
