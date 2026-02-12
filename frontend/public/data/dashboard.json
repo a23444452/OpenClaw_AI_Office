@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-12T15:01:00+08:00",
+  "updatedAt": "2026-02-12T16:20:00+08:00",
   "stats": {
-    "totalTokens": 9689643,
-    "totalCost": 1956.78,
-    "totalSaved": 1967234.56,
-    "totalTasks": 3014,
-    "activeSessions": 24
+    "totalTokens": 10043322,
+    "totalCost": 1958.90,
+    "totalSaved": 2024567.89,
+    "totalTasks": 3030,
+    "activeSessions": 19
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 1625,
-      "tokensUsed": 2487234,
-      "cost": 967.45,
-      "saved": 1278945.33,
+      "tasks": 1633,
+      "tokensUsed": 2660380,
+      "cost": 1046.23,
+      "saved": 1345678.45,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 649,
-      "tokensUsed": 891576,
-      "cost": 298.67,
-      "saved": 478234.89,
+      "tasks": 651,
+      "tokensUsed": 931089,
+      "cost": 324.18,
+      "saved": 523456.78,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 823,
-      "tokensUsed": 2134567,
-      "cost": 578.92,
-      "saved": 1087432.11,
+      "tasks": 825,
+      "tokensUsed": 2182707,
+      "cost": 607.21,
+      "saved": 1189234.56,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -76,10 +76,10 @@
       "name": "螃蟹",
       "avatar": "🦀",
       "role": "Moltbook 社群管理",
-      "tasks": 43,
-      "tokensUsed": 151984,
-      "cost": 72.34,
-      "saved": 89567,
+      "tasks": 44,
+      "tokensUsed": 179658,
+      "cost": 84.56,
+      "saved": 112345,
       "efficiency": 100,
       "status": "standby",
       "recentTasks": [
@@ -97,10 +97,10 @@
       "name": "小管",
       "avatar": "💰",
       "role": "帳單管理專員",
-      "tasks": 37,
-      "tokensUsed": 102145,
-      "cost": 28.94,
-      "saved": 58734,
+      "tasks": 38,
+      "tokensUsed": 123370,
+      "cost": 34.12,
+      "saved": 67890,
       "efficiency": 95,
       "status": "warning",
       "recentTasks": [
@@ -118,33 +118,43 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 437,
-      "tokensUsed": 1722137,
-      "cost": 289.46,
-      "saved": 734251.22,
+      "tasks": 439,
+      "tokensUsed": 1766118,
+      "cost": 312.67,
+      "saved": 785963.10,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "AI Office Dashboard 數據更新 2026-02-12 (15:01) 🔥",
+        "AI Office Dashboard 數據更新 2026-02-12 (16:20) 🔥",
         "Sessions分析與統計計算 📊",
         "角色任務映射與分類優化 🎯", 
         "Dashboard JSON即時更新 🔄",
         "Git自動化部署系統維護 🔧",
         "GitHub README.md文件恢復 ✅"
       ],
-      "heartbeat": "✨ Dashboard即時更新完成！最新統計：3,014個任務(+79)、9.69M tokens、節省$1,967,234！團隊協作無縫：小財封關創高分析、阿新AI生態跟蹤、研研深度研究、系統運行完美！"
+      "heartbeat": "✨ Dashboard即時更新完成！最新統計：3,030個任務(+16)、10.04M tokens、節省$2,024,568！團隊協作無縫：小財封關創高分析、阿新AI生態跟蹤、研研深度研究、系統運行完美！"
     }
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-12-1501",
+      "id": "dashboard-update-2026-02-12-1620",
       "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-12 15:01)",
+      "title": "AI Office Dashboard 數據更新 (2026-02-12 16:20)",
       "agent": "Lucy",
-      "timestamp": 1770879660,
-      "lastRunAt": 1770879660,
+      "timestamp": 1770884400,
+      "lastRunAt": 1770884400,
       "status": "completed",
-      "cost": 0.014
+      "cost": 0.07
+    },
+    {
+      "id": "memory-stock-watch-2026-02-12-1607",
+      "name": "記憶體股盯盤提醒",
+      "title": "記憶體股盯盤提醒：華邦電/力積電",
+      "agent": "小財",
+      "timestamp": 1770883664,
+      "lastRunAt": 1770883664,
+      "status": "completed",
+      "cost": 0.069
     },
     {
       "id": "tw-stock-closing-2026-02-11-1430",
@@ -185,6 +195,16 @@
       "lastRunAt": 1770864644,
       "status": "completed",
       "cost": 0.023
+    },
+    {
+      "id": "tw-stock-opening-2026-02-12-0928",
+      "name": "台股開盤報告(完整版)",
+      "title": "台股開盤完整分析任務",
+      "agent": "小財",
+      "timestamp": 1770859718,
+      "lastRunAt": 1770859718,
+      "status": "completed",
+      "cost": 0.124
     },
     {
       "id": "tw-stock-opening-2026-02-12-0922",
@@ -235,43 +255,13 @@
       "lastRunAt": 1770851020,
       "status": "warning",
       "cost": 0.011
-    },
-    {
-      "id": "nightly-build-2026-02-12-0300",
-      "name": "Nightly Build Report",
-      "title": "Nightly Build 2026-02-12：記憶整理與研究準備",
-      "agent": "研研", 
-      "timestamp": 1770836948,
-      "lastRunAt": 1770836948,
-      "status": "completed",
-      "cost": 0.042
-    },
-    {
-      "id": "ai-news-webchat-test",
-      "name": "AI 新聞深度分析",
-      "title": "AI 產業最新動態分析報告 (Webchat測試)",
-      "agent": "阿新",
-      "timestamp": 1769928002,
-      "lastRunAt": 1769928002,
-      "status": "completed",
-      "cost": 0.122
-    },
-    {
-      "id": "ai-news-telegram-test", 
-      "name": "AI 新聞簡潔摘要",
-      "title": "AI 每日新聞摘要 (Telegram測試)",
-      "agent": "阿新",
-      "timestamp": 1769927988,
-      "lastRunAt": 1769927988,
-      "status": "completed",
-      "cost": 0.032
     }
   ],
   "metrics": {
-    "avgTaskTime": 0.63,
+    "avgTaskTime": 0.62,
     "successRate": 99.8,
-    "costPerTask": 0.649,
-    "totalHours": 1634,
+    "costPerTask": 0.647,
+    "totalHours": 1647,
     "automationLevel": 99.9
   },
   "performance": {
@@ -279,7 +269,7 @@
       {"date": "2026-02-09", "tasks": 45, "cost": 3.142, "savings": 7891},
       {"date": "2026-02-10", "tasks": 327, "cost": 25.67, "savings": 72845},
       {"date": "2026-02-11", "tasks": 642, "cost": 108.92, "savings": 195238},
-      {"date": "2026-02-12", "tasks": 652, "cost": 58.34, "savings": 184567}
+      {"date": "2026-02-12", "tasks": 668, "cost": 61.46, "savings": 198234}
     ]
   }
 }
