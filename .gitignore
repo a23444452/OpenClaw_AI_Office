@@ -1,2 +1,29 @@
+# Vercel
 .vercel
+
+# Environment
 .env*.local
+
+# macOS
+.DS_Store
+*.DS_Store
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
