@@ -133,7 +133,7 @@ export function Character({ agent, position, onClick, recentTask }: CharacterPro
         <img
           src={avatarSrc}
           alt={agent.name}
-          className="w-24 h-24 object-contain drop-shadow-lg"
+          className="w-20 h-20 object-contain drop-shadow-lg"
           onError={(e) => {
             // Fallback to pixel version if chibi not found
             (e.target as HTMLImageElement).src = `/avatars/${agent.id}-pixel.png`;
