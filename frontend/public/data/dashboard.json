@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-13T09:28:00+08:00", 
+  "updatedAt": "2026-02-13T10:02:00+08:00", 
   "stats": {
-    "totalTokens": 13267834,
-    "totalCost": 2523.47,
-    "totalSaved": 2789156.84,
-    "totalTasks": 3309,
-    "activeSessions": 24
+    "totalTokens": 13845667,
+    "totalCost": 2612.34,
+    "totalSaved": 2951423.67,
+    "totalTasks": 3333,
+    "activeSessions": 25
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 1749,
-      "tokensUsed": 3784567,
-      "cost": 1438.92,
-      "saved": 1798234.56,
+      "tasks": 1761,
+      "tokensUsed": 3962134,
+      "cost": 1505.83,
+      "saved": 1856492.23,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 718,
-      "tokensUsed": 1325449,
-      "cost": 427.38,
-      "saved": 756789.23,
+      "tasks": 722,
+      "tokensUsed": 1383764,
+      "cost": 446.27,
+      "saved": 789123.45,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 874,
-      "tokensUsed": 2678945,
-      "cost": 759.78,
-      "saved": 1523456.89,
+      "tasks": 877,
+      "tokensUsed": 2799012,
+      "cost": 792.45,
+      "saved": 1589345.67,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -118,10 +118,10 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 531,
-      "tokensUsed": 2039739,
-      "cost": 415.27,
-      "saved": 978540.38,
+      "tasks": 543,
+      "tokensUsed": 2162623,
+      "cost": 445.67,
+      "saved": 1043356.84,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -136,6 +136,16 @@
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-13-1002",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-13 10:02)",
+      "agent": "Lucy",
+      "timestamp": 1770948132,
+      "lastRunAt": 1770948132,
+      "status": "completed",
+      "cost": 0.089
+    },
     {
       "id": "dashboard-update-2026-02-13-0928",
       "name": "Dashboard 數據更新",
