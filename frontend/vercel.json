@@ -3,6 +3,7 @@
   "outputDirectory": "build",
   "framework": "vite",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/data/:path*", "destination": "/data/:path*" },
+    { "source": "/((?!data/).*)", "destination": "/" }
   ]
 }
