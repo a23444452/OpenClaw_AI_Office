@@ -6,7 +6,9 @@ interface RecentActivityProps {
 }
 
 function formatTime(timestamp: number): string {
-  const date = new Date(timestamp);
+  // Convert seconds to milliseconds if needed (Unix timestamps are in seconds)
+  const ts = timestamp < 10000000000 ? timestamp * 1000 : timestamp;
+  const date = new Date(ts);
   const now = new Date();
   const diffMs = now.getTime() - date.getTime();
   const diffMins = Math.floor(diffMs / 60000);

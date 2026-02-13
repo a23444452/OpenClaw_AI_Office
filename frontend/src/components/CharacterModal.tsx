@@ -25,7 +25,9 @@ function formatCurrency(num: number): string {
 }
 
 function formatDate(timestamp: number): string {
-  const date = new Date(timestamp);
+  // Convert seconds to milliseconds if needed (Unix timestamps are in seconds)
+  const ts = timestamp < 10000000000 ? timestamp * 1000 : timestamp;
+  const date = new Date(ts);
   return date.toLocaleDateString('zh-TW', {
     month: 'numeric',
     day: 'numeric',
