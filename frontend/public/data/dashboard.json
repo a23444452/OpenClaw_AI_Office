@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-02-13T13:59:00+08:00", 
+  "updatedAt": "2026-02-13T14:33:00+08:00", 
   "stats": {
-    "totalTokens": 13268000,
-    "totalCost": 2654.87,
-    "totalSaved": 3145678.90,
-    "totalTasks": 3309,
+    "totalTokens": 16030000,
+    "totalCost": 3215.43,
+    "totalSaved": 3487156.34,
+    "totalTasks": 3428,
     "activeSessions": 24
   },
   "employees": [
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 1823,
-      "tokensUsed": 3987654,
-      "cost": 1456.23,
-      "saved": 1987654.32,
+      "tasks": 1831,
+      "tokensUsed": 4523891,
+      "cost": 1623.67,
+      "saved": 2298745.89,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 756,
-      "tokensUsed": 1689543,
-      "cost": 578.91,
-      "saved": 934567.89,
+      "tasks": 762,
+      "tokensUsed": 1821479,
+      "cost": 634.22,
+      "saved": 1045123.45,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 901,
-      "tokensUsed": 3456789,
-      "cost": 1023.45,
-      "saved": 1923456.78,
+      "tasks": 905,
+      "tokensUsed": 3789234,
+      "cost": 1156.89,
+      "saved": 2156789.34,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -76,11 +76,11 @@
       "name": "螃蟹",
       "avatar": "🦀",
       "role": "Moltbook 社群管理",
-      "tasks": 68,
-      "tokensUsed": 423987,
-      "cost": 189.67,
-      "saved": 267890.12,
-      "efficiency": 89,
+      "tasks": 71,
+      "tokensUsed": 523845,
+      "cost": 234.78,
+      "saved": 298456.78,
+      "efficiency": 87,
       "status": "warning",
       "recentTasks": [
         "🦀 Moltbook API故障持續：域名重定向問題未解決 2026-02-13 (00:59) ⚠️",
@@ -97,11 +97,11 @@
       "name": "小管",
       "avatar": "💰",
       "role": "帳單管理專員",
-      "tasks": 59,
-      "tokensUsed": 312456,
-      "cost": 105.78,
-      "saved": 178901.23,
-      "efficiency": 85,
+      "tasks": 63,
+      "tokensUsed": 398234,
+      "cost": 134.56,
+      "saved": 201234.56,
+      "efficiency": 82,
       "status": "error",
       "recentTasks": [
         "🚨 Gmail OAuth認證持續失效：無法訪問信用卡帳單 2026-02-13 (12:55) ❌",
@@ -118,10 +118,10 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 602,
-      "tokensUsed": 3097571,
-      "cost": 678.43,
-      "saved": 1353208.56,
+      "tasks": 606,
+      "tokensUsed": 3274317,
+      "cost": 731.31,
+      "saved": 1487306.32,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -137,14 +137,34 @@
   ],
   "recentJobs": [
     {
-      "id": "dashboard-update-2026-02-13-1359",
+      "id": "dashboard-update-2026-02-13-1433",
       "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-13 13:59)",
+      "title": "AI Office Dashboard 數據更新 (2026-02-13 14:33)",
       "agent": "Lucy",
-      "timestamp": 1770962340,
-      "lastRunAt": 1770962340,
+      "timestamp": 1770964406,
+      "lastRunAt": 1770964406,
       "status": "completed",
-      "cost": 0.071
+      "cost": 0.089
+    },
+    {
+      "id": "tw-stock-closing-analysis-2026-02-12-1431",
+      "name": "台股盤後完整分析",
+      "title": "🐍 台股蛇年封關日完整分析：33,605點創新高",
+      "agent": "小財",
+      "timestamp": 1770964279,
+      "lastRunAt": 1770964279,
+      "status": "completed",
+      "cost": 0.173
+    },
+    {
+      "id": "moltbook-check-2026-02-13-1425",
+      "name": "Moltbook 社群檢查",
+      "title": "🔍 API連線依然失效，平台可訪問但認證問題持續",
+      "agent": "螃蟹",
+      "timestamp": 1770963953,
+      "lastRunAt": 1770963953,
+      "status": "failed",
+      "cost": 0.018
     },
     {
       "id": "dashboard-update-2026-02-13-1238",
@@ -319,7 +339,7 @@
       {"date": "2026-02-10", "tasks": 327, "cost": 25.67, "savings": 72845},
       {"date": "2026-02-11", "tasks": 642, "cost": 108.92, "savings": 195238},
       {"date": "2026-02-12", "tasks": 733, "cost": 73.58, "savings": 234567},
-      {"date": "2026-02-13", "tasks": 885, "cost": 187.23, "savings": 356789}
+      {"date": "2026-02-13", "tasks": 927, "cost": 234.89, "savings": 398734}
     ]
   }
 }
