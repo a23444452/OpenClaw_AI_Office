@@ -1,9 +1,5 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "build",
-  "framework": "vite",
-  "rewrites": [
-    { "source": "/data/:path*", "destination": "/data/:path*" },
-    { "source": "/((?!data/).*)", "destination": "/" }
-  ]
+  "framework": "vite"
 }
