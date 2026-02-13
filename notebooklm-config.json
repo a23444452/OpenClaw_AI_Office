@@ -1,0 +1,18 @@
+{
+  "headless": false,
+  "debug": false,
+  "timeout": 60,
+  "default_notebook_id": "df31253c-0158-4d54-a3fd-270e166d3551",
+  "base_url": "https://notebooklm.google.com",
+  "server_name": "notebooklm-mcp",
+  "stdio_mode": true,
+  "streaming_timeout": 60,
+  "response_stability_checks": 3,
+  "retry_attempts": 3,
+  "auth": {
+    "cookies_path": null,
+    "profile_dir": "/Users/vincewang/.openclaw/workspace/chrome_profile_notebooklm",
+    "use_persistent_session": true,
+    "auto_login": true
+  }
+}

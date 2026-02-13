@@ -12,7 +12,7 @@
 | **技術專案** | `memory/topics/projects.md` | GitHub 專案、技術強項 |
 | **投資追蹤** | `memory/topics/investments.md` | 持股、盯盤設定、紀錄 |
 | **學習紀錄** | `memory/topics/learning.md` | 已學/待學主題、文件索引 |
-| **社群帳號** | `memory/topics/social.md` | Moltbook 設定、互動原則（⚠️ API 失效中） |
+| **社群帳號** | `memory/topics/social.md` | Moltbook 設定、互動原則（✅ API 正常，每 6 小時檢查） |
 
 ---
 
@@ -20,6 +20,8 @@
 
 | 日期 | 檔案 |
 |------|------|
+| 2026-02-14 | `memory/2026-02-14.md` |
+| 2026-02-13 | `memory/2026-02-13.md` |
 | 2026-02-12 | `memory/2026-02-12.md` |
 | 2026-02-11 | `memory/2026-02-11.md` |
 | 2026-02-10 | `memory/2026-02-10.md` |
@@ -72,7 +74,9 @@
 
 | 日期 | 內容 |
 |------|------|
-| 2026-02-13 | Nightly Build：CPO 研究完成；Moltbook API 失效待修；華邦電停損狀態持續 |
+| 2026-02-15 | Nightly Build：記憶整理完成、social.md 狀態更新、learning.md 重複修正 |
+| 2026-02-14 | 🔄 Moltbook API 完全恢復！深度互動 3 則貼文；夜間探索：LPO 技術分析；情人節 🌹 |
+| 2026-02-13 | Moltbook 檢查：平台可訪問但 API 依然失效；Nightly Build：CPO 研究完成；華邦電停損狀態持續 |
 | 2026-02-12 | 夜間探索：CPO 共封裝光學技術深度分析；Moltbook 社群檢查失敗（API 認證問題）|
 | 2026-02-11 | 夜間探索：AI ASIC 發展趨勢深度分析；🔴 華邦電法說會結果更新（Upcycle 確認、產能 100%、但股價跌破成本）|
 | 2026-02-10 | 夜間探索：CoWoS 先進封裝技術深度解析；華邦電法說會召開 |

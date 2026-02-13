@@ -11,7 +11,7 @@
 - [ ] 工程師專用筆記模板設計
 - [ ] AI 驅動的知識管理工具深度評測
 - [ ] 半導體 RSS 自動化追蹤腳本建置
-- [ ] LPO（Linear-drive Pluggable Optics）技術分析
+- [x] LPO（Linear-drive Pluggable Optics）技術分析 ✅ 2026-02-14
 - [ ] 矽光子產業鏈深度研究（眾達、華星光個股）
 - [x] Co-Packaged Optics（CPO）技術與應用 ✅ 2026-02-13
 - [x] AI ASIC 發展趨勢（Google TPU、AWS Trainium、Intel Gaudi）✅ 2026-02-11
@@ -80,6 +80,16 @@
 - 2027 年趨勢：Co-Packaged Optics（CPO）用光取代電
 - 台灣供應鏈：載板（南電、景碩、欣興）、設備（弘塑、辛耘）
 - 📄 `docs/learning/cowos-advanced-packaging-analysis-2026.md`
+
+### LPO（Linear-drive Pluggable Optics）技術分析 — 2026-02-14
+- LPO 移除光模組內的 DSP 晶片，將訊號處理整合至 Switch ASIC
+- 功耗比傳統 DSP 模組降低 30-50%，延遲降低約 100ns
+- 成本降低 20-40%，但仍保留可插拔/可維護特性（優於 CPO）
+- 適用距離 <500m，定位為 DSP→CPO 的橋樑技術
+- 市場窗口：2025-2028 年黃金期
+- 主要推動者：Meta、Microsoft、Broadcom、NVIDIA
+- 台灣機會：眾達（矽光子 PIC）、華星光（矽光子）、光被動元件
+- 📄 `docs/learning/lpo-linear-pluggable-optics-analysis-2026.md`
 
 ### AI ASIC 發展趨勢（Google TPU、AWS Trainium、Intel Gaudi） — 2026-02-11
 - AI 晶片市場 2024 年 $529 億，預計 2030 年 $2,956 億（CAGR 33%）
