@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Header, Office, StatsPanel, Charts, RecentActivity } from './components';
+import { Header, Office, StatsPanel, Charts, RecentActivity, ScheduledTasks, LearningTopics } from './components';
 import { useDashboardData } from './hooks/useDashboardData';
 
-type TabType = 'office' | 'charts';
+type TabType = 'office' | 'charts' | 'tasks';
 
 function App() {
   const { data, loading, error } = useDashboardData();
@@ -50,7 +50,7 @@ function App() {
 
         {/* Tab Navigation */}
         <div className="px-4 mt-4">
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
             <button
               onClick={() => setActiveTab('office')}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
@@ -60,6 +60,16 @@ function App() {
               }`}
             >
               🏢 辦公室
+            </button>
+            <button
+              onClick={() => setActiveTab('tasks')}
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition ${
+                activeTab === 'tasks'
+                  ? 'bg-white/20 text-white'
+                  : 'bg-white/5 text-white/60 hover:bg-white/10'
+              }`}
+            >
+              📋 任務與學習
             </button>
             <button
               onClick={() => setActiveTab('charts')}
@@ -77,7 +87,7 @@ function App() {
         {/* Main Content */}
         <div className="p-4 grid grid-cols-1 lg:grid-cols-3 gap-4">
           <AnimatePresence mode="wait">
-            {activeTab === 'office' ? (
+            {activeTab === 'office' && (
               <motion.div
                 key="office"
                 initial={{ opacity: 0, x: -20 }}
@@ -92,7 +102,27 @@ function App() {
                   <RecentActivity jobs={data.recentJobs} />
                 </div>
               </motion.div>
-            ) : (
+            )}
+            {activeTab === 'tasks' && (
+              <motion.div
+                key="tasks"
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 20 }}
+                className="lg:col-span-2"
+              >
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <ScheduledTasks tasks={data.scheduledTasks} />
+                  <LearningTopics topics={data.learningTopics} />
+                </div>
+                
+                {/* Mobile: Recent Activity below tasks */}
+                <div className="mt-4 lg:hidden">
+                  <RecentActivity jobs={data.recentJobs} />
+                </div>
+              </motion.div>
+            )}
+            {activeTab === 'charts' && (
               <motion.div
                 key="charts"
                 initial={{ opacity: 0, x: -20 }}

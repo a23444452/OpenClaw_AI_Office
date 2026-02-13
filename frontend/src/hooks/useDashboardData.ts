@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import type { DashboardData, Agent, RecentJob } from '../types';
+import type { DashboardData, Agent, RecentJob, ScheduledTask, LearningTopic } from '../types';
 
 interface RawEmployee {
   id: string;
@@ -27,6 +27,25 @@ interface RawJob {
   cost: number;
 }
 
+interface RawScheduledTask {
+  id: string;
+  name: string;
+  schedule: string;
+  nextRunAt: number;
+  agent: string;
+  enabled: boolean;
+  lastStatus?: 'ok' | 'error';
+}
+
+interface RawLearningTopic {
+  id: string;
+  title: string;
+  category: 'semiconductor' | 'investment' | 'productivity' | 'ai';
+  completed: boolean;
+  completedAt?: string;
+  docPath?: string;
+}
+
 interface RawDashboardData {
   updatedAt: string;
   stats: {
@@ -38,6 +57,8 @@ interface RawDashboardData {
   };
   employees: RawEmployee[];
   recentJobs: RawJob[];
+  scheduledTasks?: RawScheduledTask[];
+  learningTopics?: RawLearningTopic[];
   metrics: {
     avgTaskTime: number;
     successRate: number;
@@ -80,6 +101,25 @@ function transformData(raw: RawDashboardData): DashboardData {
     cost: job.cost,
   }));
 
+  const scheduledTasks: ScheduledTask[] = (raw.scheduledTasks || []).map((task) => ({
+    id: task.id,
+    name: task.name,
+    schedule: task.schedule,
+    nextRunAt: task.nextRunAt,
+    agent: task.agent,
+    enabled: task.enabled,
+    lastStatus: task.lastStatus,
+  }));
+
+  const learningTopics: LearningTopic[] = (raw.learningTopics || []).map((topic) => ({
+    id: topic.id,
+    title: topic.title,
+    category: topic.category,
+    completed: topic.completed,
+    completedAt: topic.completedAt,
+    docPath: topic.docPath,
+  }));
+
   return {
     lastUpdate: raw.updatedAt,
     totalTasks: raw.stats.totalTasks,
@@ -88,6 +128,8 @@ function transformData(raw: RawDashboardData): DashboardData {
     totalSavings: raw.stats.totalSaved,
     agents,
     recentJobs,
+    scheduledTasks,
+    learningTopics,
     metrics: raw.metrics,
     performance: raw.performance,
   };

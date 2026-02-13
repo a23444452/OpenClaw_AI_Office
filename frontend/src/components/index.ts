@@ -5,3 +5,5 @@ export { CharacterModal } from './CharacterModal';
 export { StatsPanel } from './StatsPanel';
 export { Charts } from './Charts';
 export { RecentActivity } from './RecentActivity';
+export { ScheduledTasks } from './ScheduledTasks';
+export { LearningTopics } from './LearningTopics';

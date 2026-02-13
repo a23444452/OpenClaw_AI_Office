@@ -327,6 +327,278 @@
       "cost": 0.025
     }
   ],
+  "scheduledTasks": [
+    {
+      "id": "us-stock-morning",
+      "name": "📈 美股晨報",
+      "schedule": "每天 08:00",
+      "nextRunAt": 1771027200000,
+      "agent": "小財",
+      "enabled": true,
+      "lastStatus": "ok"
+    },
+    {
+      "id": "tw-stock-opening",
+      "name": "🔔 台股開盤報告",
+      "schedule": "週一～五 09:15",
+      "nextRunAt": 1771204500000,
+      "agent": "小財",
+      "enabled": true,
+      "lastStatus": "ok"
+    },
+    {
+      "id": "tw-stock-closing",
+      "name": "🔕 台股收盤報告",
+      "schedule": "週一～五 13:45",
+      "nextRunAt": 1771220700000,
+      "agent": "小財",
+      "enabled": true,
+      "lastStatus": "ok"
+    },
+    {
+      "id": "tw-stock-summary",
+      "name": "📊 台股盤後摘要",
+      "schedule": "週一～五 14:30",
+      "nextRunAt": 1771223400000,
+      "agent": "小財",
+      "enabled": true,
+      "lastStatus": "ok"
+    },
+    {
+      "id": "memory-stock-watch",
+      "name": "🎯 記憶體股盯盤",
+      "schedule": "交易時段每 30 分",
+      "nextRunAt": 1771203600000,
+      "agent": "小財",
+      "enabled": true,
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ai-news-daily",
+      "name": "🤖 AI 新聞日報",
+      "schedule": "每天 08:00",
+      "nextRunAt": 1771027200000,
+      "agent": "阿新",
+      "enabled": true,
+      "lastStatus": "ok"
+    },
+    {
+      "id": "github-trending",
+      "name": "⭐ GitHub 熱門專案",
+      "schedule": "每天 07:00",
+      "nextRunAt": 1771023600000,
+      "agent": "阿新",
+      "enabled": true,
+      "lastStatus": "error"
+    },
+    {
+      "id": "nightly-exploration",
+      "name": "🌙 夜間自主探索",
+      "schedule": "每天 01:00",
+      "nextRunAt": 1771002000000,
+      "agent": "研研",
+      "enabled": true,
+      "lastStatus": "ok"
+    },
+    {
+      "id": "nightly-build",
+      "name": "⚡ Nightly Build",
+      "schedule": "每天 03:00",
+      "nextRunAt": 1771009200000,
+      "agent": "研研",
+      "enabled": true,
+      "lastStatus": "ok"
+    },
+    {
+      "id": "moltbook-check",
+      "name": "🦀 Moltbook 社群檢查",
+      "schedule": "每 6 小時",
+      "nextRunAt": 1771007396521,
+      "agent": "螃蟹",
+      "enabled": true,
+      "lastStatus": "ok"
+    },
+    {
+      "id": "credit-card-reminder",
+      "name": "💳 信用卡帳單提醒",
+      "schedule": "每天 07:00",
+      "nextRunAt": 1771023600000,
+      "agent": "小管",
+      "enabled": true,
+      "lastStatus": "error"
+    },
+    {
+      "id": "dashboard-update",
+      "name": "📊 Dashboard 數據更新",
+      "schedule": "每 2 小時",
+      "nextRunAt": 1770997625015,
+      "agent": "Lucy",
+      "enabled": true,
+      "lastStatus": "ok"
+    },
+    {
+      "id": "weekly-review",
+      "name": "📅 週末股市回顧",
+      "schedule": "週六 10:00",
+      "nextRunAt": 1771034400000,
+      "agent": "小財",
+      "enabled": true,
+      "lastStatus": "error"
+    },
+    {
+      "id": "lucy-office-optimization",
+      "name": "✨ Lucy Office 週優化",
+      "schedule": "每 48 小時",
+      "nextRunAt": 1771115153039,
+      "agent": "Lucy",
+      "enabled": true,
+      "lastStatus": "ok"
+    },
+    {
+      "id": "weekly-report-nblm",
+      "name": "📝 週報生成 (NotebookLM)",
+      "schedule": "週日 10:00",
+      "nextRunAt": 1771120800000,
+      "agent": "Lucy",
+      "enabled": true
+    }
+  ],
+  "learningTopics": [
+    {
+      "id": "pkm-best-practices",
+      "title": "個人知識管理 (PKM) 最佳實踐",
+      "category": "productivity",
+      "completed": true,
+      "completedAt": "2026-02-03",
+      "docPath": "docs/productivity/pkm-best-practices-2026.md"
+    },
+    {
+      "id": "semiconductor-tracking-tools",
+      "title": "半導體產業追蹤工具研究",
+      "category": "semiconductor",
+      "completed": true,
+      "completedAt": "2026-02-04",
+      "docPath": "docs/learning/semiconductor-tracking-tools-2026.md"
+    },
+    {
+      "id": "hbm-technology-analysis",
+      "title": "HBM 高頻寬記憶體技術分析",
+      "category": "semiconductor",
+      "completed": true,
+      "completedAt": "2026-02-05",
+      "docPath": "docs/learning/hbm-technology-market-analysis-2026.md"
+    },
+    {
+      "id": "prompt-engineering",
+      "title": "Prompt Engineering 設計模式",
+      "category": "ai",
+      "completed": true,
+      "completedAt": "2026-02-05",
+      "docPath": "docs/learning/prompt-engineering-insights-2026.md"
+    },
+    {
+      "id": "memory-stock-strategy",
+      "title": "記憶體股投資策略分析",
+      "category": "investment",
+      "completed": true,
+      "completedAt": "2026-02-06",
+      "docPath": "docs/investment/memory-stock-investment-strategy-2026.md"
+    },
+    {
+      "id": "dram-nand-price-tracking",
+      "title": "DRAM/NAND 合約價追蹤方法",
+      "category": "investment",
+      "completed": true,
+      "completedAt": "2026-02-07",
+      "docPath": "docs/investment/dram-nand-price-tracking-guide-2026.md"
+    },
+    {
+      "id": "8-inch-wafer-fab",
+      "title": "8 吋晶圓廠產能與價格趨勢",
+      "category": "semiconductor",
+      "completed": true,
+      "completedAt": "2026-02-09",
+      "docPath": "docs/investment/8-inch-wafer-fab-analysis-2026.md"
+    },
+    {
+      "id": "cowos-packaging",
+      "title": "CoWoS 先進封裝技術深度解析",
+      "category": "semiconductor",
+      "completed": true,
+      "completedAt": "2026-02-10",
+      "docPath": "docs/learning/cowos-advanced-packaging-analysis-2026.md"
+    },
+    {
+      "id": "ai-asic-trends",
+      "title": "AI ASIC 發展趨勢分析",
+      "category": "semiconductor",
+      "completed": true,
+      "completedAt": "2026-02-11",
+      "docPath": "docs/learning/ai-asic-development-trends-2026.md"
+    },
+    {
+      "id": "cpo-technology",
+      "title": "CPO 共封裝光學技術與應用",
+      "category": "semiconductor",
+      "completed": true,
+      "completedAt": "2026-02-13",
+      "docPath": "docs/learning/cpo-technology-analysis-2026.md"
+    },
+    {
+      "id": "quant-analysis",
+      "title": "台股/美股量化分析資源",
+      "category": "investment",
+      "completed": false
+    },
+    {
+      "id": "manufacturing-ai",
+      "title": "製造業 AI 應用案例",
+      "category": "ai",
+      "completed": false
+    },
+    {
+      "id": "portfolio-automation",
+      "title": "自動化投資組合追蹤",
+      "category": "investment",
+      "completed": false
+    },
+    {
+      "id": "obsidian-workflow",
+      "title": "Obsidian 進階工作流",
+      "category": "productivity",
+      "completed": false
+    },
+    {
+      "id": "engineer-note-templates",
+      "title": "工程師專用筆記模板設計",
+      "category": "productivity",
+      "completed": false
+    },
+    {
+      "id": "ai-km-tools",
+      "title": "AI 驅動知識管理工具評測",
+      "category": "ai",
+      "completed": false
+    },
+    {
+      "id": "semiconductor-rss",
+      "title": "半導體 RSS 自動化追蹤腳本",
+      "category": "productivity",
+      "completed": false
+    },
+    {
+      "id": "lpo-technology",
+      "title": "LPO 線性驅動光學技術分析",
+      "category": "semiconductor",
+      "completed": false
+    },
+    {
+      "id": "silicon-photonics",
+      "title": "矽光子產業鏈深度研究",
+      "category": "semiconductor",
+      "completed": false
+    }
+  ],
   "metrics": {
     "avgTaskTime": 0.52,
     "successRate": 99.8,

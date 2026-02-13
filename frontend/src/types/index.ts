@@ -45,6 +45,8 @@ export interface DashboardData {
   totalSavings: number;
   agents: Agent[];
   recentJobs: RecentJob[];
+  scheduledTasks: ScheduledTask[];
+  learningTopics: LearningTopic[];
   metrics: Metrics;
   performance: {
     daily: DailyPerformance[];
@@ -56,4 +58,23 @@ export interface CharacterPosition {
   x: number;
   y: number;
   scale: number;
+}
+
+export interface ScheduledTask {
+  id: string;
+  name: string;
+  schedule: string;
+  nextRunAt: number;
+  agent: string;
+  enabled: boolean;
+  lastStatus?: 'ok' | 'error';
+}
+
+export interface LearningTopic {
+  id: string;
+  title: string;
+  category: 'semiconductor' | 'investment' | 'productivity' | 'ai';
+  completed: boolean;
+  completedAt?: string;
+  docPath?: string;
 }
