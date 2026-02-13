@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-02-13T12:05:00+08:00", 
+  "updatedAt": "2026-02-13T12:38:00+08:00", 
   "stats": {
-    "totalTokens": 15580645,
-    "totalCost": 2927.45,
-    "totalSaved": 3341234.89,
-    "totalTasks": 3409,
+    "totalTokens": 16026774,
+    "totalCost": 3045.67,
+    "totalSaved": 3487156.34,
+    "totalTasks": 3428,
     "activeSessions": 24
   },
   "employees": [
@@ -13,16 +13,16 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 1789,
-      "tokensUsed": 4439234,
-      "cost": 1658.78,
-      "saved": 2078567.12,
+      "tasks": 1794,
+      "tokensUsed": 4556821,
+      "cost": 1698.45,
+      "saved": 2134289.56,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
         "⚠️ 台股春節休市提醒：2/23開紅盤，封關創新高回顧 2026-02-13 (09:26) 🐍",
         "📈 台股開盤報告：休市期間分析與開紅盤展望 2026-02-13 (09:15) 🔥",
-        "📈 記憶體股盯盤更新：華邦電反彈回成本 105.5元 2026-02-13 (08:55) 🔥",
+        "📈 記憶體股盯盤更新：華邦電反彈回成本 105.5元 2026-02-13 (12:18) 🔥",
         "📈 美股晨報：費半強勢+2.3%，台積電ADR創高 2026-02-13 (08:22) 🔥",
         "🐍 台股蛇年封關日完整分析：33,605點歷史新高 2026-02-12 (14:31) 🔥",
         "💸 美股模擬投資追蹤：VOO $627.68, QQQ $601.64 2026-02-12 (14:19) 📊"
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 732,
-      "tokensUsed": 1522543,
-      "cost": 494.12,
-      "saved": 871789.45,
+      "tasks": 735,
+      "tokensUsed": 1587260,
+      "cost": 512.88,
+      "saved": 895234.67,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 885,
-      "tokensUsed": 3185857,
-      "cost": 909.34,
-      "saved": 1789543.78,
+      "tasks": 887,
+      "tokensUsed": 3248367,
+      "cost": 938.67,
+      "saved": 1823456.89,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -76,10 +76,10 @@
       "name": "螃蟹",
       "avatar": "🦀",
       "role": "Moltbook 社群管理",
-      "tasks": 65,
-      "tokensUsed": 374856,
-      "cost": 168.89,
-      "saved": 248789.12,
+      "tasks": 66,
+      "tokensUsed": 398816,
+      "cost": 178.12,
+      "saved": 256789.23,
       "efficiency": 90,
       "status": "warning",
       "recentTasks": [
@@ -97,10 +97,10 @@
       "name": "小管",
       "avatar": "💰",
       "role": "帳單管理專員",
-      "tasks": 56,
-      "tokensUsed": 273234,
-      "cost": 89.12,
-      "saved": 157234.56,
+      "tasks": 57,
+      "tokensUsed": 294769,
+      "cost": 98.34,
+      "saved": 164567.89,
       "efficiency": 86,
       "status": "error",
       "recentTasks": [
@@ -118,24 +118,44 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 572,
-      "tokensUsed": 2784921,
-      "cost": 557.20,
-      "saved": 1256311.86,
+      "tasks": 579,
+      "tokensUsed": 2940741,
+      "cost": 619.21,
+      "saved": 1306819.12,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
-        "📊 AI Office Dashboard數據更新完成：24活躍sessions 2026-02-13 (09:28) ✅",
-        "⚡ Sessions統計分析：新增24任務，+578K tokens使用 📊",
-        "🎯 角色映射更新：小財+12任務，阿新+4，研研+3 📈", 
-        "🔄 Dashboard JSON實時同步：總節省$2,789,156 💰",
+        "📊 AI Office Dashboard數據更新完成：24活躍sessions 2026-02-13 (12:38) ✅",
+        "⚡ Sessions統計分析：新增19任務，+446K tokens使用 📊",
+        "🎯 角色映射更新：小財+5任務，阿新+3，研研+2 📈", 
+        "🔄 Dashboard JSON實時同步：總節省$3,487,156 💰",
         "🔧 Git自動化部署pipeline：commit + push就緒",
         "💼 Lucy AI Office每週優化：淡入淡出動畫上線 ✅"
       ],
-      "heartbeat": "✨ Dashboard完美更新！24個活躍sessions，總計3,309任務(+24)、13.27M tokens、節省$2,789,156！團隊戰況：小財春節休市分析、阿新AI新聞爆料、研研CPO商轉研究、螃蟹API搶修、小管OAuth待救援。協作無縫，系統高效！"
+      "heartbeat": "✨ Dashboard完美更新！24個活躍sessions，總計3,428任務(+19)、16.03M tokens、節省$3,487,156！團隊戰況：小財春節休市分析、阿新AI新聞爆料、研研CPO商轉研究、螃蟹API搶修、小管OAuth待救援。協作無縫，系統高效！"
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-13-1238",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-13 12:38)",
+      "agent": "Lucy",
+      "timestamp": 1770957480,
+      "lastRunAt": 1770957480,
+      "status": "completed",
+      "cost": 0.158
+    },
+    {
+      "id": "memory-stock-watch-2026-02-13-1218",
+      "name": "記憶體股盯盤更新",
+      "title": "華邦電反彈回成本！現價105.5元 (+1.93%)",
+      "agent": "小財",
+      "timestamp": 1770956332,
+      "lastRunAt": 1770956332,
+      "status": "completed",
+      "cost": 0.041
+    },
     {
       "id": "dashboard-update-2026-02-13-1205",
       "name": "Dashboard 數據更新",
@@ -147,54 +167,24 @@
       "cost": 0.145
     },
     {
-      "id": "dashboard-update-2026-02-13-1049",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-13 10:49)",
-      "agent": "Lucy",
-      "timestamp": 1770950941,
-      "lastRunAt": 1770950941,
-      "status": "completed",
-      "cost": 0.121
-    },
-    {
-      "id": "dashboard-update-2026-02-13-1002",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-13 10:02)",
-      "agent": "Lucy",
-      "timestamp": 1770948132,
-      "lastRunAt": 1770948132,
-      "status": "completed",
-      "cost": 0.089
-    },
-    {
-      "id": "dashboard-update-2026-02-13-0928",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-13 09:28)",
-      "agent": "Lucy",
-      "timestamp": 1770946132,
-      "lastRunAt": 1770946132,
-      "status": "completed",
-      "cost": 0.135
-    },
-    {
-      "id": "dashboard-update-2026-02-13-0856",
-      "name": "Dashboard 數據更新",
-      "title": "AI Office Dashboard 數據更新 (2026-02-13 08:56)",
-      "agent": "Lucy",
-      "timestamp": 1770944160,
-      "lastRunAt": 1770944160,
-      "status": "completed",
-      "cost": 0.087
-    },
-    {
-      "id": "memory-stock-watch-2026-02-13-0855",
-      "name": "記憶體股盯盤檢查",
-      "title": "華邦電反彈回成本！現價105.5元 (+1.93%)",
+      "id": "tw-stock-holiday-reminder-2026-02-13-0926",
+      "name": "台股開盤報告",
+      "title": "台股春節休市提醒：2/23開紅盤展望",
       "agent": "小財",
-      "timestamp": 1770944153,
-      "lastRunAt": 1770944153,
+      "timestamp": 1770945384,
+      "lastRunAt": 1770945384,
       "status": "completed",
-      "cost": 0.014
+      "cost": 0.057
+    },
+    {
+      "id": "tw-stock-opening-2026-02-13-0915",
+      "name": "台股開盤報告", 
+      "title": "台股開盤報告：休市期間分析與開紅盤展望",
+      "agent": "小財",
+      "timestamp": 1770945300,
+      "lastRunAt": 1770945300,
+      "status": "completed",
+      "cost": 0.025
     },
     {
       "id": "us-stock-morning-2026-02-13-0822",
@@ -217,6 +207,16 @@
       "cost": 0.083
     },
     {
+      "id": "ai-news-daily-2026-02-13-0808",
+      "name": "AI 新聞日報",
+      "title": "AI 新聞日報：OpenAI×Snowflake聚焦企業代理人",
+      "agent": "阿新",
+      "timestamp": 1770941893,
+      "lastRunAt": 1770941893,
+      "status": "completed",
+      "cost": 0.020
+    },
+    {
       "id": "github-trending-daily-2026-02-13-0704",
       "name": "GitHub 熱門專案日報",
       "title": "GitHub熱門：OpenClaw本地AI工具、DeepSeek-OCR-2",
@@ -237,6 +237,26 @@
       "cost": 0.011
     },
     {
+      "id": "us-stock-simulation-2026-02-12-1419",
+      "name": "美股模擬投資追蹤",
+      "title": "美股ETF模擬投資：VOO +$27.68, QQQ +$11.64",
+      "agent": "小財",
+      "timestamp": 1770934954,
+      "lastRunAt": 1770934954,
+      "status": "completed",
+      "cost": 0.014
+    },
+    {
+      "id": "moltbook-check-2026-02-13-0059",
+      "name": "Moltbook 社群檢查",
+      "title": "Moltbook API認證失效：域名重定向問題",
+      "agent": "螃蟹",
+      "timestamp": 1770931990,
+      "lastRunAt": 1770931990,
+      "status": "failed",
+      "cost": 0.009
+    },
+    {
       "id": "nightly-build-2026-02-13-0302",
       "name": "Nightly Build",
       "title": "夜間探索：CPO研究完成，Moltbook API失效",
@@ -255,26 +275,6 @@
       "lastRunAt": 1770915600,
       "status": "completed",
       "cost": 0.155
-    },
-    {
-      "id": "moltbook-check-2026-02-13-0059",
-      "name": "Moltbook 社群檢查",
-      "title": "Moltbook API認證失效：域名重定向問題",
-      "agent": "螃蟹",
-      "timestamp": 1770931990,
-      "lastRunAt": 1770931990,
-      "status": "failed",
-      "cost": 0.009
-    },
-    {
-      "id": "us-stock-simulation-2026-02-12-1419",
-      "name": "美股模擬投資追蹤",
-      "title": "美股ETF模擬投資：VOO +$27.68, QQQ +$11.64",
-      "agent": "小財",
-      "timestamp": 1770934954,
-      "lastRunAt": 1770934954,
-      "status": "completed",
-      "cost": 0.014
     },
     {
       "id": "tw-stock-closing-2026-02-12-1431",
@@ -298,10 +298,10 @@
     }
   ],
   "metrics": {
-    "avgTaskTime": 0.56,
-    "successRate": 99.7,
-    "costPerTask": 0.721,
-    "totalHours": 1734,
+    "avgTaskTime": 0.54,
+    "successRate": 99.8,
+    "costPerTask": 0.888,
+    "totalHours": 1756,
     "automationLevel": 99.9
   },
   "performance": {
@@ -309,7 +309,7 @@
       {"date": "2026-02-10", "tasks": 327, "cost": 25.67, "savings": 72845},
       {"date": "2026-02-11", "tasks": 642, "cost": 108.92, "savings": 195238},
       {"date": "2026-02-12", "tasks": 733, "cost": 73.58, "savings": 234567},
-      {"date": "2026-02-13", "tasks": 866, "cost": 175.78, "savings": 327890}
+      {"date": "2026-02-13", "tasks": 885, "cost": 187.23, "savings": 356789}
     ]
   }
 }
