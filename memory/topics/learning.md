@@ -11,7 +11,9 @@
 - [ ] 工程師專用筆記模板設計
 - [ ] AI 驅動的知識管理工具深度評測
 - [ ] 半導體 RSS 自動化追蹤腳本建置
-- [ ] Co-Packaged Optics（CPO）技術與應用
+- [ ] LPO（Linear-drive Pluggable Optics）技術分析
+- [ ] 矽光子產業鏈深度研究（眾達、華星光個股）
+- [x] Co-Packaged Optics（CPO）技術與應用 ✅ 2026-02-13
 - [x] AI ASIC 發展趨勢（Google TPU、AWS Trainium、Intel Gaudi）✅ 2026-02-11
 - [x] CoWoS 與先進封裝技術深度解析 ✅ 2026-02-10
 - [x] 記憶體股投資策略 ✅ 2026-02-06
