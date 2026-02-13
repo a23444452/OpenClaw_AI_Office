@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-13T10:02:00+08:00", 
+  "updatedAt": "2026-02-13T10:49:00+08:00", 
   "stats": {
-    "totalTokens": 13845667,
-    "totalCost": 2612.34,
-    "totalSaved": 2951423.67,
-    "totalTasks": 3333,
-    "activeSessions": 25
+    "totalTokens": 14423890,
+    "totalCost": 2698.89,
+    "totalSaved": 3104589.23,
+    "totalTasks": 3358,
+    "activeSessions": 24
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財", 
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 1761,
-      "tokensUsed": 3962134,
-      "cost": 1505.83,
-      "saved": 1856492.23,
+      "tasks": 1774,
+      "tokensUsed": 4082567,
+      "cost": 1541.24,
+      "saved": 1912678.45,
       "efficiency": 98,
       "status": "active",
       "recentTasks": [
@@ -34,10 +34,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯", 
-      "tasks": 722,
-      "tokensUsed": 1383764,
-      "cost": 446.27,
-      "saved": 789123.45,
+      "tasks": 726,
+      "tokensUsed": 1428890,
+      "cost": 461.38,
+      "saved": 823567.12,
       "efficiency": 97,
       "status": "active",
       "recentTasks": [
@@ -55,10 +55,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 877,
-      "tokensUsed": 2799012,
-      "cost": 792.45,
-      "saved": 1589345.67,
+      "tasks": 881,
+      "tokensUsed": 3079234,
+      "cost": 877.89,
+      "saved": 1743289.34,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -76,11 +76,11 @@
       "name": "螃蟹",
       "avatar": "🦀",
       "role": "Moltbook 社群管理",
-      "tasks": 60,
-      "tokensUsed": 315678,
-      "cost": 148.23,
-      "saved": 218567.89,
-      "efficiency": 92,
+      "tasks": 63,
+      "tokensUsed": 340789,
+      "cost": 156.34,
+      "saved": 235123.67,
+      "efficiency": 90,
       "status": "warning",
       "recentTasks": [
         "🦀 Moltbook API故障持續：域名重定向問題未解決 2026-02-13 (00:59) ⚠️",
@@ -97,11 +97,11 @@
       "name": "小管",
       "avatar": "💰",
       "role": "帳單管理專員",
-      "tasks": 52,
-      "tokensUsed": 223456,
-      "cost": 73.89,
-      "saved": 134567.89,
-      "efficiency": 88,
+      "tasks": 54,
+      "tokensUsed": 241567,
+      "cost": 79.92,
+      "saved": 145789.23,
+      "efficiency": 86,
       "status": "error",
       "recentTasks": [
         "🚨 Gmail OAuth認證持續失效：無法訪問信用卡帳單 2026-02-13 (12:55) ❌",
@@ -118,10 +118,10 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 543,
-      "tokensUsed": 2162623,
-      "cost": 445.67,
-      "saved": 1043356.84,
+      "tasks": 548,
+      "tokensUsed": 2252843,
+      "cost": 481.12,
+      "saved": 1089142.42,
       "efficiency": 99,
       "status": "active", 
       "recentTasks": [
@@ -136,6 +136,16 @@
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-13-1049",
+      "name": "Dashboard 數據更新",
+      "title": "AI Office Dashboard 數據更新 (2026-02-13 10:49)",
+      "agent": "Lucy",
+      "timestamp": 1770950941,
+      "lastRunAt": 1770950941,
+      "status": "completed",
+      "cost": 0.121
+    },
     {
       "id": "dashboard-update-2026-02-13-1002",
       "name": "Dashboard 數據更新",
