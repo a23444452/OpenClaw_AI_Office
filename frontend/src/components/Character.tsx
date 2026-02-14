@@ -91,8 +91,9 @@ export function Character({ agent, position, onClick, recentTask }: CharacterPro
       style={{
         left: `${position.x}%`,
         top: `${position.y}%`,
-        transform: `translate(-50%, -100%) scale(${position.scale})`,
+        transform: 'translate(-50%, -100%)',
       }}
+      initial={{ scale: position.scale }}
       whileHover={{ scale: position.scale * 1.1 }}
       whileTap={{ scale: position.scale * 0.95 }}
       onClick={onClick}
