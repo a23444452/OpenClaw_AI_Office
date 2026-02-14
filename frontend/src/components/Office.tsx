@@ -12,7 +12,7 @@ interface OfficeProps {
 
 // Character positions in the office scene (percentages)
 const CHARACTER_POSITIONS: Record<string, { x: number; y: number; scale: number }> = {
-  lucy: { x: 50, y: 75, scale: 0.85 },     // Center front - Lucy is the leader
+  lucy: { x: 55, y: 75, scale: 0.85 },     // Center-right front - Lucy is the leader
   xiaocai: { x: 30, y: 50, scale: 0.85 },  // Left desk with monitors (moved up)
   yanyan: { x: 70, y: 45, scale: 0.7 },    // Right desk near window (moved left)
   axin: { x: 58, y: 45, scale: 0.85 },     // Center-upper, slightly right
