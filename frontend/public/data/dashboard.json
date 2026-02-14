@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-14T18:20:00+08:00",
+  "updatedAt": "2026-02-15T22:07:00+08:00",
   "stats": {
-    "totalTokens": 26781180,
-    "totalCost": 4762.90,
-    "totalSaved": 4468463.27,
-    "totalTasks": 3797,
-    "activeSessions": 22
+    "totalTokens": 26833414,
+    "totalCost": 4762.98,
+    "totalSaved": 4468489.41,
+    "totalTasks": 3799,
+    "activeSessions": 2
   },
   "employees": [
     {
@@ -127,10 +127,10 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 686,
-      "tokensUsed": 5743070,
-      "cost": 1248.10,
-      "saved": 2379144.68,
+      "tasks": 688,
+      "tokensUsed": 5795304,
+      "cost": 1248.18,
+      "saved": 2379170.82,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -148,6 +148,16 @@
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-15-2207",
+      "name": "Dashboard 數據更新",
+      "title": "📊 AI Office Dashboard 數據更新完成 (2026-02-15 22:07)",
+      "agent": "Lucy",
+      "timestamp": 1771078020,
+      "lastRunAt": 1771078020,
+      "status": "completed",
+      "cost": 0.073
+    },
     {
       "id": "dashboard-update-2026-02-14-1820",
       "name": "Dashboard 數據更新",
