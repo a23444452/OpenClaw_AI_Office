@@ -14,9 +14,9 @@ interface OfficeProps {
 const CHARACTER_POSITIONS: Record<string, { x: number; y: number; scale: number }> = {
   lucy: { x: 50, y: 75, scale: 0.85 },     // Center front - Lucy is the leader
   xiaocai: { x: 30, y: 50, scale: 0.85 },  // Left desk with monitors (moved up)
-  yanyan: { x: 78, y: 45, scale: 0.7 },    // Right desk near window (moved up)
+  yanyan: { x: 70, y: 45, scale: 0.7 },    // Right desk near window (moved left)
   axin: { x: 58, y: 45, scale: 0.85 },     // Center-upper, slightly right
-  pangxie: { x: 82, y: 75, scale: 0.85 },  // Front right (moved up)
+  pangxie: { x: 82, y: 65, scale: 0.85 },  // Front right (moved up more)
   xiaoguan: { x: 15, y: 60, scale: 0.7 },  // Back left near whiteboard (smaller)
 };
 
