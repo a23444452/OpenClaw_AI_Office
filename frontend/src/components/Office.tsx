@@ -15,7 +15,7 @@ const CHARACTER_POSITIONS: Record<string, { x: number; y: number; scale: number 
   lucy: { x: 50, y: 75, scale: 0.85 },     // Center front - Lucy is the leader
   xiaocai: { x: 30, y: 58, scale: 0.85 },  // Left desk with monitors
   yanyan: { x: 78, y: 52, scale: 0.85 },   // Right desk near window
-  axin: { x: 22, y: 70, scale: 0.85 },     // Front left (adjusted position)
+  axin: { x: 58, y: 45, scale: 0.85 },     // Center-upper, slightly right
   pangxie: { x: 82, y: 85, scale: 0.85 },  // Front right
   xiaoguan: { x: 15, y: 60, scale: 0.85 }, // Back left near whiteboard
 };
