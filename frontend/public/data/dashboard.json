@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-02-15T10:05:15+08:00",
+  "updatedAt": "2026-02-14T12:08:00+08:00",
   "stats": {
-    "totalTokens": 23047535,
-    "totalCost": 4554.01,
-    "totalSaved": 4314429.93,
-    "totalTasks": 3713,
-    "activeSessions": 22
+    "totalTokens": 23613539,
+    "totalCost": 4642.46,
+    "totalSaved": 4326931.38,
+    "totalTasks": 3731,
+    "activeSessions": 24
   },
   "employees": [
     {
@@ -13,10 +13,10 @@
       "name": "小財",
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 1949,
-      "tokensUsed": 7171087,
-      "cost": 2532.15,
-      "saved": 3324623.35,
+      "tasks": 1958,
+      "tokensUsed": 7421101,
+      "cost": 2607.82,
+      "saved": 3337124.89,
       "efficiency": 98,
       "status": "error",
       "recentTasks": [
@@ -38,10 +38,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯",
-      "tasks": 803,
-      "tokensUsed": 2645362,
-      "cost": 918.31,
-      "saved": 1389244.84,
+      "tasks": 808,
+      "tokensUsed": 2772234,
+      "cost": 960.83,
+      "saved": 1400688.72,
       "efficiency": 97,
       "status": "error",
       "recentTasks": [
@@ -61,10 +61,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 931,
-      "tokensUsed": 4544280,
-      "cost": 1557.33,
-      "saved": 2470516.18,
+      "tasks": 932,
+      "tokensUsed": 4572269,
+      "cost": 1566.89,
+      "saved": 2484214.56,
       "efficiency": 96,
       "status": "active",
       "recentTasks": [
@@ -104,10 +104,10 @@
       "name": "小管",
       "avatar": "💰",
       "role": "帳單管理專員",
-      "tasks": 76,
-      "tokensUsed": 679213,
-      "cost": 238.75,
-      "saved": 323491.93,
+      "tasks": 77,
+      "tokensUsed": 700734,
+      "cost": 246.02,
+      "saved": 334148.67,
       "efficiency": 82,
       "status": "error",
       "recentTasks": [
@@ -125,10 +125,10 @@
       "name": "Lucy",
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 674,
-      "tokensUsed": 4926816,
-      "cost": 1159.39,
-      "saved": 2170511.97,
+      "tasks": 676,
+      "tokensUsed": 5066424,
+      "cost": 1206.91,
+      "saved": 2240065.78,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -143,6 +143,16 @@
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-14-1208",
+      "name": "Dashboard 數據更新",
+      "title": "📊 AI Office Dashboard 數據更新完成 (2026-02-14 12:08)",
+      "agent": "Lucy",
+      "timestamp": 1771042122,
+      "lastRunAt": 1771042122,
+      "status": "completed",
+      "cost": 0.072
+    },
     {
       "id": "dashboard-update-2026-02-15-1005",
       "name": "Dashboard 數據更新",
