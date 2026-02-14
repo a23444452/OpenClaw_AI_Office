@@ -3,16 +3,15 @@
 ## 🔍 定期檢查項目
 
 ### 1. Telegram 連線健康檢查 ⚠️ 優先
-Telegram 使用 long-polling 模式，連線偶爾會斷掉。每次 heartbeat 必須檢查：
+Telegram 使用 long-polling 模式，連線偶爾會斷掉。
 
-```bash
-# 檢查是否有 pending updates（正常應該是 0，因為 OpenClaw 在消費）
-curl -s "https://api.telegram.org/bot***REDACTED***/getUpdates?limit=1&timeout=1"
-```
+**檢查方式**：觀察是否有訊息延遲或無回應的情況。
 
-- 如果 `pending_update_count > 0` 且持續超過 5 分鐘 → Telegram polling 可能斷線
-- 修復方式：使用 `gateway restart` 重啟 Gateway
-- 重啟後等待 5 秒，再次確認 Telegram 已連線
+**修復方式**：
+- 使用 `gateway restart` 重啟 Gateway
+- 重啟後等待 5 秒，確認 Telegram 已連線
+
+> ⚠️ 注意：不要在文件中放置 Bot Token，避免 git commit 洩漏！
 
 ### 2. Cron 任務健康監控
 每次 heartbeat 時，快速檢查是否有 cron job 發生 error：
