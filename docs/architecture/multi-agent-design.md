@@ -79,11 +79,40 @@
 ## 實作步驟
 
 1. [x] 設計架構文件
-2. [ ] 創建 agents/ 目錄和各 agent 的 SOUL.md
-3. [ ] 配置 agents.list
-4. [ ] 更新 cron jobs 的 agentId
-5. [ ] 更新 Dashboard 統計邏輯
+2. [x] 創建 agents/ 目錄和各 agent 的 SOUL.md
+3. [x] 配置 agents.list (lucy, xiaocai, yanyan, axin)
+4. [x] 更新 cron jobs 的 agentId
+5. [x] 更新 Dashboard 統計邏輯（根據 agentId 分類）
 6. [ ] 測試並驗證
+
+## 已完成配置
+
+### agents.list
+```json
+[
+  { "id": "lucy", "default": true, "model": "anthropic/claude-opus-4-5" },
+  { "id": "xiaocai", "model": "anthropic/claude-sonnet-4-20250514" },
+  { "id": "yanyan", "model": "anthropic/claude-sonnet-4-20250514" },
+  { "id": "axin", "model": "anthropic/claude-sonnet-4-20250514" }
+]
+```
+
+### Cron Jobs 分配
+| Cron Job | agentId |
+|----------|---------|
+| 美股晨報 | xiaocai |
+| 台股開盤報告 | xiaocai |
+| 台股收盤報告 | xiaocai |
+| 台股盤後摘要 | xiaocai |
+| 記憶體股盯盤 | xiaocai |
+| 週末股市回顧 | xiaocai |
+| 美股模擬投資 | xiaocai |
+| AI 新聞日報 | axin |
+| GitHub 熱門專案 | axin |
+| 夜間自主探索 | yanyan |
+| Nightly Build | yanyan |
+| Dashboard 更新 | main (lucy) |
+| 其他 | main (lucy) |
 
 ## 成本效益
 
