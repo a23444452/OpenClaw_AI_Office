@@ -4,7 +4,7 @@
 
 ## 待探索主題
 
-- [ ] 台股/美股量化分析資源
+- [x] 台股/美股量化分析資源 ✅ 2026-02-15
 - [ ] 製造業 AI 應用案例
 - [ ] 自動化投資組合追蹤
 - [ ] Obsidian 進階工作流（插件、模板、自動化）
@@ -12,7 +12,7 @@
 - [ ] AI 驅動的知識管理工具深度評測
 - [ ] 半導體 RSS 自動化追蹤腳本建置
 - [x] LPO（Linear-drive Pluggable Optics）技術分析 ✅ 2026-02-14
-- [ ] 矽光子產業鏈深度研究（眾達、華星光個股）
+- [x] 矽光子產業鏈深度研究（眾達、華星光個股）✅ 2026-02-15
 - [x] Co-Packaged Optics（CPO）技術與應用 ✅ 2026-02-13
 - [x] AI ASIC 發展趨勢（Google TPU、AWS Trainium、Intel Gaudi）✅ 2026-02-11
 - [x] CoWoS 與先進封裝技術深度解析 ✅ 2026-02-10
@@ -90,6 +90,16 @@
 - 主要推動者：Meta、Microsoft、Broadcom、NVIDIA
 - 台灣機會：眾達（矽光子 PIC）、華星光（矽光子）、光被動元件
 - 📄 `docs/learning/lpo-linear-pluggable-optics-analysis-2026.md`
+
+### 矽光子產業鏈深度研究 — 2026-02-15
+- 全球矽光子市場 2026 年規模 $2.3-4.0B USD，AI 資料中心驅動
+- CPO 技術 2026 年量產元年，台積電 COUPE 整合 CoWoS 封裝
+- 台灣供應鏈完整：台積電（技術）、華星光（CW Laser）、上詮（FAU）
+- 華星光（4979）：營收 43.85 億元（+27%），產能倍增計劃，推薦標的
+- 上詮（3363）：1.6T CPO FAU 已驗證，與台積電深度合作
+- 眾達-KY（4977）：營收下滑 40.5%，基本面待修復，暫時迴避
+- 投資時程：2026Q2-Q3 積極布局，Q4-2027Q1 規模放量期
+- 📄 `docs/investment/silicon-photonics-supply-chain-analysis-2026.md`
 
 ### AI ASIC 發展趨勢（Google TPU、AWS Trainium、Intel Gaudi） — 2026-02-11
 - AI 晶片市場 2024 年 $529 億，預計 2030 年 $2,956 億（CAGR 33%）
