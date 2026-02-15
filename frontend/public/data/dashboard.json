@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-02-15T20:04:00+08:00",
+  "updatedAt": "2026-02-15T22:08:00+08:00",
   "stats": {
-    "totalTokens": 28196000,
-    "totalCost": 5076.32,
-    "totalSaved": 4733184.62,
-    "totalTasks": 3853,
+    "totalTokens": 28457000,
+    "totalCost": 5102.89,
+    "totalSaved": 4759748.23,
+    "totalTasks": 3858,
     "activeSessions": 5
   },
   "employees": [
@@ -127,10 +127,10 @@
       "name": "Lucy", 
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 741,
-      "tokensUsed": 6959000,
-      "cost": 1515.01,
-      "saved": 2716999.12,
+      "tasks": 746,
+      "tokensUsed": 7220000,
+      "cost": 1541.58,
+      "saved": 2743562.73,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
