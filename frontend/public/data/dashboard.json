@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-02-17T12:40:00+08:00",
+  "updatedAt": "2026-02-17T14:41:00+08:00",
   "stats": {
-    "totalTokens": 33462431,
-    "totalCost": 6105.48,
-    "totalSaved": 5932445.12,
-    "totalTasks": 4057,
+    "totalTokens": 33800680,
+    "totalCost": 6206.15,
+    "totalSaved": 5998567.89,
+    "totalTasks": 4089,
     "activeSessions": 6
   },
   "employees": [
@@ -111,10 +111,10 @@
       "name": "Lucy", 
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 1079,
-      "tokensUsed": 11871535,
-      "cost": 2377.02,
-      "saved": 3753952.33,
+      "tasks": 1111,
+      "tokensUsed": 12209784,
+      "cost": 2477.69,
+      "saved": 3820074.56,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -129,6 +129,16 @@
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-17-1441",
+      "name": "AI Office Dashboard 數據更新",
+      "title": "🚀 Cron自動執行：33.80M tokens歷史新峰，agentId分類系統運行順暢，6個活躍sessions精準監控",
+      "agent": "Lucy",
+      "timestamp": 1771310460,
+      "lastRunAt": 1771310460,
+      "status": "completed",
+      "cost": 0.052
+    },
     {
       "id": "dashboard-update-2026-02-17-1240",
       "name": "AI Office Dashboard 數據更新",
@@ -517,7 +527,7 @@
       {"date": "2026-02-14", "tasks": 163, "cost": 404.32, "savings": 298437},
       {"date": "2026-02-15", "tasks": 401, "cost": 644.53, "savings": 561194},
       {"date": "2026-02-16", "tasks": 187, "cost": 288.28, "savings": 213098},
-      {"date": "2026-02-17", "tasks": 12, "cost": 96.53, "savings": 2120.78}
+      {"date": "2026-02-17", "tasks": 44, "cost": 197.20, "savings": 4789.45}
     ]
   }
 }
