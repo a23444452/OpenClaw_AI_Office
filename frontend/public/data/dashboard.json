@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-02-17T10:39:00+08:00",
+  "updatedAt": "2026-02-17T12:40:00+08:00",
   "stats": {
-    "totalTokens": 33147620,
-    "totalCost": 6008.95,
-    "totalSaved": 5811920.34,
-    "totalTasks": 4051,
+    "totalTokens": 33462431,
+    "totalCost": 6105.48,
+    "totalSaved": 5932445.12,
+    "totalTasks": 4057,
     "activeSessions": 6
   },
   "employees": [
@@ -13,10 +13,10 @@
       "name": "小財",
       "avatar": "👨‍💼",
       "role": "股市分析師",
-      "tasks": 2014,
-      "tokensUsed": 9989128,
-      "cost": 2748.33,
-      "saved": 3563201.47,
+      "tasks": 2016,
+      "tokensUsed": 10045230,
+      "cost": 2764.12,
+      "saved": 3587345.89,
       "efficiency": 98,
       "status": "idle",
       "recentTasks": [
@@ -33,10 +33,10 @@
       "name": "阿新",
       "avatar": "📰",
       "role": "AI 新聞編輯",
-      "tasks": 831,
-      "tokensUsed": 3341867,
-      "cost": 1008.12,
-      "saved": 1556841.28,
+      "tasks": 832,
+      "tokensUsed": 3356234,
+      "cost": 1012.89,
+      "saved": 1567234.56,
       "efficiency": 97,
       "status": "idle",
       "recentTasks": [
@@ -53,10 +53,10 @@
       "name": "研研",
       "avatar": "🔬",
       "role": "夜間研究員",
-      "tasks": 949,
-      "tokensUsed": 5167234,
-      "cost": 1644.73,
-      "saved": 2661845.92,
+      "tasks": 950,
+      "tokensUsed": 5189432,
+      "cost": 1651.45,
+      "saved": 2673912.34,
       "efficiency": 96,
       "status": "idle",
       "recentTasks": [
@@ -111,10 +111,10 @@
       "name": "Lucy", 
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 1076,
-      "tokensUsed": 11600166,
-      "cost": 2347.95,
-      "saved": 3711575.57,
+      "tasks": 1079,
+      "tokensUsed": 11871535,
+      "cost": 2377.02,
+      "saved": 3753952.33,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -129,6 +129,16 @@
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-17-1240",
+      "name": "AI Office Dashboard 數據更新",
+      "title": "🚀 agentId分類系統完美執行：33.46M tokens突破新峰，Multi-Agent架構運行穩定",
+      "agent": "Lucy",
+      "timestamp": 1771303200,
+      "lastRunAt": 1771303200,
+      "status": "completed",
+      "cost": 0.051
+    },
     {
       "id": "dashboard-update-2026-02-17-1039",
       "name": "AI Office Dashboard 數據更新",
@@ -507,7 +517,7 @@
       {"date": "2026-02-14", "tasks": 163, "cost": 404.32, "savings": 298437},
       {"date": "2026-02-15", "tasks": 401, "cost": 644.53, "savings": 561194},
       {"date": "2026-02-16", "tasks": 187, "cost": 288.28, "savings": 213098},
-      {"date": "2026-02-17", "tasks": 6, "cost": 40.51, "savings": 906.14}
+      {"date": "2026-02-17", "tasks": 12, "cost": 96.53, "savings": 2120.78}
     ]
   }
 }
