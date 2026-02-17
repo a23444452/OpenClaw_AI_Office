@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-02-17T08:38:00+08:00",
+  "updatedAt": "2026-02-17T10:39:00+08:00",
   "stats": {
-    "totalTokens": 32836813,
-    "totalCost": 5960.81,
-    "totalSaved": 5763906.17,
-    "totalTasks": 4045,
+    "totalTokens": 33147620,
+    "totalCost": 6008.95,
+    "totalSaved": 5811920.34,
+    "totalTasks": 4051,
     "activeSessions": 6
   },
   "employees": [
@@ -111,10 +111,10 @@
       "name": "Lucy", 
       "avatar": "✨",
       "role": "全能助手",
-      "tasks": 1070,
-      "tokensUsed": 11289359,
-      "cost": 2299.81,
-      "saved": 3663561.40,
+      "tasks": 1076,
+      "tokensUsed": 11600166,
+      "cost": 2347.95,
+      "saved": 3711575.57,
       "efficiency": 99,
       "status": "active",
       "recentTasks": [
@@ -129,6 +129,16 @@
     }
   ],
   "recentJobs": [
+    {
+      "id": "dashboard-update-2026-02-17-1039",
+      "name": "AI Office Dashboard 數據更新",
+      "title": "🚀 agentId分類新規則實施：33.15M tokens新峰值，Multi-Agent架構持續優化",
+      "agent": "Lucy",
+      "timestamp": 1771295940,
+      "lastRunAt": 1771295940,
+      "status": "completed",
+      "cost": 0.048
+    },
     {
       "id": "dashboard-update-2026-02-17-0838",
       "name": "AI Office Dashboard 數據更新",
