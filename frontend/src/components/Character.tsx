@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { Agent } from '../types';
+import { SPEECH_BUBBLES, IDLE_ANIMATIONS, WORK_TOOLS } from './characterConfig';
 
 interface CharacterProps {
   agent: Agent;
@@ -9,87 +10,67 @@ interface CharacterProps {
   recentTask?: string;
 }
 
-const SPEECH_BUBBLES: Record<string, string[]> = {
-  lucy: [
-    '統籌中... ✨',
-    '幫大家安排工作！',
-    '今天效率很高呢！',
-    '檢查各項任務...',
-    '團隊合作最棒了！💪',
-  ],
-  xiaocai: [
-    '分析股市數據中...',
-    '今天盤勢不錯！',
-    '追蹤法說會...',
-    '計算報酬率...',
-    '這檔股票有潛力！📈',
-  ],
-  yanyan: [
-    '深度研究中... 🔬',
-    '整理資料中...',
-    '分析產業趨勢...',
-    '撰寫研究報告...',
-    '發現有趣的數據！',
-  ],
-  axin: [
-    '追蹤新聞中... 📰',
-    '整理 AI 新聞...',
-    '撰寫日報...',
-    '搜尋熱門話題...',
-    '今日頭條出爐！',
-  ],
-  pangxie: [
-    '管理社群中... 🦀',
-    '回覆社群留言...',
-    '發布新貼文...',
-    '更新 Moltbook...',
-    '互動率上升中！',
-  ],
-  xiaoguan: [
-    '核對帳單中... 💰',
-    '計算成本...',
-    '整理帳務報表...',
-    '追蹤預算...',
-    '帳目清清楚楚～',
-  ],
-};
+// 工作中的浮動工具動畫
+function WorkingEffect({ agentId, isActive }: { agentId: string; isActive: boolean }) {
+  const tool = WORK_TOOLS[agentId];
+  
+  if (!isActive || !tool) return null;
+  
+  return (
+    <motion.div
+      className="absolute -top-6 -right-2 pointer-events-none"
+      initial={{ opacity: 0, scale: 0, rotate: -20 }}
+      animate={{
+        opacity: [0.9, 1, 0.9],
+        scale: [0.8, 1, 0.8],
+        rotate: [-10, 10, -10],
+        y: [-2, 2, -2],
+      }}
+      transition={{
+        duration: 2,
+        repeat: Infinity,
+        ease: 'easeInOut',
+      }}
+    >
+      <span className="text-2xl drop-shadow-lg">{tool.icon}</span>
+    </motion.div>
+  );
+}
 
-// 角色專屬閒置動畫
-const IDLE_ANIMATIONS: Record<string, object> = {
-  lucy: {
-    rotate: [0, -3, 0, 3, 0],
-    transition: { duration: 4, repeat: Infinity, ease: 'easeInOut' },
-  },
-  xiaocai: {
-    x: [0, 2, 0, -2, 0],
-    transition: { duration: 3, repeat: Infinity, ease: 'easeInOut' },
-  },
-  yanyan: {
-    scale: [1, 1.02, 1],
-    transition: { duration: 2.5, repeat: Infinity, ease: 'easeInOut' },
-  },
-  axin: {
-    y: [0, -3, 0],
-    transition: { duration: 2, repeat: Infinity, ease: 'easeInOut' },
-  },
-  pangxie: {
-    rotate: [0, 5, 0, -5, 0],
-    x: [0, 2, 0, -2, 0],
-    transition: { duration: 3.5, repeat: Infinity, ease: 'easeInOut' },
-  },
-  xiaoguan: {
-    y: [0, -2, 0],
-    rotate: [0, 2, 0, -2, 0],
-    transition: { duration: 3, repeat: Infinity, ease: 'easeInOut' },
-  },
-};
+// 打字效果粒子
+function TypingParticles({ isActive }: { isActive: boolean }) {
+  if (!isActive) return null;
+  
+  return (
+    <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex gap-1 pointer-events-none">
+      {[0, 1, 2].map((i) => (
+        <motion.div
+          key={i}
+          className="w-1.5 h-1.5 bg-white/60 rounded-full"
+          animate={{
+            y: [0, -6, 0],
+            opacity: [0.4, 1, 0.4],
+          }}
+          transition={{
+            duration: 0.6,
+            repeat: Infinity,
+            delay: i * 0.15,
+            ease: 'easeInOut',
+          }}
+        />
+      ))}
+    </div>
+  );
+}
 
 export function Character({ agent, position, onClick, recentTask }: CharacterProps) {
   const [showBubble, setShowBubble] = useState(false);
   const [bubbleText, setBubbleText] = useState('');
   const [isHovered, setIsHovered] = useState(false);
+  const [showWorkEffect, setShowWorkEffect] = useState(false);
   const timeoutRef = useRef<number | null>(null);
   const hideBubbleRef = useRef<number | null>(null);
+  const workEffectRef = useRef<number | null>(null);
 
   // 清理所有 timeouts
   const clearAllTimeouts = useCallback(() => {
@@ -100,6 +81,10 @@ export function Character({ agent, position, onClick, recentTask }: CharacterPro
     if (hideBubbleRef.current) {
       clearTimeout(hideBubbleRef.current);
       hideBubbleRef.current = null;
+    }
+    if (workEffectRef.current) {
+      clearTimeout(workEffectRef.current);
+      workEffectRef.current = null;
     }
   }, []);
 
@@ -128,6 +113,37 @@ export function Character({ agent, position, onClick, recentTask }: CharacterPro
     }, delay);
   }, [showRandomBubble]);
 
+  // 工作特效循環
+  useEffect(() => {
+    if (agent.status !== 'active') {
+      setShowWorkEffect(false);
+      return;
+    }
+
+    const cycleWorkEffect = () => {
+      // 隨機顯示 3-8 秒
+      const showDuration = Math.random() * 5000 + 3000;
+      // 隨機隱藏 2-5 秒
+      const hideDuration = Math.random() * 3000 + 2000;
+
+      setShowWorkEffect(true);
+      workEffectRef.current = window.setTimeout(() => {
+        setShowWorkEffect(false);
+        workEffectRef.current = window.setTimeout(cycleWorkEffect, hideDuration);
+      }, showDuration);
+    };
+
+    // 初始延遲
+    const initialDelay = Math.random() * 3000;
+    workEffectRef.current = window.setTimeout(cycleWorkEffect, initialDelay);
+
+    return () => {
+      if (workEffectRef.current) {
+        clearTimeout(workEffectRef.current);
+      }
+    };
+  }, [agent.status]);
+
   useEffect(() => {
     if (agent.status !== 'active') {
       clearAllTimeouts();
@@ -145,7 +161,31 @@ export function Character({ agent, position, onClick, recentTask }: CharacterPro
   }, [agent.id, agent.status, showRandomBubble, scheduleNext, clearAllTimeouts]);
 
   const avatarSrc = `/avatars/chibi-${agent.id}.png`;
-  const idleAnimation = IDLE_ANIMATIONS[agent.id] || {};
+  const idleAnim = IDLE_ANIMATIONS[agent.id];
+
+  // 組合動畫狀態
+  const getAnimateState = () => {
+    if (agent.status === 'active') {
+      return {
+        y: [0, -5, 0],
+        ...(idleAnim?.keyframes || {}),
+      };
+    }
+    if (isHovered) {
+      return { y: [0, -3, 0] };
+    }
+    return {};
+  };
+
+  const getTransition = () => {
+    if (agent.status === 'active') {
+      return {
+        y: { duration: 2, repeat: Infinity, ease: 'easeInOut' },
+        ...(idleAnim?.transition || {}),
+      };
+    }
+    return { duration: 0.8, repeat: Infinity, ease: 'easeInOut' };
+  };
 
   return (
     <motion.div
@@ -183,25 +223,15 @@ export function Character({ agent, position, onClick, recentTask }: CharacterPro
         )}
       </AnimatePresence>
 
-      {/* Character Avatar */}
+      {/* Character Avatar Container */}
       <motion.div
         className={`relative ${agent.status === 'active' ? 'glow-active' : ''}`}
-        animate={
-          agent.status === 'active'
-            ? { y: [0, -5, 0], ...idleAnimation }
-            : isHovered
-            ? { y: [0, -3, 0] }
-            : {}
-        }
-        transition={
-          agent.status === 'active'
-            ? {
-                y: { duration: 2, repeat: Infinity, ease: 'easeInOut' },
-                ...((idleAnimation as any).transition || {}),
-              }
-            : { duration: 0.8, repeat: Infinity, ease: 'easeInOut' }
-        }
+        animate={getAnimateState()}
+        transition={getTransition()}
       >
+        {/* Working Effect - Tool Icon */}
+        <WorkingEffect agentId={agent.id} isActive={showWorkEffect} />
+
         <motion.img
           src={avatarSrc}
           alt={agent.name}
@@ -215,6 +245,9 @@ export function Character({ agent, position, onClick, recentTask }: CharacterPro
             (e.target as HTMLImageElement).src = `/avatars/${agent.id}-pixel.png`;
           }}
         />
+
+        {/* Typing Particles */}
+        <TypingParticles isActive={showWorkEffect} />
 
         {/* Status indicator with enhanced animation */}
         <motion.div
