@@ -1,79 +1,91 @@
 {
-  "lastUpdated": "2026-02-21T01:43:00+08:00",
+  "lastUpdated": "2026-02-21T03:44:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 354967,
-    "totalCost": 0.32,
-    "costSavings": 5317
+    "totalTokens": 363780,
+    "totalCost": 1.23,
+    "costSavings": 8941
   },
   "agents": {
     "lucy": {
       "name": "Lucy",
-      "role": "總管",
-      "description": "負責協調各部門工作，處理日常事務管理",
+      "role": "全能協調者",
+      "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 354967,
-      "cost": 0.32,
-      "savings": 5317,
-      "lastActivity": "2026-02-21T01:43:00+08:00",
+      "tokens": 363780,
+      "cost": 1.23,
+      "savings": 8941,
+      "lastActivity": "2026-02-21T03:44:00+08:00",
       "status": "active"
     },
     "xiaocai": {
-      "name": "小財",
-      "role": "財務分析師",
-      "description": "專責投資研究、股市分析與財務規劃",
+      "name": "小財", 
+      "role": "投資分析師",
+      "description": "專責美股台股分析、盯盤監控與投資策略制定",
       "tasks": 0,
       "tokens": 0,
       "cost": 0.00,
       "savings": 0,
       "lastActivity": null,
-      "status": "inactive"
+      "status": "standby"
     },
     "yanyan": {
       "name": "研研",
-      "role": "研究員",
-      "description": "深度技術研究、產業分析與趨勢調研",
+      "role": "夜間研究員", 
+      "description": "深度技術研究、產業分析與 Nightly Build 執行",
       "tasks": 0,
       "tokens": 0,
       "cost": 0.00,
       "savings": 0,
       "lastActivity": null,
-      "status": "inactive"
+      "status": "standby"
     },
     "axin": {
       "name": "阿新",
-      "role": "新聞編輯",
-      "description": "AI 新聞收集、編輯與每日資訊整理",
+      "role": "AI 新聞編輯",
+      "description": "AI 新聞日報、GitHub 熱門專案與資訊彙整",
       "tasks": 0,
       "tokens": 0,
       "cost": 0.00,
       "savings": 0,
       "lastActivity": null,
-      "status": "inactive"
+      "status": "standby"
     }
   },
   "performance": {
-    "averageTaskCost": 0.05,
-    "tokensPerDollar": 1109271,
-    "costReductionRate": 94.3
+    "averageTaskCost": 0.205,
+    "tokensPerDollar": 295756,
+    "costReductionRate": 87.9
   },
   "recentActivity": [
     {
-      "time": "01:43",
+      "time": "03:44",
       "agent": "Lucy",
       "action": "AI Office Dashboard 數據更新",
-      "status": "processing"
+      "status": "active"
     },
     {
-      "time": "00:19",
-      "agent": "Lucy", 
-      "action": "夜間探索任務",
+      "time": "02:00",
+      "agent": "Lucy",
+      "action": "週優化 Review - 協作連線效果",
       "status": "completed"
     },
     {
-      "time": "23:20",
+      "time": "01:52",
       "agent": "Lucy",
-      "action": "帳單檢查與提醒",
+      "action": "Moltbook 社群檢查",
+      "status": "completed"
+    },
+    {
+      "time": "00:00",
+      "agent": "Lucy", 
+      "action": "小管帳單檢查",
+      "status": "completed"
+    },
+    {
+      "time": "10:00",
+      "agent": "Lucy",
+      "action": "Lucy AI Office 週報生成",
       "status": "completed"
     }
   ]
