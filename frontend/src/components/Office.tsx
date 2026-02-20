@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Character } from './Character';
 import { CharacterModal } from './CharacterModal';
+import { CollaborationLines } from './CollaborationLines';
 import { useTimeOfDay, getSceneForTime } from '../hooks/useTimeOfDay';
 import type { Agent, RecentJob } from '../types';
 
@@ -59,6 +60,9 @@ export function Office({ agents, recentJobs }: OfficeProps) {
           {timeOfDay === 'night' && '深夜'}
         </span>
       </div>
+
+      {/* Collaboration Lines between active agents */}
+      <CollaborationLines agents={agents} positions={CHARACTER_POSITIONS} />
 
       {/* Characters */}
       {agents.map((agent) => {
