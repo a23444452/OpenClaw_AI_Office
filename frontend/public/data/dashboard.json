@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-20T23:42:00+08:00",
+  "lastUpdated": "2026-02-21T01:43:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 333286,
-    "totalCost": 0.30,
-    "costSavings": 5047
+    "totalTokens": 354967,
+    "totalCost": 0.32,
+    "costSavings": 5317
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "總管",
       "description": "負責協調各部門工作，處理日常事務管理",
       "tasks": 6,
-      "tokens": 333286,
-      "cost": 0.30,
-      "savings": 5047,
-      "lastActivity": "2026-02-20T23:42:00+08:00",
+      "tokens": 354967,
+      "cost": 0.32,
+      "savings": 5317,
+      "lastActivity": "2026-02-21T01:43:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -54,26 +54,26 @@
   },
   "performance": {
     "averageTaskCost": 0.05,
-    "tokensPerDollar": 1110953,
-    "costReductionRate": 94.4
+    "tokensPerDollar": 1109271,
+    "costReductionRate": 94.3
   },
   "recentActivity": [
     {
-      "time": "23:42",
+      "time": "01:43",
       "agent": "Lucy",
       "action": "AI Office Dashboard 數據更新",
       "status": "processing"
     },
     {
-      "time": "23:19",
+      "time": "00:19",
       "agent": "Lucy", 
-      "action": "Cron 任務健康監控",
+      "action": "夜間探索任務",
       "status": "completed"
     },
     {
-      "time": "01:52",
+      "time": "23:20",
       "agent": "Lucy",
-      "action": "信用卡帳單檢查",
+      "action": "帳單檢查與提醒",
       "status": "completed"
     }
   ]
