@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-21T09:47:00+08:00",
+  "lastUpdated": "2026-02-21T11:47:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 244565,
-    "totalCost": 0.46,
-    "costSavings": 1203
+    "totalTokens": 274057,
+    "totalCost": 0.58,
+    "costSavings": 1425
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者",
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 244565,
-      "cost": 0.46,
-      "savings": 1203,
-      "lastActivity": "2026-02-21T09:47:00+08:00",
+      "tokens": 274057,
+      "cost": 0.58,
+      "savings": 1425,
+      "lastActivity": "2026-02-21T11:47:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,25 +53,31 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.027,
-    "tokensPerDollar": 1476687,
-    "costReductionRate": 97.3
+    "averageTaskCost": 0.097,
+    "tokensPerDollar": 472513,
+    "costReductionRate": 96.0
   },
   "recentActivity": [
     {
-      "time": "09:47",
+      "time": "11:47",
       "agent": "Lucy",
       "action": "AI Office Dashboard 數據更新",
       "status": "active"
     },
     {
-      "time": "07:00",
+      "time": "11:19",
       "agent": "Lucy", 
-      "action": "信用卡帳單提醒 + GitHub日報",
+      "action": "Heartbeat 檢查",
       "status": "completed"
     },
     {
-      "time": "02:00",
+      "time": "08:00",
+      "agent": "Lucy",
+      "action": "AI 新聞日報失敗 (token limit)",
+      "status": "error"
+    },
+    {
+      "time": "03:00",
       "agent": "Lucy",
       "action": "週優化 Review - 協作連線效果",
       "status": "completed"
@@ -79,14 +85,8 @@
     {
       "time": "01:52",
       "agent": "Lucy",
-      "action": "Moltbook 社群檢查 (API失效)",
+      "action": "Moltbook 社群檢查 (API持續失效)",
       "status": "error"
-    },
-    {
-      "time": "00:00",
-      "agent": "Lucy", 
-      "action": "系統健康檢查",
-      "status": "completed"
     }
   ]
 }
