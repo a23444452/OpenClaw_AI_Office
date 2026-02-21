@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-22T05:55:00+08:00",
+  "lastUpdated": "2026-02-22T07:56:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 218409,
-    "totalCost": 0.24,
-    "costSavings": 3.36
+    "totalTokens": 221475,
+    "totalCost": 0.66,
+    "costSavings": 11.22
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 218409,
-      "cost": 0.24,
-      "savings": 3.36,
-      "lastActivity": "2026-02-22T05:55:00+08:00",
+      "tokens": 221475,
+      "cost": 0.66,
+      "savings": 11.22,
+      "lastActivity": "2026-02-22T07:56:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,28 +53,28 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.057,
-    "tokensPerDollar": 575370,
-    "costReductionRate": 94.7
+    "averageTaskCost": 0.11,
+    "tokensPerDollar": 335417,
+    "costReductionRate": 94.4
   },
   "recentActivity": [
     {
-      "time": "05:55",
+      "time": "07:56",
       "agent": "Lucy",
       "action": "AI Office Dashboard 數據更新",
-      "status": "completed"
+      "status": "in-progress"
     },
     {
-      "time": "03:35",
+      "time": "07:25",
       "agent": "Lucy",
-      "action": "Heartbeat 健康檢查", 
-      "status": "completed"
+      "action": "Cron 健康檢查 (Gmail OAuth過期)",
+      "status": "warning"
     },
     {
-      "time": "2/21 19:50",
+      "time": "07:00",
       "agent": "Lucy",
-      "action": "Google Workspace (gog) 技能研讀",
-      "status": "completed"
+      "action": "信用卡帳單檢查失敗通知",
+      "status": "error"
     },
     {
       "time": "2/21 17:13", 
