@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-21T13:48:00+08:00",
+  "lastUpdated": "2026-02-21T15:49:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 302596,
-    "totalCost": 0.29,
-    "costSavings": 1500
+    "totalTokens": 180951,
+    "totalCost": 0.28,
+    "costSavings": 3200
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者",
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 302596,
-      "cost": 0.29,
-      "savings": 1500,
-      "lastActivity": "2026-02-21T13:48:00+08:00",
+      "tokens": 180951,
+      "cost": 0.28,
+      "savings": 3200,
+      "lastActivity": "2026-02-21T15:49:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,28 +53,28 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.048,
-    "tokensPerDollar": 1043780,
-    "costReductionRate": 98.1
+    "averageTaskCost": 0.047,
+    "tokensPerDollar": 646254,
+    "costReductionRate": 91.9
   },
   "recentActivity": [
     {
-      "time": "13:48",
+      "time": "15:49",
       "agent": "Lucy",
       "action": "AI Office Dashboard 數據更新",
       "status": "active"
     },
     {
-      "time": "11:19",
+      "time": "15:49",
       "agent": "Lucy", 
-      "action": "Heartbeat 檢查",
+      "action": "Sessions 統計分析",
       "status": "completed"
     },
     {
       "time": "08:00",
       "agent": "Lucy",
-      "action": "AI 新聞日報失敗 (token limit)",
-      "status": "error"
+      "action": "gog 技能文檔研讀",
+      "status": "completed"
     },
     {
       "time": "03:00",
