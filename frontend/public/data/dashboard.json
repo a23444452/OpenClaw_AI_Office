@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-02-21T15:49:00+08:00",
+  "lastUpdated": "2026-02-21T17:50:00+08:00",
   "summary": {
-    "totalTasks": 6,
-    "totalTokens": 180951,
-    "totalCost": 0.28,
-    "costSavings": 3200
+    "totalTasks": 7,
+    "totalTokens": 229261,
+    "totalCost": 0.32,
+    "costSavings": 3650
   },
   "agents": {
     "lucy": {
       "name": "Lucy",
       "role": "全能協調者",
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
-      "tasks": 6,
-      "tokens": 180951,
-      "cost": 0.28,
-      "savings": 3200,
-      "lastActivity": "2026-02-21T15:49:00+08:00",
+      "tasks": 7,
+      "tokens": 229261,
+      "cost": 0.32,
+      "savings": 3650,
+      "lastActivity": "2026-02-21T17:50:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,21 +53,21 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.047,
-    "tokensPerDollar": 646254,
-    "costReductionRate": 91.9
+    "averageTaskCost": 0.046,
+    "tokensPerDollar": 716441,
+    "costReductionRate": 91.2
   },
   "recentActivity": [
     {
-      "time": "15:49",
+      "time": "17:50",
       "agent": "Lucy",
-      "action": "AI Office Dashboard 數據更新",
+      "action": "AI Office Dashboard 數據更新 (agentId分類)",
       "status": "active"
     },
     {
-      "time": "15:49",
-      "agent": "Lucy", 
-      "action": "Sessions 統計分析",
+      "time": "17:36", 
+      "agent": "Lucy",
+      "action": "Heartbeat 健康檢查",
       "status": "completed"
     },
     {
