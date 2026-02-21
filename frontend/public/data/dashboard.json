@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-21T23:52:00+08:00",
+  "lastUpdated": "2026-02-22T01:53:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 295453,
-    "totalCost": 0.26,
-    "costSavings": 2612
+    "totalTokens": 324086,
+    "totalCost": 0.28,
+    "costSavings": 2834
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者",
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 295453,
-      "cost": 0.26,
-      "savings": 2612,
-      "lastActivity": "2026-02-21T23:52:00+08:00",
+      "tokens": 324086,
+      "cost": 0.28,
+      "savings": 2834,
+      "lastActivity": "2026-02-22T01:53:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -59,27 +59,27 @@
   },
   "recentActivity": [
     {
-      "time": "23:52",
+      "time": "01:53",
       "agent": "Lucy",
       "action": "AI Office Dashboard 數據更新",
-      "status": "active"
+      "status": "completed"
     },
     {
-      "time": "19:36", 
-      "agent": "Lucy",
+      "time": "01:35",
+      "agent": "Lucy", 
       "action": "Heartbeat 健康檢查",
       "status": "completed"
     },
     {
-      "time": "08:00",
+      "time": "19:50",
       "agent": "Lucy",
-      "action": "gog 技能文檔研讀",
+      "action": "Google Workspace (gog) 技能研讀",
       "status": "completed"
     },
     {
-      "time": "03:00",
+      "time": "17:13",
       "agent": "Lucy",
-      "action": "週優化 Review - 協作連線效果",
+      "action": "週優化完成通知 - 角色協作連線效果",
       "status": "completed"
     },
     {
