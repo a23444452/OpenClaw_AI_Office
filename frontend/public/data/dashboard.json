@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-22T07:56:00+08:00",
+  "lastUpdated": "2026-02-22T09:56:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 221475,
-    "totalCost": 0.66,
-    "costSavings": 11.22
+    "totalTokens": 272714,
+    "totalCost": 0.26,
+    "costSavings": 0.78
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 221475,
-      "cost": 0.66,
-      "savings": 11.22,
-      "lastActivity": "2026-02-22T07:56:00+08:00",
+      "tokens": 272714,
+      "cost": 0.26,
+      "savings": 0.78,
+      "lastActivity": "2026-02-22T09:56:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,16 +53,16 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.11,
-    "tokensPerDollar": 335417,
-    "costReductionRate": 94.4
+    "averageTaskCost": 0.043,
+    "tokensPerDollar": 1048900,
+    "costReductionRate": 75.0
   },
   "recentActivity": [
     {
-      "time": "07:56",
-      "agent": "Lucy",
+      "time": "09:56",
+      "agent": "Lucy", 
       "action": "AI Office Dashboard 數據更新",
-      "status": "in-progress"
+      "status": "completed"
     },
     {
       "time": "07:25",
