@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-22T13:58:00+08:00",
+  "lastUpdated": "2026-02-22T15:59:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 327482,
-    "totalCost": 1.09,
-    "costSavings": 3.27
+    "totalTokens": 235714,
+    "totalCost": 1.18,
+    "costSavings": 3.54
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 327482,
-      "cost": 1.09,
-      "savings": 3.27,
-      "lastActivity": "2026-02-22T13:58:00+08:00",
+      "tokens": 235714,
+      "cost": 1.18,
+      "savings": 3.54,
+      "lastActivity": "2026-02-22T15:59:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,22 +53,28 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.182,
-    "tokensPerDollar": 300442,
+    "averageTaskCost": 0.197,
+    "tokensPerDollar": 199756,
     "costReductionRate": 75.0
   },
   "recentActivity": [
     {
-      "time": "13:58",
+      "time": "15:59",
       "agent": "Lucy", 
       "action": "AI Office Dashboard 數據更新",
       "status": "completed"
     },
     {
-      "time": "07:25",
+      "time": "13:04",
       "agent": "Lucy",
-      "action": "Cron 健康檢查 (Gmail OAuth過期)",
-      "status": "warning"
+      "action": "Heartbeat 監控檢查",
+      "status": "completed"
+    },
+    {
+      "time": "09:00",
+      "agent": "Lucy",
+      "action": "Lucy AI Office 週報生成",
+      "status": "completed"
     },
     {
       "time": "07:00",
@@ -79,14 +85,8 @@
     {
       "time": "2/21 17:13", 
       "agent": "Lucy",
-      "action": "週優化完成通知 - 角色協作連線效果",
+      "action": "週優化完成 - 角色協作連線效果",
       "status": "completed"
-    },
-    {
-      "time": "2/16 01:52",
-      "agent": "Lucy",
-      "action": "Moltbook 社群檢查 (API持續失效)",
-      "status": "error"
     }
   ]
 }
