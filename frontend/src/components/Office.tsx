@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Character } from './Character';
 import { CharacterModal } from './CharacterModal';
 import { CollaborationLines } from './CollaborationLines';
+import { AmbientParticles } from './AmbientParticles';
 import { useTimeOfDay, getSceneForTime } from '../hooks/useTimeOfDay';
 import type { Agent, RecentJob } from '../types';
 
@@ -44,6 +45,9 @@ export function Office({ agents, recentJobs }: OfficeProps) {
       {isNight && (
         <div className="absolute inset-0 night-overlay pointer-events-none" />
       )}
+
+      {/* Ambient Particles - 環境氛圍粒子 */}
+      <AmbientParticles timeOfDay={timeOfDay} count={timeOfDay === 'night' ? 20 : 12} />
 
       {/* Time indicator */}
       <div className="absolute top-4 right-4 bg-black/40 backdrop-blur-sm rounded-full px-3 py-1 flex items-center gap-2">
