@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-25T18:34:00+08:00",
+  "lastUpdated": "2026-02-25T20:35:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 235441,
-    "totalCost": 0.52,
-    "costSavings": 2.08
+    "totalTokens": 272326,
+    "totalCost": 0.29,
+    "costSavings": 1.18
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 235441,
-      "cost": 0.52,
-      "savings": 2.08,
-      "lastActivity": "2026-02-25T18:34:00+08:00",
+      "tokens": 272326,
+      "cost": 0.29,
+      "savings": 1.18,
+      "lastActivity": "2026-02-25T20:35:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,11 +53,17 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.087,
-    "tokensPerDollar": 452771,
+    "averageTaskCost": 0.048,
+    "tokensPerDollar": 938710,
     "costReductionRate": 80
   },
   "recentActivity": [
+    {
+      "time": "20:35",
+      "agent": "Lucy", 
+      "action": "Dashboard 數據更新 (按 agentId 分類)",
+      "status": "completed"
+    },
     {
       "time": "18:34",
       "agent": "Lucy", 
@@ -86,12 +92,6 @@
       "time": "昨天 17:13",
       "agent": "Lucy",
       "action": "AI Office 週優化完成",
-      "status": "completed"
-    },
-    {
-      "time": "2/22 10:00",
-      "agent": "Lucy",
-      "action": "週報生成 (NotebookLM)",
       "status": "completed"
     }
   ]
