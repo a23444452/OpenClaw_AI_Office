@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-02-25T06:28:00+08:00",
+  "lastUpdated": "2026-02-25T08:29:00+08:00",
   "summary": {
-    "totalTasks": 6,
-    "totalTokens": 246171,
-    "totalCost": 0.25,
-    "costSavings": 0.75
+    "totalTasks": 5,
+    "totalTokens": 210770,
+    "totalCost": 0.24,
+    "costSavings": 0.72
   },
   "agents": {
     "lucy": {
       "name": "Lucy",
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
-      "tasks": 6,
-      "tokens": 246171,
-      "cost": 0.25,
-      "savings": 0.75,
-      "lastActivity": "2026-02-25T06:28:00+08:00",
+      "tasks": 5,
+      "tokens": 210770,
+      "cost": 0.24,
+      "savings": 0.72,
+      "lastActivity": "2026-02-25T08:29:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,22 +53,28 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.042,
-    "tokensPerDollar": 984684,
+    "averageTaskCost": 0.048,
+    "tokensPerDollar": 878208,
     "costReductionRate": 75
   },
   "recentActivity": [
     {
-      "time": "06:28",
+      "time": "08:29",
       "agent": "Lucy", 
       "action": "AI Office Dashboard 數據更新",
-      "status": "completed"
+      "status": "processing"
     },
     {
-      "time": "06:21",
+      "time": "08:21",
       "agent": "Lucy", 
       "action": "Heartbeat 檢查",
       "status": "completed"
+    },
+    {
+      "time": "03:00",
+      "agent": "Lucy",
+      "action": "信用卡帳單檢查",
+      "status": "warning"
     },
     {
       "time": "02:17",
@@ -77,13 +83,7 @@
       "status": "completed"
     },
     {
-      "time": "13:53",
-      "agent": "Lucy",
-      "action": "信用卡帳單檢查",
-      "status": "error"
-    },
-    {
-      "time": "10:00",
+      "time": "昨天",
       "agent": "Lucy",
       "action": "週報生成 (NotebookLM)",
       "status": "completed"
