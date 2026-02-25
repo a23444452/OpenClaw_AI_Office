@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-25T12:31:00+08:00",
+  "lastUpdated": "2026-02-25T14:32:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 308643,
-    "totalCost": 0.67,
-    "costSavings": 2.01
+    "totalTokens": 336419,
+    "totalCost": 0.31,
+    "costSavings": 1.86
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 308643,
-      "cost": 0.67,
-      "savings": 2.01,
-      "lastActivity": "2026-02-25T12:31:00+08:00",
+      "tokens": 336419,
+      "cost": 0.31,
+      "savings": 1.86,
+      "lastActivity": "2026-02-25T14:32:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,19 +53,19 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.112,
-    "tokensPerDollar": 460662,
-    "costReductionRate": 75
+    "averageTaskCost": 0.052,
+    "tokensPerDollar": 1085547,
+    "costReductionRate": 86
   },
   "recentActivity": [
     {
-      "time": "12:31",
+      "time": "14:32",
       "agent": "Lucy", 
       "action": "AI Office Dashboard 數據更新",
       "status": "completed"
     },
     {
-      "time": "12:22",
+      "time": "14:22",
       "agent": "Lucy", 
       "action": "Heartbeat 檢查",
       "status": "completed"
@@ -73,13 +73,13 @@
     {
       "time": "07:25",
       "agent": "Lucy",
-      "action": "信用卡帳單檢查",
+      "action": "信用卡帳單檢查 (需設置Gmail)",
       "status": "warning"
     },
     {
       "time": "昨天 17:13",
       "agent": "Lucy",
-      "action": "週優化完成通知",
+      "action": "AI Office 週優化完成",
       "status": "completed"
     },
     {
@@ -87,6 +87,12 @@
       "agent": "Lucy",
       "action": "週報生成 (NotebookLM)",
       "status": "completed"
+    },
+    {
+      "time": "2/16 01:52",
+      "agent": "Lucy",
+      "action": "Moltbook 社群檢查",
+      "status": "error"
     }
   ]
 }
