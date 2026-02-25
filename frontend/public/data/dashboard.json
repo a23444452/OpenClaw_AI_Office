@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-26T00:36:00+08:00",
+  "lastUpdated": "2026-02-27T02:37:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 324039,
-    "totalCost": 1.62,
-    "costSavings": 50.00
+    "totalTokens": 198821,
+    "totalCost": 0.99,
+    "costSavings": 45.00
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 324039,
-      "cost": 1.62,
-      "savings": 50.00,
-      "lastActivity": "2026-02-26T00:36:00+08:00",
+      "tokens": 198821,
+      "cost": 0.99,
+      "savings": 45.00,
+      "lastActivity": "2026-02-27T02:37:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,11 +53,17 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.27,
-    "tokensPerDollar": 200024,
-    "costReductionRate": 97
+    "averageTaskCost": 0.16,
+    "tokensPerDollar": 200830,
+    "costReductionRate": 98
   },
   "recentActivity": [
+    {
+      "time": "02:37",
+      "agent": "Lucy", 
+      "action": "AI Office Dashboard 數據更新",
+      "status": "completed"
+    },
     {
       "time": "00:36",
       "agent": "Lucy", 
@@ -86,12 +92,6 @@
       "time": "16:32",
       "agent": "Lucy", 
       "action": "AI Office Dashboard 數據更新 (agentId規則)",
-      "status": "completed"
-    },
-    {
-      "time": "14:22",
-      "agent": "Lucy", 
-      "action": "Heartbeat 檢查",
       "status": "completed"
     }
   ]
