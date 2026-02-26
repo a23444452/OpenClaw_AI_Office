@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-28T04:50:00+08:00",
+  "lastUpdated": "2026-02-27T06:51:00+08:00",
   "summary": {
     "totalTasks": 5,
-    "totalTokens": 152441,
-    "totalCost": 0.36,
-    "costSavings": 275.00
+    "totalTokens": 153742,
+    "totalCost": 0.144,
+    "costSavings": 276.86
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 5,
-      "tokens": 152441,
-      "cost": 0.36,
-      "savings": 275.00,
-      "lastActivity": "2026-02-28T04:50:00+08:00",
+      "tokens": 153742,
+      "cost": 0.144,
+      "savings": 276.86,
+      "lastActivity": "2026-02-27T06:51:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,21 +53,21 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.072,
-    "tokensPerDollar": 423447,
-    "costReductionRate": 99.87
+    "averageTaskCost": 0.029,
+    "tokensPerDollar": 1067958,
+    "costReductionRate": 99.95
   },
   "recentActivity": [
     {
-      "time": "04:50",
+      "time": "06:51",
       "agent": "Lucy", 
       "action": "AI Office Dashboard 數據更新",
       "status": "active"
     },
     {
-      "time": "04:37",
+      "time": "05:17",
       "agent": "Lucy", 
-      "action": "Heartbeat 健康檢查 (31K tokens)",
+      "action": "系統健康檢查 (33K tokens)",
       "status": "completed"
     },
     {
