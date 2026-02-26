@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-02-27T02:49:00+08:00",
+  "lastUpdated": "2026-02-28T04:50:00+08:00",
   "summary": {
-    "totalTasks": 6,
-    "totalTokens": 202093,
-    "totalCost": 0.14,
-    "costSavings": 300.00
+    "totalTasks": 5,
+    "totalTokens": 152441,
+    "totalCost": 0.36,
+    "costSavings": 275.00
   },
   "agents": {
     "lucy": {
       "name": "Lucy",
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
-      "tasks": 6,
-      "tokens": 202093,
-      "cost": 0.14,
-      "savings": 300.00,
-      "lastActivity": "2026-02-27T02:49:00+08:00",
+      "tasks": 5,
+      "tokens": 152441,
+      "cost": 0.36,
+      "savings": 275.00,
+      "lastActivity": "2026-02-28T04:50:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,45 +53,39 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.02,
-    "tokensPerDollar": 1437407,
-    "costReductionRate": 99.95
+    "averageTaskCost": 0.072,
+    "tokensPerDollar": 423447,
+    "costReductionRate": 99.87
   },
   "recentActivity": [
     {
-      "time": "02:49",
+      "time": "04:50",
       "agent": "Lucy", 
       "action": "AI Office Dashboard 數據更新",
       "status": "active"
     },
     {
-      "time": "01:37",
+      "time": "04:37",
       "agent": "Lucy", 
-      "action": "主要工作 session (40K tokens)",
+      "action": "Heartbeat 健康檢查 (31K tokens)",
       "status": "completed"
     },
     {
-      "time": "2/26 17:20", 
+      "time": "2/26 19:20", 
       "agent": "Lucy",
       "action": "信用卡帳單檢查 (30K tokens)",
       "status": "completed"
     },
     {
-      "time": "2/25 23:20",
+      "time": "2/25 22:47",
       "agent": "Lucy", 
       "action": "Lucy AI Office 週優化 (49K tokens)",
       "status": "completed"
     },
     {
-      "time": "2/22 03:00",
+      "time": "2/22 10:00",
       "agent": "Lucy", 
       "action": "Nightly Build 週報生成 (42K tokens)",
-      "status": "completed"
-    },
-    {
-      "time": "2/16 01:52",
-      "agent": "Lucy", 
-      "action": "Moltbook 社群檢查 (41K tokens)",
       "status": "completed"
     }
   ]
