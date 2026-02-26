@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-26T14:43:00+08:00",
+  "lastUpdated": "2026-02-26T16:44:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 220504,
-    "totalCost": 0.20,
-    "costSavings": 150.00
+    "totalTokens": 219089,
+    "totalCost": 0.22,
+    "costSavings": 165.00
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 220504,
-      "cost": 0.20,
-      "savings": 150.00,
-      "lastActivity": "2026-02-26T14:43:00+08:00",
+      "tokens": 219089,
+      "cost": 0.22,
+      "savings": 165.00,
+      "lastActivity": "2026-02-26T16:44:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,45 +53,45 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.033,
-    "tokensPerDollar": 1102520,
+    "averageTaskCost": 0.037,
+    "tokensPerDollar": 995859,
     "costReductionRate": 99.87
   },
   "recentActivity": [
     {
-      "time": "14:43",
+      "time": "16:44",
       "agent": "Lucy", 
-      "action": "AI Office Dashboard 數據更新 (220K tokens 處理)",
+      "action": "AI Office Dashboard 數據更新 (219K tokens 處理)",
       "status": "completed"
     },
     {
-      "time": "12:42",
+      "time": "14:20",
       "agent": "Lucy", 
-      "action": "AI Office Dashboard 數據更新 (agentId 分類更新)",
+      "action": "週報生成 (42K tokens)",
       "status": "completed"
     },
     {
-      "time": "10:41",
+      "time": "08:00", 
+      "agent": "Lucy",
+      "action": "信用卡帳單檢查 (30K tokens)",
+      "status": "failed"
+    },
+    {
+      "time": "03:00",
       "agent": "Lucy", 
-      "action": "AI Office Dashboard 數據更新 (新規則 agentId 分類)",
+      "action": "Lucy AI Office 週優化 (49K tokens)",
       "status": "completed"
     },
     {
-      "time": "08:40",
+      "time": "02:00",
       "agent": "Lucy", 
-      "action": "AI Office Dashboard 數據更新 (agentId分類)",
+      "action": "Nightly Build 週報 (41K tokens)",
       "status": "completed"
     },
     {
-      "time": "06:39",
+      "time": "昨日",
       "agent": "Lucy", 
-      "action": "AI Office Dashboard 數據更新",
-      "status": "completed"
-    },
-    {
-      "time": "04:38",
-      "agent": "Lucy", 
-      "action": "AI Office Dashboard 數據更新",
+      "action": "夜間研究：知識圖譜自動化",
       "status": "completed"
     }
   ]
