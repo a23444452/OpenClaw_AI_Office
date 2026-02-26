@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-02-26T18:45:00+08:00",
+  "lastUpdated": "2026-02-26T20:46:00+08:00",
   "summary": {
-    "totalTasks": 5,
-    "totalTokens": 158491,
-    "totalCost": 0.95,
-    "costSavings": 200.00
+    "totalTasks": 6,
+    "totalTokens": 200018,
+    "totalCost": 0.36,
+    "costSavings": 240.00
   },
   "agents": {
     "lucy": {
       "name": "Lucy",
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
-      "tasks": 5,
-      "tokens": 158491,
-      "cost": 0.95,
-      "savings": 200.00,
-      "lastActivity": "2026-02-26T18:45:00+08:00",
+      "tasks": 6,
+      "tokens": 200018,
+      "cost": 0.36,
+      "savings": 240.00,
+      "lastActivity": "2026-02-26T20:46:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,45 +53,45 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.19,
-    "tokensPerDollar": 166832,
-    "costReductionRate": 99.52
+    "averageTaskCost": 0.06,
+    "tokensPerDollar": 555606,
+    "costReductionRate": 99.85
   },
   "recentActivity": [
     {
-      "time": "18:45",
+      "time": "20:46",
       "agent": "Lucy", 
-      "action": "AI Office Dashboard 數據更新 (cron 任務)",
-      "status": "completed"
+      "action": "AI Office Dashboard 數據更新 (進行中)",
+      "status": "running"
     },
     {
-      "time": "18:30",
+      "time": "20:44",
       "agent": "Lucy", 
-      "action": "主要工作 session (37K tokens)",
+      "action": "主要工作 session (38K tokens)",
       "status": "active"
     },
     {
-      "time": "08:00", 
+      "time": "07:25", 
       "agent": "Lucy",
       "action": "信用卡帳單檢查 (30K tokens)",
       "status": "completed"
     },
     {
-      "time": "03:00",
+      "time": "昨日 03:00",
       "agent": "Lucy", 
       "action": "Lucy AI Office 週優化 (49K tokens)",
       "status": "completed"
     },
     {
-      "time": "02:00",
+      "time": "2/22",
       "agent": "Lucy", 
-      "action": "Nightly Build 週報 (42K tokens)",
+      "action": "Nightly Build 週報生成 (42K tokens)",
       "status": "completed"
     },
     {
-      "time": "昨日",
+      "time": "2/16",
       "agent": "Lucy", 
-      "action": "夜間研究：知識圖譜自動化",
+      "action": "Moltbook 社群檢查 (41K tokens)",
       "status": "completed"
     }
   ]
