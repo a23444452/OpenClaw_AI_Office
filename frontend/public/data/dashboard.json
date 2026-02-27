@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-28T10:53:00+08:00",
+  "lastUpdated": "2026-02-27T13:24:00+08:00",
   "summary": {
     "totalTasks": 6,
-    "totalTokens": 211984,
-    "totalCost": 0.217,
-    "costSavings": 378.12
+    "totalTokens": 272714,
+    "totalCost": 0.26,
+    "costSavings": 818.14
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 6,
-      "tokens": 211984,
-      "cost": 0.217,
-      "savings": 378.12,
-      "lastActivity": "2026-02-28T10:53:00+08:00",
+      "tokens": 272714,
+      "cost": 0.26,
+      "savings": 818.14,
+      "lastActivity": "2026-02-27T13:24:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,31 +53,31 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.036,
-    "tokensPerDollar": 976969,
-    "costReductionRate": 99.94
+    "averageTaskCost": 0.043,
+    "tokensPerDollar": 1048900,
+    "costReductionRate": 75.8
   },
   "recentActivity": [
     {
-      "time": "10:53",
+      "time": "13:24",
       "agent": "Lucy", 
-      "action": "AI Office Dashboard 數據更新 (21K tokens)",
+      "action": "AI Office Dashboard 數據更新 (20K tokens)",
       "status": "active"
     },
     {
-      "time": "08:37",
+      "time": "11:48",
       "agent": "Lucy", 
-      "action": "系統心跳檢查 (35K tokens)",
+      "action": "系統心跳檢查 (61K tokens)",
       "status": "completed"
     },
     {
-      "time": "2/26 19:20", 
+      "time": "2/26 19:00", 
       "agent": "Lucy",
-      "action": "信用卡帳單檢查 (23K tokens)",
+      "action": "信用卡帳單檢查 (22K tokens)",
       "status": "completed"
     },
     {
-      "time": "2/25 22:47",
+      "time": "2/25 17:13",
       "agent": "Lucy", 
       "action": "Lucy AI Office 週優化 (49K tokens)",
       "status": "completed"
@@ -86,6 +86,12 @@
       "time": "2/22 10:00",
       "agent": "Lucy", 
       "action": "Nightly Build 週報生成 (43K tokens)",
+      "status": "completed"
+    },
+    {
+      "time": "2/16 01:52",
+      "agent": "Lucy", 
+      "action": "Moltbook 社群檢查 (41K tokens)",
       "status": "completed"
     }
   ]
