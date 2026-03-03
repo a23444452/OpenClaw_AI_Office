@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-03-04T00:49:00+08:00",
+  "lastUpdated": "2026-03-04T02:50:00+08:00",
   "summary": {
-    "totalTasks": 6,
-    "totalTokens": 252831,
-    "totalCost": 0.51,
-    "costSavings": 119.49
+    "totalTasks": 5,
+    "totalTokens": 255163,
+    "totalCost": 0.56,
+    "costSavings": 2.24
   },
   "agents": {
     "lucy": {
       "name": "Lucy",
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
-      "tasks": 6,
-      "tokens": 252831,
-      "cost": 0.51,
-      "savings": 119.49,
-      "lastActivity": "2026-03-04T00:49:00+08:00",
+      "tasks": 5,
+      "tokens": 255163,
+      "cost": 0.56,
+      "savings": 2.24,
+      "lastActivity": "2026-03-04T02:50:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,13 +53,13 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.085,
-    "tokensPerDollar": 495745,
-    "costReductionRate": 99.6
+    "averageTaskCost": 0.112,
+    "tokensPerDollar": 455648,
+    "costReductionRate": 80.0
   },
   "recentActivity": [
     {
-      "time": "00:49",
+      "time": "02:50",
       "agent": "Lucy", 
       "action": "Dashboard 數據更新",
       "status": "active"
@@ -67,31 +67,25 @@
     {
       "time": "03/03 22:48",
       "agent": "Lucy", 
-      "action": "主要對話維護 (110K tokens)",
+      "action": "主要對話維護 (139K tokens)",
       "status": "completed"
     },
     {
       "time": "03/02 15:22",
       "agent": "Lucy", 
-      "action": "每日英文學習 (26K tokens)",
+      "action": "每日英文學習 (45K tokens)",
       "status": "completed"
     },
     {
       "time": "03/01 10:00", 
       "agent": "Lucy",
-      "action": "週報生成 (45K tokens)",
+      "action": "週報生成 (26K tokens)",
       "status": "completed"
     },
     {
       "time": "03/01 07:00",
       "agent": "Lucy", 
       "action": "信用卡帳單檢查 (23K tokens)",
-      "status": "completed"
-    },
-    {
-      "time": "02/25 17:40",
-      "agent": "Lucy", 
-      "action": "AI Office 週優化 (49K tokens)",
       "status": "completed"
     }
   ]
