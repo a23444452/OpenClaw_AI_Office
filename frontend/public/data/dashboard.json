@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-03-03T16:45:00+08:00",
+  "lastUpdated": "2026-03-03T18:46:00+08:00",
   "summary": {
-    "totalTasks": 7,
-    "totalTokens": 338721,
-    "totalCost": 3.46,
-    "costSavings": 140.00
+    "totalTasks": 6,
+    "totalTokens": 484635,
+    "totalCost": 1.28,
+    "costSavings": 385.20
   },
   "agents": {
     "lucy": {
       "name": "Lucy",
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
-      "tasks": 7,
-      "tokens": 338721,
-      "cost": 3.46,
-      "savings": 140.00,
-      "lastActivity": "2026-03-03T16:45:00+08:00",
+      "tasks": 6,
+      "tokens": 484635,
+      "cost": 1.28,
+      "savings": 385.20,
+      "lastActivity": "2026-03-03T18:46:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,51 +53,45 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.49,
-    "tokensPerDollar": 97907,
-    "costReductionRate": 97.5
+    "averageTaskCost": 0.21,
+    "tokensPerDollar": 378621,
+    "costReductionRate": 99.7
   },
   "recentActivity": [
     {
-      "time": "16:45",
+      "time": "18:46",
       "agent": "Lucy", 
       "action": "Dashboard 數據更新",
       "status": "active"
     },
     {
-      "time": "15:18",
+      "time": "18:46",
       "agent": "Lucy", 
-      "action": "主要對話維護 (155K tokens)",
+      "action": "主要對話維護 (184K tokens)",
       "status": "completed"
     },
     {
-      "time": "08:02",
+      "time": "13:20",
       "agent": "Lucy", 
       "action": "每日英文學習 (26K tokens)",
       "status": "completed"
     },
     {
-      "time": "03/01 13:30", 
+      "time": "03/01 10:00", 
       "agent": "Lucy",
       "action": "週報生成 (45K tokens)",
       "status": "completed"
     },
     {
-      "time": "03/01 03:00",
+      "time": "03/01 07:00",
       "agent": "Lucy", 
-      "action": "Nightly Build (23K tokens)",
+      "action": "信用卡帳單檢查 (23K tokens)",
       "status": "completed"
     },
     {
       "time": "02/25 17:40",
       "agent": "Lucy", 
       "action": "AI Office 週優化 (49K tokens)",
-      "status": "completed"
-    },
-    {
-      "time": "02/19 08:00",
-      "agent": "Lucy", 
-      "action": "研究文檔生成 (41K tokens)",
       "status": "completed"
     }
   ]
