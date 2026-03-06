@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-06T09:24:00+08:00",
+  "lastUpdated": "2026-03-06T11:25:00+08:00",
   "summary": {
     "totalTasks": 7,
-    "totalTokens": 290720,
-    "totalCost": 0.22,
-    "costSavings": 70.00
+    "totalTokens": 318806,
+    "totalCost": 0.24,
+    "costSavings": 0.96
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 7,
-      "tokens": 290720,
-      "cost": 0.22,
-      "savings": 70.00,
-      "lastActivity": "2026-03-06T09:24:00+08:00",
+      "tokens": 318806,
+      "cost": 0.24,
+      "savings": 0.96,
+      "lastActivity": "2026-03-06T11:25:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,21 +53,21 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.031,
-    "tokensPerDollar": 1321454,
-    "costReductionRate": 99.7
+    "averageTaskCost": 0.034,
+    "tokensPerDollar": 1328358,
+    "costReductionRate": 80.0
   },
   "recentActivity": [
     {
-      "time": "09:24",
+      "time": "11:25",
       "agent": "Lucy", 
       "action": "Dashboard 數據更新 (Auto)",
       "status": "active"
     },
     {
-      "time": "07:20",
+      "time": "11:22",
       "agent": "Lucy", 
-      "action": "主要對話維護 (107K tokens)",
+      "action": "主要對話維護 (135K tokens)",
       "status": "completed"
     },
     {
@@ -79,7 +79,7 @@
     {
       "time": "03/01 10:00",
       "agent": "Lucy",
-      "action": "週報生成 (45K tokens)",
+      "action": "Nightly Build 週報生成 (45K tokens)",
       "status": "completed"
     },
     {
