@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-07T05:35:00+08:00",
+  "lastUpdated": "2026-03-07T07:35:00+08:00",
   "summary": {
     "totalTasks": 7,
-    "totalTokens": 268597,
-    "totalCost": 0.31,
-    "costSavings": 1.19
+    "totalTokens": 262694,
+    "totalCost": 0.37,
+    "costSavings": 1.48
   },
   "agents": {
     "lucy": {
@@ -12,10 +12,10 @@
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
       "tasks": 7,
-      "tokens": 268597,
-      "cost": 0.31,
-      "savings": 1.19,
-      "lastActivity": "2026-03-07T05:35:00+08:00",
+      "tokens": 262694,
+      "cost": 0.37,
+      "savings": 1.48,
+      "lastActivity": "2026-03-07T07:35:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,21 +53,21 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.044,
-    "tokensPerDollar": 865797,
-    "costReductionRate": 79.3
+    "averageTaskCost": 0.053,
+    "tokensPerDollar": 710255,
+    "costReductionRate": 80.0
   },
   "recentActivity": [
     {
-      "time": "05:35",
+      "time": "07:35",
       "agent": "Lucy", 
       "action": "Dashboard 數據更新 (Cron)",
-      "status": "completed"
+      "status": "active"
     },
     {
-      "time": "02:16",
+      "time": "06:49",
       "agent": "Lucy", 
-      "action": "Heartbeat 健康檢查",
+      "action": "用戶對話互動 (79K tokens)",
       "status": "completed"
     },
     {
@@ -77,15 +77,15 @@
       "status": "completed"
     },
     {
-      "time": "03/01 08:00",
+      "time": "03/05 03:00",
       "agent": "Lucy",
-      "action": "週報生成完成 (45K tokens)",
+      "action": "Nightly Build (45K tokens)",
       "status": "completed"
     },
     {
-      "time": "02/28 08:00",
+      "time": "03/04 03:00",
       "agent": "Lucy", 
-      "action": "小管帳單檢查提醒",
+      "action": "Nightly Build (41K tokens)",
       "status": "completed"
     }
   ]
