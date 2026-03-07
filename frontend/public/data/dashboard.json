@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-03-07T23:43:00+08:00",
+  "lastUpdated": "2026-03-08T01:44:00+08:00",
   "summary": {
-    "totalTasks": 4,
-    "totalTokens": 112637,
-    "totalCost": 0.35,
-    "costSavings": 1.41
+    "totalTasks": 7,
+    "totalTokens": 225401,
+    "totalCost": 0.36,
+    "costSavings": 1.08
   },
   "agents": {
     "lucy": {
       "name": "Lucy",
       "role": "全能協調者", 
       "description": "負責協調各部門工作，處理日常事務管理與系統維護",
-      "tasks": 4,
-      "tokens": 112637,
-      "cost": 0.35,
-      "savings": 1.41,
-      "lastActivity": "2026-03-07T23:43:00+08:00",
+      "tasks": 7,
+      "tokens": 225401,
+      "cost": 0.36,
+      "savings": 1.08,
+      "lastActivity": "2026-03-08T01:44:00+08:00",
       "status": "active"
     },
     "xiaocai": {
@@ -53,33 +53,33 @@
     }
   },
   "performance": {
-    "averageTaskCost": 0.088,
-    "tokensPerDollar": 321820,
-    "costReductionRate": 80.0
+    "averageTaskCost": 0.051,
+    "tokensPerDollar": 626114,
+    "costReductionRate": 75.0
   },
   "recentActivity": [
     {
-      "time": "23:43",
+      "time": "01:44",
       "agent": "Lucy", 
-      "action": "Dashboard 數據更新",
+      "action": "Dashboard 數據更新 (226K tokens)",
       "status": "executing"
     },
     {
-      "time": "15:16",
+      "time": "01:44",
       "agent": "Lucy", 
-      "action": "Heartbeat 檢查 (39K tokens)",
+      "action": "主要對話維護 (41K tokens)",
+      "status": "completed"
+    },
+    {
+      "time": "07:00 (3/7)",
+      "agent": "Lucy", 
+      "action": "信用卡帳單檢查 (23K tokens)",
       "status": "completed"
     },
     {
       "time": "20:23 (3/6)",
       "agent": "Lucy", 
       "action": "英文學習任務 (29K tokens)",
-      "status": "completed"
-    },
-    {
-      "time": "10:00 (3/1)",
-      "agent": "Lucy",
-      "action": "週報生成 (45K tokens)",
       "status": "completed"
     }
   ]
